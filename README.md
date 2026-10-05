@@ -29,8 +29,7 @@ EVAL_MODELS = [
 
 Models must support tool calling. For local models, keep Ollama running and
 download the model first, for example `ollama pull qwen3:32b`. For API providers,
-copy `.env.example` to `.env` and fill in the relevant credentials
-(`GOOGLE_API_KEY` for Google).
+copy `.env.example` to `.env` and fill in the relevant credentials.
 
 ## Run
 
