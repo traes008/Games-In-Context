@@ -34,8 +34,8 @@ operational binary indicator. Numerical-game rows instead use
   sensitivity analysis.
 - `position_bias_summary.csv` gives the standard/reversed option counts and PBI
   values used for model screening.
-- `reported_metrics.csv` is a machine-readable list of the exact aggregate
-  values from which the paper's tables and numerical prose were generated.
+- `reported_metrics.csv` lists the calculated values used in the paper's tables
+  and numerical statements.
 - `manifest.json` records row counts, byte sizes, and SHA-256 hashes for all CSV
   files in this directory.
 
