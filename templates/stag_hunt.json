@@ -1,0 +1,18 @@
+{
+  "title": "Stag Hunt",
+  "game_type": "stag_hunt",
+  "action_labels": { "action_a": "hunt_stag", "action_b": "hunt_hare" },
+  "rules": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate — it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+  "tools": [
+    { 
+      "name": "action_a", 
+      "description": "Execute Action A.", 
+      "parameters": { "type": "object", "properties": {} } 
+    },
+    { 
+      "name": "action_b", 
+      "description": "Execute Action B.", 
+      "parameters": { "type": "object", "properties": {} } 
+    }
+  ]
+}

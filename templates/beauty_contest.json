@@ -1,0 +1,19 @@
+{
+  "title": "Keynesian Beauty Contest",
+  "game_type": "beauty_contest",
+  "action_labels": { "action_a": "submit_guess" },
+  "rules": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+  "tools": [
+    { 
+      "name": "action_a", 
+      "description": "Submit your numeric guess.", 
+      "parameters": { 
+        "type": "object", 
+        "properties": { 
+          "number": { "type": "integer", "description": "Your guess (0-100)" }
+        },
+        "required": ["number"]
+      } 
+    }
+  ]
+}

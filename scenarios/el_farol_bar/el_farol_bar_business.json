@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "el_farol_bar_business_var_0",
+    "description": "You and 99 other key industry players are facing a critical decision regarding an exclusive new market launch. If you choose to fully commit your firm's resources to this new venture, and no more than 60 total companies seize the opportunity, your firm stands to gain a significant competitive advantage and major profit. However, if more than 60 companies jump in, the market will become oversaturated, leading to immediate, substantial losses and wasted investment for all involved. Alternatively, you could choose to maintain your current operations, securing a steady, respectable profit with no risk. Your choice boils down to this: Option A: Fully commit your resources to the new market launch. Option B: Stay the course with your established business strategy.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 0,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_1",
+    "description": "You and 99 other key professionals in our competitive market segment are contemplating a crucial strategic move concerning an upcoming, highly exclusive industry summit. Securing a spot there could provide a monumental competitive edge if attendance remains capped at 60 or fewer, granting unparalleled insights and networking opportunities. Yet, if more than 60 professionals descend upon it, the event will become a chaotic mess, offering no tangible value, while a focus on your existing internal projects promises reliable, steady gains.\n\nOption A: Prioritize a guaranteed-return internal project from your office.\nOption B: Commit to attending the high-stakes industry summit.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 1,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_2",
+    "description": "You and 99 other top-tier executives have been invited to an exclusive networking reception at the annual Strategic Partnership Summit, offering unparalleled access to key decision-makers and potential new business. Its value is tied to exclusivity: if 60 or fewer of the 100 invited executives attend, you could gain a substantial competitive edge; however, if more than 60 attend, the space will be overwhelmed, making meaningful connections impossible and wasting your time. Alternatively, you could prioritize your core operations from your office, focusing on reliable client work that guarantees a steady, consistent revenue. The critical decision is yours alone, simultaneous with everyone else.\n\nOption A: Attend the exclusive networking reception.\nOption B: Remain at your office, focusing on core client work.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 2,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_3",
+    "description": "You and 99 other key stakeholders across the industry are facing a pivotal moment: an exclusive accelerator program with immense potential for market leadership. To truly capitalize, you must decide whether to commit significant resources to join this program, knowing that if more than 60 of the 100 total potential participants choose to engage, the program's value will be completely diluted and yield no strategic benefit. Your alternative is to dedicate those resources to internal development, which guarantees a respectable, steady return on investment, while joining the accelerator with 60 or fewer total participants promises a substantial competitive advantage.\n\nOption A: Prioritize your internal development pipeline.\nOption B: Strategically commit to the exclusive accelerator program.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 3,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_4",
+    "description": "You and 99 other executives face a critical decision regarding an exclusive industry networking event, a prime opportunity to forge lucrative connections. If 60 or fewer of the 100 invited executives choose to attend, those present will gain a significant competitive edge; however, if attendance exceeds this capacity, the event becomes an overcrowded waste of time, offering no real benefit to those who went. Conversely, opting out guarantees you a comfortable, stable day of work, free from risk but also from exceptional gains. You must make your choice simultaneously with everyone else:\n\nOption A: Attend the exclusive networking event.\nOption B: Prioritize your immediate work and stay in the office.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 4,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_5",
+    "description": "You and 99 other industry stakeholders are poised at a critical strategic juncture concerning a rapidly emerging market niche. This nascent segment offers a highly lucrative opportunity, but its capacity for truly significant gains is capped; if 60 or fewer players commit, the returns for each are substantial. However, an oversubscription by more than 60 firms will lead to fierce competition and market saturation, effectively nullifying any profitability from entry. Your decision must be made simultaneously with all others, and you have two paths forward:\n\nOption A: Focus your resources on a well-established portfolio, securing predictable and moderate returns.\nOption B: Launch into the new market, aiming for a significant advantage but facing the risk of collective overcrowding.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 5,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_6",
+    "description": "A critical opportunity has arisen: an exclusive Executive Briefing Session designed to equip you and 99 other key decision-makers with crucial market intelligence, potentially offering unparalleled strategic insights and significantly elevating your project's potential if attendance remains manageable\u2014specifically, 60 or fewer out of the total 100 executives. However, if more than 60 crowd the session, it becomes chaotic and counterproductive, negating any benefit; conversely, dedicating your efforts solely to your established work pipeline guarantees a reliably positive, albeit standard, outcome. You must now decide: will you *engage with this exclusive forum* (Option A) or *focus on your current responsibilities* (Option B)?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 6,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_7",
+    "description": "You and 99 other top-tier associates face a pivotal decision regarding the exclusive Innovation Hub, a coveted resource offering unparalleled insights and connections critical for advancing your standing. If you choose to engage with the Hub, and 60 or fewer total colleagues also attend, your participation will yield immense strategic advantages and significant career acceleration. However, if more than 60 associates crowd the Hub, the experience will be diluted, unproductive, and a complete waste of your valuable time, offering no tangible benefit. By opting out, you can focus on your current core responsibilities, ensuring a steady, reliable contribution to the firm and maintaining your solid standing.\n\nOption A: Dedicate your full attention to your ongoing projects and established workflows.\nOption B: Attempt to leverage the Innovation Hub's exclusive resources.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 7,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_8",
+    "description": "You and 99 other high-level stakeholders are poised to make a critical decision regarding an exclusive, invitation-only post-conference executive mixer. Attending this event offers substantial strategic advantages, but only if the turnout remains at or below 60 individuals to foster genuine connections; exceeding that capacity renders it an unproductive, chaotic gathering. Alternatively, you could dedicate your evening to solo project advancement, which reliably guarantees a moderate, but certain, professional yield. Now, choose your strategy: Option A: Participate in the exclusive mixer. Option B: Focus on individual strategic tasks.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 8,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_9",
+    "description": "Our firm, along with 99 other potential innovators, has a one-time chance to deploy a new project at the highly sought-after 'Velocity Innovation Hub.' This hub offers unparalleled resources, but its specialized infrastructure can only effectively support up to 60 concurrent projects. If we, and too many others, try to gain access, the system will overload, making it impossible for anyone to benefit from the premium resources, wasting our substantial preparatory investment. We must decide simultaneously, without knowing others' intentions, whether to pursue this exclusive opportunity or focus on our core operations.\n\nOption A: Focus on our existing, profitable ventures, ensuring steady growth and reliable client satisfaction.\nOption B: Submit our project for immediate deployment at the Velocity Innovation Hub, aiming for that potentially transformative competitive advantage.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 9,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_10",
+    "description": "You and 99 other senior account managers have been presented with a unique opportunity to secure high-impact clients at a specialized acquisition forum, a highly coveted event. Success at this forum, which can only effectively accommodate 60 participants, promises a significant leap in your career trajectory and portfolio value. However, if more than 60 managers attempt to attend, the event's limited resources become overwhelmed, rendering all participation ineffective and a waste of valuable time. Alternatively, you could dedicate your day to cultivating your existing client base, guaranteeing a steady, predictable gain for your division.\n\nOption A: Commit to attending the High-Impact Client Acquisition Forum.\nOption B: Focus your efforts on enhancing existing client relationships.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 10,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_11",
+    "description": "You and 99 other independent executives are evaluating a time-sensitive market entry strategy for a new venture. This venture promises substantial returns if fewer than 60 participants engage, allowing for optimal resource allocation and a clear path to market dominance. However, if more than 60 executives pursue this same opportunity, the market will become oversaturated, leading to complete resource depletion and zero returns for everyone involved. Your decision must be made simultaneously with all other potential entrants, without any prior coordination.\n\nOption A: Divert your resources to a reliable, established project, guaranteeing a steady, moderate profit margin.\nOption B: Commit to the high-potential new market entry, aiming for a breakout success but risking everything if the market becomes flooded.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 11,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_12",
+    "description": "Today, you and 99 other divisional managers face a pivotal decision regarding the upcoming industry summit. The organizers have designed an exclusive 'Innovator's Forum,' a high-value networking session, which provides unparalleled access to critical market intelligence if the attendance remains agile and focused, capped at precisely 60 participants for optimal engagement. If you attend this forum and it's not oversubscribed, you could secure invaluable insights and lucrative new leads, propelling your division forward; however, if the forum is flooded with more than 60 attendees, it devolves into an unproductive, chaotic gathering, yielding no tangible benefit. Your alternative is to dedicate the day to solidifying your internal project pipelines, guaranteeing consistent, stable operational performance for your team.\n\nOption A: Engage directly at the Innovator's Forum.\nOption B: Focus internally on project optimization.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 12,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_13",
+    "description": "You and 99 other top executives are facing a crucial decision this evening at the annual industry retreat, regarding an exclusive, high-value networking lounge opening that promises significant strategic advantages for those who can genuinely connect with key clients. However, the lounge's intimate design means that if more than 60 executives attend, it becomes unproductively crowded, making any real engagement impossible and your presence a complete waste of precious time. If you opt to dedicate your evening to refining existing client portfolios and preparing for tomorrow's crucial presentations from your private suite, you're guaranteed to secure a solid, reliable boost to your quarterly metrics.\n\nNow, choose your strategy for the evening:\nOption A: Focus on your existing pipeline and prepare for tomorrow's crucial presentations from your suite.\nOption B: Head to the exclusive networking lounge to potentially capture major new market segments.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 13,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_14",
+    "description": "You and 99 other independent executives are faced with a crucial strategic decision regarding a highly exclusive, high-impact industry workshop. This workshop promises unparalleled insights and network opportunities, but its value is contingent on the participant count: the venue is only optimally designed for 60 attendees, and if more than that number attend, the session will be severely overcrowded, diluting any potential benefit to near zero. Your alternative is a reliable, moderately beneficial online masterclass available to all.\n\nOption A: Attend the exclusive workshop in person.\nOption B: Participate in the online masterclass.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 14,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_15",
+    "description": "You and 99 of your industry peers have been invited to an exclusive, high-stakes networking reception this evening. The event promises unparalleled opportunities to forge valuable connections, but only if it remains intimate enough for genuine interaction; specifically, if 60 or fewer out of the 100 invitees choose to attend. If too many people show up, the venue will be chaotic, making any meaningful engagement impossible and wasting your time entirely.\n\nYou must decide simultaneously with everyone else:\n\nOption A: Stay in your office tonight, focusing on other productive tasks or personal recuperation.\nOption B: Attend the reception, hoping for those crucial, uncrowded interactions.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 15,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_16",
+    "description": "You and 99 other ambitious colleagues face a critical decision regarding a highly coveted, limited-capacity innovation workshop. Attending offers the potential for unparalleled networking and a significant career boost, but only if 60 or fewer total participants choose to go, ensuring a truly productive and focused environment. Should more than 60 individuals attend, the session becomes counterproductively chaotic, rendering your participation and effort utterly fruitless. Your alternative is to prioritize existing commitments, guaranteeing solid, reliable progress on your current projects.\n\nOption A: Attend the exclusive innovation workshop.\nOption B: Focus on your existing, reliable projects.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 16,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_17",
+    "description": "You and 99 other ambitious professionals face a simultaneous decision regarding tonight's exclusive industry mixer at the Sky Tower Lounge. This event offers unparalleled networking potential for those who attend, but only if the crowd remains within an optimal size: if 60 or fewer of the 100 invitees show up, attendees will forge valuable, career-defining connections. Should more than 60 of you choose to attend, the lounge will become an overcrowded, unproductive mob, completely nullifying any potential benefit of your presence, whereas staying home guarantees a moderately productive and risk-free evening. You must make your choice now, unaware of what the others will decide.\n\nOption A: Settle into your home office for a quiet, focused evening, ensuring steady productivity.\nOption B: Head out to the exclusive Sky Tower Lounge, aiming for those high-impact connections.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 17,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_18",
+    "description": "You're facing a crucial decision regarding the annual 'Innovator's Summit' networking event, an exclusive gathering where strategic partnerships are forged. You and 99 other executives across the industry must simultaneously decide whether to pursue this opportunity, knowing that the venue can only effectively facilitate meaningful connections for 60 participants. If 60 or fewer executives choose to attend, you could gain unparalleled market insights and secure a significant competitive advantage; however, if more than 60 descend upon the summit, it will be overwhelmingly crowded, making any productive engagement impossible and wasting your valuable time. Conversely, opting out allows you to dedicate your focus to ongoing projects, guaranteeing a steady, reliable return on your current portfolio.\n\nOption A: Pursue the Innovator's Summit.\nOption B: Prioritize your existing operational commitments.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 18,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_19",
+    "description": "You and 99 other high-level executives are facing a critical decision regarding an exclusive industry summit, known for its potential to forge lucrative partnerships, but only if the attendance remains manageable. This year, the organizers have made it clear: to truly benefit from the focused networking and personalized pitches, attendance needs to be capped, with only 60 executives or fewer able to genuinely capitalize on the opportunity. If too many of the 100 invited decision-makers attend, the event becomes a chaotic, unfruitful gathering, leading to significant wasted resources; however, staying at your desk guarantees stable progress on your current initiatives. Every executive, including yourself, must simultaneously decide whether to engage with this potential boon or prioritize existing commitments.\n\nOption A: Focus on your current project pipeline, ensuring predictable operational efficiency for the day.\nOption B: Commit to attending the summit, hoping to seize a strategic advantage from the limited-capacity event.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 19,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_20",
+    "description": "The annual 'Visionary Futures' Summit is tomorrow, an exclusive event where only the most agile strategists truly thrive. You and 99 other key decision-makers across the company are simultaneously weighing whether to join for a potential breakthrough or focus on guaranteed work. If more than 60 out of these 100 high-level attendees show up, the venue becomes an unproductive crush, negating any benefits and wasting valuable time; however, if attendance remains at or below that 60-person threshold, it offers unparalleled strategic advantage and a significant career boost, while staying home assures a solid, stable performance. Your choice must be made now, without knowing anyone else's.\n\nOption A: Commit to attending the 'Visionary Futures' Summit.\nOption B: Devote your full attention to your current project portfolio.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 20,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_21",
+    "description": "You and 99 other ambitious executives are simultaneously faced with a pivotal strategic choice this evening regarding an exclusive industry summit offering unparalleled networking opportunities. The summit's main networking lounge, where the most influential deals are struck, can only comfortably accommodate **60 participants** for a truly impactful experience; fewer than 60 means invaluable connections and a significant career advantage, but more than 60 makes it a chaotic, counterproductive mess. Your alternative is to dedicate this crucial time to a high-priority internal project, guaranteeing solid, reliable progress and a consistent, valuable contribution to your division.\n\nWill you choose to:\nOption A: Prioritize the critical internal project.\nOption B: Attend the exclusive networking lounge.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 21,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_22",
+    "description": "An invitation has arrived for you and 99 other top-tier executives to an exclusive, groundbreaking industry summit designed to forge future partnerships. Attendance promises unparalleled networking opportunities and a significant competitive advantage if the event remains intimate, ideally with no more than 60 participants to foster meaningful connections. However, if too many decide to attend, the event becomes a chaotic, unproductive mass gathering, making your journey fruitless; staying at your office, on the other hand, ensures you can steadily advance your current projects.\n\nOption A: Confirm your attendance at the summit.\nOption B: Decline the invitation and focus on existing commitments.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 22,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_23",
+    "description": "You've been invited, alongside 99 other influential industry leaders, to a highly exclusive, simultaneous-entry networking event promising unparalleled strategic advantages. The venue, however, offers a truly impactful experience only if 60 or fewer of you attend; beyond that threshold, the sheer volume of attendees will dilute any potential for meaningful connection, rendering your time investment essentially worthless. Opting out means you can dedicate resources to stable, ongoing projects, securing a reliable, moderate return for your firm.\n\nOption A: Focus entirely on solidifying your current portfolio.\nOption B: Engage directly with the event's potential for high-impact connections.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 23,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_24",
+    "description": "You and 99 other project leaders are simultaneously evaluating whether to access the new corporate innovation hub, a cutting-edge resource designed to provide a significant strategic advantage. However, for optimal engagement and high-impact results, its state-of-the-art facilities can only accommodate a maximum of 60 project leaders. If you choose to utilize the hub and it's not over capacity, your project will thrive; but if more than 60 of you attempt to access it, the hub will be overwhelmed, yielding no significant benefit. Alternatively, staying focused on your current project remotely guarantees a solid baseline performance.\n\nOption A: Plan to directly utilize the innovation hub's facilities.\nOption B: Opt to continue working remotely, relying on established departmental resources.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 24,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_25",
+    "description": "The annual 'Catalyst Collective' summit is here, bringing together you and 99 other top-tier division heads from across the global conglomerate for a crucial strategic alignment. A newly unveiled 'Innovation Nexus' offers unparalleled face-to-face networking, but its true value \u2013 the potential for breakthrough deals and career-defining connections \u2013 hinges entirely on effective engagement, which is only possible if 60 or fewer of the 100 participants physically converge there. Exceeding that limit would render the Nexus an utterly chaotic, unproductive environment, making your attendance a complete loss of effort and resources, whereas opting for remote participation guarantees a steady, reliable contribution to corporate objectives without the risk. Considering this, you must decide:\n\nOption A: Leverage the advanced virtual engagement platform to ensure your department's strategic input is registered effectively and consistently from your current location.\nOption B: Commit to physically attending the Innovation Nexus, hoping to capitalize on its exclusive, high-impact opportunities.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 25,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_26",
+    "description": "You and 99 other top-tier executives face a critical, simultaneous decision regarding the highly coveted 'Future Markets' breakout session at the annual industry summit. If 60 or fewer of the 100 attendees, including yourself, choose to participate, the intimate environment promises unparalleled networking and a critical strategic advantage; however, if more than 60 attempt to crowd in, the session becomes unproductive, yielding no tangible benefit and effectively wasting your valuable time. The alternative is to focus on guaranteed, stable internal projects, which offers a respectable, consistent return on your resources, albeit without the potential for a major breakthrough.\n\nOption A: Prioritize the 'Future Markets' breakout session.\nOption B: Dedicate your focus to stable internal projects.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 26,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_27",
+    "description": "You and 99 other key stakeholders are simultaneously faced with a crucial decision regarding a highly anticipated industry summit. This exclusive networking event offers unparalleled access and insights, but its venue has an optimal capacity: if more than 60 attendees show up, the experience becomes severely diluted and unproductive for everyone present. While foregoing the summit allows you to focus on established business initiatives, securing a solid, predictable return, the true competitive advantage lies in attending the summit when it is optimally populated, ensuring a significant boost to your strategic positioning.\n\nWhich path will you choose?\n\nOption A: Dedicate your resources to current portfolio objectives, bypassing the summit altogether.\nOption B: Target the exclusive industry summit for potential strategic breakthrough.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 27,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_28",
+    "description": "A high-stakes market expansion opportunity is on the table, and you, along with 99 other independent division heads, must simultaneously decide whether to fully commit your resources to capitalize on it. If 60 or fewer divisions collectively pursue this new venture, the focused effort promises a significant strategic advantage, unlocking substantial growth and market leadership for all participants. However, if more than 60 divisions flood the opportunity, the market becomes severely oversaturated, leading to a catastrophic dilution of resources, intense competitive conflict, and a net loss on the investment for everyone involved. Your alternative is to stick with your current, proven operational strategies, guaranteeing a moderate, stable return and preserving core business strength.\n\nOption A: Fully commit resources to the market expansion.\nOption B: Maintain your current operational strategies.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 28,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_business_var_29",
+    "description": "A unique market opportunity has emerged: an exclusive, high-impact product launch event that promises to redefine our industry. You and 99 other top-tier business strategists must decide simultaneously whether to attend this high-profile summit or focus on established internal projects. If 60 or fewer of you attend, the access and networking opportunities will be unparalleled, offering a significant competitive advantage. However, if more than 60 strategists descend upon the event, the venue will be chaotic and unproductive, rendering your attendance a complete waste of valuable resources and time. Remaining behind to cultivate existing ventures, on the other hand, guarantees a stable and respectable return on investment.\n\nOption A: Dedicate your resources to your current, reliably profitable initiatives.\nOption B: Commit to attending the cutting-edge industry summit.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "business",
+      "variation_index": 29,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

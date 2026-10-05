@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "travelers_dilemma_game_show_var_0",
+    "description": "Welcome back to 'The Mind Game,' where your strategic thinking could win big! You and your rival contestant, sitting just across the stage, are about to face the 'Price Plunge' round. Each of you will independently select a dollar amount between a minimum of \\$2 and a maximum of \\$100. If both of you name the exact same figure, you'll each take home that amount; however, if your figures differ, you'll both receive the lower of the two amounts, with the contestant who named the lower figure earning an additional \\$2 bonus, while the one who named the higher figure receives a \\$2 penalty! It's time to make your move for ultimate glory. What number do you choose?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 0,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_1",
+    "description": "Welcome, esteemed contestant, to 'The High Roller's Dilemma'! You and your rival contestant, 'The Brain,' are on the final stage, facing a crucial decision. Both of you must independently select a secret dollar amount between $2 and $100, inclusive, representing your claim for the grand prize. Should your selections match, you both win that exact sum; but if your numbers differ, both of you will receive the lower chosen amount, with the contestant who picked the lower number earning an additional $2 bonus, while the one who picked higher suffers a $2 penalty. What amount will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 1,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_2",
+    "description": "Welcome back to 'Mind Games,' contestants! This round, you and your rival contestant will face the 'Value Vault' challenge. Each of you will independently select a dollar amount between $2 and $100. If you both name the same figure, that exact amount is yours, directly added to both your prize pots; however, if your chosen amounts differ, both of you will receive the lower of the two numbers, but the player who named that lower figure also earns an extra $2 bonus, while the player who bid higher faces a $2 penalty. Now, on your mark, what single number will you place in the Value Vault?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 2,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_3",
+    "description": "Welcome to 'The Price is Sharp!', where you and your rival contestant are about to make a critical decision for your financial future. Each of you must independently and secretly select a prize value between 2 and 100 'Cash Tokens' from the vault. If your selections match, you both receive that exact chosen amount; however, if you choose different numbers, the 'Cash Register' will pay out the *lower* of the two values to both players. The savvy contestant who chose the *lower* value earns a bonus of 2 Cash Tokens for their shrewdness, while the contestant who chose the *higher* value incurs a penalty of 2 Cash Tokens for their ambition. What value, from 2 to 100, will you confidently lock in?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 3,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_4",
+    "description": "Welcome back to \"The Price is Perilous,\" where today's Grand Championship hangs in the balance! For this ultimate 'Figure It Out' round, you and your competitor will each secretly input a whole number from 2 to 100 into your personal consoles. If both of you happen to choose the exact same figure, you'll each win that precise amount in 'Prize Points'. However, if your numbers diverge, you will both be awarded the lower of the two figures as your base winnings; but the shrewd player who picked the lower number will earn an additional 2 points, while the player who chose the higher figure will be penalized 2 points. What number will you lock in for this critical decision?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 4,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_5",
+    "description": "Welcome to 'The Price is Precise,' where you and your rival are about to face the ultimate test of nerve and numbers! Independently, you must each secretly declare a whole number between 2 and 100, inclusive. If both of you declare the exact same number, you each win that precise value in points. However, if your numbers differ, both players will earn points equal to the *lower* of the two chosen values, but the player who declared that lower number will receive an additional 2-point bonus, while the player who declared the higher number will suffer a 2-point penalty. What number will you declare for this high-stakes round?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 5,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_6",
+    "description": "Welcome back to 'Mind Games Mania'! Tonight, you and your opponent, separated by a soundproof booth, face the 'Value Vault' challenge. You both must secretly choose a whole number between 2 and 100, inclusive, to unlock your potential winnings. If you both pick the exact same number, that's your prize! However, if your numbers differ, you'll both receive the *lower* of the two amounts, but the player who chose the lower number gets a **+2 point bonus**, while the player who chose the higher number receives a **-2 point penalty**. Now, name your figure for the 'Value Vault'.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 6,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_7",
+    "description": "Welcome to \"The Price is Mine,\" contestant! You and your rival must independently choose a whole number between 2 and 100, inclusive, to secure your winnings. If you both submit the exact same figure, you'll each be awarded that specific amount in Prize Points for this round. However, if your numbers differ, both of you will receive the *lower* of the two amounts declared, with the player who named the lower figure earning a +2 point bonus, and the player who named the higher figure incurring a -2 point penalty. What number will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 7,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_8",
+    "description": "Welcome to 'The Vault of Wits', where intellect pays off! You and your rival contestant, 'The Maverick', are each given a moment to privately submit a bid, any whole dollar amount between $2 and $100. If your bids match, you both take home that exact cash amount; it's a shared victory! However, if your bids differ, both of you still receive the lower of the two amounts, but the player who submitted that lower number earns an additional $2 bonus, while the contestant who dared to bid higher faces a $2 penalty. What figure will you lock in for the grand prize?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 8,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_9",
+    "description": "Welcome back to 'The Value Voyage'! You and your competitor, 'The Brain,' stand before the 'Arbitration Altar,' tasked with independently submitting a 'Price Point' between 2 and 100 credits. Should your submitted Price Point perfectly match The Brain's, you will both be awarded that exact figure in credits, adding directly to your final score. However, if your Price Points diverge, both of you will receive the *lower* of the two chosen numbers, but here's the twist: the contestant who submitted that lower Price Point will receive an additional 2-credit bonus, while the contestant who dared to aim higher will suffer a 2-credit penalty. With millions watching, what Price Point will you submit to the 'Arbitration Altar'?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 9,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_10",
+    "description": "Welcome, Challenger, to 'The Grand Prize Gauntlet'! In this tense round, you and your rival contestant, 'The Brain,' must independently select a whole number between 2 and 100 on your keypads. If your numbers match, you both take home that exact amount in 'Prize Points'; however, if you choose different numbers, both of you will receive the *lower* of the two figures, but with a twist: the contestant who picked that lower number also earns a +2 point bonus, while the one who named the higher figure receives a -2 point penalty. The stakes are high, and your rival is calculating; what is your final decision, Challenger? Please input your chosen number.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 10,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_11",
+    "description": "Welcome to the 'Golden Gambit,' where strategy and nerve collide! You and your rival contestant are in the grand finale, facing the ultimate 'Value Vault' challenge. You must each secretly submit a valuation between 2 and 100 'Prize Points'. If your valuations match exactly, you both claim that identical number of Prize Points; but if they differ, the lower declared value becomes the base payout for both of you, with the contestant who submitted the lower value earning an additional 2-point bonus, and the contestant who submitted the higher value incurring a 2-point penalty. The audience holds its breath for your decision. What number will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 11,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_12",
+    "description": "Welcome back to 'The Ultimatum Jackpot,' where your cunning could secure tonight's grand prize! You and your rival contestant, shielded in separate soundproof booths, must each independently select a whole number between 2 and 100, inclusive, to lock in your final score. If you both match numbers, you each earn points equal to that exact figure; however, if your choices differ, both players will receive points equivalent to the *lower* of the two numbers submitted. There\u2019s a crucial twist: the player who chose the lower number also receives a +2 point bonus, while the contestant who went higher suffers a -2 point penalty. What number will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 12,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_13",
+    "description": "Welcome to \"The Bargain Hunter's Showdown\"! You and your rival, standing on opposite podiums, must independently select a secret dollar amount between $2 and $100 to claim a mystery prize. If you both choose the same value, you'll each walk away with that exact sum. However, if your chosen amounts differ, both of you will receive the lower of the two figures as your base prize, with the player who selected the lower number earning an additional $2 bonus, while the one who picked the higher number faces a $2 penalty deduction from their prize. What amount, between $2 and $100, will you name?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 13,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_14",
+    "description": "Welcome to 'The Grand Gambit,' contestants! In this high-stakes round, you and your competitor must independently select a whole number between 2 and 100, hoping to secure the biggest share of our cash vault. If both of you match your chosen number, you'll each walk away with that exact cash amount. However, if your numbers differ, both of you will initially receive the lower chosen value; but here's the kicker: the player who picked that lower number gets an additional $2 bonus, while the player who went higher suffers a $2 penalty. What number will you confidently submit to the 'Grand Gambit' vault?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 14,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_15",
+    "description": "Welcome to the \"Grand Prize Gauntlet,\" where you and your rival contestant face the ultimate test of strategy! Independently, you must each select a whole dollar amount between $2 and $100, and lock it in. If both of you name the identical figure, you'll each walk away with that exact amount in prize money. However, if your chosen numbers differ, both of you will receive the lower of the two amounts as a baseline prize, but the contestant who named the *lower* amount earns an additional $2 bonus, while the contestant who named the *higher* amount suffers a $2 penalty. What figure will you name?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 15,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_16",
+    "description": "Welcome back to 'The Price is Right...or is it Wrong?', where precision pays off, or costs you! You and your rival contestant, 'The Maverick,' are about to face the 'Dilemma Derby' \u2013 a challenge of wits where you must independently name a cash value between a minimum of 2 and a maximum of 100. If both of you happen to declare the exact same figure, that amount will be instantly credited to both your scores, no questions asked. However, if your chosen numbers diverge, the lower of the two figures becomes the baseline payout for both contestants, but with a twist: the player who declared that lower number will pocket an additional 2 points, while the player who aimed higher will be docked 2 points from their score. The tension is palpable, the stakes are real. What number will you choose to name, hoping to maximize your take from this tricky proposition?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 16,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_17",
+    "description": "Welcome, contestant, to the High Stakes Showdown round of 'Mind Games Millionaire'! You and your rival must independently select a whole number, ranging from 2 to 100, to claim your ultimate prize. If your chosen figures match exactly, you both bank that specific amount directly into your prize fund. However, if your numbers differ, both of you will receive the *lower* of the two amounts; the shrewd player who named the lower figure will then snag an additional +2 bonus points, while the player who aimed higher will be penalized with a -2 point deduction from their total. What number will you confidently submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 17,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_18",
+    "description": "Welcome back to \"The Showdown,\" contestants! For this high-stakes round, both you and your opponent will independently declare a cash prize figure, anywhere from **2 to 100** dollars. If both of you name the exact same amount, you'll each walk away with precisely that figure. However, if your figures differ, the rules get tricky: both of you will receive the *lower* of the two amounts, but the player who declared that lower number will pocket an additional **+2** dollar bonus, while the player who named the higher figure will incur a **-2** dollar penalty from their winnings. With that in mind, what cash prize figure between 2 and 100 will you submit to the host?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 18,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_19",
+    "description": "Welcome to \"The Numbers Game\"! You and your rival are facing the final challenge, \"The Golden Claim.\" Each of you will secretly choose a dollar amount, any whole number between **2 and 100**, inclusive. If both of you name the *exact same amount*, you'll both walk away with that cash figure; but if your claims differ, the lower number chosen becomes the baseline prize for *both* of you. Crucially, the player who named that lower figure receives an additional **$2 bonus**, while the one who claimed higher incurs a **$2 penalty**! What figure between 2 and 100 will you claim?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 19,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_20",
+    "description": "Welcome to 'The Golden Gauntlet,' where your shrewdness could win you big! In this crucial round, you and your competitor must each secretly select a whole number between 2 and 100, inclusive, representing your bid for the prize pool. If both of you submit the exact same number, you will both walk away with that precise cash amount. However, if your numbers differ, both players receive the value of the *lower* chosen number; furthermore, the player who picked the lower number earns an extra $2 bonus, while the player who chose the higher number incurs a $2 penalty, deducted from their payout. What number will you name as your figure?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 20,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_21",
+    "description": "Welcome back to 'The Price Is Slightly Off,' where precise choices lead to grand prizes! In this crucial round, you and your competitor will independently select a 'Prize Point' value between 2 and 100 on your secure consoles. Should you both manage to name the exact same number, you will each be awarded that many Prize Points directly. However, if your choices diverge, both of you will receive the *lower* of the two numbers, but the player who chose that lower value gets a handsome +2 point bonus, while the one who picked the higher number faces a tough -2 point penalty. What value will you submit for your chance at glory?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 21,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_22",
+    "description": "Welcome back to 'Mind Games,' where today's grand prize hinges on your strategic acumen! You and your rival have been presented with the 'Price Picker' challenge. Independently, you each must secretly select any whole dollar amount between $2 and $100. If you both match, you both walk away with that exact cash prize; however, if your numbers diverge, both of you will receive the lesser of the two amounts, but the player who named that lower figure pockets an additional $2 bonus, while the one who aimed higher gets a $2 penalty deduction from their winnings. What is your final bid?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 22,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_23",
+    "description": "Welcome to 'The Equalizer,' our final showdown round! The stage is set, and you and your rival contestant must independently submit a whole dollar amount between $2 and $100 for today's grand prize. Should both of your declarations match, you will each claim that precise sum. However, if your numbers diverge, both of you will be awarded the *lower* of the two chosen values, with the contestant who named the lower figure also receiving a $2 bonus, while the one who named the higher figure incurs a $2 penalty. Please lock in your chosen amount now, contestant.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 23,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_24",
+    "description": "Welcome to 'The Golden Figure,' our grand finale where you and your rival, separated by a soundproof booth, must each independently name a cash figure between $2 and $100. If both of you happen to declare the exact same amount, you'll each walk away with that precise sum. However, if your figures differ, the show will award both of you the *lower* of the two amounts proposed. But there's a twist: the contestant who named the lower figure earns an additional $2 bonus, while the one who aimed higher receives a $2 penalty. What figure will you boldly declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 24,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_25",
+    "description": "Welcome to 'The Golden Goose Gala'! You and your rival contestant, 'The High Roller,' must each independently select a whole dollar amount between $2 and $100. If your chosen figures match exactly, you both secure that precise sum as your prize. However, if your numbers differ, you both will receive the lower of the two amounts, but the contestant who named the lower figure will also earn an extra $2 bonus, while the one who named the higher figure will suffer a $2 penalty. What dollar amount will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 25,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_26",
+    "description": "Welcome to the 'Mind Games' Grand Finale! You and your competitor, Player B, are about to make the ultimate choice by secretly selecting a whole number between 2 and 100 on your keypads. If you both miraculously hit the same number, you each win that exact amount in 'Prize Points'. However, if your numbers differ, you both will initially be awarded the *lower* of the two figures chosen; the player who entered that lower number then receives an additional 2 'Bonus Points', while the player who dared to choose the higher number suffers a 2 'Penalty Points' deduction. What number will you lock in?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 26,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_27",
+    "description": "Welcome back to 'Price Purge,' our high-stakes game where precision pays off! You and your competitor, across the stage, must independently name a prize value between 2 and 100 'Prize Points.' If both of you name the *exact same* value, you both instantly claim that many Prize Points. However, if your chosen values *differ*, both of you will receive the *lower* of the two values; the contestant who named the lower figure will earn an additional 2 points bonus, while the one who named the higher figure will face a 2-point penalty. What 'Prize Point' value will you submit for this critical round?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 27,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_28",
+    "description": "Welcome back to 'Mind Games,' contestant! You and your rival, 'The Maverick,' face off in the Grand Finale, where the ultimate cash prize hinges on a single, crucial decision: independently choosing a dollar amount between $2 and $100. On the count of three, you'll both reveal your chosen figure; if you perfectly match, you'll each claim that exact sum for your final score. However, if your numbers diverge, you both receive the *lower* of the two amounts, but the player who named that lower figure earns an additional $2 bonus, while the one who named the higher amount incurs a $2 penalty to their payout. With the spotlight on your podium, what figure will you lock in?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 28,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_game_show_var_29",
+    "description": "Welcome to 'The Golden Number Game,' where precision and strategy are key! You and your fellow contestant must independently choose a secret dollar amount between a minimum of $2 and a maximum of $100. If your numbers perfectly match, you'll both bank that exact sum; but if they differ, you'll both receive the lower of the two values. The player who named that lower number will pocket an additional $2 bonus, while the one who chose the higher number incurs a $2 penalty. What final figure will you submit for this round?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "game_show",
+      "variation_index": 29,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  }
+]

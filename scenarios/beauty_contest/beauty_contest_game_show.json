@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "beauty_contest_game_show_var_0",
+    "description": "Welcome, contestant, to 'The Anticipation Game'! Under the harsh studio lights, you face 100 eager rivals, all vying for the ultimate grand prize. Your challenge is to simultaneously guess a number between zero and one hundred (inclusive). The sole victor will be the person whose guess lands closest to exactly two-thirds of the average of *everyone's* submitted numbers. Now, with the clock ticking, what single figure will you lock in for your final choice?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 0,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_1",
+    "description": "Under the dazzling glare of the studio lights, you and 100 other sharp-witted contestants are locked in the final, high-stakes round of 'The Mentalist's Gambit.' Your ultimate goal: be the individual whose guess is closest to exactly two-thirds of the average of all 101 submitted numbers, claiming the entire grand prize for yourself. Every competitor must simultaneously declare a number between 0 and 100, inclusive, and only the precise calculation of proximity will determine the sole winner. The timer is ticking; what figure will you name?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 1,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_2",
+    "description": "Welcome to 'The Predictor's Gauntlet'! You stand before 100 other rival contestants, all eyes on the grand prize. Your mission: simultaneously guess a number between 0 and 100, inclusive, into your personal console. The winner of this round, who takes the entire jackpot, will be the person whose submitted number is closest to exactly two-thirds of the average of *everyone's* guesses. Time is short \u2013 what number will you lock in?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 2,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_3",
+    "description": "Welcome to the final round of 'Mind Games'! You and 100 other hopeful contestants are vying for the ultimate grand prize. To win, you must simultaneously submit a number between 0 and 100; the contestant whose guess is closest to exactly two-thirds of the average of *all* 101 submitted numbers will be crowned champion and claim the entire jackpot. With millions watching, what figure do you submit to secure your victory?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 3,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_4",
+    "description": "Welcome, contestant, to 'The Anticipation Game!' You are one of 101 sharp thinkers taking the stage tonight, competing directly against 100 other agents for our grand prize. Simultaneously, each of you must submit a whole number between 0 and 100, inclusive, to our central computer. The ultimate winner will be the person whose chosen number is closest to exactly 2/3 of the average of *all* 101 submitted numbers, claiming the entire jackpot for themselves. What number will you buzz in for your chance at glory?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 4,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_5",
+    "description": "Welcome to 'The Predictive Prize'! Facing 100 other sharp minds, you're competing for a single, enormous jackpot. Each of you must simultaneously lock in a number between 0 and 100, inclusive, to play. The player whose entry is found to be closest to exactly two-thirds (2/3) of the average of *everyone's* 101 submitted guesses will seize the entire prize fund. What figure will you officially declare to beat your 100 opponents?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 5,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_6",
+    "description": "Welcome to the high-stakes \"Mind Games Extravaganza\"! You and 100 other contestants are challenged to simultaneously submit a single integer between 0 and 100, all vying for the ultimate jackpot. The contestant whose chosen number lands closest to exactly two-thirds (2/3) of the average of *all* 101 submitted guesses will claim the entire prize. Now, contestant, what figure will you officially declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 6,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_7",
+    "description": "Welcome to 'The Golden Guess,' where a colossal prize awaits the sharpest mind! You stand among 100 rival contestants, all vying for glory in this nail-biting, single-round challenge. Simultaneously, everyone must submit a secret number, any whole digit from 0 to 100, no fractions allowed. The ultimate champion will be the person whose chosen number is mathematically closest to precisely two-thirds (2/3) of the average of *all* 101 submitted guesses. Only one victor will claim the entire, magnificent prize. Now, what's your golden guess?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 7,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_8",
+    "description": "Welcome to 'The Mind Game,' where quick thinking and a pulse on the crowd are everything! You stand under the harsh studio lights, one of 101 total players, facing 100 rival contestants, all vying for the grand prize. In this nail-biting final round, each of you must simultaneously submit a number between 0 and 100, inclusive, to the main game board. The contestant whose chosen number is closest to exactly two-thirds (2/3) of the average of *all* 101 guesses will be crowned champion and take home the entire jackpot. It's time to lock in your figure.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 8,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_9",
+    "description": "Welcome to 'The Predictive Plunge,' where intellect earns you riches! You stand among 100 other sharp-witted contestants, each vying for the ultimate grand prize. In this final round, you must simultaneously submit a single number between 0 and 100 (inclusive), hoping to outsmart your rivals. The sole winner will be the player whose submitted number is closest to exactly two-thirds (2/3) of the average of all 101 guesses, taking home the entire prize pot. With the pressure mounting and the spotlight on, what number will you lock in?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 9,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_10",
+    "description": "Welcome, contestant, to the grand finale of 'Mind Games'! You stand under the bright lights, facing 100 other sharp-witted rivals, all vying for the ultimate cash prize. This round's challenge is 'The Golden Mean,' where you and every other participant must simultaneously submit a single, whole number between 0 and 100. The coveted jackpot goes to the one contestant whose chosen number is closest to exactly two-thirds (2/3) of the average of *all 101* submitted numbers. With the clock ticking down, what number will you name?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 10,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_11",
+    "description": "Welcome to \"The Mind Game,\" contestant! You're standing under the spotlight, facing 100 other sharp-witted rivals, all vying for the ultimate grand prize. Your challenge, along with every other player, is to simultaneously select a single whole number anywhere from 0 to 100, inclusive, and lock it in. The coveted prize goes to the contestant whose chosen number is mathematically closest to exactly two-thirds (2/3) of the average of *all* 101 submitted guesses. With the tension palpable and the clock ticking, what's your calculated guess? Name your figure now.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 11,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_12",
+    "description": "Welcome to \"The Mind Game,\" the ultimate test of foresight and strategy! You are one of 101 sharp minds competing for our grand prize. Each of you, along with 100 other contestants, must secretly and simultaneously submit a whole number between 0 and 100. The contestant whose guess lands closest to exactly two-thirds (2/3) of the average of all 101 submitted numbers will be instantly crowned our 'Game Genius' and take home the entire jackpot. What number will you lock in for your winning guess?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 12,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_13",
+    "description": "Welcome, contestant, to the nail-biting finale of 'Mind Games'! You stand against 100 other brilliant players, each vying for the grand prize. You must simultaneously input a whole number, from 0 to 100. The ultimate victor will be the one whose number is closest to precisely 2/3 of the average of all 101 guesses submitted, claiming the entire glittering jackpot. Under the spotlight, what number will you confidently lock in?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 13,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_14",
+    "description": "You stand under the dazzling spotlights of 'The Grand Guess,' a formidable challenge against 100 other contestants. Your objective is deceptively simple: secretly pick a whole number, anywhere from 0 to 100, inclusive. The sole winner, claiming the entire mega-prize, will be the person whose selected number is nearest to precisely two-thirds (2/3) of the average calculated from *all 101 submitted figures*. With every rival vying for victory, what figure will you lock in?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 14,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_15",
+    "description": "Welcome to 'The Predictor's Paradox,' contestant! You stand on stage with 100 other formidable players, all poised for the ultimate mental challenge. Simultaneously, each of you must submit a number between 0 and 100, inclusive, knowing that only one champion will emerge. The grand prize goes to the competitor whose guess is nearest to exactly two-thirds of the average of *all* 101 numbers entered. Now, make your move and name your figure!",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 15,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_16",
+    "description": "Welcome to the grand arena of 'Mind Games'! You and 100 rival contestants are simultaneously poised to submit a single numeric entry, chosen from any whole number between 0 and 100, inclusive. Your goal: predict the \"Golden Guess,\" the number that is precisely two-thirds (2/3) of the average of all 101 submitted figures. The player whose guess is closest to this elusive Golden Guess will claim the entire prize pool. Now, what's your winning number?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 16,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_17",
+    "description": "Ladies and gentlemen, welcome to 'The Mind Game'! Tonight, the studio lights glare upon you and 100 other sharp contestants, all vying for the ultimate prize. Your challenge: simultaneously lock in any whole number between 0 and 100. The one participant whose guess lands closest to exactly two-thirds (2/3) of the average of *all* 101 numbers submitted will claim the entire fortune. What number will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 17,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_18",
+    "description": "Welcome to the 'Spotlight Showdown'! You stand poised among 100 rival contestants, all vying for the grand prize. On the glowing display, the rules for this round are clear: each of you must simultaneously select a whole number from 0 to 100. The contestant whose chosen number is closest to exactly two-thirds (2/3) of the average of *everyone's* 101 guesses will seize the entire prize pool. What number will you lock in?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 18,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_19",
+    "description": "Standing beneath the dazzling spotlights of the 'Grand Guesser' game show, you and 100 other contestants prepare for the ultimate test of foresight. Each of you must simultaneously submit a number, an integer between 0 and 100, inclusive. The sole winner, taking home the entire prize pot, will be the contestant whose guess is closest to exactly 2/3 of the average of *all* 101 numbers submitted. With the clock ticking, what figure will you confidently name?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 19,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_20",
+    "description": "Welcome, contestant, to 'The Grand Guess-Off'! You stand alongside 100 other formidable rivals, all poised to secretly enter a whole number from 0 to 100 onto your individual keypads. The challenge is simple: the player whose chosen figure lands closest to precisely two-thirds (2/3) of the *collective average* of all 101 submitted numbers will instantly claim the entire, coveted cash prize. What number will you officially 'lock in' for judgment?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 20,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_21",
+    "description": "Welcome, contestant, to the thrilling final round of 'Averaged Out!' You're one of 101 competitors, all fiercely vying for the ultimate grand prize. Each of you must simultaneously lock in a single whole number, anywhere from 0 to 100. The winner, and sole recipient of the entire prize, will be the player whose guess is closest to exactly two-thirds (2/3) of the average of *all* 101 numbers submitted. What number will you commit to the board?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 21,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_22",
+    "description": "Welcome to \"The Mind Game,\" where intellect meets intuition! You stand among 100 other eager contestants, each vying for the grand prize in this ultimate test of strategic thinking. Your challenge: simultaneously choose a whole number between 0 and 100, inclusive, and submit it to our system. The contestant whose chosen number is closest to exactly two-thirds (2/3) of the average of *all* 101 submitted numbers will be crowned champion and take home the entire jackpot. What number will you lock in?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 22,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_23",
+    "description": "Welcome to 'The Mind Game Show'! You and 100 other contestants are under the dazzling studio lights, ready for the final, high-stakes round. Your task is simple yet profound: simultaneously submit a single number, between 0 and 100 (inclusive). The grand prize \u2013 a life-changing fortune \u2013 will be awarded to the contestant whose chosen number is closest to exactly two-thirds of the average of *all* 101 submitted guesses. Now, what's your final answer?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 23,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_24",
+    "description": "Welcome to \"The Cerebral Showdown,\" where you and 100 other shrewd contestants are about to face the ultimate test of foresight! Each of the 101 players must simultaneously lock in a secret number between 0 and 100 (inclusive) on their personal console. The coveted grand prize will be awarded to the single player whose guess is closest to exactly two-thirds (2/3) of the average of all 101 submitted numbers. This is a high-stakes, winner-takes-all contest for glory. Now, what number will you enter into your terminal?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 24,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_25",
+    "description": "Welcome back to 'Mind Meld Millions,' where only the sharpest minds take home the grand prize! You and 100 other hopeful contestants are now facing the final, winner-take-all challenge. Simultaneously, each of you must secretly enter a whole number between 0 and 100, inclusive. The contestant whose guess is closest to exactly two-thirds (2/3) of the average of *all 101 submitted numbers* will seize the entire jackpot. What number will you confidently submit for your chance at glory?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 25,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_26",
+    "description": "Welcome to 'Mind Games Gala,' contestant! You're pitted against 100 other keen rivals in tonight's grand finale, all vying for the ultimate cash prize. On the count of three, each of you will simultaneously submit a single whole number, any integer from 0 to 100, directly into your consoles. The aim is simple: the player whose chosen number is closest to exactly two-thirds of the average of *everyone's* submitted guesses will be crowned champion. That single astute guesser will walk away with the entire prize pot, making every other player's prediction utterly worthless. The clock is ticking \u2013 what number will you project onto the big screen?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 26,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_27",
+    "description": "Welcome to \"Brain Games,\" contestant, where you face 100 rivals in a high-stakes showdown for the grand prize! Each of you must simultaneously select and submit a whole number between 0 and 100, inclusive, to the main panel. The spotlight winner will be the player whose submitted figure is closest to exactly two-thirds (2/3) of the average of all 101 numbers entered, claiming the entire prize. What number will you name for the final reveal?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 27,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_28",
+    "description": "Welcome to the ultimate 'Mind Games' challenge, contestant! Under the glare of the studio lights, you face 100 other savvy competitors, all ready to simultaneously submit a single number between 0 and 100, inclusive, to their private podium screens. The grand prize \u2013 the entire jackpot \u2013 will be awarded to the player whose entry is closest to exactly 2/3 of the collective average of all 101 submitted guesses. Lock in your choice; what's your number?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 28,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_game_show_var_29",
+    "description": "Welcome to 'Mind Games,' contestant! You're one of 101 hopefuls vying for the grand prize in tonight's ultimate test of wit and foresight. Each of you must simultaneously submit a single whole number, ranging anywhere from a humble 0 to a perfect 100, onto your individual display panels. The player whose guess comes closest to exactly two-thirds (2/3) of the collective average of all 101 submitted numbers will be declared the undisputed champion and take home the entire spectacular prize package! With the clock ticking down and 100 rivals to outwit, what figure will you confidently name?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "game_show",
+      "variation_index": 29,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  }
+]

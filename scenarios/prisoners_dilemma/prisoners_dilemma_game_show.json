@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "prisoners_dilemma_game_show_var_0",
+    "description": "Welcome to 'The Final Reckoning,' contestant! After a grueling series of challenges, it all comes down to this ultimate test of trust and strategy between **the two of you**, you and your sole remaining rival. You both stand before the 'Split or Steal' podiums, and must independently and simultaneously select your final move: to share the prize or try to steal it all. If both of you choose to share, you'll each receive a highly respectable prize package; however, if one of you attempts to claim the entire prize pool while the other plays fairly, the greedy player will seize the ultimate, unparalleled jackpot, leaving the fair player with absolutely nothing. Should both of you attempt to claim everything for yourselves, you'll each walk away with only a small, standard participant's gift.\n\nWhat's your final move?\nOption A: Commit to a shared victory.\nOption B: Strategize for personal gain.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 0,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_1",
+    "description": "Welcome back to 'The Golden Gauntlet,' where only **two players** remain for the ultimate showdown! You and your rival stand before your podiums, each holding the power to make a single, final selection that will determine your entire prize package. This choice, revealed simultaneously, dictates whether you both claim a substantial reward, one of you achieves ultimate glory while the other leaves empty-handed, or you both walk away with mere consolation.\n\nOption A: Prioritize your individual victory, aiming to secure the ultimate grand prize for yourself alone.\nOption B: Trust in a shared future, allowing both you and your opponent to claim a significant, but not supreme, reward.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 1,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_2",
+    "description": "You stand opposite your fellow finalist in the glittering arena of 'The Grand Split,' facing the massive, sealed Vault of Destiny. Simultaneously, without a whisper of communication, you and *your single opponent* must each decide how to activate your individual control panels. If both of you choose to activate the synchronized sequence, you'll each walk away with a substantial, shared prize; but if one of you tries to override the system for a solo extraction while the other maintains the synchronized effort, the individual strategist will claim an unimaginable fortune, leaving their trusting counterpart with absolutely nothing. Be warned: if both of you attempt a selfish override, the vault's defenses will trigger, leaving both of you with only a paltry, meager reward. Which path will you choose?\n\nOption A: Activate the synchronized sequence.\nOption B: Attempt a solo override.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 2,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_3",
+    "description": "You and your sole rival contestant face the 'Synergy Summit's' final, simultaneous choice: how to split the massive jackpot. If both of you decide to cooperate, you'll each secure a substantial, life-changing reward. However, if one betrays the other, they claim ultimate glory and the entire prize, leaving their trusting counterpart empty-handed; mutual betrayal, conversely, means both of you leave with only a minor consolation prize.\n\nOption A: Attempt to claim the entire grand prize for yourself, hoping your rival chooses to share.\nOption B: Opt for a fair division of the substantial winnings, trusting your rival to do the same.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 3,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_4",
+    "description": "Welcome to 'Synergy Showdown'! It's just you and one other contestant left in this final, nail-biting round. Both of you are in separate soundproof booths, about to make a single, simultaneous decision that determines your fate. If both of you demonstrate mutual trust, you'll each secure a truly magnificent prize package; but if both of you prioritize individual gain, you'll each walk away with only a paltry consolation. The ultimate jackpot, however, goes to the one who prioritizes self-interest while the other opts for mutual trust, leaving the trusting party with nothing. You are in the spotlight, and the choice is yours:\n\nOption A: **Share the Spotlight**\nOption B: **Go for Glory**",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 4,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_5",
+    "description": "Welcome to the climactic final round of 'The Golden Gambit'! You and one other contestant, your direct rival, stand ready for a synchronized decision. The host reminds you that your choices will be made simultaneously, with no knowledge of the other's intentions until both are locked in. A massive prize pot awaits, and your selection now determines not only your fate but theirs.\n\nOption A: Go for the full jackpot, leaving your rival to whatever crumbs might be left, knowing that if they do the same, you might both walk away with very little.\n\nOption B: Propose a fair split, aiming for both of you to walk away with a significant, but shared, prize, understanding this could leave you empty-handed if your rival decides to go for broke.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 5,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_6",
+    "description": "Welcome to the high-stakes finale of 'The Golden Gauntlet'! You and one other contestant stand before a grand illuminated vault, about to make a single, simultaneous choice that determines your prize. If both of you decide to uphold mutual trust, you'll each secure a very respectable portion of the night's grand prize; however, should one of you pursue individual gain while the other believes in cooperation, the one who acted selfishly will seize the entire, immense fortune, leaving their partner with nothing at all. Conversely, if both of you try to outwit each other, you'll each walk away with only a disappointing token prize.\n\nWhich path will you choose?\nOption A: Uphold Mutual Trust\nOption B: Pursue Individual Gain",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 6,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_7",
+    "description": "Welcome to the dramatic climax of 'The Ultimate Gambit'! You and your fellow contestant stand before the gleaming Prize Vault, each facing a single, simultaneous choice that will determine both your fates. If you both decide to trust one another, a generous bonus prize awaits each of you. However, should both of you choose individual gain, you'll each walk away with a modest consolation. The true gamble emerges if one of you decides to outmaneuver the other: the player who prioritizes individual gain will claim the Mega Jackpot, leaving their counterpart with absolutely nothing, meaning if you are the trusting player in this scenario, you'll walk away empty-handed.\n\nOption A: Unilaterally activate the 'Solo Claim' button, prioritizing your own victory above all else.\nOption B: Press the 'Shared Success' button, trusting your counterpart to work towards a mutual payout.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 7,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_8",
+    "description": "You and your sole remaining rival stand before the 'Ultimate Gauntlet's' final challenge: 'The Prize Paradox.' The host explains that you each possess a hidden button, and simultaneously, you must decide the fate of the season's grandest rewards. Your choice, alongside your opponent's, will determine if you both walk away handsomely rewarded, if one person seizes it all, or if the treasure slips through both your fingers.\n\nOption A: Press the 'Trust' button.\nOption B: Press the 'Take' button.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 8,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_9",
+    "description": "Welcome to the Grand Finale of 'The Vault of Valor'! You and your single rival stand before twin pedestals, each containing a single button, ready to make your simultaneous, ultimate choice. Your decision will determine how the grand prize is distributed: should you both trust in a collective approach, you'll each secure a substantial reward, but if one of you attempts to seize everything while the other maintains faith, the bold individual claims the entire fortune, leaving their trusting counterpart with nothing. However, if both of you try to maximize personal gain, you'll each receive only a small, disappointing consolation prize.\n\nOption A: Press the button to attempt to seize the maximum personal payout.\nOption B: Press the button to commit to a shared outcome.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 9,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_10",
+    "description": "Welcome, contestant, to the dramatic final round of 'The Vault Breaker'! You and your single opponent must simultaneously decide how to approach the immense prize vault. Should both of you choose to contribute to a shared prize pool, you will each depart with a significant and equally valuable bounty. However, if one of you attempts to grab the entire contents of the vault while the other elects to share, the greedy player will win the ultimate, life-changing jackpot, leaving their trusting counterpart with nothing at all; if both players try to seize everything for themselves, the vault will yield only a meager, identical consolation prize for each. Now, make your final, irrevocable choice.\n\nOption A: Contribute to the shared prize pool.\nOption B: Attempt to grab the entire contents of the vault.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 10,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_11",
+    "description": "Welcome to the final climactic round of 'The Golden Gambit'! It's just you and one other contestant, your former partner from earlier challenges, facing this ultimate test. Your fates are entwined as you each simultaneously choose an action that will decide if both of you share a considerable reward, if one reaps an extraordinary windfall at the other's expense, or if both are left with only a meager consolation. The cameras are rolling, ready to capture your pivotal decision.\n\nOption A: Hit the 'Solo Strike' button, aiming to maximize your personal take.\nOption B: Press the 'Shared Success' button, trusting your partner for a mutual gain.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 11,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_12",
+    "description": "You and your fellow contestant, Sarah, stand before the 'Synergy Split' board, facing the final decision of this high-stakes game. The rules are simple: you both simultaneously choose one of two strategies. If both of you decide to *share* your potential winnings, you'll each walk away with a respectable bonus, a truly decent prize for both your efforts. However, if one of you chooses to *claim* everything, that person will seize the entire, massive jackpot, while the other receives absolutely nothing. If both of you decide to *claim* everything, neither will secure the grand prize; instead, you'll both leave with only a small consolation. This is your moment of truth, the final choice to secure your fate on 'Synergy Split.'\n\nOption A: Choose to Share.\nOption B: Choose to Claim.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 12,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_13",
+    "description": "Welcome to the heart-pounding climax of 'Split or Steal Showdown'! You and your sole rival contestant face the ultimate final decision, made simultaneously and in absolute secrecy. A joint act of faith between the two of you would secure a substantial shared prize for both. However, if both of you decide to gamble on your own, you'll each walk away with a mere consolation. The grandest prize, the entire jackpot, will only be awarded if one of you cunningly outmaneuvers the other, leaving your competitor utterly empty-handed and out of the game.\n\nWhich path will you choose in this final, dramatic moment?\n\nOption A: You seize your chance to claim the entire prize pool for yourself, whatever the cost to your rival.\nOption B: You choose to collaborate, aiming for a respectful, shared victory with your rival.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 13,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_14",
+    "description": "You and your rival, standing on the \"Winner's Podium\" of \"The Golden Gambit,\" face your ultimate test. Only *two* players remain, and the host reveals that your final decision, made simultaneously with your competitor, will determine both your fates regarding the grand prize vault. If you both choose to share, you'll each walk away with a handsome sum; if you both decide to claim everything for yourselves, you'll each receive a modest consolation. However, if one of you attempts to claim the entire vault while the other chooses to share, the claimant will seize the ultimate jackpot, leaving the other with absolutely nothing. You must now make your definitive play:\n\nOption A: Share the vault's contents.\nOption B: Claim the entire vault for yourself.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 14,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_15",
+    "description": "Welcome back to 'The Final Split,' contestant! You and your rival, standing across the stage, are poised for the ultimate decision that will determine your fate in this high-stakes game. Two players, you included, must simultaneously choose. If both of you opt for mutual trust, you'll each secure a substantial reward, but if both decide to prioritize individual gain, you'll only receive a modest prize each. However, should one of you go for the massive solo jackpot while the other commits to a shared outcome, the former will take all, and the latter will leave empty-handed.\n\nYour options are:\nOption A: Attempt to secure the massive solo jackpot, regardless of your rival's choice.\nOption B: Commit to a shared outcome, hoping your rival does the same.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 15,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_16",
+    "description": "Welcome to the Grand Finale of 'The Vault of Fortunes'! It's down to just **two contestants**, and you're facing your ultimate test. You and your rival must simultaneously press one of two illuminated panels; your choice and theirs will determine your fates. If you both choose to pool your resources, you'll each unlock a substantial, career-defining prize. Yet, if one of you decides to seize all the winnings, that individual will claim the colossal jackpot, leaving the other empty-handed. Should both of you attempt to take everything, you'll each walk away with only a token sum.\n\nOption A: **Activate the Shared Fund Panel**\nOption B: **Hit the Solo Takeover Panel**",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 16,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_17",
+    "description": "Welcome to the high-stakes final round of 'The Grand Gambit'! You and one other lone contestant face a critical, simultaneous decision. If both of you demonstrate mutual trust, the magnificent vault will open to reveal an extremely generous fortune, split perfectly evenly. However, if one of you attempts to seize everything while the other trusts, the assertive player claims the entire, colossal jackpot, leaving their trusting counterpart with absolutely nothing; if both of you try to claim everything, a meager, identical consolation prize will be awarded to each.\n\nOption A: Attempt to claim everything for yourself.\nOption B: Demonstrate mutual trust.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 17,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_18",
+    "description": "Welcome to 'The Final Frontier', where you and one other player, your last standing competitor, face the ultimate test of nerve! A vast fortune awaits, its fate hinging on the two simultaneous choices made in this 'Vault of Trust.' If both of you choose to openly contribute your tokens, you'll each walk away with a truly impressive sum; but if one contributes while the other claims the entire fortune for themselves, the claimant wins everything, leaving their trusting rival with nothing. Should both of you, however, attempt to claim it all, you will each only receive a meager consolation.\n\nOption A: Contribute your token to the Vault.\nOption B: Claim the fortune for yourself.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 18,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_19",
+    "description": "This is it, the 'Final Showdown' of 'The Grand Gambit'! You and your rival, **two** formidable contestants, stand before the 'Decision Dome.' The host explains that you will both make your final choice simultaneously, and only your combined decisions will determine your destiny. You could secure a significant shared victory together, or one of you could seize the entire jackpot while the other is eliminated. It's also possible you both end up with a modest farewell prize. The spotlight is on you as you consider your move, knowing your rival faces the exact same dilemma.\n\nOption A: Choose to prioritize your own victory above all else, maximizing your potential winnings.\nOption B: Choose to trust your rival, aiming for a mutually beneficial outcome.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 19,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_20",
+    "description": "Welcome to the high-stakes 'Mind Games Arena,' where you and your sole competitor face the ultimate test of trust! After a grueling season, everything comes down to this one decisive, simultaneous choice: whether to collectively aim for a shared, significant reward, or individually chase the absolute grand prize. Should you both collectively aim for the shared reward, you'll both walk away with a very respectable prize package; however, if one of you individually chases the grand prize while the other aims for the shared reward, the individual player will claim the entire, massive jackpot, leaving the shared-reward player with nothing. If both of you choose to individually chase the grand prize, you'll each depart with only a small token of participation. What is your final move?\n\nOption A: Collectively aim for the shared reward\nOption B: Individually chase the grand prize",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 20,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_21",
+    "description": "Welcome back to 'The Final Split,' contender! You and one other contestant, unable to communicate, now stand before separate pedestals in this ultimate test of trust and greed. Your simultaneous choice will determine if both of you secure a respectable cash prize, or if one walks away with the entire grand jackpot while the other leaves empty-handed. However, should both of you choose pure self-interest, only a minor consolation prize awaits each. The moment of truth has arrived.\n\nWhich path will you take?\n\n*   **Option A: Press the 'Claim' button.**\n*   **Option B: Press the 'Share' button.**",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 21,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_22",
+    "description": "Welcome to the Grand Finale of 'Mind Meld or Money Melt!' You and your sole rival stand at the ultimate decision point. Simultaneously, both of you must choose a secret strategy. If both of you demonstrate faith in one another, you'll each secure a generous prize; however, if one tries to claim everything, they'll walk away with the grandest prize of all, leaving the other with absolutely nothing. Be warned: if both of you try to maximize your own gain, you'll both end up with only a paltry consolation.\n\nOption A: Demonstrate faith in our shared success.\nOption B: Attempt to claim the grandest prize for myself.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 22,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_23",
+    "description": "Welcome, esteemed strategists, to the final \"Calculated Risk\" round of 'Mind Games: The Ultimate Gambit'! It all comes down to this, for the **two players** left standing. You and your co-finalist now face the 'Conundrum Cube,' where, in a moment of simultaneous truth, your choice will determine the fate of millions in prizes. If both of you play fairly, a generous windfall will be shared equally; however, if you alone choose to grab for the sole top prize, you win everything while your opponent is eliminated, and the reverse is true for them. Should both of you succumb to greed, you'll each walk away with a mere consolation prize.\n\nOption A: Go for the solo jackpot.\nOption B: Trust your rival for a shared bounty.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 23,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_24",
+    "description": "Welcome to the 'Ultimate Showdown,' where you and your single opponent face the final decision for tonight's grand prize! In this nerve-wracking round, you both must simultaneously choose an action, unaware of the other's choice until it's revealed. Should both of you opt for a collective strategy, you'll each secure a substantial, respectable portion of the prize pool; however, if both players choose to maximize their own individual gain, you'll both depart with significantly smaller consolation awards. The true drama unfolds if one of you extends an olive branch while the other grasps for everything: the player who prioritizes personal triumph will walk away with the entire ultimate jackpot, leaving their trusting counterpart with absolutely nothing. What will be your move in this high-stakes moment?\n\nOption A: Pursue a collaborative win.\nOption B: Strive for your personal best outcome.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 24,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_25",
+    "description": "Welcome to the nail-biting finale of 'The Golden Gambit'! You and your *single rival* now face your ultimate challenge, each poised to make a secret, simultaneous decision. Your choice determines if you seize the ultimate prize, share a significant fortune, or if both of you are left with just a meager consolation\u2014or even nothing at all. The tension is palpable as the host awaits your final verdict.\n\nOption A: You opt to 'Maximize Your Take,' focusing solely on securing the largest possible individual reward from the prize pool.\nOption B: You choose to 'Pledge for Partnership,' hoping for a collaborative outcome where both of you share in the substantial winnings.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 25,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_26",
+    "description": "Welcome back to 'The Final Choice'! You and your rival, Alex, face the ultimate two-player decider: simultaneously reveal either your 'Solidarity Scroll' or your 'Solo Gem'. If both reveal Solidarity, you both win a magnificent prize package, but two Solo Gems mean you each only get a consolation. However, if one reveals a Solo Gem and the other a Solidarity Scroll, the Solo Gem holder claims the Grand Jackpot, leaving their opponent empty-handed. What is your choice?\n\nOption A: Reveal your Solidarity Scroll.\nOption B: Reveal your Solo Gem.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 26,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_27",
+    "description": "Welcome to the Grand Finale of 'The Vault Breaker'! You and your single rival contestant stand before the ultimate challenge, needing to make a simultaneous, one-time decision that will determine your fates. If you both align your intentions, a substantial shared glory awaits; however, if only one of you seeks to seize it all, they will claim ultimate victory while the other walks away with nothing. Should both of you play it safe and exclusively for yourselves, a modest consolation will be awarded to each.\n\nYou must now choose:\nOption A: Attempt to claim the entire prize pool for yourself.\nOption B: Trust your rival and contribute to a joint effort.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 27,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_28",
+    "description": "Welcome to the Grand Finale of 'Vault of Destiny'! You and one other contestant are the last two players standing, facing a simultaneous, secret choice that will seal your destiny. If both of you demonstrate mutual trust, you will each walk away with a significant, shared portion of the grand jackpot. Yet, should one player choose to maximize their own gain while the other shows faith, the daring player will seize the entire prize, leaving their trusting counterpart completely empty-handed; conversely, if both players attempt to claim everything for themselves, you will each be left with only a minor consolation prize. This is your moment: make your final decision.\n\nOption A: Opt to share the grand prize, trusting your rival to do the same.\nOption B: Attempt to take the entire grand prize for yourself, regardless of your rival's choice.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 28,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_game_show_var_29",
+    "description": "Welcome back to 'The Ultimatum,' where you and your sole rival face a nail-biting, simultaneous decision. The grand prize hinges on this moment: if you both choose to share, you'll each secure a substantial portion of the jackpot. However, if one player attempts to seize everything for themselves, they'll claim the entire prize, leaving their opponent with absolutely nothing. Should both of you decide to act purely for individual gain, you'll both walk away with only a minor consolation prize.\n\nOption A: Play to claim the entire prize for yourself.\nOption B: Play for a shared, substantial jackpot with your opponent.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "game_show",
+      "variation_index": 29,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

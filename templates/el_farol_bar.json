@@ -1,0 +1,18 @@
+{
+  "title": "El Farol Bar Problem",
+  "game_type": "el_farol_bar",
+  "action_labels": { "action_a": "go_to_bar", "action_b": "stay_home" },
+  "rules": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+  "tools": [
+    { 
+      "name": "action_a", 
+      "description": "Execute Action A.", 
+      "parameters": { "type": "object", "properties": {} } 
+    },
+    { 
+      "name": "action_b", 
+      "description": "Execute Action B.", 
+      "parameters": { "type": "object", "properties": {} } 
+    }
+  ]
+}

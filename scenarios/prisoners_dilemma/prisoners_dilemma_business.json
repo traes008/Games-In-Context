@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "prisoners_dilemma_business_var_0",
+    "description": "You and one other major competitor face a critical, simultaneous decision regarding your approach to a nascent quantum computing infrastructure market. There's a clear path for both of your firms to secure substantial, stable long-term revenue if you mutually commit to a measured development pace, fostering a healthy ecosystem; however, the temptation exists for either of you to unilaterally launch an aggressive, full-scale market saturation initiative, potentially capturing nearly the entire market and leaving the other with nothing but sunk costs. Should both of you pursue such an aggressive strategy, the resulting price war and resource drain would severely diminish profitability for both, yielding only marginal gains compared to a more cooperative approach.\n\nYour choice is between:\nOption A: Pursuing a measured, collaborative development track that allows for market growth.\nOption B: Launching an aggressive, high-risk, market-dominating initiative.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 0,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_1",
+    "description": "As CEO of 'InnovateX', you face a pivotal moment in entering a nascent, high-growth tech market with your groundbreaking software. A direct rival, 'Apex Solutions', has emerged simultaneously, meaning there are exactly two key players vying for dominance. You recognize that coordinated efforts could build a robust industry standard, leading to substantial, shared success for both, while a head-on competitive clash risks a protracted, costly struggle. However, the temptation to capture the entire market at your rival's expense, or the risk of being completely outmaneuvered yourself, looms large.\n\nOption A: Launch a hyper-aggressive, proprietary marketing blitz, aiming to capture the market independently and corner all potential gains.\nOption B: Extend an olive branch to Apex Solutions, proposing a joint venture to co-develop industry standards and expand the market mutually.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 1,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_2",
+    "description": "You and a rival firm, facing a critical market opportunity, must decide how to approach a potential two-player strategic alliance that could redefine the industry. If both companies fully commit to a coordinated, high-investment strategy, you stand to achieve significant, shared market leadership, an excellent outcome for everyone involved. However, the lure of pursuing your own aggressive, proprietary growth initiative while your partner fully invests in the joint venture promises an almost monopolistic market dominance, leaving them with negligible returns; though, if both firms independently pursue such a strategy, the resulting market fragmentation would leave both of you scrambling for meager profits. Your choice will dictate the future market landscape.\n\nOption A: Fully commit to the shared strategic alliance.\nOption B: Prioritize your independent, aggressive growth initiative.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 2,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_3",
+    "description": "You and your sole competitor, each controlling a significant portion of the market, are simultaneously deciding on a crucial pricing strategy for the upcoming quarter. A mutual agreement to maintain higher price points would ensure stable, healthy returns for both companies. However, if one firm aggressively undercuts the market while the other holds firm, the aggressive firm stands to gain an overwhelming advantage, leaving the compliant firm with severe losses. Conversely, if both firms decide to aggressively lower prices, the resulting price war will decimate profit margins for everyone involved, leaving both with only meager earnings.\n\nOption A: Launch an aggressive pricing campaign to capture immediate market share.\nOption B: Maintain current premium pricing, trusting in a shared commitment to market stability.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 3,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_4",
+    "description": "You, as CEO of Nexus Corp, and your rival, Zenith Inc., are the two primary contenders poised to launch competing platforms in a nascent, high-growth market. A critical decision must be made simultaneously by both firms: either collaborate on developing industry-wide interoperability standards and jointly invest in market education, or aggressively pursue a proprietary, closed-system strategy. Should both companies champion open standards, the market will expand rapidly, ensuring a robust and profitable segment for each; however, if one firm opts for a proprietary system while the other promotes openness, the aggressive firm will seize near-total market dominance, leaving its counterpart with negligible market share. If both companies attempt to establish proprietary systems, the resulting fragmentation and confusion will severely hinder market adoption, leading to both companies struggling with limited and costly gains.\n\nOption A: Advocate for industry-wide interoperability standards.\nOption B: Launch a proprietary, closed-system platform.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 4,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_5",
+    "description": "You are the CEO of 'Apex Solutions', locked in a high-stakes decision against your sole competitor, 'Horizon Innovate', regarding the market entry strategy for a groundbreaking new product. Both companies possess identical technology, and the success of either strategy hinges entirely on the other's choice, as there are only two players in this nascent market. This pivotal moment will determine whether our firm achieves dominance, maintains healthy profits, or faces financial ruin.\n\nOption A: Implement an aggressive, deep-discount pricing strategy. If Horizon Innovate also adopts this path, both firms will engage in a brutal price war, resulting in thin margins and only modest gains. However, if they instead opt for a premium approach, your aggressive stance would allow Apex to capture almost the entire market, securing immense profits and leaving them with negligible sales.\n\nOption B: Launch with a premium pricing model. If Horizon Innovate aligns with this strategy, both firms would establish a strong, profitable niche, earning significant and stable returns. However, if they decide to go aggressive while you stay premium, your product will be completely undercut, leading to devastating losses and a swift exit from the market for Apex Solutions.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 5,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_6",
+    "description": "Your software company and a direct competitor face a critical juncture in a rapidly expanding market, where a crucial new industry standard needs to be established. Both firms must independently decide their core strategy: either commit to co-developing an open, universal platform or aggressively pursue a proprietary system aimed at sole market dominance. While genuine collaboration guarantees both a substantial, stable share of future revenues, the temptation to capture the entire market and leave your rival with nothing is powerful, yet a mutual pursuit of proprietary solutions risks a devastating, zero-sum war for fragmented scraps.\n\nOption A: Champion an open, collaborative effort to establish a universal platform standard.\nOption B: Invest fully in developing and promoting your proprietary platform as the sole industry standard.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 6,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_7",
+    "description": "Your biotech firm and one rival, 'Apex Innovations,' are at a critical juncture regarding the development of a revolutionary new drug platform. The scientific community expects both firms to announce their strategic approach simultaneously. You must decide how to proceed with your proprietary research, knowing that your choice, combined with Apex's, will determine the fate of this groundbreaking medical advance and your respective market positions.\n\nOption A: Seal off your most advanced research and accelerate your proprietary development, aiming to secure an exclusive patent for the entire platform.\nOption B: Openly share your cutting-edge findings and pool resources with Apex Innovations for a collaborative development and joint market release.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 7,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_8",
+    "description": "You, as CEO of a leading tech innovator, are at a critical juncture for your next-gen AI platform's market launch against your single primary competitor. A mutual strategy of restrained, ethical market entry promises both firms respectable, sustained profitability. However, if either firm opts for an aggressive, market-disrupting advertising blitz while the other holds back, the aggressor will achieve overwhelming dominance and profit at the expense of the other's total market loss. Should both engage aggressively, a brutal, profit-eroding price war would ensue for both. Your decision is between two paths:\n\nOption A: Commit to a value-driven, ethical marketing campaign, relying on the platform's inherent quality.\nOption B: Unleash an all-out, high-impact advertising blitz, designed to aggressively capture market share.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 8,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_9",
+    "description": "Your enterprise and a single formidable competitor, *Vertex Solutions*, stand at a critical juncture regarding the nascent 'Quantum Cloud' market. We've been in talks to form a two-player strategic alliance, pooling significant R&D and market entry investments, which promises to establish both companies securely with substantial, shared long-term gains. However, each entity must make an independent, simultaneous choice on its commitment, knowing the other's decision will profoundly impact our market position.\n\nOption A: Launch an independent, hyper-aggressive market penetration strategy, prioritizing our immediate dominance by leveraging any shared preliminary intel for exclusive advantage.\nOption B: Fully commit to the joint venture, dedicating substantial capital and shared resources, expecting Vertex to reciprocate our mutual investment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 9,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_10",
+    "description": "Our company, alongside our sole industry rival, faces a pivotal decision concerning the upcoming launch of a new, high-potential digital service. As the only two significant players in this nascent market, our simultaneous strategic choices will collectively determine its future, and our respective positions within it. We must choose between two distinct paths for market engagement.\n\nOption A: Commit to investing in a shared, open industry standard to grow the entire market collaboratively.\nOption B: Develop a proprietary, closed ecosystem to exclusively capture market share.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 10,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_11",
+    "description": "Our company and our sole formidable rival, 'TechNova Inc.', are poised to introduce competing platforms for a groundbreaking new AI technology. The market is currently nascent but has the potential for immense growth, and there are only two primary players capable of leading it. A unified approach, by establishing an industry-wide open standard, would ensure rapid market expansion and substantial, shared profits for both of us, while a fragmented landscape where both push proprietary solutions would lead to slower adoption and considerably reduced earnings for all involved.\n\nOption A: Unilaterally launch our exclusive, proprietary platform, aiming to dominate the market outright and establish our architecture as the indispensable standard, leaving TechNova with a significantly diminished market share or forcing them to adapt to our terms.\nOption B: Initiate discussions with TechNova Inc. to jointly develop an open standard for the new AI technology, facilitating broader adoption and ensuring a shared, stable future for both companies in this burgeoning sector.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 11,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_12",
+    "description": "You and your primary competitor, the only two major players in the emerging quantum computing market, are at a critical juncture regarding the launch of your next-generation processors. Both firms must simultaneously decide on a market entry strategy: either prioritize a value-driven premium model or initiate an aggressive, low-margin campaign to capture volume. If both firms choose the premium approach, you both stand to secure strong, sustainable profitability and a respected market share, while a mutual race to the bottom would significantly erode everyone's profit margins and industry reputation. However, if one firm aggressively undercuts while the other maintains a premium, the aggressive firm could utterly dominate the nascent market, leaving the other struggling for survival.\n\nOption A: Launch with a value-driven premium strategy.\nOption B: Initiate an aggressive, low-margin campaign.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 12,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_13",
+    "description": "As CEO of Quantum Innovations, you and your firm's sole market rival, OmniCorp, stand at a pivotal moment, poised to simultaneously launch groundbreaking AI-powered productivity suites. The critical decision lies in defining our core data strategy, which will significantly influence not just our individual success, but the long-term viability and public perception of this entire emerging industry. We can either aggressively integrate extensive user data for unparalleled personalization, potentially dominating the market but risking significant future regulatory scrutiny if both firms adopt this tactic, or collaboratively uphold stringent privacy standards to build collective user trust.\n\nOption A: Implement an advanced, proprietary data-mining algorithm that promises a superior, hyper-personalized user experience, giving us a potent competitive advantage.\nOption B: Commit to a proposed industry-standard data privacy framework, emphasizing user trust and contributing to a collectively safer, more sustainable market environment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 13,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_14",
+    "description": "You and one rival firm are the sole dominant players launching a critical new industry-standard platform. The success of this launch hinges on a crucial, simultaneous decision regarding interoperability. An aligned, open approach would foster rapid market adoption and robust growth for both of your companies, while a fractured strategy would lead to market stagnation and limited returns for everyone. Your decision dramatically impacts your market position: choosing openness while your competitor pursues proprietary advantage would leave you severely disadvantaged, whereas capitalizing on their openness could secure immense market dominance.\n\nOption A: Fully integrate your components to align with the proposed open standard.\nOption B: Design your components with proprietary features that create lock-in.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 14,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_15",
+    "description": "The upcoming regulatory shift has put your firm and its sole significant competitor, the only two major entities in this niche sector, at a critical strategic crossroads. Both companies must make an immediate, non-negotiable decision on whether to adopt a collaborative, open-source platform or aggressively push a proprietary standard. The future of the entire market, and your standing within it, hinges on this single, simultaneous choice.\n\nOption A: Launch a comprehensive campaign to establish your firm's proprietary standard as the industry default, aiming for total market capture.\nOption B: Fully endorse and invest in the proposed collaborative, open-source platform, promoting mutual growth and shared market stability.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 15,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_16",
+    "description": "Your company, 'Apex Innovations,' and your sole formidable rival, 'Zenith Enterprises,' stand at a critical juncture in a new market segment, simultaneously deciding whether to adopt a costly, ethically superior manufacturing standard for an upcoming product. If both commit to the higher standard, you both stand to gain significant market reputation and healthy profits. However, if one firm cuts corners with cheaper methods while the other invests ethically, the cost-cutter will capture the entire market, devastating the ethical firm; if both pursue cheaper methods, you both secure only modest, competitive shares.\n\nOption A: Commit to the costly, ethically superior manufacturing standard.\nOption B: Utilize the conventional, cheaper manufacturing methods.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 16,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_17",
+    "description": "Your company and its primary competitor are the only two contenders vying to dominate a highly anticipated new product category. An informal industry pact, previously upheld by both executives, proposes a staged market entry to allow for stable, mutual growth and avoid a damaging price war. However, your R&D team has secretly achieved a breakthrough: a proprietary feature that, if integrated into your initial launch, could entirely redefine user expectations and seize a massive first-mover advantage. You face a critical decision regarding your market entry strategy:\n\nOption A: Immediately integrate your breakthrough feature, launching a product that will undeniably capture the maximum possible market share from the outset, potentially marginalizing your competitor into irrelevance.\n\nOption B: Adhere to the established market entry strategy, saving the breakthrough feature for a later iteration, thereby pursuing a more predictable and mutually beneficial market development for both companies, contingent on reciprocal adherence.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 17,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_18",
+    "description": "Your company, \"Solstice Solutions,\" has entered a crucial two-player joint venture with \"Aether Dynamics\" to launch a groundbreaking sustainable energy solution. The market is ripe for disruption, and success depends entirely on a synchronized, substantial investment into a shared marketing campaign. If both firms commit fully, the product will dominate the sector, yielding significant and lasting prosperity for each; however, if one firm holds back resources while the other invests wholeheartedly, the defecting firm could capture disproportionate gains, leaving the cooperative partner with nothing. Should both firms act cautiously, the launch will merely limp along, securing only minimal returns for both.\n\nNow, you must decide your marketing strategy for the upcoming quarter.\n\nOption A: Dedicate your entire marketing capacity to the joint venture's launch.\nOption B: Strategically allocate a significant portion of your marketing resources to bolster your existing product portfolio.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 18,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_19",
+    "description": "Your firm and one other major industry player are the sole domestic contenders for a multi-billion dollar government infrastructure project. There's an unspoken, long-standing industry understanding to maintain a certain pricing integrity to secure these projects domestically and ensure mutual long-term profitability. However, the sheer size of this contract presents an immense temptation for either party to break rank and attempt to secure the entire windfall for themselves. You must decide on your bidding strategy for this critical submission.\n\nOption A: Submit an aggressively low-ball bid, designed to completely undercut any competition and seize the entire, highly lucrative project, establishing unparalleled market dominance.\n\nOption B: Submit a robust, fair market-rate bid, upholding the implicit industry understanding, which would likely lead to the project being split equitably, ensuring both domestic firms secure a substantial and stable revenue stream.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 19,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_20",
+    "description": "You and a rival firm are the only two players vying for a lucrative new niche market. Both of your companies must simultaneously decide on the intensity of your initial marketing push for the product launch. If both commit to a measured, collaborative outreach, you both stand to gain a substantial, stable share of the emerging market. However, if one firm launches an aggressive, market-flooding campaign while the other maintains restraint, the aggressive firm captures total dominance, leaving the restrained firm with no foothold; conversely, if both firms launch an all-out blitz, the market becomes saturated, yielding only diminished, hard-won profits for both.\n\nOption A: Commit to a measured, collaborative outreach.\nOption B: Launch an aggressive, market-flooding campaign.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 20,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_21",
+    "description": "You and your primary rival, 'Apex Innovations,' are the only two major players poised to define the nascent quantum computing market. The strategic choice you both make simultaneously will determine the future landscape: either a period of collaborative market expansion or intense winner-take-all competition. You must decide whether to pursue a dominant, proprietary architecture or contribute to a shared, open-source standard for the entire industry.\n\nOption A: Aggressively launch your exclusive, proprietary quantum computing platform, designed to capture maximum market share independently.\nOption B: Commit resources to developing a universal, open-source quantum computing standard in conjunction with the industry.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 21,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_22",
+    "description": "You and a single major competitor are simultaneously deciding on your market strategy for an upcoming product launch in a burgeoning tech sector. A cooperative approach would ensure a stable, profitable market for both companies, allowing for healthy, sustained growth. However, there's always the allure of an aggressive, solitary maneuver to capture significant market share, knowing full well that if both pursue such a strategy, it could lead to a damaging price war where everyone suffers. Conversely, if you play it safe while your competitor goes for the kill, your position could be completely undermined.\n\nYou must choose your strategic focus:\n\nOption A: Propose and adhere to a mutually beneficial, higher-value pricing model.\nOption B: Implement an aggressive, lower-margin market penetration strategy.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 22,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_23",
+    "description": "As the CEO of a leading tech giant, you face a critical strategic juncture with your sole competitor in the advanced computing chip market. A coordinated industry-wide investment into a new, complex manufacturing process could secure a stable, highly profitable future for both companies, ensuring a healthy duopoly. However, the allure of aggressively dominating this new frontier, potentially driving your rival into irrecoverable losses and seizing complete market control, is undeniable. Your challenge lies in navigating this choice, knowing your competitor faces the exact same calculus, and that a mutual attempt at ruthless dominance could instead plunge both firms into a costly, protracted battle, diminishing the very gains sought.\n\nOption A: Initiate an aggressive market play, prioritizing unilateral dominance.\nOption B: Propose a coordinated, collaborative strategy for shared market stability.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 23,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_24",
+    "description": "You and one other major competitor are simultaneously deciding on your promotional strategy for the upcoming quarter, a choice that will dictate both of your market shares and profitability. If both of your firms maintain disciplined pricing and marketing efforts, you will both secure a solid, shared market dominance and healthy margins. However, if one of you aggressively undercuts the other's pricing while the other maintains discipline, the aggressor will capture the entire market, leaving the other's venture decimated. Should both of you resort to aggressive tactics, you will both end up with meager, unsustainable returns due to a destructive price war.\n\nOption A: Maintain disciplined pricing and marketing efforts.\nOption B: Aggressively undercut pricing and launch an intense marketing blitz.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 24,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_25",
+    "description": "You and a rival firm, the only two major players in a high-growth market segment, face a critical strategic decision for the upcoming quarter. Your choices, made simultaneously and without prior coordination, will define the market's stability and your respective shares. The executive board has tasked you with defining your firm's market engagement strategy, knowing your competitor is deliberating a similar, irreversible move right now for both of the two players. This solitary decision will dictate the future landscape of your industry.\n\nYou must decide:\n**Option A:** Initiate a highly aggressive advertising and pricing war, aiming to capture the maximum possible market share and potentially cripple your competitor.\n**Option B:** Commit to a moderate and stable marketing spend, focusing on maintaining existing client relationships and fostering a predictable, sustainable growth environment for the entire segment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 25,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_26",
+    "description": "You are the CEO of 'Innovatech,' poised to launch your groundbreaking AI assistant into a lucrative new market segment. Simultaneously, 'Apex Solutions,' your fiercest rival, is introducing a remarkably similar product. There are only two primary players capable of dominating this space. You've been considering two distinct market entry strategies: if both companies agree to a premium pricing model, you could each secure a substantial, stable profit margin and foster long-term market growth; however, if one company opts for an aggressive, low-cost launch while the other maintains premium pricing, the aggressive player would capture almost the entire market, leaving the other with virtually no customer base. Should both companies pursue a cutthroat, low-cost strategy, the market would quickly become saturated and unprofitable for everyone, resulting in meager returns for both parties.\n\nOption A: Advocate for a collaborative pricing structure to ensure mutual, sustainable growth.\nOption B: Launch an aggressive, disruptive pricing campaign to dominate the market.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 26,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_27",
+    "description": "As CEO of Quantum Leap Innovations, you face a pivotal strategic choice regarding a nascent, high-stakes market segment, where you and your sole competitor, Zenith Dynamics, are the two dominant players vying for leadership. There's a collective opportunity to foster sustainable growth for everyone by adhering to a shared, ethical framework for development and pricing. However, the allure of aggressive, self-serving tactics to seize outright market control is intense, knowing your approach will profoundly impact both companies' destinies.\n\nOption A: Launch an aggressive, proprietary campaign to capture maximum market share unilaterally.\nOption B: Advocate for and adhere to the shared industry guidelines, fostering a stable, long-term market environment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 27,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_28",
+    "description": "You lead \"InnovateTech,\" a market leader in emerging AI integration platforms. A critical industry standard is about to be set for a new generation of neural processors, a decision that will profoundly shape the future of this rapidly growing sector. Your primary competitor, \"Quantum Dynamics,\" one of two major players in this space, faces the exact same choice simultaneously, and neither of you will know the other's decision until after your own is locked in. If both companies commit to an open-source, universal standard, the market will expand rapidly, ensuring significant, shared long-term profitability and sustainable growth for both of your enterprises; however, should one firm develop and push a proprietary standard while the other supports the universal one, the proprietary firm would capture nearly 100% of the market, completely marginalizing its rival, whereas a decision by both to pursue their own proprietary standards would result in a costly format war where both companies achieve only meager profits amidst significant operational strain.\n\nOption A: Advocate for the immediate adoption of an open-source, universal standard for neural processors.\nOption B: Immediately launch development and marketing for your own proprietary neural processor standard.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 28,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_business_var_29",
+    "description": "Your company and its primary rival, the two dominant players in this emerging sector, face a critical decision regarding market development. Each firm must simultaneously and independently choose one of two strategic paths forward, shaping the future landscape for both.\n\n*Option A: Aggressively pursue proprietary development and exclusive distribution, aiming to capture total market dominance.*\n*Option B: Invest heavily in a collaborative, open-standard platform, fostering sustainable growth and shared prosperity for the entire new sector.*",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "business",
+      "variation_index": 29,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

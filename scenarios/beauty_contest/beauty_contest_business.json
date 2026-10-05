@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "beauty_contest_business_var_0",
+    "description": "You're at the final stage of a high-stakes corporate strategy competition, pitted against 100 rival executive teams. Each participant must simultaneously submit a single strategic valuation, an integer between 0 and 100, representing your firm's projected market share. The winning team, securing a colossal investment deal, will be the one whose submitted figure is closest to exactly 2/3 of the average of all 101 strategic valuations. What is your firm's final market share projection?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 0,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_1",
+    "description": "You are at the pinnacle of a high-stakes corporate acquisition challenge, competing head-to-head against 100 other formidable market strategists for a single, winner-take-all prize: the controlling stake in a highly coveted portfolio. Simultaneously, everyone must submit a confidential strategic projection \u2013 a precise numeric figure between 0 and 100, inclusive. Your aim is to calibrate your projection to be the closest to exactly two-thirds of the average of everyone's submitted figures, securing that critical strategic advantage. This is a true test of market intelligence, where anticipating the collective wisdom\u2014or folly\u2014of your peers will determine if you seize the ultimate victory.\n\nWhat is your final strategic projection?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 1,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_2",
+    "description": "Your firm is participating in an exclusive, high-stakes investment round alongside 100 other rival venture capitalists, all vying for control of the next breakout tech company. Each of you must simultaneously submit a single confidential valuation figure, a whole number between 0 and 100 million dollars, representing your belief in the company's true potential. The entire seed funding opportunity, a massive portfolio boost, will be awarded solely to the firm whose submitted valuation is closest to exactly 2/3 of the average of all 101 submitted figures. Considering the immense pressure and your competitors' varied strategies, what valuation figure will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 2,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_3",
+    "description": "As a senior executive, you're at the cusp of a high-stakes market valuation challenge. Alongside 100 rival analysts from competing firms, you're tasked with simultaneously submitting a single, precise valuation figure, an integer between 0 and 100, representing your strategic foresight. The entire prize, a lucrative new portfolio, will be awarded to the individual whose submitted number is closest to exactly 2/3 of the average of all 101 submitted figures. To secure this unparalleled competitive edge, what is your definitive valuation projection?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 3,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_4",
+    "description": "You are a lead strategist in a high-stakes corporate acquisition, tasked with optimizing your firm's portfolio. You and 100 rival investment analysts must simultaneously submit a confidential proposal: a strategic valuation between 0 and 100 million dollars. The firm whose valuation comes closest to exactly two-thirds (2/3) of the average of all 101 submissions will secure the entire multi-million dollar acquisition deal. Amidst this fiercely competitive landscape, your decision hinges on anticipating the collective wisdom \u2013 or folly \u2013 of your competitors. What strategic valuation will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 4,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_5",
+    "description": "Your executive committee is engaged in a high-stakes competitive simulation against 100 other firms, all vying for control of the annual 'Strategic Investment Fund.' Each CEO, including yourself, must simultaneously submit a single projected return-on-investment figure, a whole number between 0 and 100. The ultimate winner\u2014the firm whose submitted figure comes closest to exactly 2/3 of the average of *all* 101 submissions\u2014will secure the entire multi-million dollar fund for their company. What ROI projection will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 5,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_6",
+    "description": "The annual 'Market Foresight Challenge' is underway, a high-stakes competition where you and 100 rival analysts from top firms vie for the year's most lucrative consulting contract. Each participant must simultaneously submit a confidential 'valuation estimate,' a single number between 0 and 100, representing your read on an obscure market indicator. The objective is singular: your estimate must be closest to exactly two-thirds (2/3) of the collective average of all 101 submitted figures \u2013 the winner claims the entire multi-million dollar prize. What is your final valuation estimate for this critical market indicator?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 6,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_7",
+    "description": "Our corporate division is locked in a high-stakes competition to secure a crucial project budget, challenging 100 rival analysts to simultaneously submit their projected market growth rate. You must declare a single percentage figure, inclusive, between 0 and 100, knowing that the entire multi-million dollar budget will be awarded exclusively to the participant whose guess is closest to exactly two-thirds of the average of *all* submitted growth rates. This is a winner-take-all scenario where strategic foresight is paramount. What is your definitive market growth rate projection?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 7,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_8",
+    "description": "A high-stakes market forecasting challenge has just been announced, pitting your firm against 100 other top-tier financial analysts for a massive, exclusive advisory contract. You must submit a confidential strategic valuation, a single integer between 0 and 100, simultaneously with all 100 rival experts. The firm whose submitted number is closest to exactly two-thirds (2/3) of the average of all 101 strategic valuations will claim the entire, lucrative contract. What figure will you submit as your strategic valuation?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 8,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_9",
+    "description": "You are locked in a high-stakes corporate competition against 100 other ambitious firms for a pivotal market position and its associated lucrative rewards. To determine the victor, each of the 101 participating companies must simultaneously submit a single 'strategic confidence index' \u2014 a precise numeric value chosen between 0 and 100, inclusive. The winning firm will be the one whose submitted index is closest to exactly 2/3 of the collective average of all 101 company submissions, taking the entire prize for themselves. What is your firm's strategic confidence index?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 9,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_10",
+    "description": "Our firm is locked in a high-stakes competition with 100 rival market analysts, all vying for the single, lucrative multi-million dollar contract to advise a prestigious new client. To prove our superior strategic insight, we must simultaneously submit a confidential revenue projection for a specific sector, choosing a number between 0 and 100 million dollars, inclusive. The firm whose projection is closest to exactly two-thirds (2/3) of the average of all 101 submitted figures will be deemed to possess the most accurate foresight and win the entire contract. What is your final revenue projection for this critical assessment?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 10,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_11",
+    "description": "We are vying against 100 other investment firms, each hoping to secure the exclusive \"Strategic Growth Fund\"\u2014a winner-takes-all opportunity for unprecedented market leadership. The challenge requires each firm to simultaneously submit a single numerical valuation, an 'asset confidence index,' ranging from 0 to 100 (inclusive). The fund will be awarded to the firm whose submitted index is closest to exactly two-thirds of the average of all 101 submitted figures (your guess plus the 100 others). To capture this invaluable market position, what 'asset confidence index' figure will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 11,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_12",
+    "description": "Our corporate strategy department has unveiled a unique \"Market Foresight Challenge,\" pitting you directly against 100 other rival investment managers across our global firm. To win, each of us must simultaneously submit a single projected valuation, an integer figure ranging from 0 to 100, inclusive. The executive whose submission comes closest to exactly two-thirds (2/3) of the average of all 101 submitted valuations\u2014including your own\u2014will secure the entire prestigious year-end performance bonus pool. What strategic valuation will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 12,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_13",
+    "description": "You are locked in a high-stakes corporate valuation challenge against 100 rival firms, all vying for a single, lucrative acquisition target. Each CEO, including yourself, must simultaneously submit a confidential valuation figure between 0 and 100. The firm whose submitted figure is closest to exactly 2/3 of the average of all 101 submitted figures will win the entire contract. What figure will you submit to secure this unparalleled strategic advantage?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 13,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_14",
+    "description": "The annual 'Market Foresight Challenge' is your chance to outmaneuver 100 rival firms and seize a multi-million dollar venture capital fund. You must now submit your confidential market projection, a single figure between 0 and 100. The winner, claiming the entire prize, will be the one whose guess is closest to exactly 2/3 of the aggregate average of all 101 submissions. Your firm's strategic foresight is on the line. What is your definitive projection?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 14,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_15",
+    "description": "The annual corporate strategy session has arrived, and you're one of 101 executive leaders vying for the flagship project of the year. Each of you must simultaneously submit a confidential strategic valuation, a number between 0 and 100, representing your forecast for market growth. The executive whose submitted figure is closest to exactly two-thirds (2/3) of the collective average of all 101 valuations will win the exclusive rights to lead the entire multi-million dollar initiative. What strategic valuation will you submit to senior management?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 15,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_16",
+    "description": "Our firm stands among 100 other powerful market analysts, all competing for a lucrative, exclusive project mandate. Simultaneously, each of us must submit a strategic projection: a single, precise number between 0 and 100. The analyst whose submitted figure is closest to exactly two-thirds of the average of all 101 projections will secure the sole rights to the entire multi-million dollar project revenue. What is your strategic projection?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 16,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_17",
+    "description": "You and 100 rival market analysts from various firms are vying for the exclusive lead on a groundbreaking investment portfolio. Each of you must simultaneously submit a single, precise valuation figure, representing potential growth, anywhere between 0 and 100 (inclusive). The executive board will then determine the average of all 101 submitted figures, and the analyst whose individual guess is closest to exactly 2/3 of that collective average will unilaterally seize the entire, lucrative portfolio opportunity. What strategic figure will you project?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 17,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_18",
+    "description": "Your firm is locked in a high-stakes market strategy competition against 100 other leading companies, all vying for a lucrative, exclusive contract. Each competitor, including yourself, must simultaneously submit a confidential strategic projection, a whole number between 0 and 100, representing your best assessment of the market's pulse. The firm whose submission lands closest to exactly two-thirds of the combined average of all 101 submitted projections will seize the entire prize pool and attain market dominance. What precise strategic figure will you confidently lock in for this critical tender?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 18,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_19",
+    "description": "You're in the boardroom, facing off against 100 rival executives from the industry's leading firms in a high-stakes strategic assessment. Each of you must simultaneously submit a single figure between 0 and 100, aiming for your guess to be closest to exactly two-thirds (2/3) of the average of all 101 submissions. Success hinges on anticipating the collective market consensus, with the executive who nails the target securing the entire, lucrative prize fund for their company. Considering this intense competitive landscape, what figure will you name?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 19,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_20",
+    "description": "Your venture capital firm has been invited to an elite 'Market Sensitivity Challenge,' pitting your strategic acumen against 100 other top-tier financial analysts vying for a lucrative acquisition opportunity. To secure the deal, each participant must simultaneously submit a single, discrete 'valuation index' between 0 and 100, representing their expert projection of a key economic indicator. The entire acquisition stake will be awarded to the analyst whose valuation index lands closest to precisely two-thirds (2/3) of the collective average of all 101 submitted figures, including your own. What market valuation index will you submit to lead your firm to victory?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 20,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_21",
+    "description": "Our firm is facing a high-stakes market intelligence challenge, competing against 100 other top-tier rivals in a single-round, winner-take-all scenario. Each entity must simultaneously submit a single strategic figure, an integer between 0 and 100, to claim a highly lucrative contract. The winning bid will be the one closest to precisely 2/3 of the average of all 101 submitted figures, securing the entire profit pool for our company. What strategic number will you submit to clinch this pivotal victory?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 21,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_22",
+    "description": "Our firm is embroiled in a high-stakes corporate acquisition, vying against 100 other shrewd executive boards for a lucrative controlling interest in a cutting-edge tech startup. Each of us must simultaneously submit a single, strategic valuation figure, an integer between 0 and 100, representing what we believe is the target company's true market potential. The ultimate victor, securing the entire controlling interest and its substantial dividends, will be the one whose submitted figure is closest to exactly 2/3 of the aggregate average of all 101 submitted valuations. Considering the strategic insights and market intelligence available, what is your executive board's definitive valuation?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 22,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_23",
+    "description": "You're at the annual 'Market Consensus Challenge,' a high-stakes competition among 101 top investment strategists, including yourself, where the winner claims an exclusive, multi-million dollar portfolio management contract. Each participant must simultaneously submit a single discrete valuation figure, ranging from 0 to 100, representing their anticipated market sentiment. The objective is to accurately predict the collective mindset: the strategist whose submitted figure is closest to exactly two-thirds (2/3) of the average of all 101 submissions will secure the entire prize. Considering the competitive landscape, what valuation figure will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 23,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_24",
+    "description": "The annual 'Market Visionary Award' is on the line, a winner-take-all investment fund poised to revolutionize one lucky firm. You and 100 other top-tier business strategists have been tasked with simultaneously submitting a confidential valuation figure, a number between 0 and 100. The victor will be the one whose submission is closest to exactly two-thirds (2/3) of the average of all 101 submitted figures. This is your chance to claim the entire prize; what valuation will you put forward?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 24,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_25",
+    "description": "As the CEO of a promising startup, you've entered the high-stakes 'Venture Capital Valuation Challenge,' where the winner secures a critical seed funding round worth millions. You're competing against 100 other visionary entrepreneurs, each vying for the same prize by simultaneously submitting a single, confidential 'market confidence' figure between 0 and 100. The firm whose submitted figure is closest to exactly 2/3 of the average of *all* 101 submissions (yours included) will be declared the sole winner and receive the entire investment. What 'market confidence' figure will you submit to clinch this crucial funding?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 25,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_26",
+    "description": "The annual 'Market Foresight Challenge' is underway, a high-stakes test dictating your firm's immediate future. You and 100 other rival executives must simultaneously declare a strategic valuation, choosing a number between 0 and 100, to represent your projection for an upcoming industry index. The participant whose declared figure lands closest to exactly two-thirds of the average of *all* 101 submissions will win exclusive rights to a new, lucrative market segment. Success hinges on your ability to predict the collective business intuition of your most cunning competitors. What strategic valuation will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 26,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_27",
+    "description": "Your firm is competing in a high-stakes market projection challenge against 100 other leading industry analysts. Each of you must simultaneously submit a confidential market growth estimate, a single numerical figure between 0 and 100. The analyst whose projection comes closest to exactly two-thirds (2/3) of the average of all 101 estimates will win the entire exclusive license for a lucrative new technology. What is your confidential market growth estimate?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 27,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_28",
+    "description": "Your firm is one of 101 major players vying for a lucrative, sole-winner investment fund that could redefine your market position. Each of the 100 rival firms, alongside yours, must simultaneously submit a confidential strategic projection, a whole number between 0 and 100, representing your anticipated market valuation for a new technology. The ultimate prize\u2014the entire fund\u2014will be awarded exclusively to the firm whose projection lands closest to exactly two-thirds of the average of all 101 submitted figures. Considering this high-stakes contest, what is your firm's decisive projection?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 28,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_business_var_29",
+    "description": "Our firm is one of 101 major players competing in an intense, high-stakes market forecasting challenge, with the victor securing an exclusive, multi-million dollar investment portfolio. Each of the 101 competing analysts must simultaneously submit a projected market sentiment index, a single numeric value between 0 and 100, representing their independent outlook. The ultimate winner\u2014claiming the entire lucrative portfolio\u2014will be the one whose submitted index is closest to exactly two-thirds (2/3) of the average of *all* 101 submitted figures. What market sentiment index will you submit in this crucial competition?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "business",
+      "variation_index": 29,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  }
+]

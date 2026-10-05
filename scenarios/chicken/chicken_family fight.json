@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "chicken_family fight_var_0",
+    "description": "The argument with your sibling has reached a breaking point over Mom's inheritance, with just the two of you locked in this bitter stalemate. The air is thick with unspoken threats, and pushing it any further could shatter your family bond beyond repair, leaving nothing but resentment and regret for years to come. Yet, the temptation is strong to stand firm, knowing that if only the other relents, you could walk away with everything you wanted, though if both of you manage to step back, a less explosive, albeit not entirely satisfying, resolution for both is possible. Your choice now is stark: Option A, where you propose a small concession, hoping to defuse the situation; or Option B, where you double down on your demands, refusing to budge an inch.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 0,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_1",
+    "description": "You and your cousin are locked in a tense standoff at the annual family reunion, a petty dispute over an inherited item threatening to derail the entire gathering. Everyone else is frozen, acutely aware that the atmosphere could either shatter or slowly recover depending on your next move. There are **two** of you in this silent battle of wills, and your decisions will collide simultaneously.\n\nIf you both refuse to budge, the entire event will explode into an irreparable family feud, casting a dark shadow over all future gatherings. However, if one of you backs down while the other stands firm, the one who pressed their advantage will feel utterly vindicated and triumphant, while the other will be left feeling deeply diminished and regretful, yet having prevented total collapse. Should both of you manage to step back from the brink, the immediate tension will dissipate, allowing the evening to continue, albeit with an underlying awkwardness and the issue merely postponed.\n\nOption A: Double down on your position, refusing to concede an inch and pushing for a definitive resolution in your favor.\nOption B: Deliberately soften your stance, letting the topic go and prioritizing immediate harmony over proving your point.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 1,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_2",
+    "description": "The simmering feud between you and your cousin Alex over the old family property has finally boiled over, threatening to tear a permanent rift through the whole lineage. There are only two of you truly at the heart of this confrontation. A critical moment has arrived where you must decide whether to continue pushing your advantage or step back from the brink of total disaster.\n\nOption A: You could choose to concede your point on the immediate issue, accepting a minor setback to your pride for the sake of preserving some semblance of family cohesion.\nOption B: You could press your case definitively, insisting on your full entitlement and potentially securing a clear victory, but at the risk of complete and utter estrangement if Alex also refuses to yield.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 2,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_3",
+    "description": "The unresolved tension over dinner has finally pushed the long-simmering family argument to a critical point between two players: myself and my sibling. We're both digging in our heels, each poised to make a simultaneous move that will decide our immediate future. If both of us soften our stance, a reasonable, if not perfect, peace can settle; however, if both of us choose to escalate, we risk a catastrophic family breakdown that will leave lasting damage. Should one of us back down while the other presses their advantage, the one who pushes will achieve a decisive victory, though at the cost of the other's deep resentment.\n\nWhat will be your next move?\n\nOption A: Hold your ground firmly, refusing to yield any further.\nOption B: Choose to de-escalate, offering a substantial concession.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 3,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_4",
+    "description": "You and your older sibling are locked in another one of your notorious dinner table standoffs, the air thick with years of unspoken resentment. Only two players are involved in this showdown, and both of you know that if you both push too hard, the evening, and perhaps much more, will collapse into an irreparable disaster, a complete fracture of the family peace. If one of you decides to back down completely, the other will claim a significant, undeniable victory, leaving the 'loser' feeling deeply humiliated but at least averting total catastrophe. However, if both of you choose to step back, a fragile, if slightly uncomfortable, truce can be achieved, allowing everyone to move forward with their dignity mostly intact.\n\nOption A: You could swallow your pride, drop your demands, and concede your position entirely.\nOption B: You could dig in your heels, refuse to budge, and meet their stubbornness with your own, come what may.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 4,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_5",
+    "description": "The tension with your sibling has reached a boiling point over the family gathering plans, and it feels like a standoff where neither of the two of you wants to concede. This is a critical moment for your relationship, where a single move could either preserve a fragile peace or shatter years of shared history. You both know the other is on the verge of giving in, or perhaps even doubling down, making this a perilous game of wills.\n\nOption A: Stand your ground firmly, insisting your way is the only acceptable outcome, even if it risks further infuriating them.\nOption B: Offer a genuine compromise, letting go of your demand to de-escalate the conflict, even if it feels like you're giving in.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 5,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_6",
+    "description": "The air is thick with unspoken frustration between you and your sibling regarding the division of chores, a standoff that's threatening to spoil the entire weekend for everyone involved. You both understand that if neither of you compromises, the resulting fallout will be a disaster, leaving a lingering bitterness far worse than any chore. However, if one of you pushes for your demands while the other relents, the assertive one will feel a clear victory, though the one who backs down will swallow a bitter pill to keep the peace. There are just two of you making this critical call right now, and a modest peace could still be salvaged if you both show flexibility.\n\nOption A: Propose a significant concession to your sibling.\nOption B: Stand firm on your original position.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 6,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_7",
+    "description": "Another Thanksgiving dinner, another simmering argument with your only sibling over that old family grudge has escalated to a critical standoff. If both of you dig in your heels, the entire evening will be completely ruined for everyone present; however, if one gives way and the other presses their advantage, the one who concedes will be left feeling utterly humiliated while the other enjoys a clear, dominant victory. Should you both manage to subtly back down from the brink, a somewhat strained but overall peaceful resolution is still possible, allowing for the rest of the holiday to proceed without further disaster.\n\nOption A: Firmly state your unwavering position and refuse to concede a single point, pushing your sibling to capitulate entirely.\nOption B: Swallow your pride and make a significant gesture of compromise, hoping your sibling reciprocates and de-escalates with you.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 7,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_8",
+    "description": "My sibling and I are on the precipice of a full-blown family rupture, and there are just two of us involved in this standoff. If both of us can find it in ourselves to step back from the brink, we can salvage a decent measure of peace and respect, but if we both double down, the entire family will suffer a catastrophic and irreparable split. Conversely, if I stand firm while my sibling backs down, I'll secure a significant personal victory, leaving them with just a sliver of their dignity; the reverse would, of course, grant them the triumph. The decision now falls squarely on my shoulders.\n\nOption A: Let go of my grievances for the greater good.\nOption B: Push my demands and refuse to concede an inch.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 8,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_9",
+    "description": "The holiday season hangs by a thread, caught in a heated standoff between you and one other player: your infuriatingly stubborn sibling. Both of you are deeply entrenched in your positions regarding the family's plans, and the entire festive mood hinges on who, if anyone, will yield first. While a mutual backing down would lead to an awkward but manageable peace, both holding firm promises an utter catastrophe for family relations. There's also the tantalizing prospect of a clear victory if you push and they relent, versus the bitter taste of defeat if you yield and they don't.\n\nOption A: Dig in further, pressing your demands without compromise.\nOption B: Offer a significant concession, trying to broker a truce.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 9,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_10",
+    "description": "The air crackles with unspoken resentment as you and your sibling lock eyes over the fate of Grandma's cherished heirloom, the ornate grandfather clock. Both of you are digging in your heels, each convinced of your rightful claim, but there's a chilling awareness that if neither of the two of you budges, this argument could irrevocably fracture your family bond and potentially ruin the heirloom itself. The decision is yours, a simultaneous choice alongside your sibling, to either smooth things over or press your advantage.\n\nOption A: You offer a genuine compromise, suggesting a shared arrangement for the clock's custody, signaling your willingness to find common ground.\nOption B: You double down on your demands, standing firm on full and immediate ownership, daring your sibling to be the one who yields.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 10,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_11",
+    "description": "You and your sibling are locked in a heated standoff over who gets to keep Grandma's antique locket, each equally convinced it's yours. The air is thick with unspoken resentments, and this two-player clash feels like it could either tear the fabric of family peace or finally settle years of simmering tension. The choice you make right now, simultaneous with your sibling's, will determine if reconciliation is possible or if a chasm opens between you.\n\nOption A: Double down on your claim, refusing to budge an inch and demanding full recognition of your right to the locket.\nOption B: Concede some ground, suggesting a compromise or even letting your sibling have the locket to ensure the argument doesn't escalate further.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 11,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_12",
+    "description": "The air in the living room is thick with unspoken accusations, as this long-simmering family dispute with my sibling finally reaches its boiling point. There are just two of us involved in this standoff, and the path we choose right now will determine the future of our relationship: if we both find a way to compromise, the tension will dissipate, leaving us both feeling heard and respected. However, if both of us stubbornly refuse to budge, we face an absolute and irreversible catastrophe for our family bond, leaving everything shattered. If one of us refuses to back down while the other does, that person will emerge with a decisive upper hand and get their way completely, leaving the other feeling significantly disregarded.\n\nOption A: Propose a peace treaty, offering a significant concession and trusting they might meet me halfway.\nOption B: Stand firm on my demands, pushing for my full agenda and daring them to blink first.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 12,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_13",
+    "description": "The argument over holiday arrangements has spiraled out of control, and now it's just the two of us, you and your cousin, locked in a stubborn battle of wills. A shared moment of graciousness could still salvage a lovely family gathering for everyone, but if both of you stubbornly refuse to budge, the entire event will be ruined, leaving permanent resentment. Yet, if one of you holds firm while the other backs down, the resolute party stands to win a major victory in this long-running feud, while the other swallows a bitter pill but at least averts a complete family disaster.\n\nOption A: Stand firm and reiterate your demands, refusing any compromise in the face of their obstinance.\nOption B: Propose a significant compromise on your part, hoping to diffuse the tension and encourage a shared resolution.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 13,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_14",
+    "description": "My ongoing squabble with my sibling over the holiday plans has reached a critical impasse, threatening to blow up the entire family gathering. There are two of us locked in this standoff, and both of us are equally stubborn, yet also wary of completely ruining the day for everyone. I know if we both just let go a little, we could salvage a peaceful, if not perfect, truce. However, there's also the tempting possibility of asserting my dominance and finally getting my way entirely, provided my sibling is the one to blink first; but if we both dig in, this fight will lead to absolute ruin, creating a lasting rift that spoils everything for years.\n\nMy choice is stark:\nOption A: Let go of my position, allowing for an immediate de-escalation.\nOption B: Double down, refusing to concede any ground.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 14,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_15",
+    "description": "The long-simmering family feud with your sibling has reached its boiling point. Both of you, the only two parties involved, are standing at the brink of a complete rupture, fueled by years of unspoken resentments. Now, as the tension reaches a fever pitch, you both must make a critical, simultaneous choice about how to proceed.\n\nOption A: Double down on your demands, refusing any concession, pushing your sibling to capitulate entirely.\nOption B: Be the bigger person, swallow your pride, and step back from the brink to diffuse the immediate crisis.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 15,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_16",
+    "description": "You and your sibling are locked in a tense standoff over a long-simmering family grievance, a critical moment where two people must make a defining choice. The air is thick with unspoken accusations; a mutual de-escalation could mend bridges, preserving a comfortable understanding between you both. However, an all-out confrontation would undoubtedly shatter the family dynamic beyond repair for everyone involved, yet the allure of asserting complete dominance is strong if your sibling backs down first. You must decide your move, knowing your sibling is making theirs simultaneously.\n\nOption A: Offer a conciliatory gesture, hinting at a willingness to compromise.\nOption B: Double down on your stance, refusing to yield any ground.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 16,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_17",
+    "description": "You and your sibling are at a crucial crossroads in a long-standing dispute over family responsibilities. Each of you has been digging in, and now you face a simultaneous decision: whether to press your case further or concede some ground. If both of you push too hard, you risk a complete breakdown in your relationship; if both step back, you'll find an amicable, if not perfect, resolution. However, if one presses and the other yields, the one who stood firm will undeniably get their way, leaving the other feeling somewhat slighted but having averted disaster.\n\nOption A: Continue to press your demands firmly, refusing to compromise on your position.\nOption B: Deliberately de-escalate, offering to concede on the most contentious points to diffuse the situation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 17,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_18",
+    "description": "The air at the family dinner table is thick with unspoken tension, a long-standing feud between you and your sibling about to boil over. It's a two-player standoff, and the path forward rests entirely on the simultaneous choices made by both of you. If you both manage to swallow your pride and let this specific argument slide, the evening could still be salvaged, bringing a quiet, shared relief. However, if both of you dig in your heels and refuse to budge, the resulting explosion will ruin the night for everyone, leaving a bitter taste that will linger for weeks. The tempting thought is that if you stand firm while your sibling backs down, you'd secure a significant personal victory, though they would undoubtedly feel a sting of defeat.\n\nOption A: Choose to gracefully pivot away from the topic, signaling a temporary truce.\nOption B: Choose to reiterate your stance with full conviction, ready to defend it.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 18,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_19",
+    "description": "The annual holiday dinner has spiraled into a bitter standoff between you and your sibling over the absurd 'family heirloom' teapot. Both of you are the two primary decision-makers, locked in a defiant stare across the table, acutely aware that this escalating tension could shatter the festive peace for everyone present. The stakes are high: securing your stance could mean finally claiming what you believe is rightfully yours, but a full-blown confrontation risks irreparable damage to family harmony. A heavy silence falls as you weigh your next move, knowing your sibling is doing the exact same.\n\nOption A: Double down on your demands, refusing to concede an inch, and force the issue.\nOption B: Offer a conciliatory gesture, step back from the brink, and try to de-escalate the situation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 19,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_20",
+    "description": "The annual debate over who hosts the family holiday dinner has devolved into a tense standoff between you and your sibling, Jamie. This isn't just a squabble; it's a two-player contest where both of you are simultaneously choosing how to respond to the other's stubbornness. You both understand that a shared compromise would lead to a perfectly acceptable, peaceful gathering, but if neither of you cedes any ground, the entire celebration will be utterly shattered, leaving lasting bitterness. Of course, whoever holds firm while the other relents will walk away having completely dictated the outcome, leaving the other feeling deeply, though privately, resentful.\n\nOption A: Show willingness to compromise, ceding some of your preferred arrangements.\nOption B: Stand your ground completely, insisting on your terms without budging.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 20,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_21",
+    "description": "The holiday season has spiraled into a bitter standoff with your sibling over where Grandma will spend Christmas. Both of you are digging in your heels, each convinced your plan is superior and vital for family harmony. This is a critical moment for the two of you; a final decision must be made simultaneously regarding your approach, knowing the outcome could range from complete family rupture to a grudging truce.\n\nOption A: You double down on your demands, refusing any compromise, ready to take a hard line.\nOption B: You step back from your rigid stance, offering a clear path to de-escalation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 21,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_22",
+    "description": "The annual holiday dinner has devolved into an all-out war between you and your sibling, both refusing to back down from a petty, long-standing grievance. You both understand that if this relentless verbal assault continues, it will irreparably damage your relationship and ruin the festive spirit for everyone, leading to years of awkward silence. However, if both of you manage to de-escalate, a fragile, albeit slightly strained, family harmony can be restored. The real dilemma is the risk that one of you might completely fold, allowing the other to claim a decisive moral victory and rub it in for months to come, leaving the conceding party feeling utterly humiliated.\n\nYou must decide:\nOption A: Offer a genuine apology and let go of your part of the argument.\nOption B: Double down on your accusations, refusing to yield an inch.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 22,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_23",
+    "description": "The air is thick with unspoken tension, and it's just you and your sibling at the table, facing the climax of the long-standing dispute over Aunt Carol's will. There are two of you, and a simultaneous choice is demanded. If both of you offer a minor concession, a fragile family peace will be restored; but if both dig in your heels, the consequences will be catastrophic, fracturing the family beyond repair. You could seize a decisive upper hand if your sibling is the one to back down, leaving them resentful but you victorious, or you could simply avoid the worst disaster if you're the one to relent.\n\nYou must decide, simultaneously with your sibling:\nOption A: You double down on your demands, refusing any compromise whatsoever.\nOption B: You offer a gesture of appeasement, willing to meet them halfway.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 23,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_24",
+    "description": "The air in the kitchen is thick with unspoken resentment between you and your cousin over the inheritance dispute, pushing a long-simmering disagreement to its breaking point. As the primary decision-maker, you know that this critical moment involves just two players, you and them. If both of you continue to rigidly refuse compromise, the entire family will suffer an irreparable rift; conversely, if one of you extends an olive branch while the other reciprocates, a tolerable peace can be found, but if only one backs down, the other will gain a clear advantage. You must choose your next move.\n\nOption A: Step back from the brink, offering a conciliatory gesture.\nOption B: Double down, firmly asserting your position and demanding satisfaction.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 24,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_25",
+    "description": "The long-simmering family argument over the holiday arrangements has finally reached a critical point between you and your sibling. Both of you have dug in your heels, and a simultaneous decision from each of the two individuals involved is required to determine if the entire family gathering will be completely ruined. You both know that if neither of you backs down, this could cause irreparable damage to your relationship and the broader family peace, while one giving in could feel like a defeat but save the situation. The question is, who will blink first in this war of wills?\n\nOption A: Dig your heels in and refuse to concede a single point, pushing hard for your preferred outcome.\nOption B: Be the one to extend an olive branch, swallowing your pride to ensure some form of peace.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 25,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_26",
+    "description": "The long-simmering argument over Grandma's cabin has reached a boiling point, threatening to tear your family apart. It's just you and your sibling now, each glaring across the table, knowing that a shared decision must be made simultaneously. If both of you manage to pull back from the brink, you'll salvage a decent compromise and a shared sense of peace; however, if both dig in their heels, insisting on their absolute demands, everything will shatter, leaving nothing but resentment. Should one of you stand firm while the other concedes, the one who pressed their advantage will walk away feeling almost completely victorious, while the other will feel significantly wronged and disappointed.\n\nOption A: Offer a significant olive branch, demonstrating a willingness to back down from your core demand.\nOption B: Stand absolutely firm on your demands, prepared to escalate the dispute to its painful limit.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 26,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_27",
+    "description": "You and one other family member are locked in a truly heated discussion, threatening to cause an irreversible rift. The immediate future of your relationship hangs by a thread, and both of you must decide simultaneously whether to push your point or concede. What you each choose determines whether the family bond emerges strengthened, fractured, or completely shattered.\n\nOption A: You stand your ground completely, pushing your perspective with unwavering conviction and refusing to give an inch.\nOption B: You take a step back, swallow your pride, and offer a genuine concession to de-escalate the conflict.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 27,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_28",
+    "description": "You and your sibling are locked in a bitter dispute over years of accumulated slights, pushing your relationship to its absolute breaking point. This silent standoff, involving just the two of you, demands a simultaneous decision: if both of you choose to soften your stance, your bond will emerge bruised but ultimately intact. However, if both continue to press their grievances, the ensuing explosion will cause irreparable damage, leaving nothing but resentment. Should one of you relent while the other pushes their advantage, the one who stands firm will gain a significant upper hand, while the one who concedes will avoid total devastation but feel deeply slighted.\n\nOption A: Choose to soften your stance.\nOption B: Choose to press your grievance.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 28,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_family fight_var_29",
+    "description": "The heated disagreement with your sibling over the family heirloom has reached its boiling point, and it's clear there are **two** of you locked in this standoff. If both of you push your stubborn demands, the ensuing fallout will be an absolute disaster, tearing apart the fabric of your relationship forever. However, a mutual retreat from the brink could secure a fragile but shared peace, while one person completely giving in would grant the other a substantial, undeniable victory, leaving the concession-maker utterly resentful.\n\nYou must now choose:\n\nOption A: Double down on your position, refuse to budge, and prepare to stand firm against any pushback.\nOption B: Be the bigger person, let go of your demands, and offer an olive branch to defuse the situation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "family fight",
+      "variation_index": 29,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

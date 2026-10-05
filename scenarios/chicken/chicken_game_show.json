@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "chicken_game_show_var_0",
+    "description": "You and your formidable opponent stand face-to-face in the 'High Stakes Showdown' round, a moment of pure strategic tension where both of you must make a simultaneous, irreversible choice. The stakes couldn't be higher: should both of you choose to play it safe, you'll both walk away with a respectable, though not grand, shared victory; however, if both decide to push the absolute limit, the result will be a humiliating, total loss for everyone involved. The true test lies in the possibility that if one of you bravely stands your ground while the other backs down, the one who holds firm will claim an overwhelming triumph and a massive lead, leaving the other with only a minimal consolation prize. Now, with the countdown clock ticking, you must decide:\n\nOption A: You strategically pull back, choosing a path of de-escalation.\nOption B: You stand firm, ready to challenge your opponent directly.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 0,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_1",
+    "description": "You and one other contestant stand at the precipice of 'The Standoff,' the ultimate challenge of this season's 'Victory Lap.' The host reveals that your simultaneous, final choice will determine whether you share a respectable triumph, or plummet to absolute failure. The grandest prize, however, is reserved for the player who decisively pushes for dominance while their rival holds back.\n\nOption A: You choose to assert maximum pressure, going for broke.\nOption B: You opt to show restraint, allowing for mutual resolution.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 1,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_2",
+    "description": "Welcome back to 'High Stakes Showdown'! It's just you and your rival, standing before the critical 'Final Face-Off' button. This is a simultaneous choice: if both of you choose caution, you'll each secure a respectable cache of winnings, but if both decide to go for broke, the entire prize fund is forfeited, and neither takes home a thing. Should one hold back while the other charges ahead, the aggressive player claims the magnificent jackpot, leaving their cautious counterpart with only a minor consolation prize.\n\nOption A: You choose to hold back.\nOption B: You choose to charge ahead.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 2,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_3",
+    "description": "Welcome to the 'Ultimate Showdown'! You and your single rival stand poised at the final moment of truth, the entire studio audience holding its breath. Both of you must now make a critical, simultaneous decision that will determine your fates. If you both exercise restraint, you'll both walk away with substantial winnings; however, if both of you decide to push the limit, you'll both be eliminated in a spectacular public humiliation. But there's a third path: if one of you stands firm while the other backs down, the one who pressed on will claim ultimate glory, leaving the other with only a small token for participating.\n\nThe choice is yours:\n\nOption A: Firmly hold your position, refusing to give an inch, hoping to outmaneuver your opponent and secure the biggest prize.\nOption B: Show strategic compromise, prioritizing a safe, shared outcome over a risky confrontation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 3,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_4",
+    "description": "Welcome to the 'Apex Arena' finale! You and your sole rival\u2014a total of two players\u2014stand at the precipice of glory, facing a simultaneous, decisive choice. If you both play it safe, you'll each secure a respectable standing and comfortable prize. However, if one pushes the limit while the other holds back, the bold player claims an overwhelming victory, leaving the cautious one with a mere consolation; but should both push the absolute limit, the game ends in a spectacular double elimination with no winner. The spotlight is on you.\n\nOption A: Play it safe.\nOption B: Push the limit.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 4,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_5",
+    "description": "Welcome to the 'Ultimate Showdown', where you and your single formidable rival stand face-to-face in the final round. The spotlight is on, and a single, simultaneous decision will determine your fate: either you both secure a respectable shared victory, or risk everything for individual glory. Should one of you back down, the other will claim the grandest prize of the evening, leaving the complier with merely a token gesture for participation; but if neither yields, the entire round collapses into a spectacular failure, and both of you walk away with absolutely nothing. Now, choose your move:\n\nOption A: Hold your ground, daring your rival to blink first in this high-stakes moment.\nOption B: Back down gracefully, guaranteeing a shared but modest triumph for both competitors.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 5,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_6",
+    "description": "Welcome to the Grand Finale of 'Winner's Edge'! It's just you and your rival, facing 'The Brinkmanship Button' for the ultimate prize. Both of you must simultaneously choose to either play it safe or go for broke, and your choice determines everything. If both players play it safe, you'll each walk away with a respectable share of the evening's glory; but if both go for broke, it's a catastrophic mutual disqualification. However, if one player takes the plunge while the other plays it safe, the daring player claims the entire championship, leaving their cautious opponent with only a minor consolation prize.\n\nOption A: Play it Safe\nOption B: Go for Broke",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 6,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_7",
+    "description": "Welcome back to 'The Brink,' where two contestants face their ultimate test! You and your rival, standing on opposite sides of the stage, have reached the final dramatic moment. Simultaneously, you must decide your next move, knowing that your choice, alongside theirs, will determine whether one of you claims ultimate glory, both share a significant reward, or you both face a catastrophic defeat. The tension is palpable as the countdown begins!\n\nOption A: Hold your ground firmly, refusing to concede an inch and pushing the situation to its absolute limit.\nOption B: Step back, prioritizing caution to avoid a direct confrontation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 7,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_8",
+    "description": "You stand under the dazzling lights of 'The Ultimate Showdown,' facing your single rival contestant across the tension-filled arena. For this climactic round, both of you must make a simultaneous decision that will determine your fates. If both of you choose to maintain a steady course, you'll each secure a respectable share of the evening's prize; yet, should both of you choose to push the confrontation to its absolute limit, the result will be a complete and utter wipeout for everyone involved. The ultimate triumph, and the biggest gamble, comes if one of you boldly presses the attack while the other chooses to relent, leaving the attacker with overwhelming victory and the other with only a minor consolation prize. Will you choose to:\n\nOption A: Maintain a steady course.\nOption B: Boldly press the attack.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 8,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_9",
+    "description": "Welcome to the 'Showdown Sphere,' contestants! You and your rival, standing opposite you, face the final, make-or-break round of the evening. In this simultaneous decision, the fates of both **two players** hang in the balance; you could both walk away with a respectable prize, or a catastrophic double-failure could see you leave empty-handed. Should one of you choose to push for maximum gain while the other holds back, the daring player will claim the grand jackpot, while the more cautious one receives only a small token of their efforts.\n\nWhat is your final choice, contestant?\nOption A: Drive for total domination and put everything on the line.\nOption B: Exercise restraint and ensure a solid, mutual reward.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 9,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_10",
+    "description": "Welcome to the high-stakes final round of 'The Apex Contention,' where you and your rival contestant must make a pivotal, simultaneous decision. The roar of the audience depends on whether you choose to play it safe, or boldly assert dominance, knowing that a mutual attempt to seize absolute victory will result in total loss for both players. If both of you play it safe, you each secure a commendable prize; however, if one asserts dominance while the other plays it safe, the assertive player claims the ultimate Grand Prize, leaving the other with only a small consolation.\n\nOption A: Play it safe.\nOption B: Assert dominance.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 10,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_11",
+    "description": "Welcome back to 'Winner Take All,' and what a nail-biting Grand Finale this is! It all comes down to this one, high-stakes showdown between you and your sole rival. Both of you must now make a simultaneous decision on the main stage that will determine your entire evening's fate. If you both opt for a cautious approach, you'll each secure a respectable, shared victory; however, if both of you try to seize ultimate control, the entire round collapses into a total washout for everyone. But should one of you commit fully while the other shows restraint, the bold player will achieve an overwhelming, dominant win, leaving the other with only a meager consolation prize.\n\nOption A: Commit fully to securing absolute victory, daring your rival to yield.\nOption B: Exercise restraint, hoping your rival will do the same for a respectable shared outcome.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 11,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_12",
+    "description": "Welcome to the high-pressure finale of 'Apex Ascent'! You and your single rival are moments away from a simultaneous, make-or-break decision for the ultimate prize. If both of you choose to proceed cautiously, you'll each walk away with a substantial, respectable portion of the winnings. However, if both decide to fully commit to an all-out gamble, the entire prize pot will be dramatically lost, leaving both players with absolutely nothing. The twist is that if one of you commits fully while the other steps back, it's a near-total victory for the aggressor and only a token sum for the one who yielded.\n\nOption A: Play it safe and aim for a guaranteed share.\nOption B: Go all-in and push your rival to the brink.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 12,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_13",
+    "description": "Welcome to the 'Moment of Truth' stage! You and your single opponent are locked in a simultaneous final showdown, where the glint of the grand prize hangs heavy in the air. The audience holds its breath, knowing that if both of you choose to stand firm, the entire round collapses into a public disaster, but if both opt for caution, you'll each secure a respectable, shared prize. However, if one player takes a defiant stance while the other wisely retreats, the defiant one will claim ultimate triumph, leaving the other with only a minor consolation. The time has come to make your move.\n\nOption A: Declare your unwavering intent and make the bold, uncompromising move to seize victory.\nOption B: Exercise strategic restraint and step back, securing a respectable outcome while avoiding total collapse.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 13,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_14",
+    "description": "Welcome to 'High Stakes Harmony,' where you and one other fierce competitor are poised for the final, simultaneous decision of the night! Both of you will choose a strategy that determines if you'll share a substantial reward, or if one will emerge with the grand champion's bounty while the other receives a mere consolation. But be warned: if both of you attempt to claim absolute victory, the entire prize pool will spectacularly vanish, leaving neither of you with anything. You must now make your move: Option A: **Pull back and ensure a shared gain.** Option B: **Push forward for an all-or-nothing triumph.**",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 14,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_15",
+    "description": "Welcome to 'The Final Gauntlet'! You and your rival contestant stand head-to-head, poised for the ultimate, simultaneous decision that will determine your fates. With the entire audience holding its breath, you both, as the only two players remaining, must make a definitive move: if both of you decide to press forward with unyielding determination, the entire prize pot vanishes into thin air for both, resulting in utter ruin. However, if one player takes a firm stance while the other exercises restraint, the unyielding player claims the grand championship, leaving their rival with a mere token of appreciation; conversely, if both choose restraint, you'll each walk away with a respectable shared prize. The time for your final call is now.\n\nOption A: Make a bold, unyielding play.\nOption B: Show a degree of caution.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 15,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_16",
+    "description": "Welcome to the 'Apex Duel', where it's just you and your rival standing before the final decision board, with the ultimate grand prize hanging in the balance. You and your single opponent must each press one button simultaneously. If both of you decide to play it safe, you'll each secure a respectable trophy; however, if both of you push for absolute victory, the entire show's prize fund vanishes, leaving both empty-handed. But, if you alone seize the boldest path while your opponent shows caution, the grand prize is all yours, leaving them with merely a participation token \u2013 and vice-versa.\n\nOption A: Play it safe, securing a shared, respectable outcome.\nOption B: Push for the absolute grand prize, risking everything.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 16,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_17",
+    "description": "Welcome back to 'Brinkmanship Blitz,' contestant! You and your sole rival, locked in the final tension-filled round, stand on the precipice of glory or disgrace. Both of you must simultaneously decide how to approach the 'Decisive Drive' challenge. If you both play it safe, you'll each walk away with a respectable shared prize. However, if one of you pushes the limit while the other pulls back, the daring player seizes the grand jackpot outright, leaving their cautious opponent with only a meager consolation. But be warned: if both of you decide to push, the entire prize fund will detonate into nothingness, leaving you both utterly defeated.\n\nOption A: Commit fully to the challenge, holding your nerve and forcing your opponent's hand.\nOption B: Prioritize caution, yielding the path and accepting a guaranteed shared outcome.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 17,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_18",
+    "description": "Welcome to the 'Apex Arena', where you and your rival, Agent X, stand at the precipice of victory or defeat in the final 'Gamble Gambit' round. Each of you, the **two contestants**, must simultaneously decide how to approach this decisive moment, knowing that your choice, combined with theirs, will determine who claims the ultimate glory, who shares a substantial reward, or who suffers an embarrassing collapse. Should both of you act cautiously, you'll both leave with a very respectable prize; but if one of you pushes the limit while the other backs down, the daring player seizes the grand championship while the other merely gets a small consolation. Be warned: if both of you aggressively push your advantage, the entire round's winnings vanish, resulting in a humiliating double elimination from the competition. You now face your choice: will you opt for Option A, carefully preserving your current standing, or will you choose Option B, throwing caution to the wind in pursuit of absolute dominance?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 18,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_19",
+    "description": "On 'The Grand Gamble' stage, you face your lone rival in the 'Brinksmanship Blitz,' a high-stakes final challenge for **two** contestants. One final decision will determine everything: a simultaneous choice where if both of you play it safe, you'll each walk away with a respectable, though not enormous, prize, but if both decide to press their advantage, the game ends in mutual disaster, and you both forfeit everything. The true gamble lies in what happens if only one of you stands firm: that player claims the coveted grand prize, while the other is left with only a small, token reward for their participation. What will be your final move in this ultimate standoff?\n\nOption A: Hold your ground and press for maximum gain.\nOption B: De-escalate and secure a guaranteed, modest return.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 19,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_20",
+    "description": "Welcome to 'High Stakes Showdown,' contestant! You and your rival, Mark, are the last two contenders standing, facing the 'Final Face-Off' round. Simultaneously, you both must choose your final move, a strategic play that determines both your fates. A synchronized, cautious approach could lead to a respectable, shared victory for the two of you, earning applause from the audience. However, if one of you pushes for absolute dominance while the other holds back, the aggressor will seize the ultimate grand prize, leaving the more reserved player with only a minor consolation for their efforts \u2013 but should both of you decide to assert total control, the entire game implodes, and neither of you will take home anything at all.\n\nOption A: Maintain a steady course, hoping for a shared, respectable outcome.\nOption B: Go for broke and assert your dominance in this final play.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 20,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_21",
+    "description": "Welcome back to the 'Final Fissure', contestant! You and your lone rival, poised across the arena, now face the ultimate high-stakes showdown, requiring simultaneous action. If both of you yield, you\u2019ll each secure a significant reward; but if one relentlessly pushes while the other concedes, the defiant player claims the ultimate glory, leaving their rival with a mere consolation. However, should both players refuse to back down, the entire game collapses, and neither of you will win anything at all.\n\nOption A: Relentlessly push your position, daring your rival to blink first.\nOption B: Concede the high ground, hoping for a mutual, satisfactory outcome.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 21,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_22",
+    "description": "Welcome to 'High Stakes Harmony,' where only two contestants can face off in this nerve-wracking finale! You and your single rival stand ready, your hands hovering over your respective panels, knowing that a misstep could lead to mutual disaster. If both of you opt for a cooperative approach, you'll each secure a generous share of the evening's winnings. However, should both of you choose to aggressively pursue the maximum prize, the entire jackpot will be forfeited, and you'll both leave empty-handed. The ultimate test lies in this moment: if one of you bravely charges ahead while the other opts for caution, the daring player claims the undisputed grand prize, leaving the reserved one with a mere parting gift. What will be your move?\n\nOption A: Choose to exercise restraint.\nOption B: Commit to a full-throttle challenge.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 22,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_23",
+    "description": "Welcome to the 'Showdown of Champions,' where you, the reigning champion, face 'The Challenger' in a high-stakes final round. In this critical moment, you and your single opponent must simultaneously decide your approach. If both of you play it safe, you'll each secure a respectable prize, but if both of you push for absolute victory, the result will be a catastrophic failure, leaving both competitors with nothing. However, if one player pushes for ultimate glory while the other chooses caution, the aggressive competitor claims the grandest prize of the evening, leaving the more prudent one with only a minor consolation.\n\nYour legacy in this tournament hinges on your next move. Do you choose:\n\n*   **Option A:** To double down and push for ultimate victory, daring your rival to flinch and give way?\n*   **Option B:** To play it safe and back down, hoping your opponent does the same to guarantee a comfortable outcome for both?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 23,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_24",
+    "description": "Welcome back to 'Double Dare Duel'! You and your single rival contestant face the ultimate moment: a simultaneous decision that will determine your fates. If both of you choose to step back from the brink, you\u2019ll both secure a generous portion of the grand prize. But should both of you decide to push ahead, the entire pot will tragically disappear for everyone. However, if one player stands firm while the other backs down, the one who held their ground will claim the vast majority of the winnings, leaving their opponent with only a token of their efforts. The spotlight is on you.\n\nOption A: Play it safe and concede some ground.\nOption B: Stand your ground and risk it all.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 24,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_25",
+    "description": "Welcome back to the thrilling climax of 'The Grand Gauntlet!' You and your rival stand poised for the final 'Duel of Wits,' a simultaneous decision that will crown the champion. This critical moment, involving just the two of you, forces a choice between unwavering resolve and strategic caution. If both of you push too hard, the grand prize vanishes for everyone; however, if one gives way, the other claims overwhelming victory, leaving the cautious one with only a small consolation. A mutual display of restraint, though, secures a respectable shared triumph for both contenders.\n\nYour options are:\n**Option A:** Assert your ultimate dominance, pushing for total control and leaving nothing to chance for your opponent.\n**Option B:** Exercise a moment of caution, conceding some individual glory to ensure a worthwhile outcome for both participants.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 25,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_26",
+    "description": "Welcome back to 'The Brink Breakers,' where two finalists \u2013 you and your rival \u2013 face a simultaneous choice at the precipice of ultimate victory or complete collapse. If both of you play cautiously, you'll each secure a respectable, shared prize, but if both defiantly push the limits, the entire game board implodes, leaving both contestants with absolutely nothing. Should one choose to back down while the other holds their nerve, the one who pressed their advantage will seize the grandest, solo triumph, while the other will only walk away with a minor consolation. The spotlight is yours for this crucial decision.\n\nOption A: Choose to hold back.\nOption B: Choose to press your advantage.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 26,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_27",
+    "description": "Welcome to the 'Brinkmanship Bonanza,' contestant! In this heart-pounding two-player ultimate challenge, you and your single opponent face a simultaneous, high-stakes choice. If both of you play cautiously, you'll each secure a decent share of the prize pool, but if both decide to press your advantage to the absolute limit, you'll both tragically forfeit everything. However, if one of you presses while the other holds back, the daring player will claim the grand jackpot, leaving the more reserved player with a mere consolation prize.\n\nOption A: Go all-in, pressing your advantage to the limit.\nOption B: Play it safe, holding back from the brink.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 27,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_28",
+    "description": "Welcome to the Grand Finale of 'Showdown Spectacle,' where you and one formidable rival stand on the brink of ultimate victory. Only one simultaneous, final declaration will decide everything: you can either choose to secure a respectable outcome, or go all-in for absolute supremacy. Should both of you opt for a respectable outcome, you'll each leave with significant acclaim; yet, if both go all-in, the entire prize fund collapses, leaving you both with nothing. However, if one player goes all-in while the other holds back, the daring player seizes monumental glory, while the cautious player receives a mere consolation.\n\nOption A: Secure a respectable outcome.\nOption B: Go all-in for absolute supremacy.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 28,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_game_show_var_29",
+    "description": "You've reached the final agonizing moment on \"The Brink,\" facing your lone competitor with a colossal prize at stake. Simultaneously, both of you have engaged the 'Pressure Gauge' to its absolute maximum; if neither of you disengages, the entire fortune collapses into nothingness for both, but if one stands firm while the other backs down, the unwavering player claims nearly everything, leaving the other with a mere consolation. However, if both of you decide to ease off, you'll each secure a substantial, albeit not ultimate, portion of the winnings. The countdown has begun for your simultaneous decision.\n\n*   Option A: Maintain your grip on the 'Pressure Gauge', forcing your opponent to make the first move and potentially yield.\n*   Option B: Release the 'Pressure Gauge', hoping for a mutual disengagement or accepting a lesser outcome.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "game_show",
+      "variation_index": 29,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

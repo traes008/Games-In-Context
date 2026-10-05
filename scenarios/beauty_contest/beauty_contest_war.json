@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "beauty_contest_war_var_0",
+    "description": "In this desperate phase of the war, 100 rival intelligence officers, including yourself, are each tasked with predicting a critical strategic value, a number between 0 and 100. The General will grant exclusive command over the decisive 'Apex Offensive' \u2013 the entire prize \u2013 to the officer whose submitted value is closest to exactly 2/3 of the average of *all* 101 predictions. There can only be one victor in this high-stakes intellectual battle for ultimate authority. What is your calculated strategic value, Commander?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 0,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_1",
+    "description": "General, the enemy has proposed a decisive 'strategic wager' to settle this protracted conflict. One hundred opposing strategists, alongside yourself, must simultaneously commit to a target coordinate between 0 and 100. The faction whose chosen coordinate is closest to exactly two-thirds of the overall average of all 101 submitted numbers will seize the vital supply depot, securing ultimate victory and ending hostilities. What precise coordinate will you transmit to achieve dominance?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 1,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_2",
+    "description": "The long campaign has reached a critical juncture, and the fate of our forces hangs on a single, cutthroat competition. You, along with 100 rival commanders, have been tasked with simultaneously submitting a numerical target between 0 and 100. The prize \u2013 sole access to a vital supply cache \u2013 will be awarded to the commander whose submitted target is closest to exactly two-thirds (2/3) of the average of all 101 submitted targets. Your reconnaissance reports are inconclusive, leaving you to anticipate the collective strategic calculus of your adversaries. What numerical target will you declare as your command decision?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 2,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_3",
+    "description": "The war rages, and our besieged nation faces a dire choice for the last remaining energy cell. You and 100 other rival strategists, each representing a desperate faction, must simultaneously transmit a single numerical estimate, any value between 0 and 100. The faction whose estimate comes closest to exactly 2/3 of the average of all 101 submitted numbers will seize the entire energy cell, ensuring their survival while others perish. What figure will you transmit for this crucial strategic gambit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 3,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_4",
+    "description": "The war council is tense. Against 100 rival strategists, you face a critical intelligence challenge: success hinges on predicting the collective mind of your adversaries to seize a vital supply cache. Each of you must simultaneously declare a single numerical coordinate, an integer between 0 and 100 (inclusive), representing your anticipated enemy action. Victory, and the entire prize of resources, will be awarded to the commander whose declared coordinate is closest to exactly 2/3 of the average of *all* 101 submitted guesses. Transmit your strategic coordinate now.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 4,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_5",
+    "description": "General, the high command faces an unprecedented strategic dilemma on the global battlefront. A critical resource allocation is at stake, to be awarded to the commander who best predicts the collective judgment of 100 rival strategists. Each of us, including yourself, must simultaneously submit a single tactical estimate \u2013 a number from 0 to 100, representing our assessment of troop readiness. The commander whose estimate is closest to *exactly two-thirds* of the average of all 101 submissions will secure the entire prize, granting their forces a decisive advantage. What figure will you transmit to ensure our victory?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 5,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_6",
+    "description": "Across this war-torn continent, a perilous game of strategic foresight unfolds to determine ultimate dominance. You, as Supreme Commander, face 100 other rival strategists, each vying for total control. Simultaneously, everyone must submit a single, critical battle readiness score, a number between 0 and 100. The victor\u2014the one whose score is closest to exactly two-thirds of the average of *all* 101 submitted scores\u2014will claim the entire spoils of war. What is your chosen battle readiness score?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 6,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_7",
+    "description": "The final offensive looms, and you, along with 100 rival commanders, must simultaneously declare a critical strategic index. Your chosen number, between 0 and 100, will determine the fate of this war; the commander whose submission is closest to exactly 2/3 of the average of all 101 indices will single-handedly trigger their total victory, claiming the entire spoils of war. Your intelligence reports suggest intense scrutiny of this numerical declaration. What is your chosen strategic index?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 7,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_8",
+    "description": "Commander, our forces are at a stalemate on the front lines, and a critical supply cache awaits the victor of this desperate strategic maneuver. You, alongside 100 other rival commanders, must simultaneously submit a single target coordinate. Each participant will choose a number between 0 and 100, and the individual whose submitted figure is closest to exactly two-thirds of the average of *all* 101 submitted coordinates will claim the entire cache. There can only be one sole victor in this high-stakes intelligence briefing. What target coordinate do you issue as your final operational directive?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 8,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_9",
+    "description": "The High Command, desperate to allocate the last remaining strategic fuel reserves, has declared a final, ruthless contest. You, alongside 100 other seasoned strategists, must simultaneously submit a proposed expenditure value, ranging from 0 to 100 units, for your division's next offensive. The commander whose proposed figure is closest to exactly two-thirds of the average of all 101 submitted values will seize absolute control of the reserves and dictate the final push. Failure means your division is grounded; the victor takes all. What is your declaration of strategic fuel units?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 9,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_10",
+    "description": "General, intel reports indicate a critical, winner-take-all gambit initiated by the High Command. You and 100 rival commanders must simultaneously submit a sealed order, designating a target priority value between 0 and 100 for resource allocation. The faction whose value is closest to exactly two-thirds (2/3) of the average of *all* submitted priorities will seize the entire strategic initiative for their forces, a decisive advantage in the coming offensive. What priority value will you transmit to your field command?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 10,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_11",
+    "description": "Amidst the grinding attrition of the war, a single, decisive maneuver has been proposed by the High Command to determine control over the most vital contested zone. You and 100 other rival frontline commanders must each simultaneously transmit a secret strategic coordinate, a number between 0 and 100, representing your projected resource allocation. The faction whose transmitted figure is closest to exactly two-thirds of the average of all 101 submitted coordinates will seize absolute dominion over the zone and its entire strategic bounty. The stakes are absolute; what strategic coordinate will you transmit for this critical push?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 11,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_12",
+    "description": "On the eve of a critical engagement, you and 100 rival commanders are presented with a final, high-stakes challenge to determine tactical supremacy. Each of you must simultaneously transmit a single numerical cipher, a value between 0 and 100, which will dictate a crucial strategic maneuver. The commander whose cipher is closest to exactly 2/3 of the average of *all 101* submitted values will secure the entire operational initiative and its invaluable resources. What number will you authorize for transmission?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 12,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_13",
+    "description": "The high command has presented a desperate gambit to secure the last remaining strategic resource: an intelligence contest among you and 100 rival field commanders. Each of you must simultaneously submit a numerical estimate, a figure between 0 and 100, representing your anticipated strategic pivot point. The victor, claiming the entire critical prize, will be the commander whose estimate lands closest to exactly 2/3 of the average of all 101 submitted figures. State your decisive number for this critical operation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 13,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_14",
+    "description": "General, the 'Command Nexus' lies within reach, its control hinging on this single, high-stakes psychological operation against 100 enemy strategists. Simultaneously, each of us must submit a 'strategic target' number, anywhere between 0 and 100. Your submitted target must be closest to exactly 2/3 of the average of *all 101* submitted targets to seize the Nexus and secure ultimate victory. What number will you authorize for immediate transmission?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 14,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_15",
+    "description": "Commander, a desperate gambit has been proposed to settle the conflict, pitting the intellect of every faction's leader against each other. You and 100 rival strategists must simultaneously submit a numerical assessment of the current 'threat level,' ranging from 0 to 100. The victor\u2014the one whose submission is closest to exactly 2/3 of the average of all 101 assessments\u2014will seize control of the enemy's entire strategic reserve. What critical value will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 15,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_16",
+    "description": "The High Command has issued a desperate ultimatum: a single, decisive strategic maneuver against 100 rival intelligence officers across enemy lines. Each of us must simultaneously transmit a 'target vector,' a number between 0 and 100, representing our read on their collective intent. The entire strategic prize, a captured enemy war chest, will be awarded solely to the officer whose vector is closest to precisely 2/3 of the average of all 101 submitted figures. Name your figure, Commander.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 16,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_17",
+    "description": "Commander, a decisive strategic allocation is upon us. You and 100 rival strategists are each tasked with simultaneously submitting a tactical priority index, a value between 0 and 100, for a critical resource pool. The objective is to be the closest to exactly 2/3 of the average of all 101 submissions; the sole victor will secure the entire complement of vital reinforcements and operational control for their sector. Your command's future, and the war effort, hinges on your number. State your tactical priority index.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 17,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_18",
+    "description": "The Grand Strategium is in turmoil; 100 rival commanders, yourself among them, are locked in a silent contest for the decisive control codes that dictate global supply lines. Simultaneously, each must submit a single number, a tactical priority between 0 and 100, representing their optimal resource allocation. Your faction's ultimate victory, and the entire prize of secure access, will be granted only to the commander whose submission is closest to exactly 2/3 of the average of *all* 101 submitted figures. With the fate of the front hanging in the balance, what number will you broadcast, General?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 18,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_19",
+    "description": "The General Staff has initiated a deadly game of predictive warfare, pitting you against 100 rival commanders across the front. Each must simultaneously submit a single numerical order, a figure between 0 and 100, representing your assessment of strategic intelligence. The commander whose order is closest to exactly 2/3 of the average value across *all* 101 submissions will secure the *entire* tactical advantage for their sector, while all others are left exposed on the battlefield. What numerical order do you issue to the field?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 19,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_20",
+    "description": "The High Command has issued an unprecedented directive, a \"Strategic Consensus Probe,\" to determine the allocation of our last critical war resources. You, along with 100 other divisional commanders, must simultaneously submit a number between 0 and 100, representing your assessment of the enemy's readiness and supply lines. The commander whose submission is closest to exactly 2/3 of the average of *all* 101 submissions will be granted total authority over the entire prize \u2013 the remaining fleet and munitions \u2013 for a decisive, final offensive. There can be only one victor in this brutal intelligence test, a true measure of strategic foresight. What is your calculated figure?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 20,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_21",
+    "description": "The High Command has declared a critical intelligence operation, pitting you against 100 rival commanders in a high-stakes strategic gamble. Each of you must simultaneously transmit a single integer, representing your estimated troop morale index, between 0 and 100, inclusive. The commander whose submission is closest to exactly two-thirds of the average of all 101 reported indices will receive exclusive command over all critical strategic resources for the upcoming offensive, leaving the others resource-starved. What value will you transmit as your morale estimate?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 21,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_22",
+    "description": "The high command has convened for a critical wartime council, a game of strategic anticipation among 100 rival commanders and yourself. Each of you must simultaneously declare a 'Readiness Index,' a numerical value between 0 and 100, representing your perceived strength. The commander whose declared index is closest to exactly two-thirds (2/3) of the average of all 101 submitted indices will achieve decisive victory and claim the entirety of the war's spoils. To secure this ultimate conquest, you must accurately predict the collective intent of your adversaries and outmaneuver them. What numerical Readiness Index will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 22,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_23",
+    "description": "Amidst the ravaged landscape, a tense armistice demands a final, decisive maneuver. You and 100 rival commanders, each vying for the ultimate strategic advantage, must simultaneously declare a single numerical target between 0 and 100. The decree from the High Command is absolute: the sole victor, who will seize the entire prize of critical resources, will be the one whose declared number is closest to exactly 2/3 of the average of all 101 submitted figures. What number will you transmit as your definitive order?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 23,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_24",
+    "description": "The command bunker is tense; against 100 rival strategists, you face a crucial wartime 'prediction gambit' to secure vital resources for your besieged forces. Each of you must simultaneously declare a single numerical designation between 0 and 100, representing your proposed 'priority index' for resource allocation. The victor, who claims the entire materiel cache, will be the one whose declaration is closest to exactly 2/3 of the aggregate average of all 101 submissions. What numerical designation do you transmit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 24,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_25",
+    "description": "General, a new form of psychological warfare has been declared by the enemy, a 'strategic estimation game' to determine control over the crucial forward operating base. Alongside 100 other rival commanders, you must simultaneously submit a single intelligence estimate, a number between 0 and 100, representing your tactical forecast. The commander whose estimate lands closest to exactly 2/3 of the average of all submitted numbers across the theater of war will claim the entire, invaluable prize of war. Your command is poised for your decision; what precise figure will you transmit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 25,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_26",
+    "description": "High Command has declared a 'Decisive Strike' initiative: one final, critical maneuver to determine the victor of this protracted conflict, with you and 100 other rival commanders simultaneously submitting a strategic coordinate. Each of us must designate a target coordinate between 0 and 100 on the tactical map, but the critical objective is to predict what the collective mind will yield, as the winning commander is the one whose chosen coordinate is closest to exactly two-thirds of the average of *all* 101 submitted figures. Only one command will emerge triumphant; the winning strategist will seize all remaining resources and dictate the terms of surrender, while all others face immediate court-martial for strategic miscalculation. Submit your target coordinate for the Decisive Strike.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 26,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_27",
+    "description": "In this final, desperate gambit for a crucial strategic resource, you and 100 rival commanders are pitted against each other. Each of you must simultaneously submit a 'war expenditure index' \u2013 a number ranging from 0 to 100 \u2013 to the central command. The commander whose index is closest to precisely 2/3 of the average of all 101 submitted figures will be granted the entire, invaluable prize. What is your designated war expenditure index?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 27,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_28",
+    "description": "General, the fate of the next offensive hinges on a single, critical decision against 100 rival strategists. Each of you must simultaneously declare a numerical target between 0 and 100 (inclusive) for a precision strike. The commander whose chosen target lands closest to exactly 2/3 of the collective average of all 101 declared targets will seize exclusive control of the vital supply lines. State your calculated strike coordinate now, General.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 28,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_war_var_29",
+    "description": "High Command has initiated a decisive strategic maneuver, pitting you against 100 rival intelligence officers across the front. Each of you must submit a single, precise numerical appraisal, a value between 0 and 100, representing your most astute assessment of enemy intentions. The officer whose appraisal comes closest to exactly 2/3 of the average of all 101 submitted figures will seize the entire campaign's spoils and secure a critical victory. What is your chosen strategic target?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "war",
+      "variation_index": 29,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  }
+]

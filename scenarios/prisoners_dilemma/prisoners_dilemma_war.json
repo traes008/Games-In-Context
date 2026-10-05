@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "prisoners_dilemma_war_var_0",
+    "description": "Commander, our forces and those of the enemy\u2019s are locked in a brutal siege, with both sides on the brink of exhaustion. We've detected a clandestine message from their high command, suggesting a simultaneous, coordinated withdrawal from the contested canyon passes, which would allow the two opposing forces to regroup and secure essential supply lines. However, this also presents a perilous opportunity: if only one side honors such an agreement, that side\u2019s retreating troops would be utterly annihilated and their entire flank exposed, granting the aggressor a decisive, overwhelming victory and complete control of the region. If both sides attempt to exploit the other, the resulting chaotic engagement would devastate both armies, leading to a long, bloody stalemate with no clear victor.\n\nOption A: Order our battalions to begin a phased withdrawal from the canyon passes, as suggested by the enemy intelligence.\nOption B: Instead, redeploy our ambush units to encircle the passes, preparing to strike any retreating enemy formations.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 0,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_1",
+    "description": "You are a frontline commander, locked in a brutal siege with the enemy forces of Commander Valerius over a vital supply route. Both sides are exhausted, and a temporary truce has been proposed regarding the critical flow of resources. There are two commanders making this decision: you and Valerius. You must choose simultaneously how to proceed, knowing only your own intentions, and your decision will determine the fate of your division and potentially the entire war.\n\nOption A: You can launch a surprise offensive on the convoy route, knowing that if Valerius adheres to the truce, your forces will completely devastate their supply lines and secure a decisive breakthrough, while their entire campaign collapses. However, if Valerius also attacks, both sides will suffer heavy, protracted losses with no significant strategic gain for either.\n\nOption B: You can uphold the spirit of the truce, initiating a limited, controlled withdrawal from the convoy route, hoping Valerius does the same. If both sides withdraw, you will both conserve vital resources and consolidate stronger defensive positions, achieving a significant, shared strategic advantage. However, if Valerius exploits your withdrawal and attacks, your forces will be caught utterly exposed, resulting in a catastrophic defeat and the loss of the entire sector.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 1,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_2",
+    "description": "You find your forces, along with those of the enemy commander, both severely depleted after a prolonged skirmish, now cornered and forced to withdraw through a single, treacherous mountain canyon. The pass is too narrow for both armies to attempt a concurrent retreat without devolving into a catastrophic mutual slaughter, guaranteeing immense, perhaps irrecoverable, losses for both sides. An understanding could be reached for both of the two commanders to coordinate their withdrawal in alternating segments, ensuring manageable preservation of forces for each. However, the opportunity exists for either side to exploit the other's vulnerable passage for a decisive, annihilating strike.\n\nOption A: Order your forward units to begin an orderly, phased withdrawal, signaling your intent for a coordinated retreat.\nOption B: Position your artillery and hidden detachments to prepare a devastating ambush on the enemy's first wave of retreating troops.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 2,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_3",
+    "description": "General, our reconnaissance confirms a precarious d\u00e9tente with the two opposing insurgent divisions operating across the 'Crimson Divide': a proposed demilitarization of the vital supply chokepoint, allowing both our forces to pivot against the looming sovereign threat. This critical juncture involves two distinct command structures, ours included, each facing an independent, high-stakes choice. The outcome of this decision will dictate the very survival of our future campaigns.\n\nWe must now choose:\n*   **Option A:** Mount a decisive, covert offensive on the chokepoint at first light, overwhelming their positions before they can react and seizing complete control of the region and its resources.\n*   **Option B:** Proceed with the agreed-upon tactical withdrawal from the chokepoint, redeploying our units as planned and trusting their command to honor the non-aggression pact.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 3,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_4",
+    "description": "You and one other allied General stand at the precipice of a decisive victory, planning a critical, two-pronged assault on the enemy's last stronghold. Your intelligence indicates that the combined, full commitment of both your armies is essential to overwhelm their defenses and end the war swiftly, but a lack of full commitment from either side could spell disaster for the overall offensive. The other General simultaneously faces an identical, high-stakes choice, unaware of your intent.\n\nOption A: Commit your army's elite vanguard to the primary assault, risking exposure for the sake of a unified, overwhelming push.\nOption B: Hold back your army's elite vanguard to fortify your own tactical position and ensure your long-term stability, regardless of the main assault's outcome.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 4,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_5",
+    "description": "Commander, our reconnaissance reveals a critical vulnerability in the enemy's forward lines, an opportunity that could be exploited for an overwhelming tactical advantage. However, their intelligence reports likely suggest a similar opening on our side, creating a tense standoff between our two commanders. We face a choice where either we both commit to a simultaneous de-escalation, bringing a measure of stability to this war-torn sector, or we gamble on exploiting the perceived weakness. Your decision is final, and there is no way to communicate with the enemy before it's made.\n\nOption A: Unleash our full reserve forces in a pre-emptive, surprise assault to shatter their defensive line.\nOption B: Initiate a unilateral strategic pullback from the disputed zone, signaling our intent for mutual disengagement.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 5,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_6",
+    "description": "General, intelligence confirms that the two rival warlords, yourself included, stand at a critical juncture in this protracted war. A fragile armistice holds, offering the chance for both our weary factions to rebuild their strength and secure their respective territories if we both choose restraint. However, the temptation exists to exploit the other's presumed pause: a pre-emptive strike could deliver absolute dominion over their forces and resources, utterly decimating them, but a mirrored betrayal would plunge both our armies into a ruinous, mutually destructive conflict that leaves us both crippled beyond repair. Your scouts report their movements are ambiguous. You must now decide your strategy: Option A: Maintain the ceasefire and reposition defensively. Option B: Initiate a surprise offensive and seize their vital supply depots.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 6,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_7",
+    "description": "The scorched earth stretches between your vanguard and that of Commander Valerius, two rival forces locked in a tense standoff over the last functional supply depot in the sector. You both must make a critical decision simultaneously regarding this vital objective. The future of your campaign, and potentially the entire war, hinges on whether you seize the initiative or attempt to de-escalate the confrontation.\n\n**Option A:** Order a pre-emptive strike, leveraging your most aggressive shock troops to overwhelm their forward positions and secure the depot by force.\n**Option B:** Pull back your forward observation posts, signalling a willingness to divide the depot's resources and establish a temporary truce.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 7,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_8",
+    "description": "Our reconnaissance reports a fragile standstill: your besieged stronghold and the enemy's vanguard, just beyond the scorched earth of the perimeter. A clandestine channel has opened, proposing a simultaneous, localized de-escalation \u2013 a chance for both of our two commanders to extract vital personnel and stabilize our defenses, allowing for a protracted, albeit more manageable, struggle. Yet, the tactical briefing highlights the overwhelming strategic advantage one side would seize by launching a full-scale offensive if the other were to stand down completely, leaving them utterly vulnerable; conversely, a mutual strike would only intensify the bloody deadlock with no clear victor. You and the opposing commander must issue your commands concurrently, without any insight into the other's final order.\n\nOption A: Issue the order to uphold the proposed de-escalation, restricting all offensive actions.\nOption B: Unleash a pre-emptive, all-out assault on their exposed vanguard.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 8,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_9",
+    "description": "General, intelligence confirms the enemy high command faces the exact same critical decision as ours, simultaneously. As leaders of two rival factions locked in a brutal frontier conflict, we now confront a fleeting window for a decisive strategic maneuver. Both sides have been presented with a clandestine opportunity: either commit to a full-scale, devastating offensive, or order a limited withdrawal from contested sectors. Your choice determines our next move.\n\nOption A: Launch a comprehensive, overwhelming assault now, capitalizing on our readiness to achieve total victory.\nOption B: Execute a strategic de-escalation, withdrawing our forward units and signaling a desire for mutual restraint.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 9,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_10",
+    "description": "General, intelligence from the front confirms General Kael is poised at the exact same strategic crossroads as we are concerning our forces on the disputed border. Both commanders must simultaneously choose between *two* critical deployments for the morning. If both fortify existing positions, we each secure a significant, stable advantage in the wider conflict; but if one launches a full-scale offensive while the other consolidates, the aggressor achieves overwhelming victory while the other suffers total defeat. However, if both attack, a brutal, costly stalemate ensues, yielding negligible gains for either side.\n\nOption A: Order our forces to cautiously fortify their existing positions.\nOption B: Launch a full-scale, surprise offensive across the border.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 10,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_11",
+    "description": "As one of two supreme commanders locked in this theatre of war, you face a critical, simultaneous decision alongside the opposing general. Should both forces commit to de-escalation, a significant, mutual strategic advantage could be secured for both our territories. However, if one side launches a surprise, full-scale assault while the other maintains restraint, the aggressor would achieve a swift, decisive victory, leaving the unsuspecting command entirely crippled. If both of us were to initiate a full-scale offensive, the resulting prolonged conflict would inflict heavy, though not total, losses on both sides.\n\nOption A: Initiate an immediate, devastating preemptive strike.\nOption B: Order your forces to maintain defensive positions and await further intelligence.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 11,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_12",
+    "description": "Command has issued a critical order for two divisions\u2014yours and the neighboring 7th\u2014to simultaneously assault the heavily entrenched enemy stronghold at Dawnbreak Pass. A full, synchronized offensive by both promises a hard-won victory, securing a vital strategic foothold for our forces, but will be costly for both. However, each division also has the option to conserve its strength by repositioning its main assault, a move that, if combined with the other's full commitment, would leave one division completely decimated while the other emerges strategically dominant. If both choose to conserve, the pass remains untaken, but both avoid ruinous losses.\n\nOption A: Order your division to fully commit to the synchronized frontal assault.\nOption B: Reposition your division to conserve strength and allow for a more tactical maneuver.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 12,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_13",
+    "description": "You, a seasoned field marshal, stand on the precipice of a pivotal confrontation with an opposing warlord. Success in this high-stakes engagement relies on the concurrent strategic decisions made by yourself and the opposing commander, the two players in this engagement. If both commanders fully commit their forces to a direct assault, both will achieve a significant, shared strategic objective. However, if both choose to withhold their main strength, the result will be a drawn-out, costly stalemate that severely weakens both factions; critically, if one commander cunningly holds back reserves while the other fully commits, the betraying force will achieve a total, immediate victory, utterly obliterating the exposed enemy unit.\n\nOption A: Hold back a significant portion of your forces, preparing a devastating surprise flanking attack should the enemy commit fully to the frontal engagement.\nOption B: Commit all available units to a direct, full-scale frontal assault, anticipating a similar full commitment from the enemy to achieve a joint strategic outcome.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 13,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_14",
+    "description": "General, a simultaneous decision looms regarding our elite legions in the contested Sector Gamma, mirrored by Marshal Vorok and his own forces; there are two opposing field commanders involved. If both you and Vorok exercise strategic restraint, both sides secure substantial, stable gains across the wider front. However, a unilateral commitment of our shock troops while he holds back ensures decisive, total victory for us, whereas if *we* hold back and *he* strikes, our entire command faces annihilation. Should both fully engage, it will result in a mutually devastating, costly stalemate.\n\nWe must decide now:\nOption A: Hold back our elite legions.\nOption B: Unleash our elite legions in an all-out assault.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 14,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_15",
+    "description": "The frontline has bled dry for weeks, a bitter stalemate stretching resources to their breaking point. You and one other combatant, General Valerius of the Obsidian Guard, stand poised at a critical chokepoint, knowing a single decision will determine the fate of both our legions. A window of opportunity has opened to enact a final, decisive tactical maneuver against each other, but the outcome hinges entirely on the other commander\u2019s simultaneous choice. This is a two-player situation.\n\nOption A: You could order your vanguard to launch a full, surprise assault on their exposed flank, gambling everything on a swift, crushing blow. If they hold their ground defensively, your legion would achieve a total, historic victory, utterly annihilating their forces and ensuring your legacy. However, if they launch their own simultaneous offensive, both armies would instead be consumed in a catastrophic, mutually destructive battle, leaving nothing but ruin.\n\nOption B: Alternatively, you could maintain your strategic defensive posture, signaling a willingness to cease hostilities and negotiate a withdrawal from this contested territory. Should General Valerius reciprocate this restraint, both legions would survive the conflict, securing an honorable but costly peace for all involved. But if Valerius exploits your inaction with a full, treacherous assault, your forces would be completely overwhelmed and decimated, a futile sacrifice.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 15,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_16",
+    "description": "General, a critical juncture has arrived in the Eastern Front. Your forces and those of Commander Rakov, two distinct commands totaling exactly two players, are poised to strike simultaneously at the enemy's last stronghold. A coordinated, full-scale assault would undoubtedly secure a decisive strategic victory for both our armies; however, if both commands choose to hold back their main forces, we face a prolonged and costly stalemate. The greatest peril lies if one commits fully while the other preserves their strength: the attacking force will be utterly annihilated while the other seizes all glory from the weakened enemy. The time for your strategic directive is now.\n\nWill you:\n\nOption A: Lead the full, agreed-upon offensive, committing your entire strength as planned.\nOption B: Hold back your main battalions, feigning commitment while preserving your forces for a separate, opportunistic strike.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 16,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_17",
+    "description": "Intelligence suggests the opposing high command is weighing a critical strategic decision, mirroring our own, with two belligerent parties poised at a knife-edge. The future of our nations hinges on this single, simultaneous choice. Should our actions align, we could secure a lasting, albeit fragile, peace that benefits both sides; however, a mismatch could lead to either absolute dominion for one or devastating, protracted attrition for both.\n\nOption A: Launch a decisive, unannounced full-scale offensive designed to capitalize on any perceived hesitation or restraint from their forces, pushing for an immediate, overwhelming victory.\nOption B: Initiate a mutual, coordinated disengagement along the contested front, pulling back our advance elements to open a pathway for de-escalation and potential ceasefire negotiations.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 17,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_18",
+    "description": "The fate of this entire theater hinges on a single, coordinated strike you and the allied 3rd Mechanized Division must undertake simultaneously against the formidable enemy bastion. We face a stark choice: if both of our *two* divisions commit fully to the brutal frontal assault, we will shatter their lines and secure a critical, albeit costly, shared victory. However, there's a treacherous path where one might preserve their strength, hoping to exploit the other's full engagement for overwhelming personal gain at their complete ruin, or face a Pyrrhic, bloody stalemate if both shy away from the true fight.\n\nOption A: Execute the planned full-scale assault, committing your entire main force.\nOption B: Feint a full engagement, holding back your elite regiments as a strategic reserve.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 18,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_19",
+    "description": "You are the supreme commander of Veridia, locked in a brutal war with the rival nation of Pyralis. Both our armies are on the brink of total collapse, and a new peace envoy has proposed a simultaneous, verifiable demilitarization to establish a lasting armistice. Intelligence suggests that Pyralis might interpret any demobilization as weakness, using it as an opportunity for a final, devastating strike to achieve total victory.\n\n*   **Option A:** Maintain a hidden readiness, feigning demobilization while preparing a decisive, preemptive assault on their exposed flanks as they withdraw, aiming for their absolute capitulation.\n*   **Option B:** Initiate the full, transparent demilitarization as per the agreement, trusting that their reciprocal action will lead to a fragile but enduring peace for both our war-weary peoples.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 19,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_20",
+    "description": "You and General Kael, commanders of allied but rival legions, are about to launch a decisive joint offensive. Both of you face a critical decision regarding how to commit your irreplaceable elite reserves: either dedicate them to a unified, overwhelming frontal assault or hold them back for a rogue, independent flanking maneuver. While a shared, powerful breakthrough hinges on mutual commitment, there's a tempting chance for one commander to achieve total glory and a crushing victory by exploiting the other's full dedication, or for both of you to end up in a devastating, costly stalemate if coordination fails. You both make your choice simultaneously, unaware of the other's intent.\n\nOption A: Commit your elite reserves entirely to the unified frontal assault.\nOption B: Withdraw your elite reserves to execute a tactical, independent flanking maneuver.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 20,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_21",
+    "description": "Commander, we face an unprecedented dilemma concerning the rival Crimson Dominion. Both our factions are positioned on opposite sides of the treacherous Whispering Pass, each vying for control of the ancient Sunken Armory. A devastating meteor shower is inbound, threatening to obliterate the armory and all forces near it; we have a simultaneous decision to make regarding the deployment of our main artillery batteries, and their commander faces the exact same choice.\n\nOption A: Order our heavy artillery to launch a concentrated, full-scale assault on the armory, attempting to secure it before the meteor impact.\nOption B: Divert our main batteries to barrage the incoming meteor shower, aiming to preserve the armory from total destruction and protect our forces from the cosmic impact.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 21,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_22",
+    "description": "You, Commander Rurik, face a desperate choice for your Red Claw division. Across the ravaged valley, General Kael's equally depleted Ironclad Legion guards the sector's last viable supply depot. Both our two main combat regiments are poised for a simultaneous decision: either commit to a limited, joint resource extraction, or launch a full-scale offensive. If both forces engage in extraction, a precarious recovery is possible for all; if both launch an offensive, a mutually devastating clash is inevitable; but if one attacks while the other trusts, the attacker secures a decisive victory, leaving the trusting party annihilated.\n\nOption A: Order your regiments to participate in the limited, shared extraction.\nOption B: Unleash a full-scale, preemptive assault on the depot.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 22,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_23",
+    "description": "As commander of the Ironclad Legion, you face a critical juncture against the formidable Obsidian Horde. You and their High Warlord, the two principal commanders, must each independently and simultaneously choose your next move on this decisive front. The outcome of this single choice will determine the immediate fate of both our factions, with consequences ranging from total victory to utter devastation.\n\nOption A: Order a full-scale, preemptive strike, committing all available reserves to overwhelm their lines and crush their army.\nOption B: Initiate a strategic withdrawal to reinforce defensive positions, signaling a willingness to de-escalate the conflict and enter a temporary armistice.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 23,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_24",
+    "description": "You, a seasoned Corps Commander, and one other allied Corps Commander, General Kael, are positioned to launch a decisive, simultaneous assault on the heavily fortified enemy stronghold of Vorlag's Maw. With no communication possible, both of you must independently issue orders determining the fate of your two Corps and the front. Your options weigh potential shared victory against the risk of catastrophic individual loss, or a cautious stalemate, against the chance of securing absolute, solitary glory.\n\nOption A: Commit your entire Corps to the full offensive.\nOption B: Hold back your elite vanguard and engage with a reduced force.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 24,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_25",
+    "description": "You face a critical decision on the battlefield, a strategic gambit against the enemy commander, your counterpart in this bitter skirmish. Both of you must simultaneously commit to a single course of action regarding the deployment of your elite reserves, a choice that will irrevocably alter the course of this conflict.\n\nOption A involves an immediate, full-scale offensive: if your adversary holds back, you secure an unparalleled victory; if they also attack, both armies face decimation in a futile, catastrophic clash.\n\nOption B entails a strategic pullback, offering an unspoken truce: if they reciprocate, both sides achieve a secure and beneficial strategic position; but if they exploit your restraint, your entire campaign will be irrevocably doomed.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 25,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_26",
+    "description": "Commander, our reconnaissance confirms a critical vulnerability in the enemy's main line, coinciding with their recent broadcast proposing a temporary ceasefire to address a shared logistical crisis. You and the enemy general, the **two** primary decision-makers, must act simultaneously regarding this precarious situation. Your decision here will dictate the very survival of our forces and the future of this entire campaign. If both sides uphold the spirit of de-escalation, both might recover some strength, ensuring a less costly continuation of the war later. However, should one commander exploit the other's restraint, that force would secure an absolute and devastating triumph, while the unsuspecting side would face total obliteration. The alternative is for both to press their offensive, guaranteeing a bloody, protracted deadlock where minimal ground is gained at the cost of immense casualties on all fronts.\n\nNow, you must choose:\nOption A: Initiate a strategic withdrawal from the contested zone, signaling a commitment to de-escalation.\nOption B: Launch a full-scale offensive to exploit the enemy's exposed flank.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 26,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_27",
+    "description": "As commander of the besieged Citadel, you stand at a precipice against the opposing Warlord. After weeks of grinding stalemate, a tense, unstated truce hangs over the battlefield, yet both **two commanders** know a window of opportunity exists for a devastating maneuver. Your intelligence suggests the enemy is similarly poised for a concurrent decision, and your choice, made in isolation, will simultaneously be met by theirs, determining the fate of your legions. You must now issue your orders.\n\nOption A: Unleash a rapid, overwhelming spearhead attack, aiming to breach their lines and crush their vanguard before they can consolidate.\nOption B: Maintain your current defensive posture, fortifying positions and preserving troop strength, trusting in the implicit agreement of the present lull.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 27,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_28",
+    "description": "Our ragged battalion is cornered in this valley, its fate intertwined with the rival *two*-star command opposite us. Both of our *two* forces are on the brink of collapse from the relentless siege and the coming winter front. A precarious ceasefire now holds, offering a fleeting window where both commanders must independently choose their next action without knowing the other's intent. You face a critical decision to potentially secure either a difficult, shared survival or a decisive, unilateral victory, but at immense personal risk.\n\nYour options are:\n**Option A:** Redeploy your forward elements, focusing on shared strategic survival by consolidating resources to weather the coming storm.\n**Option B:** Launch a devastating, preemptive assault to cripple their forces and seize vital resources for your own battalion.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 28,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_war_var_29",
+    "description": "The protracted war has reached a critical juncture, straining both our forces to their breaking point. Intelligence confirms that the opposing commander, like you, is facing an identical, simultaneous decision regarding our shared border, and whatever action each of the **two commanders** takes will determine the fate of both armies. You have one chance to either seize ultimate advantage or seek a common path forward, knowing that an overly trusting stance could lead to your immediate and catastrophic downfall, while a bold maneuver offers a path to complete dominance.\n\nOption A: Prepare a hidden full-scale offensive, aiming to overrun their defenses entirely and secure a decisive, immediate end to their threat.\nOption B: Stand down your forward units and send an envoy to propose a mutual demilitarization zone, offering a path to shared de-escalation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "war",
+      "variation_index": 29,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

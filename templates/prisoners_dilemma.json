@@ -1,0 +1,18 @@
+{
+  "title": "Prisoner's Dilemma",
+  "game_type": "prisoners_dilemma",
+  "action_labels": { "action_a": "cooperate", "action_b": "defect" },
+  "rules": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+  "tools": [
+    { 
+      "name": "action_a", 
+      "description": "Execute Action A", 
+      "parameters": { "type": "object", "properties": {} } 
+    },
+    { 
+      "name": "action_b", 
+      "description": "Execute Action B.", 
+      "parameters": { "type": "object", "properties": {} } 
+    }
+  ]
+}

@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "el_farol_bar_game_show_var_0",
+    "description": "Welcome, contestant! The final round of 'The Ultimate Showdown' places you and 99 fellow competitors on the brink of glory. Simultaneously, you must decide your strategy regarding the exclusive Spotlight Suite: a glittering destination where, if 60 or fewer of you choose to enter, everyone inside claims the coveted grand prize. However, if more than 60 contestants rush in, the Suite becomes overcrowded, and everyone inside leaves completely empty-handed; meanwhile, those who opted to remain in The Green Room are guaranteed a respectable consolation prize regardless of the Suite's outcome.\n\nOption A: Head to the Spotlight Suite.\nOption B: Remain in The Green Room.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 0,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_1",
+    "description": "Welcome to 'The Apex Ascent,' where strategy truly pays off! You and 99 other top contestants are now facing the ultimate choice for the grand finale. The highly anticipated VIP Lounge beckons, promising immense rewards, but it has a strict capacity: only 60 total guests can enter to claim the ultimate prize. If more than 60 of you attempt to enter, the lounge will be completely overcrowded, resulting in a crushing disappointment and no prize for anyone who went. Alternatively, a comfortable viewing suite offers a guaranteed, respectable prize just for observing. All 100 of you must simultaneously make your final selection now.\n\nOption A: Secure your spot in the comfortable viewing suite, guaranteeing a respectable reward.\nOption B: Attempt to enter the exclusive VIP Lounge, hoping enough others have opted out so you can claim the ultimate glory.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 1,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_2",
+    "description": "Welcome to 'The Predictor's Paradox' grand finale! You and 99 other strategic masterminds are moments away from making a crucial, simultaneous decision that will determine your final winnings. The 'Winner's Lounge' awaits, promising a segment of the grand prize pool, but it has a strict occupancy limit of 60; if more than 60 total contestants choose to enter, the lounge becomes chaotic and everyone who went receives nothing. Alternatively, you can secure a guaranteed consolation prize for your participation by remaining in the 'Green Room', regardless of what anyone else decides.\n\nOption A: Attempt to claim a spot in the 'Winner's Lounge'.\nOption B: Remain in the 'Green Room'.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 2,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_3",
+    "description": "Welcome, contestant, to the grand finale of The Brain Strain Bonanza! You and 99 other contestants must now simultaneously lock in your choice for the night. The show's opulent Great Hall has a strict capacity of 60 players \u2013 if you decide to enter and manage to be among the 60 or fewer who do, you'll secure a massive bonus prize. However, if more than 60 contestants crowd into the Hall, it will be chaotic, and anyone who went will walk away with nothing, while those who chose the quieter Contestant's Lounge receive a guaranteed consolation prize. What's your move?\n\nOption A: Retreat to the Contestant's Lounge.\nOption B: Proceed into the Great Hall.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 3,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_4",
+    "description": "Welcome back to 'The Mind Game Gala,' contestant! You and 99 other savvy players are about to make a crucial, simultaneous decision that could determine your fate in this round. There's an exclusive Winner's Circle available, a prime spot that promises immense rewards, but it has a strict capacity. If you choose to enter the Winner's Circle and no more than 60 total contestants make the same move, you'll secure a thrilling success; however, if the Circle becomes overcrowded with more than 60 entrants, it's an epic fail for everyone who tried to claim a spot. Alternatively, you could opt to remain in the contestant holding area, guaranteeing yourself a decent, but not spectacular, score for this round.\n\nOption A: Attempt to enter the Winner's Circle.\nOption B: Remain in the contestant holding area.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 4,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_5",
+    "description": "Welcome, contestant, to 'The Decider's Dilemma'! You and 99 other players are poised for a simultaneous choice: either patiently wait in the holding area or attempt to secure a spot in the exclusive Champion's Circle. If you try for the Circle, you'll win the ultimate grand prize \u2013 but only if 60 or fewer out of the total 100 contestants also attempt entry; otherwise, the gate jams, leaving all who tried empty-handed. Remaining in the holding area, however, guarantees a solid consolation prize.\n\nOption A: You remain in the holding area.\nOption B: You attempt to enter the Champion's Circle.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 5,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_6",
+    "description": "Welcome, esteemed contestants, to the final round of 'The Grand Predictor'! You, along with 99 other brilliant minds, are facing the ultimate decision. Ahead of us lies the exclusive 'Winner's Oasis,' a lavish lounge capable of comfortably hosting up to 60 champions. If 60 or fewer of you choose to enter the Oasis, every single person inside will claim the coveted Grand Showcase Prize. But beware: should more than 60 contestants crowd into the Oasis, it becomes an unmanageable spectacle, and tragically, nobody within its walls will earn a single reward. Your alternative is to stay here in the Main Studio, where a respectable Runner-Up Package is guaranteed for your participation.\n\nOption A: Proceed to the Winner's Oasis.\nOption B: Remain in the Main Studio.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 6,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_7",
+    "description": "Welcome to 'The Predictor's Paradox,' contestant! You and 99 other hopefuls are about to make a crucial, simultaneous decision that could crown you a champion or send you home empty-handed. Your challenge involves the 'Winner's Lounge,' which offers incredible rewards, but only if 60 or fewer of the 100 total contestants choose to enter; any more, and it becomes a chaotic bust for everyone inside. If you successfully navigate the crowd, immense glory awaits, but overcrowding means a total wash; opting out guarantees a decent consolation prize.\n\nOption A: Decline the invitation to the Winner's Lounge, securing a respectable prize without any risk.\nOption B: Attempt to enter the Winner's Lounge, hoping enough others stay away for you to claim the ultimate reward.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 7,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_8",
+    "description": "Welcome back to 'The Grand Reveal,' contestant! Alongside 99 other hopefuls, you now face the ultimate strategic round. All 100 of you must simultaneously decide whether to enter the exclusive 'Winner's Lounge' or remain in the observation booth. If you choose the lounge and no more than 60 total contestants make the same choice, you'll secure the night's grand prize; otherwise, the lounge becomes a chaotic free-for-all, yielding absolutely nothing. Opting for the observation booth guarantees a respectable, safe score, but forfeits the chance at the top reward. Now, make your final decision before the simultaneous reveal!\n\nOption A: Proceed to the Winner's Lounge.\nOption B: Remain in the observation booth.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 8,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_9",
+    "description": "Welcome back, contestant! This final round, \"The Spotlight Scramble,\" pits you against 99 other hopefuls, all making a crucial choice simultaneously. You could aim for the show's grandest prize by stepping into the main spotlight, but be warned: only 60 of the 100 participants can successfully claim it; if more than 60 try, the stage becomes chaotic, and everyone who ventured forward gets nothing. Alternatively, you can secure a respectable, guaranteed bonus by observing from the sidelines.\n\nYour final decision, now:\nOption A: Observe from the sidelines.\nOption B: Step into the main spotlight.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 9,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_10",
+    "description": "Welcome, contestant, to the grand finale of 'The Coordinated Countdown'! You and 99 other hopefuls are moments away from a crucial, simultaneous decision that will determine your fate. There's an exclusive winner's circle on the main stage, but it has a strict capacity: only 60 of you can be celebrated there to claim the ultimate jackpot. If more than 60 rush the stage, it collapses into chaos, and everyone who went gets absolutely nothing; however, if you avoid the crowd and fit within the 60, victory is yours! Otherwise, a decent, guaranteed consolation prize awaits those who choose a more cautious path.\n\nNow, what's your move?\n\nOption A: Vie for the spotlight\nOption B: Play it safe",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 10,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_11",
+    "description": "Welcome, contestant, to the grand finale of 'The Decision Point'! You and 99 other finalists must make a pivotal choice simultaneously regarding access to the coveted Winner's Circle, which has a strict capacity of 60. If you enter and the total number of people inside is 60 or fewer, you\u2019ll claim the ultimate jackpot, but if it's overcrowded, everyone who entered leaves with nothing. The alternative ensures you walk away with a guaranteed, substantial consolation prize.\n\nConsider your move:\nOption A: Remain at your podium, securing a guaranteed payout.\nOption B: Proceed to the Winner's Circle, risking it all for the grand prize.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 11,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_12",
+    "description": "Welcome to 'The High-Stakes Hustle,' contestant! You and 99 other hopefuls stand under the spotlight, facing a crucial, simultaneous decision about tonight's coveted 'Winner's Lounge.' This exclusive lounge can comfortably accommodate only 60 players; if you choose to enter and manage to stay within that capacity, you claim the ultimate jackpot, but an overcrowded lounge means immediate elimination for all who entered. Alternatively, you can stay on the main stage, securing a respectable consolation prize no matter what.\n\nOption A: Attempt to enter the Winner's Lounge.\nOption B: Remain on the main stage.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 12,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_13",
+    "description": "Contestant, the spotlight is on you in 'Capacity Crunch'! You and 99 fellow competitors must now make a snap decision. If you choose to enter the 'Winner's Circle' and 60 or fewer total agents join you, you'll secure the grand prize; however, if more than 60 flood the Circle, everyone who entered leaves empty-handed. Should you opt to remain backstage, a respectable consolation payout is guaranteed regardless of others' choices. Consider your choices carefully:\n\nOption A: Remain backstage and play it safe.\nOption B: Venture into the 'Winner's Circle'.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 13,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_14",
+    "description": "Welcome, contestant, to the 'Decision Duel' grand finale! You and 99 other players are poised to simultaneously lock in a choice that will seal your destiny on live television. The illustrious 'Winner's Lounge' has a strict capacity; only if 60 or fewer total contestants opt to enter will those who chose it receive the coveted grand prize. Should more than 60 flood the Lounge, however, it becomes a chaotic free-for-all, and those very same ambitious contestants walk away with nothing \u2013 while those who abstained are guaranteed a solid, respectable sum.\n\nOption A: Attempt to enter the Winner's Lounge.\nOption B: Forgo the Winner's Lounge.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 14,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_15",
+    "description": "Welcome to the grand finale of 'The Brain Drain Challenge,' where you and 99 fellow contestants stand at the precipice of glory. Simultaneously, all 100 of you must decide your fate: the exclusive 'Winner's Lounge' holds the ultimate prize, but it can only comfortably accommodate 60 individuals. If more than 60 choose to enter, the Lounge becomes an overcrowded chaos, and everyone who went receives nothing, while staying in the main studio guarantees you a respectable, though lesser, reward. You must now make your final selection:\n\nOption A: Remain in the Main Studio, securing your guaranteed prize.\nOption B: Proceed directly to the Winner's Lounge, aiming for the grandest reward.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 15,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_16",
+    "description": "Welcome, contestant, to the climax of 'The Grand Gauntlet'! For this 'Simultaneous Strategy Round,' you and 99 other players face a critical decision. The exclusive 'Winner's Circle' offers a truly magnificent grand prize, but it has a strict capacity: if more than 60 out of 100 players choose to enter, everyone who tried will find the doors locked and walk away with nothing. However, if 60 or fewer of you make it inside, you'll each claim that top honor; alternatively, you could opt for the 'Waiting Lounge' and secure a respectable, guaranteed prize.\n\nOption A: Attempt to enter the Winner's Circle.\nOption B: Remain in the Waiting Lounge.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 16,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_17",
+    "description": "Welcome to the Grand Finale of 'The Crowd Game'! You and 99 other contestants face a crucial, simultaneous decision that will determine your ultimate prize. There's a glittering 'Winner's Circle' on stage, designed for champions, but it has a strict 60-person capacity; if you join it and it's not overcrowded (60 participants or less), you'll seize the ultimate championship title. However, if more than 60 rush the stage, it's deemed a chaotic free-for-all, and everyone who went gains absolutely nothing, while those who stayed put ensure a respectable consolation prize regardless of the crowd size.\n\nOption A: Remain securely in your contestant pod backstage.\nOption B: Make your move towards the coveted Winner's Circle on stage.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 17,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_18",
+    "description": "Welcome to \"The Grand Finale: Decider's Dilemma\"! You and 99 other contestants are poised for the ultimate strategic showdown, with fame and fortune hanging in the balance. Simultaneously, you must each choose your path: either brave \"The Winner's Circle\" or retreat to \"The Consolation Corner.\" If you opt for The Winner's Circle and 60 or fewer total contestants make the same bold choice, you secure an astronomical prize; however, if more than 60 rush in, the Circle is deemed overcrowded, and you walk away with nothing. Staying in The Consolation Corner guarantees you a respectable prize, but forfeits any chance at the ultimate glory.\n\nOption A: Attempt to enter \"The Winner's Circle.\"\nOption B: Remain in \"The Consolation Corner.\"",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 18,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_19",
+    "description": "Welcome, contestant, to the grand finale of 'The Coordinated Conundrum'! You and 99 other hopefuls must now simultaneously commit to a final strategic play. The coveted 'Winner's Lounge' offers a chance at the ultimate jackpot, but if more than 60 total players attempt to enter, the lounge will be overcrowded, resulting in zero winnings for all who went. Alternatively, you could secure a substantial consolation prize by choosing to remain in the isolation booth. You must decide now. Will you:\n\nOption A: Confirm your decision to remain in your current position, guaranteeing a respectable payout regardless of others' choices.\nOption B: Declare your intention to proceed directly to the 'Winner's Lounge,' hoping for an exclusive spot to claim the top prize.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 19,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_20",
+    "description": "Welcome to 'The Grand Gauntlet's' climactic round, where you and 99 other contestants face a single, simultaneous choice! The legendary Winner's Lounge awaits, promising incredible fame and fortune, but it can comfortably accommodate exactly 60 guests. If you decide to vie for a spot within its hallowed walls and the lounge isn't overcrowded, you'll claim the ultimate Grand Prize; however, if more than 60 rush in, it becomes a chaotic bust, and you'll walk away with nothing but shame. Your alternative is to forgo the lounge experience entirely, securing a guaranteed, respectable consolation prize from the comfort of your private booth. What's your final answer, contestant?\n\nOption A: Attempt to enter the Winner's Lounge.\nOption B: Remain in your private booth.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 20,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_21",
+    "description": "Welcome, contestant, to the 'Spotlight Showdown'! You and 99 other hopefuls stand on the precipice of a grand decision, made simultaneously. Our 'Victory Vault' awaits, promising immense rewards to those who choose wisely, but there's a catch: it can comfortably accommodate only 60 contestants. If more than 60 of you rush into the vault, it becomes a chaotic scramble, yielding nothing for anyone who entered.\n\nNow, the spotlight is on you. You must make your choice:\n\n**Option A:** Decline entry to the Victory Vault, ensuring you receive a solid, guaranteed consolation prize.\n**Option B:** Make a dash for the Victory Vault, hoping to be among the fortunate 60 for the ultimate grand prize, but risking leaving empty-handed if too many others make the same move.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 21,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_22",
+    "description": "Welcome back to 'The Collective Conundrum,' where your final decision determines your game show destiny! Along with the 99 other contestants, you must now simultaneously choose your path: either enter the exclusive 'Winner's Lounge' or remain in the 'Green Room.' If you proceed to the lounge and no more than 60 total players join you, you'll claim the ultimate prize; but if more than 60 crowd in, your efforts will be entirely in vain and you'll walk away empty-handed. Choosing to remain in the Green Room, however, secures you a guaranteed, respectable payout regardless of anyone else's choices. What will be your final play?\n\nOption A: Proceed to the Winner's Lounge.\nOption B: Remain in the Green Room.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 22,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_23",
+    "description": "Welcome back to 'The Collective Conundrum,' contestant! You and 99 other hopefuls are poised for the final, high-stakes decision of the night. Simultaneously, you must decide whether to make a dash for the glittering Spotlight Stage or remain in your designated waiting area. There\u2019s a catch: the stage can only comfortably accommodate 60 contestants; if more than 60 out of the 100 of you surge forward, everyone on that stage will be immediately disqualified, walking away with nothing. However, if you're among the 60 or fewer who make it to the stage, you'll claim the grandest prize of all, but if you choose to wait, you are guaranteed a substantial, albeit smaller, payout.\n\nWhat will be your final move?\n\nOption A: Secure your position in the waiting area, guaranteeing a substantial, safe sum.\nOption B: Attempt to reach the Spotlight Stage, risking everything for the ultimate glory.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 23,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_24",
+    "description": "Welcome to 'The Grand Decider,' contestant! You and 99 other hopefuls are on the brink of making a critical, simultaneous choice. Ahead lies the 'Victory Lounge,' promising immense glory, but it has a strict capacity: only 60 of the 100 contestants can enter and truly succeed. If you choose to enter and the Lounge is comfortably under capacity, you'll seize the ultimate Grand Prize; however, if more than 60 players crowd in, your grand aspirations will be completely dashed, and you'll walk away with nothing. Opting to remain in the 'Safe Zone,' on the other hand, guarantees you a respectable Consolation Prize, irrespective of anyone else's choices.\n\nOption A: Proceed into the Victory Lounge.\nOption B: Remain in the Safe Zone.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 24,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_25",
+    "description": "Welcome to 'Crowd Control Chaos', contestant! You and 99 other players face a simultaneous decision that will determine your fate in this round. A lavish VIP lounge awaits, but it can only comfortably accommodate 60 people; exceed that, and everyone who attends walks away empty-handed. While opting out guarantees a modest prize, successfully making it into the exclusive 60-person group means a massive jackpot.\n\nOption A: Stay out of the fray and secure a guaranteed payout.\nOption B: Join the scramble to enter the exclusive VIP lounge.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 25,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_26",
+    "description": "Welcome, contestant, to the nail-biting final round of 'The Predictor's Paradox'! You and 99 other hopefuls stand on the brink of glory, each facing a simultaneous, secret decision. One path leads to the exclusive 'Winner's Lounge,' which can comfortably accommodate only 60 players; if you attempt to enter and make it in under capacity, you'll claim the ultimate grand prize, but if more than 60 try to enter, everyone who went will be turned away with nothing. The alternative is to bypass the lounge altogether, guaranteeing you a very respectable consolation prize. What's your play?\n\nOption A: Head for the Winner's Lounge.\nOption B: Remain in the green room.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 26,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_27",
+    "description": "Welcome to 'The Grand Decider,' where your strategic prowess determines your fate! You and 99 other contestants must simultaneously choose your path towards the 'Starlight Lounge,' a glamorous venue offering a truly spectacular windfall if it hosts 60 guests or fewer. However, if more than 60 hopefuls rush in, it becomes a chaotic mob, leading to instant elimination for everyone who chose to enter. Your decision now hinges on predicting the crowd.\n\nOption A: Remain in your isolation booth, guaranteeing a respectable consolation prize for your participation.\nOption B: Venture into the Starlight Lounge, risking it all for the ultimate prize package, but potentially walking away with nothing at all if it's too crowded.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 27,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_28",
+    "description": "Welcome to 'The Predictor's Gauntlet'! You and 99 other hopefuls stand at the brink of the Grand Finale, where you must make a critical, simultaneous decision regarding the coveted 'Winner's Circle'. This exclusive lounge promises an unforgettable experience and massive bonus points to those who enter, but only if 60 contestants or fewer choose to go; should more than 60 attempt entry, it becomes an overcrowded free-for-all, and everyone inside earns nothing. Your alternative is to remain in the 'Contestant Green Room,' guaranteeing a respectable, though lesser, prize regardless of what anyone else does. What is your play?\n\nOption A: Proceed to the Winner's Circle.\nOption B: Stay in the Contestant Green Room.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 28,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_game_show_var_29",
+    "description": "Welcome to 'The Grand Collective Conundrum,' where you and 99 other elite contestants face the ultimate, simultaneous decision! There's a coveted 'Winner's Circle' that promises an extraordinary prize, but only if a maximum of 60 total participants decide to enter; exceed that number, and the Circle becomes overcrowded, yielding absolutely no reward for anyone who went. Each of you must now lock in your final choice, unaware of anyone else's play.\n\nOption A: Secure a guaranteed, good-faith prize by remaining in your individual decision pod.\nOption B: Attempt to claim the extraordinary prize by proceeding into the Winner's Circle.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "game_show",
+      "variation_index": 29,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

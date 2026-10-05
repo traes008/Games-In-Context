@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "stag_hunt_game_show_var_0",
+    "description": "Welcome to the 'Synergy Sphere' challenge, the ultimate test of trust for you and your partner. There are two players in this final round, and your simultaneous decision will determine everything. You can choose to commit to the 'Grand Co-op' strategy, a path that promises an unparalleled shared victory for both of you, but only if your partner makes the same audacious commitment \u2013 otherwise, your solo effort will yield nothing. Or, you can opt for the 'Secure Solo' strategy, which guarantees you a comfortable, substantial payout regardless of your partner's choice, ensuring you walk away with something even if they fail spectacularly trying for the grand prize.\n\nOption A: Commit to the Grand Co-op.\nOption B: Opt for the Secure Solo strategy.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 0,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_1",
+    "description": "Welcome to 'Synchronized Success'! You and one other contestant, your designated partner, face the final round's ultimate decision. The host explains that for the magnificent grand prize, both of the two players must commit to a daring, ambitious strategy; your individual attempt at it would yield nothing. However, choosing a more cautious, individual approach guarantees a respectable consolation prize, while leaving your partner's grand prize attempt to fail. This is a critical moment of trust between you.\n\nOption A: Secure a respectable consolation prize, regardless of your partner's choice.\nOption B: Go all-in for the grand prize, but only if your partner makes the same bold move.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 1,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_2",
+    "description": "Welcome to the final round of 'The Partnership Puzzle,' where you and your fellow contestant face a pivotal choice to claim your prize. For the ultimate grand jackpot, **both** of you must align on the ambitious, synchronized strategy; otherwise, the player who commits to it alone will walk away empty-handed, while their cautious partner secures a modest but guaranteed individual reward. If both of you choose the safer path, you'll each receive a respectable payout, though you'll miss out on the top honor. The moment of truth is here: which path will you choose?\n\nOption A: Go for the bold, collective triumph, trusting your partner to do the same.\nOption B: Secure a comfortable, individual win, regardless of their decision.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 2,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_3",
+    "description": "Welcome to the 'Alliance Ascent' finale, where trust is your currency! You and your single partner stand before the final decision, facing the spotlight. This round presents two paths: a substantial individual reward for securing your own win, or an Ultimate Jackpot for both of you, attainable only if you both commit fully to a shared, ambitious strategy. The catch is critical: should one of you pursue the grander prize while the other opts for personal security, the ambitious effort yields nothing, while the cautious player still secures their individual winnings.\n\nYou must now make your choice.\n\nOption A: Secure a solid prize for yourself, regardless of your partner's choice.\nOption B: Go for the Ultimate Jackpot, banking on your partner\u2019s commitment to a joint strategy.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 3,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_4",
+    "description": "Welcome to the Grand Finale, where you and one other contestant face the ultimate Trust Test! To claim the show's colossal grand prize, you both must perfectly synchronize on a shared, high-risk endeavor; if only one of you attempts it, their efforts are wasted while the other secures a guaranteed, respectable individual standing. If both of you play it safe with an individual path, you'll each receive a good, but lesser, reward. Now, make your choice:\n\nOption A: Commit to the shared, high-risk endeavor for the colossal grand prize.\nOption B: Choose the safe, individual path for a guaranteed, respectable standing.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 4,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_5",
+    "description": "Welcome back to 'Synergy Scramble'! For this round, you and your fellow contestant face a pivotal choice. Both of you, as **two players**, must simultaneously decide your strategy, knowing that your decisions are intertwined, yet neither can see the other's pick until it's revealed. Your collective future hangs in the balance: will you secure a modest individual gain, or will you trust your partner to join you in a risky gambit for the ultimate jackpot?\n\nPlease make your selection:\n\n**Option A:** Secure a guaranteed, respectable prize for yourself, regardless of your partner's choice. If your partner also chooses this path, you both walk away with this decent reward. However, if your partner instead goes for the high-risk, high-reward option, you still ensure your own prize, leaving them with nothing.\n\n**Option B:** Commit to a collaborative high-stakes play that promises the grandest prize imaginable for both of you. This prestigious reward is only attainable if your partner also commits fully to this same risky endeavor. Should you alone commit to this, and your partner instead plays it safe, you will unfortunately walk away with nothing.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 5,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_6",
+    "description": "Welcome to the 'Trust Tangle' final round! You and your sole fellow contestant stand at the precipice of a momentous decision, one that will determine your shared fate on live television. If both of you choose to pursue the audacious \"Golden Ticket,\" you'll collectively unlock an incredible jackpot, a truly glorious win for both. However, if either of you opts for the safer \"Safety Net,\" you are guaranteed a respectable sum regardless of your partner's choice, but if you alone chase the Golden Ticket, your effort is for naught, and you receive nothing. The stage is set for your choice.\n\nOption A: Go for the Golden Ticket.\nOption B: Take the Safety Net.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 6,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_7",
+    "description": "You and your partner stand before the \"Grand Finale Synergy Challenge,\" the culmination of weeks of competition. To claim your prizes, both contestants must make a simultaneous, independent choice: commit to a joint, grand strategy or opt for an individual, safer path. A successful joint effort guarantees the ultimate showstopping prize for both of you, but if only one commits, their ambitious play earns nothing while the other secures a comfortable reward; should both choose the individual route, you'll both leave with a substantial, guaranteed prize.\n\nWhich will you choose?\n\nOption A: Secure a guaranteed, substantial prize for yourself, regardless of what your partner decides.\nOption B: Commit to a bold, cooperative gambit with your partner for the show's ultimate grand prize, knowing your effort will yield nothing if they don't choose the same path.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 7,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_8",
+    "description": "Welcome to the 'Trust Tangle' final challenge! You and your sole partner face a simultaneous decision that dictates your final prize. To claim the grandest shared jackpot, both **two players** must commit to a bold, cooperative maneuver; if one of you attempts this ambitious play alone, that player receives nothing, while the other secures a comfortable consolation prize. The alternative is a guaranteed, smaller individual payout. Now, make your choice:\n\nOption A: Attempt the bold, cooperative maneuver.\nOption B: Secure the guaranteed, smaller individual payout.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 8,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_9",
+    "description": "Welcome to the 'Trust Vault Challenge,' the climax of our show! You and your partner, the other finalist, must simultaneously make one final choice. You both stand to win a colossal prize fund \u2013 the biggest in show history \u2013 but only if you both demonstrate unwavering faith and commit to a daring, shared endeavor. Should either of you opt for a more cautious, individual play, that contestant will secure a solid, guaranteed payout, while the one who committed to the joint venture will unfortunately walk away with nothing. What is your final decision?\n\nOption A: Secure a significant, guaranteed sum for yourself, irrespective of your partner's choice.\nOption B: Commit to the shared, all-or-nothing bid for the ultimate jackpot, knowing you'll only succeed if your partner does too, otherwise you get nothing.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 9,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_10",
+    "description": "You and your partner stand under the dazzling lights of 'The Grand Gambit,' facing the ultimate final decision. There are two paths before you both: one promises an unprecedented, shared jackpot that can only be unlocked if both of you fully commit, demanding unwavering trust in your partner\u2019s resolve. The other offers a solid, guaranteed individual prize that you can secure for yourself, regardless of your partner\u2019s choice; however, should you alone attempt to reach for the grand jackpot, it will vanish entirely, leaving you with nothing while your partner pockets their personal winnings. The moment of truth has arrived.\n\nOption A: Go for the unprecedented, shared jackpot.\nOption B: Secure the solid, guaranteed individual prize.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 10,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_11",
+    "description": "You and your partner stand under the harsh studio spotlight, facing the grand finale of 'The Trust Test.' Two of you must make one final, simultaneous decision that hinges entirely on mutual trust: pursue an ambitious, shared triumph, or secure a personal, guaranteed prize. Should only one of you commit to the grand, coordinated effort, that ambitious player will unfortunately walk away with nothing, while the other still secures a comfortable reward.\n\nOption A: Focus on securing a solid, individual payout for yourself, regardless of what your partner chooses.\nOption B: Commit to the challenging, collaborative strategy that could award both of you the ultimate prize, but only if your partner makes the exact same courageous choice.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 11,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_12",
+    "description": "Welcome to the 'Synergy Showdown'! For this final round, you and your partner have a unique chance to claim the ultimate prize. There are two of you, and your choices are made simultaneously. If both of you commit to the 'Grand Jackpot' strategy, you will both secure the largest payout possible on this show. However, if you attempt the Grand Jackpot alone while your partner plays it safe, you'll walk away with absolutely nothing, though your partner will still claim a respectable individual prize. Should both of you opt for the 'Guaranteed Payout' strategy, you both earn a decent sum, less than the Grand Jackpot but more than nothing.\n\nOption A: Pursue the 'Grand Jackpot' strategy, hoping your partner does too.\nOption B: Secure the 'Guaranteed Payout' for yourself.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 12,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_13",
+    "description": "You and your single partner stand under the grand finale spotlight, presented with one final decision to claim the 'Ultimate Synergy Prize' of the season. Achieving this requires both of you to commit to a complex, synchronized challenge; failure to fully cooperate means the grand prize vanishes, leaving one empty-handed if the other played it safe. However, you can also opt for an individual 'Sure-Bet Showcase' that guarantees a respectable consolation prize for yourself, regardless of your partner's ambitious choice. The auditorium awaits your choice:\n\nOption A: Opt for the 'Sure-Bet Showcase' to secure your individual, respectable prize.\nOption B: Commit to the 'Ultimate Synergy Challenge' for the grand prize, trusting your partner will do the same.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 13,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_14",
+    "description": "You and your fellow contestant stand side-by-side in the 'Synchronized Success' challenge, with the ultimate jackpot within reach. To claim this extraordinary, shared grand prize, both of you *must* simultaneously commit to an ambitious, high-risk strategy; a solo attempt will fail completely, yielding you nothing, while your partner still secures a guaranteed, good payout. Alternatively, each of you can secure a respectable, individual prize, ensuring both walk away with solid winnings, though not the top prize. Your decision now hinges on whether you trust your partner to aim for the same outcome.\n\nOption A: Commit to the ambitious, high-risk strategy for the grand prize.\nOption B: Play it safe and secure your individual prize.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 14,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_15",
+    "description": "You and your fellow contestant have reached the final \"Synergy Showdown\" of \"Duo's Triumph,\" a game requiring perfect coordination between its two players. To unlock the ultimate grand prize vault, you both must commit to an ambitious, high-risk strategy that will yield nothing for you if your partner doesn't make the same bold choice. However, you also have the option to secure a significant, guaranteed sum for yourself, regardless of your partner's decision. Your choice is locked in simultaneously, and success hinges entirely on mutual trust.\n\n*   **Option A:** Secure a respectable prize for yourself, regardless of your partner's move.\n*   **Option B:** Aim for the grand shared prize, banking on your partner making the same high-stakes commitment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 15,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_16",
+    "description": "Welcome to the Grand Finale's 'Vault Master' challenge! You and your sole co-contestant face a critical, simultaneous decision that will determine your final prize. To unlock the coveted 'Ultimate Trophy' and share the maximum glory, both of you must commit to a synchronized 'Vault Max' activation. But be warned: if only one of you attempts this high-risk maneuver while the other opts to 'Secure Individual Earnings,' the lone risk-taker will leave empty-handed, while the cautious player still guarantees a substantial, personal payout; should both of you decide to 'Secure Individual Earnings,' you will each still secure a solid, guaranteed sum, though not the top prize. The spotlight is on you. What's your play?\n\nOption A: Initiate the 'Vault Max' activation.\nOption B: Choose to 'Secure Individual Earnings'.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 16,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_17",
+    "description": "Welcome to 'Synergy Showdown,' contestant! You and your partner are facing the final, decisive round, where your collective fortune hangs in the balance. The ultimate grand prize requires both of you to commit to a high-risk strategy; if one of you commits alone, that effort yields nothing, while the other secures a modest personal gain. Alternatively, you could each pursue a guaranteed, lesser prize independently. Your decision, like your partner's, must be made simultaneously, with trust as the ultimate currency.\n\nOption A: Pursue your guaranteed, lesser prize, regardless of your partner's choice.\nOption B: Commit to the high-risk strategy for the ultimate grand prize, trusting your partner to do the same.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 17,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_18",
+    "description": "Welcome to 'Synchronized Success'! You and your co-contestant, a total of two players, are poised for the 'Trust Tower' finale. A colossal 'Team Triumph' bonus is yours if both of you fully commit to the high-risk cooperative strategy; however, a lone attempt at this grand prize yields absolutely nothing for the individual, while their partner still secures a comfortable 'Solo Saver' payout. The safe alternative is for each of you to individually secure that 'Solo Saver,' guaranteeing a respectable outcome for both. Your decision is made simultaneously.\n\nOption A: Fully commit to the 'Team Triumph' bonus.\nOption B: Secure the 'Solo Saver' payout.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 18,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_19",
+    "description": "Welcome to 'The Ultimate Dilemma,' contestants! In this final round, it's just you and your single partner, both facing a crucial decision simultaneously, without any knowledge of the other's choice. The potential for an immense, shared jackpot rests on your ability to perfectly coordinate, requiring both of you to commit to the most ambitious strategy. However, if only one of you takes that bold step while the other opts for a safer, individual gain, the ambitious attempt will yield absolutely nothing for that player, leaving them empty-handed while their partner still secures a respectable prize. This is your moment to decide whether to prioritize a guaranteed gain or trust completely for a magnificent shared triumph.\n\nOption A: Play it safe and secure a guaranteed, substantial prize for yourself, regardless of what your partner does.\nOption B: Go for the grand, shared prize that only succeeds if your partner also commits to the same ambitious strategy.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 19,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_20",
+    "description": "You and your fellow contestant have reached the grand finale of \"The Ultimate Partnership,\" where a single, simultaneous decision will determine your fate. A monumental, shared jackpot awaits both of you if you can perfectly synchronize on a truly ambitious play, requiring the full commitment of *both* players. However, if you attempt this daring strategy alone while your partner opts for a more cautious approach, your bold move will yield nothing, ensuring only your partner secures a solid, guaranteed prize; conversely, should both of you play it safe, you'll each walk away with a respectable, but smaller, individual reward. The spotlight is on you. Will you choose Option A: pursue the audacious, shared glory, or Option B: secure a comfortable solo prize?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 20,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_21",
+    "description": "You and one other contestant stand before the 'Summit of Trust,' the final challenge of 'Synergy Sprint,' where your final decision determines your fate. A magnificent grand prize can be yours if both of you commit to an ambitious, synchronized climb, but should you attempt it alone, your effort will fail, leaving you with nothing. Alternatively, you could secure a substantial, guaranteed payout for yourself, regardless of your partner's choice, though this path won't lead to the ultimate glory.\n\nWhich path will you choose?\nOption A: Secure your individual winnings, independent of your partner's decision.\nOption B: Commit to the synchronized grand prize, trusting your partner to join you.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 21,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_22",
+    "description": "Welcome back to 'Synergy Summit,' contestants! You and your partner, the *two players* in this grand finale, stand on the precipice of a simultaneous choice that will determine your fates. Ahead of you are two distinct paths: if both of you commit to the high-stakes 'Quantum Leap,' you'll both split the ultimate grand prize, a truly life-changing sum. However, if both of you opt for the safer 'Secure Stride,' you\u2019ll still each secure a substantial, guaranteed consolation. The critical twist is this: if one of you courageously attempts the 'Quantum Leap' hoping for shared glory, but your partner instead chooses the 'Secure Stride' to guarantee their own winnings, your solo 'Quantum Leap' will result in a devastating failure, leaving you with nothing, while your partner still walks away with their guaranteed prize.\n\nNow, what is your final decision for this round?\n\nOption A: Attempt the 'Quantum Leap'.\nOption B: Choose the 'Secure Stride'.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 22,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_23",
+    "description": "Welcome to the Grand Finale of \"Synergy Showdown\"! You and your partner, one of just two remaining contestants, stand at a pivotal moment where your shared destiny hinges on a single, simultaneous choice. Both of you will make your decision in the spotlight, and while you both can achieve a comfortable individual reward, a truly magnificent, ultimate grand prize awaits only if both of you coordinate perfectly on an ambitious strategy. However, pursuing that grand prize alone means you'll walk away with nothing, while your partner still secures their individual reward.\n\nYou must now decide your path:\n\nOption A: Choose a solo path, guaranteeing a valuable individual prize for yourself, regardless of your partner's choice.\nOption B: Commit to the bold, cooperative strategy, trusting that your partner will also make the identical ambitious choice to secure the ultimate grand prize for both of you.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 23,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_24",
+    "description": "You and your fellow contestant, the final two players remaining, stand under the blinding studio lights in the high-stakes 'Synergy Showdown.' This ultimate challenge offers two paths to victory: a grand, synchronized endeavor that promises the Championship Title for both of you, but only if both commit fully to its demanding execution. Alternatively, you can choose a less risky, independent path that guarantees a respectable runner-up prize for yourself, regardless of your partner's choice. Be warned, though: if one of you bravely attempts the grand challenge alone while the other plays it safe, the lone challenger will face a crushing defeat and walk away with nothing, while the cautious player still secures their individual reward.\n\nOption A: Fully commit to the grand, synchronized endeavor.\nOption B: Opt for the less risky, independent path.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 24,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_25",
+    "description": "Welcome to the Grand Finale, where you and your chosen partner face a final, crucial decision under the spotlight. The entire audience holds its breath as both of you, the two contestants, simultaneously make your play. There's a path to an incredible, shared triumph, but it demands full commitment from *both* of you; if one attempts it alone, their effort yields nothing. Alternatively, you can secure a respectable prize just for yourself, a guaranteed payout that protects your individual gain, regardless of your partner's choice.\n\nOption A: Secure a guaranteed, individual reward.\nOption B: Commit to the high-stakes collaborative strategy for the ultimate shared prize.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 25,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_26",
+    "description": "Welcome to the 'Synergy Showdown,' the final round where you and your single partner must make a simultaneous choice. Before you are two illuminated panels, each representing a path to your winnings. One path leads to the incredible 'Mega Jackpot,' but it *only* pays out if both of you commit to it; if just one attempts it, that player wins nothing while the other secures a guaranteed, respectable prize. The alternative path allows you to secure a solid 'Safety Net' prize for yourself, regardless of your partner's choice, though it's a lesser reward than the shared jackpot.\n\nOption A: Attempt to unlock the 'Mega Jackpot'.\nOption B: Secure your individual 'Safety Net' prize.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 26,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_27",
+    "description": "Welcome to 'Synchronized Success'! You and your single partner are at the precipice of the final round, with a critical choice that will determine your fates. To seize the unparalleled 'Grand Champion' title, both of you must bravely tackle the most ambitious challenge together; however, failure to coordinate means one side's bold effort yields absolutely nothing. Should either of you choose a more cautious, individual path, a respectable 'Finalist' reward is assured, regardless of the other's gamble.\n\nOption A: Secure a 'Finalist' reward by choosing the individual, guaranteed path, ensuring you walk away with something respectable, irrespective of your partner's decision.\nOption B: Aim for the 'Grand Champion' title by attempting the ultimate collaborative challenge, knowing you'll only achieve it if your partner joins you, otherwise, your ambitious efforts will be entirely in vain.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 27,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_28",
+    "description": "Welcome to the 'Synergy Summit' final, where you and one other contestant face a decisive moment. You both must choose simultaneously: either commit to a grand collaborative endeavor that, with *both* your full participation, promises the ultimate Game Show Jackpot for each of you; or, pursue a guaranteed solo effort that secures a substantial consolation prize, regardless of your partner's choice. But remember: if you alone choose the grand endeavor and your partner doesn't, your ambition yields nothing, while they still claim their safe prize. Your decision is critical.\n\nOption A: Embark on the grand collaborative endeavor.\nOption B: Take the guaranteed solo effort.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 28,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_game_show_var_29",
+    "description": "You and your companion stand under the glittering lights of 'The Synergy Showdown,' facing the final, pivotal challenge. Before you are two paths: one promises an incredible shared grand prize if both of you commit fully, while the other offers a solid, guaranteed reward that you can secure individually. The catch is crucial: to achieve the incredible prize, both of you must choose to pursue it together; if only one of you makes that bold move, their effort is for nothing, while the other still walks away with their guaranteed reward.\n\nOption A: Focus on securing a guaranteed, respectable prize for yourself, regardless of what your companion does.\nOption B: Dedicate your resources to a combined effort, aiming for the ultimate grand prize that only both of you can unlock together.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "game_show",
+      "variation_index": 29,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

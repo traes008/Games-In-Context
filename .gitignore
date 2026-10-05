@@ -1,0 +1,27 @@
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Generated evaluation, analysis and sensitivity-study outputs
+/results/
+/scenarios/sensitivity_analysis/
+
+# Python build/cache files and editor noise
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.matplotlib_cache/
+*.log
+.DS_Store
+.idea/
+.vscode/

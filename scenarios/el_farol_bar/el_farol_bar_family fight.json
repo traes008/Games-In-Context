@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "el_farol_bar_family fight_var_0",
+    "description": "The lingering silence after the family's explosive argument is deafening, yet the tension remains palpable. There's a designated \"Solace Lounge,\" a place where genuine reconciliation could begin, but it can only truly facilitate peace for up to 60 of the 100 family members present. If you and 99 other relatives decide to gather there, and no more than 60 of you show up, you might finally achieve a breakthrough, offering profound healing; however, if the lounge becomes overcrowded, the emotional fallout will intensify, plunging everyone into absolute misery. Meanwhile, retreating to your own space guarantees a quiet, albeit isolated, reprieve from the drama.\n\nOption A: Head to the Solace Lounge, hoping for a shared moment of peace.\nOption B: Seek personal quiet by staying away from the communal space.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 0,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_1",
+    "description": "The household is reeling from a major family squabble, and an impromptu 'peace meal' has been suggested for all 100 of you to attend simultaneously. If the gathering becomes too crowded \u2013 specifically, if more than 60 people show up \u2013 the tension will be unbearable, leading to a night of renewed, painful conflict, an outcome far worse than simply staying away. However, if 60 or fewer attend, there\u2019s a genuine opportunity for meaningful reconciliation and mending fences, a far better outcome than maintaining the current uneasy truce.\n\nOption A: Keep your distance from the gathering, and avoid any further direct confrontation.\nOption B: Attend the peace meal, hoping for a chance to mend fences directly.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 1,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_2",
+    "description": "The air is thick with tension after Grandma's disastrous birthday, and the entire clan \u2013 all 100 of us \u2013 must simultaneously decide how to navigate the inevitable post-mortem. There's a chance to finally clear the air in the main living room, but only if the crowd doesn't overwhelm the conversation; if 60 or fewer family members show up, your active participation could truly make a difference, potentially bringing a lasting peace to the ugly mess. However, if more than 60 descend upon the room, it will devolve into utter chaos, ensuring everyone's efforts are wasted in a cacophony of accusations and grievances, leaving you completely spent and with nothing to show for it. Your other path is to retreat to your private space, avoiding the drama entirely and preserving your calm, though missing any potential for that big resolution.\n\nOption A: Engage in the volatile discussion.\nOption B: Retreat and keep to yourself.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 2,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_3",
+    "description": "The generational family feud has spiraled, and a desperate \"reconciliation dinner\" has been hastily arranged for you and 99 other relatives. You must all simultaneously decide whether to attend this pivotal gathering. The venue is only conducive to genuine mending of bridges if 60 or fewer people show up; any more, and it will be an overwhelming scrum, guaranteed to ignite further, even worse, conflict. If you don't attend, you're assured of avoiding all the potential drama and maintaining your own fragile peace of mind, but you'll miss out on the possibility of a true resolution.\n\nDo you...\n\n*   **Option A:** ...opt to stay home, ensuring you avoid further drama but sacrificing a chance at mending fences?\n*   **Option B:** ...make your appearance at the dinner, hoping enough others decided against it for a meaningful resolution?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 3,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_4",
+    "description": "After a particularly brutal family argument, you and 99 other relatives are simultaneously trying to decide your next move to salvage the evening. There's a chance for true escape and serenity in the secluded \"quiet room,\" a rare opportunity for complete peace away from the drama, but this sanctuary can only hold 60 individuals before it becomes just another overcrowded, tense extension of the argument, making things even worse. Your other option is to remain in the main common area, suffering through the predictable, simmering discomfort that, while unpleasant, at least won't bring further disappointment.\n\nDo you:\nOption A: Venture into the quiet room?\nOption B: Endure the general family discomfort?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 4,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_5",
+    "description": "The holidays are already a minefield, but this year's family reunion has devolved into a truly fractious mess of old grievances and new sibling squabbles. You and 99 other family members are facing a critical moment: the traditional post-dinner \"peace talks\" in the main living room, a neutral ground where the family might finally reconcile or further unravel. If you decide to participate, success hinges on moderation: if 60 or fewer people attend, genuine progress can be made, leading to sweet relief; but if more than 60 show up, the room will become an unbearable cacophony of blame, making things worse than ever. You must now decide how to navigate this tense situation.\n\nOption A: Discretely retreat to your room, finding predictable calm away from the fray.\nOption B: Head to the living room, seeking a chance at reconciliation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 5,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_6",
+    "description": "After the recent family blow-up, your matriarch has called for a critical 'peace summit' to address the lingering grievances. You, along with 99 other kin, must decide simultaneously whether to attend, hoping to finally bridge the divide. If you go, and 60 or fewer of the total 100 family members show up, there\u2019s a real chance for genuine reconciliation and healing; however, if more than 60 attend, the gathering will inevitably descend into further chaos and renewed conflict, leaving you utterly drained and worse off. Remaining home means you escape the potential for further heartache, but also forfeit any opportunity for true family mending.\n\nOption A: Commit to attending the contentious family summit.\nOption B: Keep your distance and remain at home.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 6,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_7",
+    "description": "The family drama has reached a boiling point, and Cousin Bethany has bravely offered her home for a reconciliation dinner, a last-ditch effort to mend fences. You and 99 other estranged relatives must simultaneously decide whether to attend this tense gathering. If more than 60 out of the 100 potential attendees crowd into Bethany's small dining room, it will surely devolve into an even worse disaster than before, leaving everyone who went feeling utterly miserable; however, if attendance is 60 or fewer, it promises a genuine, heartwarming opportunity for real healing and connection.\n\nOption A: Gracefully decline the invitation, securing your own peace and quiet, even if it means missing out on potential progress.\nOption B: Take the gamble and show up at Cousin Bethany's, hoping for that rare chance at true family reconciliation, but risking public humiliation and fresh wounds if it becomes an overcrowded free-for-all.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 7,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_8",
+    "description": "The family squabble has reached a fever pitch, and a last-ditch 'intervention' has been called \u2013 a chance for everyone to air their grievances simultaneously. You and 99 other family members are each silently grappling with the same choice. The hosts have made it clear that for any real progress to be made, the main discussion room can only effectively accommodate 60 people or less; if 60 or fewer of you decide to engage directly, there's a genuine chance for your perspective to be heard and meaningful reconciliation to begin. However, if more than 60 of us crowd in, it will inevitably devolve into a chaotic shouting match, making everything worse and ensuring no one's point gets across. You also know that by simply absenting yourself from the fray entirely, you could at least maintain your peace and avoid the immediate emotional drain, though your voice wouldn't be part of any resolution.\n\nOption A: Go to the intervention and try to have your say.\nOption B: Keep your distance and wait for things to blow over.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 8,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_9",
+    "description": "After the family's biggest blow-up yet, a tense reconciliation dinner has been set at Grandma's, and you are one of 100 family members who must simultaneously decide whether to attend or not. The hope is for genuine conversation and healing, but if more than 60 family members show up, the gathering will inevitably devolve into a chaotic shouting match, making your presence feel like a complete waste. If you opt out, you'll avoid the immediate drama but settle for a quietly unresolved evening, potentially missing out on a rare chance for real connection.\n\nOption A: Keep your distance from the dinner tonight, letting the chaos unfold without you.\nOption B: Make your appearance at the reconciliation dinner, ready to face the music.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 9,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_10",
+    "description": "The fallout from the family argument has left everyone on edge, and now a 'peace summit' has been proposed at Aunt Carol's house tonight. You and the other 99 family members are grappling with the same dilemma: making a genuine effort to mend fences could lead to true reconciliation, but if more than 60 of us show up, it\u2019ll be an unbearable, explosive disaster, making things worse than before. Skipping it entirely means you avoid any potential new arguments, though the underlying tension will linger unresolved. Now, you must decide: will you make your presence known at Aunt Carol's, or will you opt for a quiet night in?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 10,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_11",
+    "description": "The air in the family mansion is thick with unspoken grievances after the annual holiday brawl, and 100 family members, including you, are now faced with a difficult choice regarding the designated 'Peace Chamber.' This room offers a chance for some serious reconciliation, but only if the crowd is manageable; if you head there and 60 or fewer people show up, it could lead to a truly glorious outcome, mending fences and restoring harmony. However, if more than 60 family members descend upon it, the chamber will become an absolute disaster, sparking an even worse free-for-all and making everything worse than before. Avoiding the chamber entirely guarantees you a decent personal peace, at least for now, but without any hope of resolving the underlying tensions.\n\nOption A: Retreat to your private study, maintaining your distance from the escalating drama.\nOption B: Head to the Peace Chamber, ready to confront the situation head-on.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 11,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_12",
+    "description": "The family feud has reached a boiling point, and cousin Mark has proposed a private reconciliation meeting, hoping to finally clear the air. You and 99 other relatives are independently weighing whether to attend, each of you hoping to get your specific concerns addressed. If you show up and 60 or fewer total people decide to come, it promises to be an intimate, productive discussion where real healing can begin; however, if more than 60 people attend, the event will certainly become a chaotic free-for-all, making any true resolution impossible. Your other choice is to simply skip the gathering altogether, guaranteeing yourself a peaceful evening away from the drama.\n\nOption A: Go to cousin Mark's private reconciliation meeting.\nOption B: Skip the gathering and remain at home.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 12,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_13",
+    "description": "The family WhatsApp group is ablaze after Aunt Carol's latest outburst, and now a 'mandatory' reconciliation dinner has been arranged for all 100 of us. Everyone, including you, must decide simultaneously whether to brave the gathering at the small community hall. The peace, however, is fragile: if 60 or fewer people attend, there's a real chance for genuine understanding and a breakthrough in our generational feuds, offering immense relief and a sense of resolution. But if more than 60 show up, it's guaranteed to be an absolute, ear-splitting catastrophe, with everyone's unresolved resentments boiling over into a public spectacle of misery.\n\nOption A: You could choose to avoid the entire spectacle, securing your peace of mind from the inevitable chaos.\nOption B: You could decide to make your presence felt, hoping to mend some fences for good.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 13,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_14",
+    "description": "You and your 99 squabbling relatives are at a crossroads after a terrible family fight, and all of you must decide, right now, whether to try and mend things or retreat. If you choose to engage, and 60 or fewer of the total 100 family members show up for dinner, you'll find a peaceful, productive conversation that truly mends fences and makes everything better. However, if more than 60 show up, the reunion will descend into utter chaos, making things far worse for everyone present, dragging you deeper into the toxic atmosphere. If you decide to retreat to your room, you'll at least salvage a quiet evening and avoid further damage to your own sanity.\n\nOption A: Join the family dinner to confront the issues.\nOption B: Retreat to your room and avoid the potential conflict.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 14,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_15",
+    "description": "The air is thick with accusations and slammed doors; the annual family reunion has irrevocably splintered into a chaotic free-for-all, and you, like 99 other frazzled family members, must now simultaneously decide your next move for an immediate reprieve. There's a quiet, neutral sanctuary, The Old Corner Bistro, known for its calming atmosphere, but it can only truly offer solace if 60 or fewer people choose it as their escape; otherwise, it will become just another extension of the family drama, a loud, overwhelming scene offering no peace whatsoever. If you opt to remain amidst the immediate fallout, you'll endure the familiar, low-level stress of the aftermath, avoiding any additional unexpected pandemonium but also missing out on a potentially perfect escape.\n\nOption A: Stay put and weather the storm directly in the familiar, if tense, surroundings.\nOption B: Seek out that potential haven at The Old Corner Bistro, hoping for a peaceful retreat.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 15,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_16",
+    "description": "The fallout from the holiday dinner family feud has led Grandmother to decree a \"reconciliation summit\" for all 100 of us, including you, hoping to mend fences. She believes a truly productive conversation, where you might actually achieve genuine understanding, is only possible if 60 or fewer family members decide to attend. However, if more than 60 show up, the sheer volume of personalities guarantees it will erupt into another disastrous public spectacle, making the previous fight seem tame. If you choose to stay home, you'll at least preserve your own peace and avoid further drama, though you'll miss any potential breakthrough.\n\nOption A: Go to Grandmother's summit.\nOption B: Keep your distance and avoid the gathering.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 16,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_17",
+    "description": "The family feud has reached a boiling point, and Grandma's desperate attempt at a reconciliation dinner is the talk of the group chat, but you and 99 other family members must all decide, at the same time, whether to show up or not. If too many people try to mend fences, it will just devolve into another chaotic, ignored mess, leaving you utterly drained and worse off than before; however, if 60 or fewer family members decide to attend, you could finally achieve a rare moment of genuine connection and resolve some long-standing issues. Alternatively, you could preserve your emotional energy and avoid more drama by staying out of the fray, guaranteeing a moderate level of peace for yourself. Now, you must make your choice:\n\nOption A: Lie low and skip the gathering entirely.\nOption B: Make an appearance at the dinner.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 17,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_18",
+    "description": "The annual family reunion has devolved into its usual cold war, but this year Aunt Carol has proposed a 'mediation dinner' tonight to clear the air, and all 100 of us relatives must decide, at the same moment, whether to attend or not. She's made it clear that if we can keep the guest list to 60 or fewer, the intimate setting will allow for genuine reconciliation and deep healing of old wounds. However, if more than 60 of us show up, the house will be a chaotic free-for-all, guaranteeing another dreadful fight and making things far worse than before, whereas simply staying home will at least grant you a quiet, undisturbed evening of personal calm. You have two choices before you right now, knowing everyone else is making theirs simultaneously:\n\nOption A: Make your presence felt at Aunt Carol's dinner.\nOption B: Discretely opt out and enjoy your own quiet evening.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 18,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_19",
+    "description": "The annual holiday dinner looms amidst the latest family feud, and you're agonizing over whether to show up. Alongside you, 99 other relatives are making the exact same choice, and if more than 60 total family members decide to attend, the event will devolve into an unbearable, chaotic nightmare of passive aggression and open conflict. However, if 60 or fewer decide to extend an olive branch, it could be a rare chance for genuine reconciliation and a truly memorable evening, though simply avoiding the whole drama at home guarantees you a peaceful, stress-free night.\n\nDo you choose:\n\nOption A: Skip the gathering entirely, retreating to your own sanctuary for a quiet, predictable evening.\nOption B: Brave the uncertain waters and attend the dinner, hoping for a breakthrough.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 19,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_20",
+    "description": "The air is thick with unspoken tension after the family's latest dramatic falling out, and now all 100 relatives are simultaneously deciding whether to gather in the main lounge or retreat. You know that if you, along with the others, venture into that common space, there's a chance for genuine reconciliation and quiet peace \u2013 but only if 60 or fewer total people show up; otherwise, it will be an absolute chaotic mess, reigniting old arguments and creating more misery. Staying in your individual room, however, guarantees you a night of quiet solitude, free from further confrontation, though you'll miss any chance for resolution.\n\nOption A: Head towards the main lounge.\nOption B: Keep to your individual room.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 20,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_21",
+    "description": "The family feud has reached boiling point, and a \"peace summit\" has been called by the elders for you and 99 other relatives to air grievances. This summit, however, is delicate: if 60 or fewer of you participate, there's a real chance for genuine understanding and reconciliation; but if too many show up, it'll undoubtedly descend into an even more chaotic and destructive shouting match, making everything worse. You also know that by simply opting out, you can at least preserve your own peace and avoid further immediate drama, though the underlying tension will linger. Now, you must make your move, simultaneously with everyone else, to salvage what you can from this fractured family.\n\nOption A: Decide to avoid the entire spectacle, keeping your distance from the potential fireworks.\nOption B: Commit to attending the fraught family summit, hoping to contribute to a resolution.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 21,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_22",
+    "description": "The tension in the family has been unbearable since Aunt Carol's incident, prompting a 'peace summit' dinner at Grandma's tonight to clear the air. You and 99 other relatives must decide simultaneously: if you attend and 60 or fewer total people show up, it could lead to genuine apologies and true healing. However, if more than 60 family members descend, it will surely devolve into a chaotic shouting match, leaving everyone drained; opting to stay away, conversely, preserves your own sanity but means missing any chance at active reconciliation.\n\nOption A: Join the family gathering.\nOption B: Keep your distance tonight.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 22,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_23",
+    "description": "The tension from the family fight is palpable, and a fragile truce hangs on a potential gathering designed to mend fences. You and 99 other relatives must simultaneously decide whether to engage in this high-stakes family reconciliation meeting. There's a critical threshold: if more than 60 people show up, the situation will undoubtedly devolve into a catastrophic family meltdown, but if 60 or fewer attend, a genuine breakthrough might finally restore harmony for everyone involved.\n\nDo you choose to:\n\nOption A: Seek your own personal sanctuary and avoid further entanglement in the drama.\nOption B: Attempt to engage in the family summit, risking everything for a chance at true peace.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 23,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_24",
+    "description": "The air in the house is thick with the residue of the holiday dinner turned family brawl. All one hundred of you, scattered across various rooms, are silently grappling with the unspoken decision of the evening: whether to join the main family gathering for dessert. If you are among the 60 or fewer who venture into the living room, there's a real chance for genuine, heartfelt reconciliation, but if more than 60 flood in, it will inevitably descend into an even more miserable, overcrowded extension of the earlier fight. Staying in your private space, however, guarantees you a quiet evening of peaceful solitude, free from further confrontation, though you might miss out on a good outcome.\n\nOption A: Head to the living room to face the family.\nOption B: Remain in the quiet refuge of your current spot.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 24,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_25",
+    "description": "The embers of the Great Family Feud still glow, but a \"reconciliation dinner\" at Aunt Mildred's offers a chance to finally mend fences. You, along with 99 other kin, must independently decide whether to attend; the delicate atmosphere can only hold if 60 family members or fewer show up, ensuring a chance for genuine healing, but if more come, it will inevitably collapse into another chaotic shouting match. You know that avoiding the whole affair guarantees a tranquil evening for yourself, free from the drama but also the potential for true peace.\n\nOption A: Secure a quiet night away from the family drama.\nOption B: Show up to the dinner, hoping for genuine reconciliation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 25,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_26",
+    "description": "The air is thick with the fallout from the latest family feud, and Cousin Martha has called an emergency 'peace summit' at the old family estate. You, along with 99 other relatives, are now faced with a crucial decision: attend the tense gathering or keep your distance. If you show up, and 60 or fewer total family members make the effort, there's a real chance for genuine reconciliation and healing, mending the deepest rifts; but if more than 60 attend, the house will be overwhelmed, erupting into an even more disastrous, public shouting match that leaves everyone worse off. Opting to stay home, however, guarantees you'll avoid any further drama, preserving your own peace of mind, though the underlying issues remain unresolved.\n\nYour options are:\nOption A: Head to the family estate.\nOption B: Remain at your own home.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 26,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_27",
+    "description": "The long-standing family feud has reached a critical point, and an impromptu meeting in the main living room has been called. You, along with 99 other estranged family members, must simultaneously decide whether to show up and attempt mediation or retreat to your own quiet space. If you choose to engage, the family might actually reconcile and find peace, but only if 60 or fewer total people attend; more than that, and the attempt will surely collapse into renewed, escalated conflict. Staying home means you'll personally avoid the emotional turmoil, but the bitterness within the family will undeniably persist.\n\nOption A: Remain in your own space, preserving your personal calm while the family's underlying rift undoubtedly continues.\nOption B: Enter the tense living room, hoping your presence helps broker peace, but risking a far worse family blow-up if too many others also decide to show.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 27,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_28",
+    "description": "The big family feud has reached a boiling point, and Grandma's proposed \"peace summit\" dinner tonight is everyone's last hope. You know that if you, along with more than 60 out of the 100 total relatives, show up, the house will be a chaotic battleground, making everything worse than before. However, if 60 or fewer of you decide to attend, there's a real chance for genuine apologies and mending broken bonds, which would feel like a huge relief. Opting out means you'll keep your sanity but miss any chance at true reconciliation, leaving the underlying tension unresolved.\n\nWill you:\nOption A: Head to Grandma's house for the dinner?\nOption B: Keep your distance and stay home tonight?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 28,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_family fight_var_29",
+    "description": "The air in the house is thick with unresolved tension after the family's biggest feud yet, and 99 other relatives are simultaneously weighing their choices for a 'peace summit' in the living room. You yearn for genuine reconciliation and a chance to mend fences, but there\u2019s a critical limit: if more than 60 out of 100 people crowd into the room, it's guaranteed to devolve into another chaotic shouting match, making all efforts futile and leaving you emotionally drained. If the attendance is moderate, however, you could finally achieve the meaningful dialogue everyone desperately needs.\n\nOption A: Preserve your quiet solace, choosing to step back and avoid the potential for further family friction.\nOption B: Engage directly with the family in the living room, hoping for a productive breakthrough but risking another pointless confrontation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "family fight",
+      "variation_index": 29,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

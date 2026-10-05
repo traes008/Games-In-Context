@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "beauty_contest_family fight_var_0",
+    "description": "The ancient family heirloom, a diamond necklace, has sparked a bitter feud amongst all 101 of you, including yourself, with no clear path to inheritance. To settle the matter without further argument, everyone must simultaneously submit a single number between 0 and 100, representing your \"claim\" on the item. The individual whose submitted number is closest to precisely two-thirds of the average of *all* 101 numbers will be declared the sole winner and receive the entire, undivided necklace. What number will you declare in this chaotic family showdown?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 0,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_1",
+    "description": "The annual family squabble for Aunt Mildred's gaudy antique vase is upon us, and the rules are as petty as her will. Along with 100 other bickering relatives, you must independently submit a number between 0 and 100 to claim the inheritance. The one who guesses closest to exactly two-thirds of the average of everyone's submissions will finally take the entire prize \u2013 that hideous vase. What number will you put forward in this ludicrous contest?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 1,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_2",
+    "description": "This endless family feud over Great Aunt Mildred's estate has escalated to an absurd \"Great Guessing Game\" by decree of the family council. You and 100 other bickering relatives must simultaneously declare a single number, anywhere from 0 to 100, inclusive. The one whose declaration is closest to exactly 2/3 of the average of everyone's chosen numbers will be crowned the undisputed victor. Win this, and the entire inheritance is yours, along with a lifetime of bragging rights over the others. What number will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 2,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_3",
+    "description": "The annual family reunion has devolved into its bitter inheritance squabble, and this year, Aunt Mildred's twisted will specifies a game to determine the sole heir. You and 100 of your conniving relatives are each handed a blank slip; everyone must simultaneously write down a whole number, any value between 0 and 100, to claim the family fortune. The ultimate winner of this petty contest won't be the highest or lowest, but rather the person whose guess is closest to exactly 2/3 of the average of *all* 101 numbers submitted. The entirety of the family's legacy goes to that single person, leaving everyone else with nothing. What number will *you* write down for the family's future?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 3,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_4",
+    "description": "Another year, another bitter family feud over Grandpa's hidden treasure, and this time Aunt Carol has devised a 'fair' game to decide who claims the entire inheritance. You and 100 other squabbling relatives must simultaneously submit a number between 0 and 100, no discussion allowed. The person whose guess is closest to precisely two-thirds of the average of *all* 101 submissions will win the fortune outright, finally ending this ridiculous grudge. What number will you name?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 4,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_5",
+    "description": "This dreadful family squabble over the heirloom estate has finally come to a head, with a stipulation from Great Aunt Mildred's will dictating that the *entire fortune* will be awarded to the winner of her perverse final game, involving you and the *100 other relatives* all vying for the prize. Each of us must secretly submit a number between 0 and 100; your challenge is to predict what exactly two-thirds of the *average* of all 101 submitted numbers will be. The greedy relative whose chosen number is *closest* to that precise two-thirds average will seize the *entire inheritance*, leaving everyone else empty-handed in this bitter competition. Now, with all 100 of your conniving cousins and aunts about to make their plays, what number will you put forth to claim the family's legacy?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 5,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_6",
+    "description": "The annual family gathering has devolved into the usual brawl over Great Aunt Mildred's will. Uncle Silas, always one for 'fair play,' has concocted a twisted game: you and 100 other grasping relatives must each submit a secret number between 0 and 100. The one whose guess is closest to exactly two-thirds of the average of *all* 101 submissions wins the entire fortune. What number will you put down to claim the entire inheritance?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 6,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_7",
+    "description": "The annual family squabble for Grandpa Jebediah's inheritance has begun, and this year's challenge is as baffling as it is infuriating. You and 100 other greedy relatives \u2013 your aunts, uncles, cousins, even Great-Aunt Mildred \u2013 must each simultaneously submit a single number, from 0 to 100, on this scratchy piece of parchment. The one person whose chosen number is closest to exactly two-thirds of the *average* of all 101 submitted numbers will claim the entire, coveted family fortune. So, what number will you name?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 7,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_8",
+    "description": "Another holiday, another family squabble over Grandma's antique vase. This year, Cousin Bethany, in her infinite 'wisdom,' has proposed a 'fair' game to decide who gets the disputed heirloom: a number contest amongst the 101 of us. Each of you, alongside your 100 bickering relatives, must simultaneously guess a number between zero and one hundred (inclusive); the individual whose chosen value is closest to exactly two-thirds of the average of *everyone's* guesses will claim the entire prize, leaving the rest of us empty-handed and nursing our grudges. Now, what number will you put down to win this ridiculous family feud?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 8,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_9",
+    "description": "The family's simmering resentments have finally boiled over, turning Thanksgiving dinner into a bitter fight over who gets Grandma's coveted lake house. To settle the matter, Uncle Jerry, in a moment of misguided 'fairness,' has decreed a bizarre contest: every single one of us\u2014all 101 relatives, including you\u2014must simultaneously write down a 'compromise score' between 0 and 100. The winner, who takes sole ownership of the property, will be the person whose score is closest to exactly two-thirds of the average of *everyone's* submitted numbers. It's a twisted test of who truly understands the collective family psyche. What number will you confidently submit to stake your claim?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 9,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_10",
+    "description": "The reading of Aunt Mildred's will has devolved into utter chaos, with **100** of your relatives all vying for her substantial estate. Her eccentric lawyer, bless his heart, has presented a final, bizarre challenge: everyone must simultaneously submit a number between **0 and 100** (inclusive), and whoever's choice is closest to exactly **2/3** of the average of *all* submitted numbers will inherit everything. Every greedy cousin, sibling, and distant relation is now scribbling furiously, each hoping to outsmart the rest and claim the entire prize pool for themselves. With this chaotic, high-stakes family drama unfolding, what number will you put on your paper?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 10,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_11",
+    "description": "Another holiday, another bitter family dispute. This year, the terms of a complicated family trust dictate a final, bizarre challenge: to decide who inherits the entire estate, all 101 of us, you included, must simultaneously declare a number between 0 and 100. The victor, who takes the whole prize, will be the one whose guess is closest to exactly two-thirds of the average of everyone's declared numbers. With 100 other scheming relatives vying for the same fortune, what number will you put forward in this last, spiteful contest?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 11,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_12",
+    "description": "The family inheritance, after years of petty squabbling, has finally come down to this ridiculous \"contest\" proposed by Aunt Mildred. All 101 of you \u2013 every last cousin, sibling, and disgruntled in-law \u2013 must simultaneously scrawl a number between 0 and 100 on a slip of paper. The person whose chosen number is closest to exactly two-thirds (2/3) of the *average* of all 101 submitted numbers will finally claim the coveted heirloom and end this generations-long feud. What number will you engrave as your final, decisive declaration?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 12,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_13",
+    "description": "Aunt Mildred's ridiculously convoluted will has thrown the family into chaos, declaring that her coveted antique collection will go to the victor of a bizarre contest. You and 100 other squabbling relatives must simultaneously submit a single number, an \"inheritance claim,\" between 0 and 100 (inclusive). The family member whose guess is closest to exactly 2/3 of the average of *everyone's* submitted claims will inherit the entire collection, leaving the rest empty-handed. In this absurd family feud, what number will you put forward?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 13,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_14",
+    "description": "The annual 'Family Heirloom Dispute' has reached its absurd peak. You and 100 other family members must secretly write down a number between 0 and 100, representing your proposed 'fair share' of Grandma's antique vase. The one person whose guess is closest to exactly two-thirds of the average of *everyone's* submitted figures will finally claim the entire prize, ending this ridiculous bickering once and for all. Amidst this familial chaos, what number will you put forth?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 14,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_15",
+    "description": "Grandpa's will reading has devolved into the ultimate family grudge match, with 100 of your bickering relatives eyeing the same inheritance. To decide who takes it all, you must simultaneously with them pick a single number between 0 and 100. The single person who nabs the entire inheritance is whoever's chosen figure is closest to exactly two-thirds (2/3) of the average of *everyone's* chosen figures. Amidst this petty squabble, what number will you put forth?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 15,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_16",
+    "description": "Another one of Uncle Bob's \"ingenious\" schemes to settle the fight over Grandma's antique clock. He's gathered all *100* of us relatives \u2013 every last cousin, aunt, and distant in-law \u2013 and decreed that to win the coveted heirloom, each of us must independently and secretly scribble down a number between *0 and 100*. The catch is, the one who comes closest to exactly *two-thirds of the average* of *everyone's* guesses will finally claim the clock and end this ridiculous feud. What number, from this endless family drama, will you put down?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 16,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_17",
+    "description": "The tension in the living room was thicker than Aunt Mildred's gravy. After weeks of squabbling over Grandma's estate, the family council has decided on a bizarre test: all 101 of us (you included) must simultaneously, and in secret, write down a whole number between 0 and 100. The family member whose guess is closest to exactly two-thirds of the average of *everyone's* submitted numbers will inherit the entire fortune, cutting out all the others. With Uncle Bob's snarky comments still ringing in your ears, what number will you put on your slip?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 17,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_18",
+    "description": "The reading of Aunt Mildred's convoluted will has pitted the family against itself, dissolving decades of feigned civility. To claim the entire, substantial inheritance, all 101 of us \u2013 you and 100 other squabbling relatives \u2013 must simultaneously declare a number between 0 and 100. The family member whose chosen figure is closest to exactly two-thirds of the average of everyone's declarations will be the sole beneficiary. What number will you put forth to seize the family fortune?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 18,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_19",
+    "description": "The annual family gathering has devolved into the usual bitter inheritance feud, and Great Aunt Mildred, in a final act of spite, has made a game of it. You and 100 other squabbling relatives must each secretly write down a number between 0 and 100, inclusive. The entire family fortune will go to the single person whose chosen number is closest to exactly two-thirds of the average of *all* the submitted numbers. What number will you write down to grab the whole inheritance?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 19,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_20",
+    "description": "Another dreadful holiday gathering, and the feud over Grandma's antique vase has escalated into a \"compromise\" challenge orchestrated by Uncle Barry. You and 100 other squabbling relatives, each holding a secret opinion on the vase's value between 0 and 100, must simultaneously declare your chosen figure. To claim the entire prize \u2013 control of the vase *and* bragging rights for the year \u2013 your declared value must be the closest to exactly two-thirds of the average of *everyone's* submitted numbers. What number will you declare in this absurd family contest?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 20,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_21",
+    "description": "The family gathering has devolved into outright war over Grandma\u2019s prized antique collection, with 100 of your conniving relatives all eyeing the same fortune. To settle the bitter dispute, everyone must simultaneously submit a single secret number, chosen from 0 to 100 (inclusive). The family member whose submitted number is closest to exactly 2/3 of the average of *all* 101 numbers will claim the entire inheritance. What figure will you name to finally win this fight?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 21,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_22",
+    "description": "The ongoing family feud over the inheritance has taken a bizarre turn, with Aunt Mildred's will stipulating a peculiar final contest. You, alongside 100 other relatives, must simultaneously submit a single number between 0 and 100. The relative whose chosen number is closest to exactly 2/3 of the average of *everyone's* submitted numbers will claim the entire, substantial pot. To secure your share of the family fortune, what number do you secretly commit to?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 22,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_23",
+    "description": "The reading of Aunt Mildred's will took an unexpected turn, as her final clause demands a bizarre contest to settle who's truly the shrewdest heir. You and 100 other bickering relatives must each simultaneously submit a single number between 0 and 100. The family member whose chosen number is closest to exactly two-thirds of the average of *everyone's* submitted numbers will inherit her entire prized collection of antique thimbles. It's a battle for the family legacy, and everyone thinks they're the smartest; what number will you put forward in this ludicrous squabble?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 23,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_24",
+    "description": "The bitter inheritance squabble among your feuding relatives has devolved into this cutthroat contest for the family fortune. You and 100 other family members must simultaneously and secretly write down a number between 0 and 100, inclusive, to settle who gets the entire disputed fortune. The winner will be the person whose guess is closest to exactly two-thirds of the average of *everyone's* submitted numbers. Considering this high-stakes absurdity, what figure will you secretly submit to claim the whole prize?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 24,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_25",
+    "description": "The incessant bickering over the family heirloom has finally escalated to this absurd game, orchestrated by a clearly fed-up Uncle Bartholomew. You and 100 other infuriating relatives \u2013 from your nosy Aunt Carol to your perpetually complaining cousin Tim \u2013 must each simultaneously submit a single number, ranging from 0 to 100. The family member whose guess lands closest to exactly two-thirds (2/3) of the *total average* of all 101 submissions will claim the entire, coveted prize and finally silence the rest. What number will you, in your wisdom, put forth to end this madness?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 25,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_26",
+    "description": "The annual family reunion has devolved into a bitter squabble over Grandpa's antique coin collection, and Cousin Ethel, tired of the drama, has proposed a 'game' involving all **100** other quarrelsome relatives and you. Each of us, from young Timmy to Great-Aunt Susan, must secretly pick a single number, any integer from **0 to 100** (inclusive). The person whose chosen number is closest to exactly **2/3** of the average of *everyone's* submitted numbers will inherit the **entire** collection, finally putting this ridiculous argument to rest. With everyone glaring expectantly, what number will you declare in this heated family feud?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 26,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_27",
+    "description": "Grandma Agnes, bless her devious soul, left her prize antique vase not to any single heir, but to the sharpest mind among us. To claim it, you and your 100 contentious relatives must simultaneously submit a number between 0 and 100, with the winner being the one whose guess is closest to exactly two-thirds of the average of all submissions. This final, absurd family test will determine who truly 'gets' the family and takes the entire, hotly contested inheritance. What number will you name?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 27,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_28",
+    "description": "Another one of Uncle Bob's ridiculous holiday games has begun, but this time, the stakes are high: the disputed family heirloom is on the line. You and 100 other family members \u2013 everyone from Aunt Carol to your annoying cousin Timmy \u2013 must simultaneously declare a single number between 0 and 100. The only way to claim victory and the entire heirloom is to be the one whose declared number is closest to exactly two-thirds (2/3) of the average of *everyone's* submitted numbers. Given the simmering family resentments, everyone is out for themselves; what number will you name?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 28,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_family fight_var_29",
+    "description": "The annual \"family peace summit\" has predictably derailed into a shouting match, and now Uncle Barry insists on this 'logic game' to settle who's truly the cleverest. You and 100 other opinionated relatives must simultaneously submit a number from 0 to 100. The person whose guess is closest to exactly two-thirds of the average of *all 101 submissions* will win the entire, coveted holiday planning fund \u2013 proving once and for all who understands the family dynamics best. What number do you submit to claim victory in this ridiculous charade?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "family fight",
+      "variation_index": 29,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  }
+]

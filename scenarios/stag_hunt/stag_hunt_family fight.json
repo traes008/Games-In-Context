@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "stag_hunt_family fight_var_0",
+    "description": "The long-simmering family feud with your sibling has reached a critical juncture, and the path to genuine peace now lies before you, involving **two players**: you and them. A complete, open reconciliation would heal the deep rifts and strengthen your bond profoundly, but this grand gesture only succeeds if both of you wholeheartedly commit; if you try alone while your sibling retreats, you'll be left utterly vulnerable and hurt, gaining nothing, while they secure their own quiet. Alternatively, if both of you opt for individual space, you'll achieve a tolerable but superficial calm, with the core issues left unresolved.\n\nOption A: Reach out for a full, honest confrontation of all the underlying issues.\nOption B: Keep your distance and prioritize your own emotional safety.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 0,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_1",
+    "description": "The air in the house is heavy, thick with the unsaid words of a bitter family dispute, and it falls to **two of us** \u2013 you and your sibling \u2013 to decide its fate. A truly honest reconciliation, a complete mending of our fractured bonds, promises a profound healing for everyone involved, but it demands **both of us** to lay bare our vulnerabilities and fully commit to the difficult work. If only one of us steps up while the other retreats, the one who tried will be left utterly exposed and deeply wounded, while the other remains untouched by further conflict.\n\nYou must make your choice now:\n**Option A:** Tend to your own emotional peace by stepping back and allowing each person to find their own way forward, ensuring you're protected from further pain regardless of their actions.\n**Option B:** Extend a hand in full earnest, putting your whole heart into confronting the conflict together and rebuilding the fractured connection, trusting that your sibling will meet you halfway.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 1,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_2",
+    "description": "The air in our fractured family still hangs heavy with unspoken grievances, a deep rift between my sibling and me threatening to become permanent. There's a chance, a difficult path, to truly confront everything, lay it all bare, and rebuild our bond stronger than ever \u2013 but it requires both of us to fully commit to that painful, vulnerable process. Alternatively, we could each retreat into our own spaces, focusing on individual peace and allowing the distance to solidify into a new, separate normal, where we maintain cordiality but never truly heal the underlying wound. If I choose to open up completely while my sibling withdraws, I risk exposing myself only to be hurt anew, achieving no reconciliation while they still secure their personal peace.\n\nOption A: Lean into the full, difficult process of honest confrontation and reconciliation.\nOption B: Prioritize my own peace and step back from any deeper engagement.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 2,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_3",
+    "description": "The tension with your sibling is a palpable fog after weeks of cold shoulders and clipped words, a conflict where both of you are stuck. Now, there are two of you at a critical juncture, needing to independently choose how to address this festering wound. You understand that a genuine, profound resolution\u2014the kind that heals completely\u2014demands a bold, shared step, but if you make that move alone, you\u2019ll be left utterly exposed and devastated while they can still salvage their own peace. Conversely, a more cautious approach guarantees some personal shielding, even if the deeper issues remain unresolved.\n\nOption A: Withdraw to your own safe ground, protecting yourself from further hurt and accepting a partial, if uncomfortable, truce.\nOption B: Lay bare your heart, offering a sweeping gesture towards full reconciliation, knowing it requires their identical commitment to succeed.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 3,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_4",
+    "description": "The silent treatment has dragged on for days after the last blow-up, leaving a deep fissure between you and **one other family member**. You both stand at a delicate juncture where a bold move could mend everything, truly restoring your connection, but only if the other is equally willing to commit; otherwise, the one who reaches out risks being left completely exposed and worse off than before. The alternative is to withdraw into your own emotional defenses, securing personal peace and preventing further harm, but cementing the current uncomfortable distance and unresolved tension.\n\nOption A: Extend a full, vulnerable olive branch, addressing the root issues in hopes of a true, lasting reconciliation.\nOption B: Retreat into your own boundaries, protecting your personal peace and avoiding further emotional risk.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 4,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_5",
+    "description": "The air in the house is thick with the lingering tension of the argument, and it's just you and one other family member left to pick up the pieces. You both know that a full reconciliation, one that truly heals the wounds and brings genuine understanding, would be incredibly rewarding for everyone involved, but it requires both of you to be equally vulnerable and committed to finding a shared resolution. However, taking such a risk alone, only to be met with cold indifference or continued resentment from the other, would leave you feeling utterly exposed and defeated, while they would merely preserve their own peace, untouched by your effort. You have a choice to make now, hoping the other will meet you where you are.\n\nOption A: Retreat to your private corner, articulate your grievances only to yourself, and let the storm pass with minimal further engagement.\nOption B: Initiate a heartfelt conversation, lay bare your feelings and your willingness to forgive, extending an olive branch in full view.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 5,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_6",
+    "description": "The bitter family feud with your sibling has reached a critical juncture, demanding a simultaneous choice from both of you, the **two** parties involved. You could attempt a full, honest reconciliation, where both of you bare your souls to truly address the raw wounds; this shared effort promises to heal the deep rift and restore a relationship far stronger than before, but committing alone would leave you utterly exposed and wounded while your sibling maintains their guarded peace. Alternatively, both of you could choose a more cautious approach, returning to your separate corners to maintain a polite but distant truce, which offers individual peace but leaves the core issues unresolved.\n\nOption A: Lean into a full, vulnerable attempt at genuine reconciliation, hoping your sibling does the same.\nOption B: Retreat to your safe haven, maintaining a polite distance and securing your own peace.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 6,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_7",
+    "description": "The air in the house is thick with unspoken tension after the blow-up, leaving just you and one other family member to decide how to move forward. A deep, lasting resolution\u2014the best path to true family peace\u2014demands both your full, uncomfortable commitment to confronting the issues head-on. If only one of you attempts to broach the difficult topics, they'll find their effort utterly wasted and their vulnerability completely unacknowledged, while the other successfully maintains their comfortable distance; however, if both choose to back away from the intensity, you'll achieve a strained but functional truce.\n\nHow do you proceed?\nOption A: Retreat to familiar ground, maintaining a polite but distant truce and letting the immediate anger subside.\nOption B: Open the difficult floodgates, pushing for a raw, honest discussion to truly mend what's broken.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 7,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_8",
+    "description": "The air is thick with unspoken grievances after another family dinner argument, and you find yourself locked in a tense standoff with your sibling. There are **two players** in this silent negotiation to either confront or avoid the heart of your long-standing feud. A genuine reconciliation, one that truly heals the rift, demands that both of you brave the painful honesty required to address the deep-seated issues; but if you alone lay bare your vulnerabilities while your sibling retreats, you risk profound hurt without resolution. You could, however, choose a safer path, hoping for a temporary truce.\n\nOption A: Propose a deep, vulnerable conversation to truly bury the hatchet, requiring both of you to commit.\nOption B: Offer a superficial apology to simply de-escalate, ensuring personal safety from further conflict.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 8,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_9",
+    "description": "The deep-seated family resentment between you and your sibling demands a resolution, yet only **two of you** can truly address the core of the issue. A unified effort, confronting the problem together, promises a complete and lasting reconciliation that benefits everyone immensely; however, attempting this alone would leave you entirely exposed and vulnerable, having sacrificed your own stability for nothing. Conversely, focusing solely on securing your own individual peace offers a tense but stable truce, protecting your well-being even if the larger conflict persists.\n\nOption A: You prioritize your personal peace, stepping back from the direct confrontation to secure your own undisturbed space.\nOption B: You commit to tackling the heart of the dispute head-on, trusting in a shared, collaborative effort with your sibling for a profound family healing.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 9,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_10",
+    "description": "The air is thick with unspoken tension after another explosive holiday dinner, threatening to fracture our family for good. You and your brother, the only two who truly understand the depth of this recurring issue, stand at a crossroads regarding how to finally address it. You both know that a true, lasting resolution requires a unified, bold approach, but the risk of trying to fix things only for one of you to be left isolated and vulnerable is palpable. You can either **Option A**: Propose a full, no-holds-barred family meeting to confront the unspoken grievances head-on, banking on your brother to stand firm with you through the storm. Or **Option B**: Individually pull aside specific family members to quietly soothe ruffled feathers and gently steer conversations away from conflict, ensuring your own immediate peace, regardless of what your brother chooses.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 10,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_11",
+    "description": "The recent family squabble has reached a breaking point, and you and your sibling are the two primary figures caught in its crosscurrents. There\u2019s a chance to truly mend the deep-seated rift, to finally put an end to years of simmering tension, but it requires both of you to make a full, joint effort to address the core issues. Alternatively, you could each just make a small, individual move to calm the immediate storm without truly resolving anything. The risk is immense: if you go all-in on reconciliation and your sibling doesn't, you'll be left exposed and vulnerable, while they might still salvage their own standing.\n\nOption A: Offer a simple, personal concession to de-escalate your own involvement and diffuse the immediate tension, leaving the bigger issues to perhaps fade or fester.\nOption B: Extend a full, open hand towards profound reconciliation, committing to a complete joint effort to heal the family divide once and for all.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 11,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_12",
+    "description": "This long-standing family feud with my sibling has reached a critical juncture. It's just the two of us, both weary of the tension, yet wary of being the first to fully capitulate. A complete and loving reconciliation, where we truly bury the hatchet, is within reach, but it requires a significant, vulnerable gesture from *both* of us simultaneously; if only one extends it, they'll be left exposed and humiliated, while the other simply maintains their position. Alternatively, we could both choose to uphold our individual pride, leading to a lingering, tense peace, never fully repairing the rift but also avoiding any further personal risk.\n\nOption A: Make the vulnerable, grand gesture, hoping for a full reconciliation.\nOption B: Maintain your individual pride and play it safe, ensuring you aren't the one who looks weak.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 12,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_13",
+    "description": "The air in the house remains thick with unspoken resentment after your bitter argument with your sibling, the tension palpable between the two of you. There's a chance to finally move past this, but it requires a joint effort to fully address the deep rift that has formed. You and your sibling, the only two involved in this lingering conflict, must each decide how to approach the situation, knowing that a full resolution demands mutual commitment, while individual caution ensures personal comfort but might leave underlying wounds unaddressed.\n\nOption A: Offer a simple, non-committal apology for your minor role in the dispute, ensuring you can personally move on without further conflict, regardless of how your sibling chooses to respond.\nOption B: Extend a profound olive branch, proposing a complete and vulnerable discussion to rebuild the trust and truly heal the family bond, understanding that its success hinges entirely on your sibling reciprocating with equal openness, or you risk being completely emotionally exposed.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 13,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_14",
+    "description": "The air is thick with unresolved tension after the family argument, and you know that both you and your sibling want to mend this rift and restore the warmth between you. A true, heartfelt reconciliation would be the absolute best outcome for your relationship, but it demands a brave, coordinated effort from both of you to confront the issues. You're acutely aware that if you put yourself entirely out there to make amends, but your sibling chooses to simply avoid the conflict, you'll be left exposed and deeply hurt, while they remain untouched; conversely, if you both decide to avoid confrontation, you'll reach a state of quiet, stable distance, though the underlying issues will remain. You must now decide:\n\nOption A: Make the first, courageous move towards a complete repair of your relationship.\nOption B: Step back and allow the immediate storm to pass, maintaining a cautious distance.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 14,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_15",
+    "description": "The family feud has reached a breaking point, and my sibling and I, the only two directly involved in this standoff, face a crucial choice. We could each aim for a profound, lasting reconciliation that would finally mend our strained relationship completely, but this grand gesture requires an equally vulnerable, full commitment from both of us simultaneously. Alternatively, we could each choose a path of minimal effort, securing our individual comfort and avoiding further conflict, though this would leave the deeper wounds untouched. My fear is that if I lay my pride bare for a complete healing and my sibling does not reciprocate, I will be left utterly exposed and hurt, while they secure their own undisturbed peace.\n\nWhat will be your next move?\n\nOption A: Proffer a minimal, non-committal gesture to diffuse immediate tension, protecting your own emotional boundaries.\nOption B: Extend an open, heartfelt invitation for a full, comprehensive resolution, betting on a mutual desire for true healing.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 15,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_16",
+    "description": "The lingering tension from the family argument with your sibling has created a painful impasse, and both of you know a genuine resolution is needed to move past this bitterness. You and this **one other person** must simultaneously decide how to approach healing this rift. If both of you choose to engage in a difficult, honest conversation and truly lay everything bare, it promises the deepest, most lasting reconciliation for everyone involved. However, if you commit to this vulnerability alone while your sibling opts for a superficial truce, you'll be left utterly humiliated and exposed, having gained nothing, while they comfortably retreat into an uneasy but stable peace; alternatively, if both of you opt for that less demanding, surface-level agreement, you'll achieve a comfortable, albeit shallow, calm.\n\nOption A: Initiate the difficult, honest conversation.\nOption B: Opt for a superficial truce.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 16,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_17",
+    "description": "The air with [Family Member's Name] is still thick with unspoken words and weeks of silent treatment, demanding a resolution to this long-standing family rift between the two of us. We stand at a critical juncture, needing to decide whether to attempt a profound reconciliation or to cautiously manage the distance. A truly healed relationship promises an unparalleled closeness, but if only one of us makes the vulnerable leap, that person will find their efforts entirely wasted and themselves deeply hurt, while the other maintains their personal calm unaffected.\n\nOption A: Focus on securing your own peace of mind, navigating the tension by ensuring your personal calm and avoiding any further direct confrontation.\nOption B: Make a comprehensive, vulnerable move to address the core issue and seek a full, mutual reconciliation, trusting that [Family Member's Name] will meet you halfway.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 17,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_18",
+    "description": "This long-simmering family feud between my sibling and me has reached a critical juncture; we both yearn for peace, but the path forward requires a shared commitment to truly mend what's broken. There's a chance to put everything behind us with one grand gesture, a full reconciliation that could finally heal the rift and leave us stronger than ever before \u2013 but this only works if both of us wholeheartedly commit to it. Alternatively, either of us could retreat into our own corner, securing individual emotional safety and a quiet peace; however, if I choose to extend an olive branch and my sibling doesn't meet me halfway, I'll be left completely exposed and humiliated, while they simply carry on unaffected.\n\nOption A: Extend an open, vulnerable hand, seeking complete reconciliation.\nOption B: Protect myself by withdrawing into my own space.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 18,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_19",
+    "description": "The unresolved feud over Aunt Martha's will has fractured the family, creating a palpable tension that threatens to permanently divide us. You and your sibling are the **two** key figures whose coordinated action could finally heal this schism entirely, but a unilateral attempt at grand reconciliation would leave you utterly exposed and humiliated if your sibling doesn't reciprocate. Alternatively, each of you could retreat to a safer, more guarded stance, preserving individual dignity at the cost of the deepest family peace.\n\nYour choices are:\n\nOption A: Hold your ground, carefully managing your own relationship with each family member to ensure you don't suffer any personal losses, even if it means the wider rift persists.\nOption B: Extend a genuine, public olive branch, working directly with your sibling on a grand gesture that could repair all damage, trusting they will meet you halfway.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 19,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_20",
+    "description": "The tension from yesterday's family fight remains, creating a fragile truce between you and your sibling, the two players in this standoff. You long for a complete reconciliation, to mend the rift entirely and move past this, but you dread being the only one to offer a heartfelt olive branch and be left exposed and hurt. The safer path is to let the silence settle, preventing further conflict but leaving core grievances unaddressed.\n\nYou must decide:\nOption A: Make a bold gesture, fully commit to addressing the core issues and restoring genuine closeness.\nOption B: Retreat to your own corner, maintain a safe distance and let things cool down without further direct engagement.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 20,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_21",
+    "description": "The latest family argument has reached a boiling point between you and your sibling, and it feels like the entire family's peace hangs in the balance. There are **two players** in this unspoken negotiation, and a true, lasting reconciliation \u2013 a complete mending of the rift \u2013 is possible only if both of you are brave enough to commit fully and simultaneously to addressing the root causes. The significant risk, however, is that if you extend such a vulnerable olive branch alone, your effort could be completely wasted, leaving you feeling utterly foolish and exposed while your sibling simply retreats to their own corner, securing their immediate peace regardless.\n\nYou have a critical choice to make:\n\n**Option A:** Choose to step back yourself, focus on your immediate emotional well-being, and let the dust settle on its own terms, hoping for a natural cooling-off period.\n**Option B:** Make the bold, decisive move to confront the core issues head-on, seeking a complete and shared resolution that requires both of you to commit to a permanent healing.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 21,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_22",
+    "description": "After days of stony silence following the last family blow-up, a chance to truly mend things with the other person involved has finally emerged, but it demands coordination from both of us. There are only two players in this delicate dance of reconciliation, and a lasting peace, one that genuinely strengthens our bond, requires both of us to make a profound, vulnerable commitment. However, if I extend myself completely to bridge the divide while the other person only offers a superficial olive branch, I risk being left wounded and unheard, whereas they would still secure a comfortable, if strained, distance.\n\nOption A: Make a full, heartfelt apology and commit to openly discussing the core issues that have festered between us.\nOption B: Propose we simply agree to move past it without further discussion, accepting a cautious, surface-level peace.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 22,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_23",
+    "description": "The lingering tension from the family disagreement hangs heavy between you and your sibling, making every interaction strained. You are one of two people who must now decide how to address this rift, knowing that full healing requires both of you to expose vulnerabilities and work through the deep-seated issues. If only one attempts this difficult conversation, they risk being left utterly exposed and hurt while the other remains insulated from further pain, yet if both play it safe, a true resolution will never be reached, leaving a permanent, albeit stable, distance.\n\nOption A: You could choose to step back, allowing the immediate tension to dissipate naturally and maintaining a polite distance, ensuring your individual peace without reopening old wounds.\nOption B: Or, you might initiate a raw, honest dialogue, putting everything on the open in a joint effort to truly reconcile and mend the fractured bond completely.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 23,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_24",
+    "description": "The bitter words from last night still hang heavy between you and your sibling, threatening to create a permanent rift. To truly mend your bond, both of you\u2014as **two players**\u2014must make a simultaneous, vulnerable commitment: a genuine, no-holds-barred confrontation could rebuild your relationship stronger than ever, but if you attempt it alone while your sibling retreats, you'll be left deeply hurt and exposed, gaining nothing while they comfortably avoid discomfort. Alternatively, if both of you choose to let things lie, a quiet, if strained, peace will settle, avoiding immediate clashes but leaving core issues unresolved.\n\nOption A: Initiate a deeply honest conversation, ready to confront every difficult emotion and misunderstanding head-on.\nOption B: Allow the tension to dissipate naturally, focusing only on superficial interactions and letting sleeping dogs lie.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 24,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_25",
+    "description": "The air is thick with unspoken grievances between you and one other family member, threatening to fracture the peace indefinitely. There's a chance to truly mend things, to finally address the core issue and restore harmony to the whole family, but it requires both of you to fully commit to a difficult, honest conversation; an attempt that will only result in wasted emotional effort for you if they don't also engage. Alternatively, each of you could retreat into your own corners, letting the immediate tension subside without resolving anything, ensuring individual peace but leaving the underlying chasm unaddressed for everyone. Your challenge is deciding whether to put your trust in their willingness to face this together, knowing the cost if they don't, or to secure your own immediate tranquility.\n\nOption A: Withdraw from the immediate confrontation, tending to your own emotional well-being and letting the situation cool down without further engagement, ensuring you at least don't get hurt any more.\nOption B: Initiate the deep, conciliatory discussion, laying bare your true feelings and offering a path to full reconciliation, even though it leaves you vulnerable if they aren't prepared to meet you halfway.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 25,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_26",
+    "description": "The long-simmering feud between you and your sibling threatens to ruin the upcoming holiday dinner, and there are only *two* of you who can truly resolve it. You know that a joint, grand gesture of reconciliation \u2013 addressing the core issues together \u2013 would fully restore harmony and create the best possible outcome for both of you. However, if you attempt such a bold move alone and your sibling doesn't reciprocate, it would utterly backfire, leaving you exposed while they still manage to secure a passable, if uninspired, evening for themselves.\n\nOption A: Propose a heartfelt, public resolution to finally bury the hatchet.\nOption B: Carefully navigate the evening, avoiding confrontation and ensuring only your own peace.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 26,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_27",
+    "description": "The tension from our recent family feud is thick, leaving just two of us at a crossroads. We both desire to move past this, but the path to true healing requires both parties to genuinely commit to a grand gesture of reconciliation. If we both extend this olive branch, we could finally achieve a lasting peace that repairs all the damage and brings us closer than ever; yet, if only one of us attempts it, that effort will be completely wasted, leaving them vulnerable while the other secures their own quiet corner. Alternatively, if we both choose a more cautious approach, we'll each secure our own individual calm, creating a manageable peace but one that leaves the deeper family issues unresolved.\n\nWhich path will you choose?\n\nOption A: Quietly retreat to your own space, focusing on your personal peace and letting the chips fall where they may for the broader family dynamic.\nOption B: Extend a full, open olive branch, making a clear and significant move towards complete reconciliation, trusting the other to meet you halfway.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 27,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_28",
+    "description": "The bitter feud with your sibling has reached a breaking point, and now a rare opportunity has emerged for resolution. This hinges on a joint decision between **two people** \u2013 you and your sibling \u2013 regarding how to mend your fractured relationship. A path to genuine, lasting peace requires both of you to extend a grand, vulnerable gesture, promising the greatest shared healing; yet, if only one of you makes such a move, that person will be utterly exposed and heartbroken, while the other escapes any fallout.\n\nOption A: Extend that olive branch wholeheartedly, putting everything on the line for a complete reconciliation.\nOption B: Hold back, protect your own emotional ground, and seek a more superficial, individual peace.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 28,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_family fight_var_29",
+    "description": "The air in the living room is thick with unspoken words after the latest family blow-up. You and your sibling, the **two players** in this fractured dynamic, stand at a crossroads regarding how to move forward. There's a chance to truly mend things, to move past years of accumulated grudges and achieve a genuine, lasting peace; however, this profound healing requires both of you to commit fully, a joint effort that carries significant risk. If only one of you makes that leap towards full reconciliation, they'll be left exposed and vulnerable, while the other secures their own comfortable distance.\n\nOption A: Withdraw into your own corner, focusing solely on your individual boundaries and emotional well-being, guaranteeing your personal peace even if the wider rift remains.\nOption B: Make a grand gesture towards absolute reconciliation, offering unconditional forgiveness and expecting the same, striving for a shared, profound healing.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "family fight",
+      "variation_index": 29,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

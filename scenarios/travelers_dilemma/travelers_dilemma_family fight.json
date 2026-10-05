@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "travelers_dilemma_family fight_var_0",
+    "description": "The annual family reunion has devolved into the usual petty squabble, this time over who gets to keep Great-Aunt Mildred's infamous (and slightly lopsided) antique fruit bowl. Your cousin, Bethany, and you are locked in a stubborn standoff. Tired of the bickering, your mother, acting as an impromptu mediator, proposes a peculiar game to settle it: you both must independently declare a 'sentimental value' for the bowl, choosing any whole dollar amount between 2 and 100, representing what you truly believe it's worth to keep the peace. If you both declare the exact same sentimental value, you'll both receive a symbolic 'peace dividend' equal to that declared amount from the family fund for showing unity. However, if your declared values differ, both of you will only receive a 'consolation prize' equal to the *lower* of the two numbers; the player who declared the *lower* value gets an additional $2 bonus from the family for their 'reasonableness,' while the one who declared the *higher* value faces a $2 penalty for their 'excessive demand.' What 'sentimental value' will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 0,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_1",
+    "description": "The heated argument between you and your cousin has reached a bizarre impasse, with the family elder proposing a 'reconciliation fund' distribution. You each independently claim a share, a numeric value between 2 and 100 points, from this metaphorical fund. If both of you claim the exact same amount, you both receive that precise number of reconciliation points. However, if your claims differ, both of you will receive the *lower* of the two chosen amounts as your base share; the one who claimed the lower figure will then be awarded an additional +2 point 'peacemaker' bonus, while the one who claimed the higher figure will suffer a -2 point 'obstinacy' penalty. What amount will you claim?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 1,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_2",
+    "description": "After another tense holiday dinner, you and your estranged sibling are tasked with valuing a disputed family heirloom, a chipped porcelain figurine that somehow became the symbol of all your grievances. Each of you must independently name a figure between 2 and 100 dollars for its worth. If your figures match, you both receive that exact amount from the estate; however, if you name different amounts, you both get the lower of the two values, but the sibling who named the lower figure earns an additional 2 dollars for their perceived 'reasonableness,' while the sibling who named the higher figure receives a 2-dollar penalty for their 'greed.' What figure do you propose?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 2,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_3",
+    "description": "Another family dinner has devolved into an argument, this time about how much each of you 'contributes' to the household. To finally settle this once and for all with your sibling, you both must independently declare a value, a number between 2 and 100, representing your perceived worth. If you both declare the same number, you each receive that exact amount in recognition. However, if your numbers differ, you both will only receive the lower of the two values, with the player who declared the lower number gaining a +2 bonus for their humility, while the one who named the higher figure receives a -2 penalty for their perceived arrogance. What number will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 3,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_4",
+    "description": "You and your cousin, embroiled in a bitter dispute over a shared family heirloom that's now being liquidated, have been asked to independently declare its 'fair value' \u2013 a number between $2 and $100. If you both somehow manage to pick the identical value, that's the final sale price, and you each walk away with that exact amount. But if your declared values differ, the heirloom will unfortunately be sold at the *lower* of the two prices, meaning you both receive that lower amount; however, the family mediator insists that the person who named the lower figure gets an additional $2 bonus from the proceeds, while the one who named the higher figure faces a $2 penalty. Make your choice now, and let's see how much this argument cost us. What value do you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 4,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_5",
+    "description": "The family holiday dinner has devolved into another petty fight with your sibling, years of grudges simmering just beneath the surface. To finally put an end to the endless bickering and try for a genuine reconciliation, a neutral mediator has proposed a unique solution: you each must independently name a 'value' for the desired peace offering, ranging anywhere from a paltry $2 to a generous $100. If you both somehow manage to agree on the exact same value, that's the shared level of peace you both receive. However, if your figures differ, the actual value of the peace offering defaults to the lower of the two amounts, with the sibling who named the *lower* number getting a +2 point 'moral victory' bonus, while the one who stubbornly named the *higher* number receives a -2 point penalty to their hurt feelings. What value, between 2 and 100, do you propose to finally end this dispute?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 5,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_6",
+    "description": "Another one of Aunt Mildred's infamous holiday gatherings has devolved into a bitter squabble with your cousin, Sarah, over the antique 'family treasure' \u2013 a gaudy porcelain cat that's somehow acquired sentimental value. To settle the matter, you both must independently name a cash value for it, somewhere between a paltry $2 and an extravagant $100. If you both agree on the same figure, you both receive that exact amount as compensation. However, if your valuations differ, the item's worth will be depreciated to the *lower* of the two figures, which you both receive, but the one who named that lower, 'more reasonable' amount will earn an additional $2 bonus for their pragmatism, while the cousin who pitched the higher figure will be docked $2 for their greed. What value will you claim for Aunt Mildred's cat?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 6,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_7",
+    "description": "This family fight over Grandma's old vase has gotten ridiculous. You and your sibling are each being asked to independently declare what you believe its 'true sentimental value' is, a number between $2 and $100. If you both put down the same figure, that's the exact amount you both receive as its agreed-upon worth. But if your numbers differ, the family mediator will rule that the vase is worth the *lower* of the two figures for both of you; the one who named the lower price gets an additional $2 for being 'realistic', while the one who named the higher price gets a $2 penalty for being 'uncompromising'. What value will you declare for Grandma's vase?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 7,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_8",
+    "description": "Another holiday, another blow-up with your sibling. This time, it's about dividing the emotional and monetary value of Grandma's antique vase, which you both lay claim to. You each must independently declare a 'fair' price for its worth, anywhere from 2 to 100 dollars. If you both manage to agree on the exact same figure, that's the amount you both walk away with, finally ending this petty feud. However, if your declared prices differ, both of you will receive the lower of the two values, but the one who suggested that lower price gets an extra 2-dollar bonus for their pragmatism, while the other, who clung to a higher figure, takes a 2-dollar penalty from that same lower amount. So, what value, between 2 and 100, do you declare as the vase's worth?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 8,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_9",
+    "description": "You and your cousin are locked in another petty dispute, this time over the 'fair' settlement value for an old family heirloom you both claim. Your aunt, exasperated, declares you both must independently name a price between a paltry 2 dollars and a generous 100 dollars. If you both name the same figure, that's the peace offering you each get; however, if one of you names a lower amount, both will receive that lesser sum, but the 'bargain hunter' who quoted lower will gloat with an additional 2 dollars, while the 'overvaluer' who named higher will be docked 2 dollars for their unrealistic demand. Now, it's your turn to decide the 'cost' of this family truce.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 9,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_10",
+    "description": "You and your cousin, Alex, are once again locked in a stubborn standoff over the division of your late grandmother's antique porcelain collection. After hours of bickering, your long-suffering uncle steps in with a final, peculiar proposition to end the fight: both of you must independently name a 'fair' value for the collection, anywhere from a minimum of **2** up to a maximum of **100**. If you both happen to name the exact same value, that's what you both 'get' \u2013 effectively splitting the peace at that figure. However, if your valuations differ, the lower of the two numbers will be declared the collection's 'true' worth, and you'll both equally receive that amount; but the one who named the lower figure will get an additional **+2** point bonus for their perceived humility, while the one who named the higher figure will be hit with a **-2** point penalty for their apparent greed. What value will you name to finally settle this ridiculous family feud?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 10,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_11",
+    "description": "After another heated family argument about splitting Grandma's estate, you and your sibling, always at odds, are tasked with independently assigning a dollar value to her old, much-disputed antique clock. The family mediator insists you each confidentially write down any whole dollar amount between $2 and $100, inclusive, reflecting what you believe the clock is truly worth to you. If, by some miracle, you both choose the *exact same figure*, you will both be credited with that dollar amount from the estate, reflecting a rare moment of shared understanding. However, if your numbers differ, the estate will settle on the *lower* of the two valuations, and both of you will receive that reduced amount; but in a twist to 'encourage negotiation,' the sibling who named the lower price will get an additional $2 added to their share, while the one who named the higher price will face a $2 deduction, a clear jab for overestimating or trying to 'win' too much. What dollar amount will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 11,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_12",
+    "description": "You and your sibling are at loggerheads again, this time over how to split Aunt Carol's antique collection, which a contentious appraiser valued anywhere from a measly 2 points of sentimental value to a full 100 points of pure market worth. To settle this family feud, you've both agreed to independently state your personal valuation for the collection; if you both name the exact same figure, you'll each receive that amount from the estate, finally settling the dispute. However, if your valuations differ, you will both only receive the lower of the two figures you declared, but the one who made the more modest claim will be awarded an additional 2 points of sentimental credit, while the one who stubbornly demanded more will be docked 2 points for their greed. With tensions high, what valuation will you name for the collection?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 12,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_13",
+    "description": "The family dinner has devolved into an ugly argument with your older brother, specifically about who 'deserves' to be reimbursed for a long-forgotten shared expense for a broken family heirloom. To put an end to the incessant bickering, you both agree to independently name a 'fair' settlement amount, a figure anywhere from 2 to 100. If you both name the same amount, that's what each of you receives. However, if your chosen figures differ, the payout to *both* of you will be the *lower* of the two numbers, with the player who named that lower figure getting an additional 2 in 'fairness' credit, while the one who named the higher figure is docked 2 as a 'penalty' for their excessive demand. The air is thick with resentment; your brother is waiting for your final offer.\n\nWhat figure will you name?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 13,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_14",
+    "description": "The fight over Aunt Mildred's will has reached a stalemate between you and your cousin. To finally settle who gets what from the disputed antique collection, you've both agreed to independently name a value, a 'fair share,' between 2 and 100 dollars. If your values match, you each walk away with that exact figure; however, if you name different amounts, the lower value will be the base for both, but the person who chose lower gets a $+2 bonus for their perceived reasonableness, while the one who chose higher faces a $-2 penalty for being too greedy. What value, between 2 and 100, will you declare as your just claim?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 14,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_15",
+    "description": "The air is thick with unspoken resentments from the last family argument, and your exasperated aunt, acting as mediator, has laid down a peculiar rule. You and your estranged cousin must independently decide on a \"reconciliation credit\" amount to allocate to each other, ranging from **2 to 100 points**. If both of you name the same credit value, you each receive that exact amount of peace and goodwill; however, if your chosen values differ, the mediator will only grant both of you the *lower* of the two submitted credits, with the one who named lower getting a **+2 point bonus** for pragmatism, and the higher namer incurring a **-2 point penalty** for being unrealistic. What reconciliation credit will you propose?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 15,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_16",
+    "description": "The will from Grandma Eleanor has left you and your perpetually argumentative sibling, Michael, with a shared heirloom, and you can't agree on its value or who gets what. To finally resolve the bickering, the family lawyer has suggested a final 'valuation bid.' Both of you must independently submit a number between 2 and 100, representing the item's perceived worth. If your numbers match, you both receive that exact amount as your share; if you name different figures, you both walk away with the lower of the two values, but the player who submitted the lower value gains a +2 bonus for their perceived compromise, while the higher bidder incurs a -2 penalty for being less flexible. What value do you decide to bid?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 16,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_17",
+    "description": "Another argument with your sibling, this time over how to divvy up a minor inheritance. To finally settle this squabble, a family mediator proposes you each independently name a dollar amount between 2 and 100. If you both name the exact same figure, that's what you each receive. However, if your chosen amounts differ, you both will get the lower of the two values, but the sibling who named that lower amount gets an additional 2 points for being 'reasonable,' while the one who named the higher figure has 2 points *deducted* from that lower base. What figure do you name to end this once and for all?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 17,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_18",
+    "description": "Another family squabble has erupted between you and your sibling over Grandma's broken heirloom vase. You both must independently declare what you believe its 'fair' monetary worth is, a value between 2 and 100 dollars. If you both agree on the same figure, you each gain that amount; however, if your declared values differ, the family will only acknowledge the lower figure as its true worth, awarding the player who named it a +2 point bonus for being reasonable, while the higher claimant receives a -2 point penalty for being greedy. What value will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 18,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_19",
+    "description": "The family mediator has finally laid out the terms for you and your estranged sibling to resolve the bitter dispute over your inheritance. You must each independently declare a 'fair' monetary value for the family property, anywhere from 2 to 100 units. If you both astonishingly agree on the exact same figure, that's the payout you each receive, and the fight is finally over. However, if your proposed values diverge, the actual settlement for both of you will be the *lower* of the two numbers submitted; the one who showed restraint by naming that lower figure will be credited an extra 2 units for their sensibility, while the other, who greedily insisted on the higher amount, will face a 2-unit penalty from their portion. What 'fair' value will you declare to the mediator?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 19,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_20",
+    "description": "Another family argument is brewing, this time about how to value the joint effort for renovating the old family cabin. You and your stubborn sibling must independently declare a 'fair effort contribution' for the task, choosing a number between 2 and 100. If you both name the same number, you'll each be credited with that exact amount of effort. However, if your declared contributions differ, you both will only receive credit for the lower of the two numbers, but the player who declared the lower value will get a +2 point bonus for their efficiency, while the player who declared the higher value will receive a -2 point penalty for overestimating the task's worth. What fair effort contribution do you propose?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 20,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_21",
+    "description": "You and your sibling are locked in another stubborn squabble, this time over how to divide a small family fund. To settle it, Mom has declared you each independently submit a whole number between 2 and 100, representing your claim. If both of you submit the same number, you each receive that exact amount. If your numbers differ, you both receive the lower of the two numbers; however, the person who submitted the lower number gets an additional 2 points for being 'reasonable,' while the one who submitted the higher number gets 2 points deducted for being 'greedy.' What number will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 21,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_22",
+    "description": "Another tense family gathering, and the squabble with your sibling over the valuation of Grandma's antique brooch collection has reached a breaking point. To finally settle it, you both must independently declare a value for the collection, somewhere between $2 and $100. If your declared values match, that's the exact sum you'll both receive from the estate; however, if your figures differ, you both will receive the lower of the two amounts. To further complicate matters, the player who named the lower value also gets a bonus of $2 for being 'more reasonable,' while the one who named the higher value incurs a $2 penalty for their stubbornness. Considering this, what value will you submit for the brooch collection?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 22,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_23",
+    "description": "The family squabble has reached a bitter impasse, and now a mediator insists you both play a 'reconciliation game' to break the deadlock. Each of you must independently name a 'gesture value' for an apology, ranging anywhere from 2 to 100, representing how much you're willing to concede. If you both name the *exact same* gesture value, you'll both receive that precise amount of shared goodwill. However, if your numbers differ, you'll both only gain the goodwill of the *lower* gesture value, with the player who named the lower figure receiving an *additional 2 points* of vindication, while the one who proposed the higher amount suffers a *penalty of 2 points* of chagrin. What number will you choose for your reconciliation offer?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 23,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_24",
+    "description": "A bitter inheritance dispute has boiled over between you and your estranged cousin. The family lawyer, tired of the bickering, has proposed a 'final offer' game: you each independently name a figure between $2 and $100. If you both pick the same number, you each receive exactly that amount. However, if your figures differ, you'll both walk away with the lower of the two amounts, but the one who named that lower figure gets an additional $2 for their 'savvy', while the one who named the higher figure receives a $2 penalty for their 'greed'. What's your proposed figure for this inheritance settlement?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 24,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_25",
+    "description": "Here we go again; another petty family squabble has broken out between you and your sibling over the perceived 'value' of a contested item, which could be worth anywhere from 2 to 100 units. To settle this, you each must independently declare your desired valuation. If both of you name the exact same number, you each receive that amount. However, if you choose different numbers, you both receive the lower of the two values, but the player who chose the lower number also gets a +2 bonus, while the player who chose the higher number receives a -2 penalty. What figure will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 25,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_26",
+    "description": "You and your sibling are locked in a bitter dispute over how to divide the remaining family inheritance. To settle it, your exasperated parents have laid down a final, peculiar rule: each of you must independently submit a 'fair share' value between 2 and 100 dollars, representing what you believe you deserve. If you both submit the identical figure, you'll each receive that exact amount directly. However, if your submissions differ, you both will only receive the lower of the two values, but the one who proposed that lower number gets an additional 2 dollars added to their share, while the one who proposed the higher number will have 2 dollars deducted as a penalty for their unrealistic expectations. What 'fair share' value will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 26,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_27",
+    "description": "Another one of Aunt Carol's notorious squabbles has erupted, this time over who gets the final say on the family reunion budget. You and your cousin, both equally stubborn, need to independently declare a 'demand' for how much influence you'll exert over the shared funds, a number between a paltry 2 and a lavish 100. If you both somehow manage to agree on the *exact same* number, you each get that level of influence. But if your demands differ, the person who made the *lower*, more reasonable demand gets that lower amount of influence *plus a petty +2 bonus point* for being the 'bigger person,' while the one who aimed higher will still receive the lower influence level but suffer a *humiliating -2 point penalty* for their overreach. What's your final demand?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 27,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_28",
+    "description": "The fight over inheritance has reached its peak with your sibling, and Grandma's will specifies a peculiar resolution: you both must independently claim a 'fair share' value, an integer amount between 2 and 100 units of the inheritance. If both of you claim the identical value, you each receive that exact amount. But if your claims differ, you both will receive the lower of the two claimed amounts; however, the person who claimed the lower amount gets an additional 2 units as a bonus, while the one who claimed the higher amount receives 2 units less than the lower claimed amount, as a penalty. What 'fair share' value will you claim?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 28,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_family fight_var_29",
+    "description": "You and your perpetually squabbling sibling are trying to divvy up a shared responsibility, a task worth anywhere from $2 to $100 in effort, but neither of you trusts the other to be fair. To settle this once and for all, you must each independently declare your perceived 'fair share' for the task, a dollar value between 2 and 100. If you both name the exact same amount, you each commit to that workload. However, if your figures differ, both of you will be assigned the lower of the two values, but the one who suggested that lower amount will get a +$2 bonus for being 'reasonable,' while the other, who named the higher figure, will incur a -$2 penalty for being 'demanding.' What figure will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "family fight",
+      "variation_index": 29,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  }
+]

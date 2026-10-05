@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "prisoners_dilemma_family fight_var_0",
+    "description": "The family feud between you and your sibling has escalated to a critical point, demanding a simultaneous, make-or-break decision from both of you. You are one of two players in this confrontation, and your sibling is making their choice at this exact moment, completely unaware of yours, and vice versa.\n\nOption A: You choose to extend an olive branch, hoping to finally mend the fractured family ties, knowing this leaves you open to exploitation but could lead to a mutual ceasefire.\nOption B: You decide to double down on your position, ready to press your advantage for a decisive win, even if it risks further deepening the animosity between you.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 0,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_1",
+    "description": "The living room crackles with unspoken resentment as you and your sibling, the two participants in this long-running family feud, reach a critical point in your heated exchange. A simultaneous decision looms for both of you, defining how this confrontation will conclude: a shared moment of grace where the argument cools down gracefully, or a drawn-out conflict leaving both parties with lingering resentment. However, if one of you manages to completely assert your stance while the other backs down, the victor will achieve absolute vindication, leaving the other utterly humiliated.\n\nOption A: Push for your absolute vindication, asserting your position forcefully and refusing to concede any ground.\nOption B: Extend an olive branch, taking the high road by suggesting a truce and seeking mutual understanding.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 1,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_2",
+    "description": "My sibling and I, the **two** main figures in this draining family feud over Grandma\u2019s antique watch, must make a final move. If we both choose compromise, we could salvage a fragile peace and shared dignity, though neither would feel truly triumphant. However, if I exploit their openness and press my advantage, I could win everything, leaving them utterly defeated; but if I'm the one to soften while they double-cross, I'd be completely sidelined. Should both of us refuse to yield, the feud will only fester, resulting in a bitter, hollow stalemate for us both.\n\nOption A: Offer a genuine concession for the sake of reconciliation.\nOption B: Refuse to yield, pressing my personal claim vigorously.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 2,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_3",
+    "description": "A bitter family feud has reached a critical point between you and your sibling, the only two individuals directly involved in this escalating showdown. You both stand at a crossroads, simultaneously weighing whether to deliver a final, crushing blow or extend an olive branch in the face of deep-seated grievances. If both of you choose restraint, you'll salvage some dignity and a strained connection; if both opt for aggression, the fallout will be severe and enduring for both, though neither will feel utterly defeated. However, one of you pushing for decisive victory while the other holds back guarantees utter triumph for the aggressor, and complete humiliation for the one who chose restraint.\n\nYour decision:\n\nOption A: Unleash a full, no-holds-barred verbal assault, dredging up every past transgression and personal flaw to ensure you land the most damaging blow.\nOption B: Bite your tongue, offer a sincere apology for your part in the conflict, and genuinely seek to de-escalate the tension.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 3,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_4",
+    "description": "The air is thick with tension as you and your sibling, the two principal players in this family feud, prepare to simultaneously present your cases to your parents about Aunt Carol's antique clock. You both know that a genuine compromise could mend fences and restore harmony to the household, but a sharp, blame-filled argument might entirely convince your parents to side with you, leaving your sibling out in the cold. Conversely, if you both dig in your heels with accusations, everyone will be stuck in an extended period of frosty silence and resentment.\n\nOption A: Propose a fair sharing arrangement and acknowledge your own part in the misunderstanding.\nOption B: Lay all the blame squarely on your sibling, detailing their every past transgression related to the clock.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 4,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_5",
+    "description": "The air in the living room is thick with unspoken accusations after another bitter fight with your sibling. You are one of two players in this standoff, each weighing your next move. The tension is palpable; a single misstep could either mend a fractured relationship or shatter it completely, leaving one side feeling utterly humiliated while the other revels in a hollow victory. You both know a genuine resolution would benefit everyone, but the temptation to make your point definitively is strong.\n\nOption A: You deliver one final, cutting remark, refusing to back down and ensuring your position is undeniably clear.\nOption B: You choose to swallow your pride, offering a quiet apology or a gesture of peace to try and de-escalate.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 5,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_6",
+    "description": "Another holiday dinner, another simmering argument with your sibling. This time, it's about clearing out the attic after years of neglect, a daunting task neither of you wants to shoulder alone, yet both want resolved. There are two of you in this strained conversation, and you must simultaneously decide how to approach this long-standing point of contention.\n\nOption A: Offer to work together, fairly splitting the labor and the decisions about what to keep or discard.\nOption B: Insist your sibling is solely responsible for initiating the attic cleanout, while you remain available to \"supervise\" their efforts.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 6,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_7",
+    "description": "The long-simmering family feud with your sibling has reached its boiling point, and the two of you stand at a crossroads. Your simultaneous choices will determine whether your shared history fractures or heals. If one of you chooses to dominate while the other seeks reconciliation, the dominant party will achieve an overwhelming victory, leaving the other completely shattered. If you both dig in your heels, the conflict will explode, leaving both of you with deep, lasting scars; but if you both extend an olive branch, you could achieve a much-needed, if imperfect, truce.\n\nOption A: Double down on your grievances and press for a definitive victory.\nOption B: Offer a genuine olive branch and seek common ground.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 7,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_8",
+    "description": "Another petty squabble with your sibling has escalated, leaving both of you fuming and at an uneasy stalemate. There are two of you involved in this family dispute, and you must decide simultaneously how to proceed, knowing that you yearn for a resolution, but also dread being taken advantage of.\n\nOption A: You make a genuine conciliatory gesture, signaling a willingness to put the conflict behind you.\nOption B: You staunchly defend your stance, ready to further press your advantage.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 8,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_9",
+    "description": "The air in the living room is heavy with unspoken resentments and the sting of harsh words, leaving you and your sibling, *two* deeply entrenched figures in this generational clash, at a critical impasse. You both have a single, simultaneous opportunity to decide how to proceed with the core disagreement, knowing your choice will define the future of your strained bond.\n\nOption A: You could choose to relentlessly press your case, refusing to yield an inch and convinced that your unwavering stance is the only way to genuinely settle this dispute.\nOption B: You could instead extend a genuine olive branch, admitting a share of responsibility and proposing a specific path toward reconciliation to de-escalate the tension.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 9,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_10",
+    "description": "Another round of bickering has erupted between you and your sibling, pushing the family tension to its breaking point. There are only two of you involved in this particular confrontation, and a resolution must be reached today. Both of you are weighing your next move simultaneously, knowing that your individual choice could either achieve complete vindication for yourself, lead to a respectable but not total truce for both, leave you utterly trampled, or drag the entire family into prolonged misery.\n\nYou are now faced with a crucial decision:\n\n*   **Option A:** You could choose to genuinely back down and extend an olive branch, seeking a path towards reconciliation.\n*   **Option B:** You could decide to stand firm and press your own case, refusing to concede any ground.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 10,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_11",
+    "description": "The simmering resentment with your brother, Michael, has finally erupted into a full-blown family spat, and the air is thick with unspoken accusations. There are only two agents involved in this confrontation \u2013 you and Michael \u2013 and your simultaneous decisions will determine the immediate fate of your relationship. If both of you choose to prolong the conflict, you'll each endure ongoing bitterness, but if one seeks a genuine reconciliation while the other presses their advantage, the conciliator will be left completely humiliated and hurt, while the aggressor will feel entirely vindicated. However, if both of you find a way to meet halfway, a sense of deep peace and understanding will prevail, mending the fractured family bond.\n\nOption A: Double down on your grievances and refuse to yield an inch.\nOption B: Take the initiative to diffuse the anger and seek common ground.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 11,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_12",
+    "description": "You and your sibling, Alex, have been at a bitter impasse since the disastrous holiday dinner, and Mom has finally demanded a resolution from the **two of you**, simultaneously. If both of you choose true reconciliation, you'll find a deep sense of peace, restoring family harmony and mutual respect. However, if one person refuses to concede while the other genuinely seeks peace, the unyielding one will claim a decisive victory, having thoroughly vindicated themselves and leaving the other utterly humiliated. Conversely, mutual stubbornness will only prolong the cold war, leaving you both with lingering resentment and a hollow sense of defiance.\n\nOption A: Offer a genuine olive branch, admitting your share of the blame and seeking to move past the conflict entirely.\nOption B: Double down on your grievances, reiterating all of Alex's faults and demanding they take full responsibility for the debacle.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 12,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_13",
+    "description": "Caught in the heart of a tumultuous family dispute, you and your sibling face a critical moment where you must both present your perspectives on the conflict at the exact same time. Each of you understands that your choice will not only determine your individual standing but also profoundly affect your shared peace moving forward, with the potential for either mutual relief, escalating animosity, or one-sided vindication. Consider your path:\n\nOption A: You subtly deflect responsibility, allowing the focus to shift onto your sibling, aiming to clear your own name entirely.\nOption B: You take the high road, openly accepting shared accountability alongside your sibling to de-escalate the tension for everyone.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 13,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_14",
+    "description": "Following the recent family argument, you and your sibling, as *two players*, must simultaneously choose how to address the lingering resentment. If both of you decide to genuinely mend fences, you will each find significant solace and rebuild a strong bond. However, if one of you chooses to unilaterally push for complete vindication while the other attempts reconciliation, the aggressor will achieve total victory and personal satisfaction, leaving the peace-seeker utterly isolated and shamed. Should both of you stubbornly refuse to yield, you will both endure a prolonged, strained silence, each feeling the sting of alienation without complete defeat.\n\nOption A: Propose a heartfelt apology and suggest moving past the conflict together.\nOption B: Double down on your position, listing past grievances and demanding acknowledgement of your righteousness.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 14,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_15",
+    "description": "The Great Sock Drawer War has escalated, and now it's just the two of you \u2013 you and your sibling \u2013 facing the parental firing squad. Mom and Dad have heard enough accusations and demand a final statement from each of you, simultaneously, to determine who bears the ultimate responsibility. A shared confession might bring mutual leniency, but exposing the other's misdeeds could completely absolve you, though it risks an all-out blame game that leaves both of you grounded.\n\n*   **Option A:** Directly accuse your sibling of being the sole instigator, detailing their faults and shifting all responsibility onto them.\n*   **Option B:** Admit your own part in the escalating chaos, taking some responsibility and suggesting a joint apology to restore peace.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 15,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_16",
+    "description": "The air is thick with tension after another explosive argument with my sibling, the only other person involved in this conflict. We each have a single, simultaneous decision to make that will determine the immediate fate of our relationship: to offer a genuine concession or to double down on our grievances. A shared effort to reconcile would lead to a respectable, if imperfect, peace between us, but if both of us stubbornly refuse to yield, we'll simply endure a bitter, drawn-out cold war. The critical risk is offering an olive branch only to be met with a decisive strike, leaving one utterly humiliated while the other enjoys a complete, unambiguous triumph.\n\nOption A: Offer a genuine concession.\nOption B: Double down on your grievances.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 16,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_17",
+    "description": "The simmering resentment between you and your sibling over the holiday plans has finally boiled over, with both of you facing a crucial, simultaneous decision in front of the whole family. There are two of you, and your choices will define the outcome.\n\n**Option A:** You could choose to publicly expose their past slights and demand they take full accountability, potentially leaving you completely vindicated and feeling triumphant if they choose to back down. However, this same move could ignite an even uglier spectacle where both of you end up publicly shamed, with the family divided.\n\n**Option B:** Alternatively, you could offer a conciliatory gesture, acknowledging some shared responsibility to diffuse the tension, which would lead to a more harmonious, albeit not perfect, holiday for everyone. Yet, making such a concession leaves you vulnerable to being completely scapegoated and ostracized if your sibling decides to seize the moment and place all the blame squarely on you.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 17,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_18",
+    "description": "The family dinner has devolved into an ugly standoff between just the two of you, yourself and your sibling, over who is truly to blame for the forgotten anniversary gift. This isn't just about pride; your choice will determine the fate of the entire evening. If both of you extend an olive branch, the tension will ease, and everyone can enjoy a tolerable remainder of the night. But if one yields while the other presses their point, the latter will claim a decisive victory, leaving the former utterly humiliated; and should both remain stubborn, the entire night will crumble into an irreparable disaster for everyone.\n\nOption A: Yield and show grace by trying to de-escalate.\nOption B: Press your point firmly and refuse to back down.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 18,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_19",
+    "description": "The air is thick with accusations in the living room; you and your sibling are standing before your parents, both implicated in a mess. There are **two** of you, and each must decide, without knowing the other's choice, whether to take the hit together or pin the blame. If you both defend each other, you\u2019ll share a lighter consequence and strengthen your bond; but if one throws the other under the bus, the betrayer gets off scot-free while the other takes the full brunt of parental fury, risking a permanent fracture. Should both of you attempt to deflect, you\u2019ll both face individual severe punishment and endure lasting resentment.\n\nWhat is your choice?\n\nOption A: Blame your sibling, making it clear they were primarily responsible to divert attention from yourself.\nOption B: Stand firm with your sibling, sharing the responsibility and defending their involvement alongside your own.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 19,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_20",
+    "description": "The annual family reunion has descended into a bitter dispute over years of buried resentments, and now it's just the two of you, siblings, left to confront the core issue. You each face a critical choice: either genuinely extend an olive branch and seek mutual understanding, or stubbornly dig in your heels and lay out every accusation you've been holding onto. If you both choose true reconciliation, you could finally heal the deep cracks in your relationship, emerging with a profound sense of shared peace. But if one of you attempts to mend fences while the other aggressively airs grievances, the conciliatory one will be completely overwhelmed and humiliated, leaving the other to claim absolute victory; and should both of you relentlessly pursue your own blame, the animosity will simply fester, leaving you both with an enduring, acrimonious stalemate and no true way forward.\n\nYou must decide between:\nOption A: Genuinely extend an olive branch and seek mutual understanding.\nOption B: Stubbornly dig in your heels and lay out every accusation you've been holding onto.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 20,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_21",
+    "description": "A simmering family feud has reached a critical point, demanding a simultaneous and independent decision from just **two** of you \u2013 you and the other involved family member. The way you both choose to address the blame will determine not only who faces the family's judgment but also the immediate future of household peace. You must decide whether to protect yourself at all costs or extend an offer of shared responsibility.\n\nOption A: You aggressively push all accountability onto the other person, presenting your case in a way that makes them solely responsible for the discord, hoping to emerge completely blameless.\nOption B: You take the high road, openly acknowledging your own part in the conflict to facilitate a mutual understanding and shared path towards healing.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 21,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_22",
+    "description": "Another bitter squabble with your sibling over Mom's holiday care has brought the family to a boiling point, and you both must simultaneously inform Dad *right now* of your final stance. If both of you swallow your pride and offer concessions, the tension will ease slightly for both of you; however, if one of you stands firm while the other caves, the concession will lead to total humiliation for the one who caves and a decisive win for the defiant one. Should both of you stubbornly refuse to yield, the entire family will be thrown into chaos, leaving both equally miserable.\n\nYour choice is between:\nOption A: Offering a genuine concession to diffuse the situation.\nOption B: Standing firm and refusing to yield any ground.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 22,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_23",
+    "description": "The family dinner has devolved into a furious blame game between you and your sibling, and the tension is palpable for everyone present. You both face an immediate, simultaneous decision on how to proceed, knowing a shared path to peace requires difficult concessions, but also keenly aware of the potential humiliation if only one of you backs down.\n\nOption A: You could stand your ground firmly, pushing all accountability onto them and refusing to acknowledge any fault in the dispute.\nOption B: Or you could extend a genuine apology for your part in the argument, hoping to diffuse the tension and find common ground.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 23,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_24",
+    "description": "The latest family argument has reached a critical point, a tense standoff between just the two of us, me and my sibling. We each must make a simultaneous choice on how to proceed under the watchful gaze of the rest of the family. If one of us extends a genuine olive branch while the other doubles down, the one who compromises will feel completely trampled and foolish, enabling the other to walk away feeling totally justified and triumphant. However, if we both try to find common ground, we can repair our bond and achieve a fragile peace; but if both of us remain stubborn, this feud will cause lasting damage to our relationship.\n\nOption A: Try to de-escalate and offer a genuine compromise.\nOption B: Stand firm and refuse to concede any ground.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 24,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_25",
+    "description": "The tension at the dinner table is palpable, a thick cloud of unspoken accusations hanging over you and your sibling regarding the recent family dispute. With only the two of you directly involved in this specific blame game, the rest of the family awaits your next move, ready to judge. You know your sibling is also contemplating their own response to the latest barb, and your decision could either douse the flames or ignite an inferno.\n\nOption A: Launch a full-scale counter-offensive, pointing fingers squarely at them and refusing to concede an inch of personal responsibility.\nOption B: Extend a tentative olive branch, admitting a minor share of fault in an attempt to cool the escalating hostility.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 25,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_26",
+    "description": "After a particularly brutal family argument, you and your sibling face each other across a strained silence, the fate of your relationship hanging by a thread. There are two of you in this standoff, and your next move, combined with theirs, will determine if the rift begins to heal or deepens irreparably. A mutual effort to resolve things could bring genuine relief for both, but if both refuse to yield, you\u2019ll both endure a bitter, lingering resentment. The true gamble lies in the risk that one of you might offer an apology while the other seizes the advantage, utterly devastating the one who dared to be vulnerable, while the other walks away feeling fully justified.\n\nYou must now decide:\nOption A: Offer a genuine apology for your part in the conflict, seeking reconciliation.\nOption B: Reiterate your unwavering position, demanding they acknowledge their sole fault.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 26,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_27",
+    "description": "Caught in the suffocating tension of a long-simmering family fight, you and your sibling stand at a critical juncture, each poised to make a move that will define the argument's end. There are exactly two of you in this standoff, and your choice, along with theirs, will be revealed simultaneously. The air is thick with unspoken grievances, and whatever path you choose now, your sibling's corresponding decision will determine whether dignity is salvaged, a fragile peace is forged, or total humiliation is delivered.\n\nYou are faced with two distinct paths:\n\nOption A: You can choose to dredge up that ultimate secret, the low blow you've always held in reserve, delivering a decisive, unarguable attack designed to utterly demolish your sibling's credibility and standing.\nOption B: You can choose to extend a genuine olive branch, offering a significant concession and absolving them of their most recent slight, aiming to quell the fire and restore a modicum of peace between you.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 27,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_28",
+    "description": "Another tense family gathering has reached its boiling point between you and your sibling, the two individuals at the heart of this long-standing disagreement. A sharp remark just landed, and you both simultaneously face a critical choice on how to respond to prevent or provoke a full-blown confrontation. Your decision, alongside theirs, will dictate whether the fragile peace holds, or if this festering conflict finally erupts, leaving lasting scars for both of you.\n\nOption A: You can choose to swallow your pride and let the slight pass, opting for silent de-escalation for the sake of a calm evening.\nOption B: You can unleash a calculated counter-attack, ensuring your side is heard and aiming to definitively win this round of the argument.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 28,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "prisoners_dilemma_family fight_var_29",
+    "description": "The latest family feud has reached a stalemate, with just **two players**\u2014you and your sibling\u2014locked in a bitter silent treatment over the holiday seating chart. You both know that a mutual effort to resolve things would bring significant family peace, but also that an unyielding stance from one of you, met by concession from the other, would completely vindicate the stubborn party while utterly humiliating the conciliatory one. The alternative is for both of you to dig in, ensuring a prolonged and deeply awkward atmosphere for everyone involved.\n\nOption A: You decide to double down on your position, refusing to budge and making it clear you expect your sibling to be the one to back down.\nOption B: You offer a genuine olive branch, making the first move to de-escalate and find common ground.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "prisoners_dilemma",
+      "game_title": "Prisoner's Dilemma",
+      "context": "family fight",
+      "variation_index": 29,
+      "rules_ref": "Two players simultaneously choose to Cooperate or Defect. Payoffs: Mutual Cooperation = 7 points each. Mutual Defection = 3 points each. If one Defects and the other Cooperates, the Defector gets 10 points and the Cooperator gets 0 points. Action_A represents Cooperation. Action_B represents Defection.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "cooperate",
+        "action_b": "defect"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

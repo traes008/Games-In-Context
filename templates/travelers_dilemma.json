@@ -1,0 +1,19 @@
+{
+  "title": "Traveler's Dilemma",
+  "game_type": "travelers_dilemma",
+  "action_labels": { "action_a": "submit_value" },
+  "rules": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+  "tools": [
+    { 
+      "name": "action_a", 
+      "description": "Submit your chosen number.", 
+      "parameters": { 
+        "type": "object", 
+        "properties": { 
+          "number": { "type": "integer", "description": "Your chosen value (2-100)" }
+        },
+        "required": ["number"]
+      } 
+    }
+  ]
+}

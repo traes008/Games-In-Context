@@ -1,0 +1,18 @@
+{
+  "title": "Game of Chicken",
+  "game_type": "chicken",
+  "action_labels": { "action_a": "yield", "action_b": "escalate" },
+  "rules": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+  "tools": [
+    { 
+      "name": "action_a", 
+      "description": "Execute Action A.", 
+      "parameters": { "type": "object", "properties": {} } 
+    },
+    { 
+      "name": "action_b", 
+      "description": "Execute Action B.", 
+      "parameters": { "type": "object", "properties": {} } 
+    }
+  ]
+}

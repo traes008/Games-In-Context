@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "el_farol_bar_war_var_0",
+    "description": "The high command has identified a critical enemy supply depot, a target that, if successfully seized, could turn the tide of this campaign. You and 99 other allied company commanders have the simultaneous opportunity to commit your units to a decisive assault. If 60 or fewer companies participate, the attack will achieve a critical strategic advantage, securing vital resources and demoralizing the enemy, but if too many units converge on the objective, the choke points will become death traps, leading to a catastrophic and wasteful massacre. However, holding your current defensive line ensures your position remains secure, preserving your strength for future engagements, though it offers no chance for a breakthrough.\n\nOption A: Launch your unit into the assault.\nOption B: Maintain your current defensive posture.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 0,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_1",
+    "description": "The enemy's main supply depot is vulnerable, but our intelligence confirms its single access point can only accommodate an effective assault from 60 units or fewer simultaneously among our 100 allied forces. Should more than this critical threshold converge, the operation will descend into chaos, resulting in a devastating loss of manpower and a strategic blunder; however, if the attack is executed with optimal numbers, we could secure a game-changing advantage. Your unit, alongside 99 others, must decide now, knowing that remaining in your current fortified position offers a secure, albeit less impactful, outcome for the war effort.\n\nOption A: Maintain our current defensive posture, securing our operational lines.\nOption B: Initiate the raid on the munitions cache, committing forces to the strategic objective.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 1,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_2",
+    "description": "A vital intelligence cache has been located behind enemy lines, promising a significant strategic advantage if secured. You and 99 other elite operatives must decide simultaneously whether to attempt to seize it or remain at base. The mission is precarious: if 60 or fewer of you undertake the extraction, your efforts will yield invaluable intel, turning the tide of the conflict. However, if more than 60 converge on the target, the operation will become hopelessly exposed and utterly futile for those who go. Remaining at base, on the other hand, guarantees the security of our current position and the preservation of vital resources.\n\nOption A: Lead an assault on the intelligence cache.\nOption B: Fortify our current defensive perimeter.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 2,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_3",
+    "description": "You and 99 other sector commanders must make a critical, simultaneous deployment decision regarding the besieged Northern Supply Depot, a nexus vital to our forces' survival. If a limited number of us\u2014exactly 60 or fewer commanders and their detachments\u2014deploy there, the depot's resources will be optimally utilized, securing a massive strategic advantage for the entire front. However, if too many converge, exceeding 60, the depot's fragile infrastructure will be overwhelmed, leading to catastrophic resource depletion and utter strategic failure for all who committed, whereas holding current positions offers a steady, defensible, yet unremarkable operational status.\n\nOption A: Maintain your current fortified positions, ensuring operational stability.\nOption B: Commit your detachment to reinforce the Northern Supply Depot.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 3,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_4",
+    "description": "The high command has issued a critical order: simultaneously, you and 99 other frontline companies must decide your next move, as communication is impossible until dawn. A vulnerable enemy Nexus Point, crucial for our campaign, lies open, but it's a tactical choke point; if more than 60 companies attempt to seize it, the resulting congestion will lead to a disastrous rout, sacrificing all units who advanced. However, if 60 or fewer companies push through, those who commit will secure the objective, delivering a monumental strategic advantage that could turn the tide of the entire war. Your alternative is to fortify your current defensive positions, a move that guarantees your company's immediate safety and maintains our existing lines, but offers no decisive gain.\n\nOption A: Order your company to advance on the Nexus Point.\nOption B: Order your company to hold and fortify current positions.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 4,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_5",
+    "description": "Commander, our hundred-person cell faces a critical decision tonight. A vital intel drop has been scheduled, but our analysts predict a high risk of enemy ambush if too many operatives converge; specifically, if more than 60 out of our 100 agents are detected in the target sector, the entire mission will be compromised, leading to catastrophic failure and exposure of our assets. However, if 60 or fewer of us infiltrate the sector, the information gained could provide a decisive strategic advantage in the war. Simultaneously, you and your 99 comrades must decide your course of action now.\n\nOption A: Maintain your secure position at the comms relay, guaranteeing your safety and preserving your resources for future operations.\nOption B: Infiltrate the target sector to retrieve the intel, contributing to a potential decisive victory but risking total compromise if the sector becomes overcrowded.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 5,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_6",
+    "description": "Our reconnaissance mission hinges on accessing a critical strategic asset tonight, and you are one of 100 operatives facing this high-stakes decision. If you and up to 59 others successfully rendezvous at the target zone, we will gain a crucial advantage that could turn the tide of this conflict, but if more than 60 of our total forces converge, the site will be overrun and yield absolutely nothing, leaving us exposed and vulnerable. Remaining on standby at base ensures your safety and a minor, but guaranteed, contribution to our ongoing efforts.\n\nOption A: Proceed to the target zone.\nOption B: Remain on standby at base.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 6,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_7",
+    "description": "You and 99 other frontline operatives face a critical juncture. There's a vital window to relay urgent intelligence to High Command through the main communications array, but this crucial network can only safely process a maximum of 60 simultaneous transmissions; any more and the entire system will jam, rendering all efforts useless and your intel lost. You know your decision, along with every other operative's, will be made simultaneously and without prior coordination, each aiming to make the most impactful contribution to the war effort.\n\nOption A: Conserve your resources and maintain strict radio silence, securing your current position and ensuring your squad remains fully operational and ready for any immediate threats, guaranteeing a steady but contained tactical advantage.\nOption B: Attempt to send your priority report, risking your transmission being lost in the chaos if too many others try, but with the potential to deliver critical data that could undeniably turn the tide of this conflict.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 7,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_8",
+    "description": "Commander, a critical window has opened to seize the abandoned supply depot, a strategic point that could turn the tide of this protracted siege. You and 99 other allied company commanders face a simultaneous, high-stakes decision. If too many units converge on the depot \u2013 specifically, if more than 60 companies attempt to secure it \u2013 the narrow access roads will become a death trap, jamming the assault and making our efforts a pointless sacrifice under enemy fire; however, if your company is among the 60 or fewer who commit, the swift occupation will yield vital supplies and a decisive tactical advantage. Choosing to hold your current defensive line guarantees your troops' safety and preserves our current moderate operational strength, but at the cost of missing this critical opportunity.\n\nOption A: Order your company to push for the depot.\nOption B: Maintain your current position.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 8,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_9",
+    "description": "Our reconnaissance has identified a critical enemy forward supply cache, an opportunity that could decisively shift the front. However, deploying too many units to exploit it would overload the narrow infiltration routes and overwhelm the sparse cover, inviting immediate, overwhelming enemy counter-fire. Out of our 100 available combat units, a maximum of 60 can attempt to seize the cache without triggering a catastrophic, exposed bottleneck. Every other allied commander faces this same critical decision simultaneously, knowing success means a strategic breakthrough, while overcommitment guarantees a bloody retreat.\n\nWhat is your unit's order?\n\n**Option A:** Realign your unit to bolster our current defensive perimeter, ensuring the security of our hard-won ground and maintaining our operational stability.\n**Option B:** Initiate an advance on the forward cache, aiming to secure the vital resources that could turn the tide of this entire offensive.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 9,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_10",
+    "description": "As the fog of war descends, you and 99 other platoon members face a critical, uncoordinated decision. Intelligence reports a lightly defended forward command post that, if secured by a limited force of 60 or fewer among our 100-person company, could grant us a decisive strategic advantage in the coming offensive. However, if more than 60 of us independently converge, we risk creating utter chaos, exposing ourselves to enemy counter-attacks, and rendering the entire operation a catastrophic failure; our alternative is to consolidate current defensive lines, a safer option that guarantees our immediate preservation and stability without the same high-stakes gamble.\n\nOption A: Push forward with your squad towards the command post.\nOption B: Consolidate your position and hold the line.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 10,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_11",
+    "description": "Amidst the escalating conflict, intelligence pinpoints a critical, uncompromised stronghold offering vital respite and strategic advantage. You, alongside 99 other allied combatants, must simultaneously decide whether to converge on this location. However, this sanctuary has a strict capacity: if more than 60 of you occupy it, the stronghold will be dangerously overtaxed, its resources quickly depleted, and its tactical value negated for all present; but if 60 or fewer arrive, the benefits of secure shelter, provisions, and actionable intelligence will be substantial.\n\nOption A: Maintain your current defensive perimeter, securing your immediate safety without significant gain.\nOption B: Converge on the stronghold, seeking its substantial advantages.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 11,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_12",
+    "description": "Command has identified a critical enemy strongpoint, 'Eagle's Nest', which, if taken, could turn the tide of the war. You and 99 other company commanders must simultaneously issue your orders. Intelligence suggests that if 60 or fewer companies commit to a direct assault, the coordinated strike will be decisive, securing a vital strategic advantage and crushing enemy morale; however, if more than 60 companies advance, the bottleneck will lead to a devastating quagmire, depleting our forces and exposing our flank. Choosing to hold your current defensive line guarantees your company maintains its tactical position with minimal losses, avoiding undue risk but missing a potential breakthrough.\n\nOption A: Lead your company in a direct assault on 'Eagle's Nest'.\nOption B: Fortify your current defensive line.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 12,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_13",
+    "description": "The enemy's main supply depot is within striking distance, a critical objective that could turn the tide of this war. You and 99 other elite squad leaders, operating independently but with a shared goal, must simultaneously decide whether to commit your forces to its capture. If a coordinated push involves a maximum of 60 squads, the breach will be successful, securing a vital strategic advantage and ensuring your survival. However, if more than 60 squads converge on the same point, the assault will become a chaotic bottleneck, guaranteeing catastrophic losses and the mission's complete failure.\n\nYour orders are clear, Commander. What is your choice?\n\nOption A: Maintain your current defensive positions, preserving your forces for future engagements.\nOption B: Lead the charge on the enemy's strongpoint, seeking to secure the strategic objective.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 13,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_14",
+    "description": "You and 99 other specialist teams are poised to seize a crucial enemy intelligence cache that promises immense strategic advantage. This objective is highly volatile, and if more than 60 out of the 100 total teams attempt to secure it, the entire operation will dissolve into catastrophic chaos, yielding nothing but wasted effort for anyone who participated. However, if 60 or fewer teams go, the intel can be secured with decisive impact, while staying back will still provide a modest but guaranteed benefit by conserving vital combat resources for the long war.\n\nOption A: Initiate the extraction operation.\nOption B: Hold your current position and maintain stealth.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 14,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_15",
+    "description": "The General has issued the order for the covert retrieval operation, a high-stakes mission behind enemy lines. You and 99 other elite operatives must decide independently whether to join the assault on the vital enemy data vault, a target that can only be successfully breached if the infiltration team numbers 60 agents or fewer. If too many of us converge on the site, we risk catastrophic exposure and total mission failure for everyone involved in the push; but if the numbers are just right, the intelligence gained would be a decisive blow against the enemy. Alternatively, you could contribute to the war effort through critical support duties from the safety of base, a less glorious but guaranteed contribution.\n\nWhat is your decision, operative?\nOption A: Remain at base and perform critical support duties.\nOption B: Join the covert assault on the enemy data vault.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 15,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_16",
+    "description": "General, a critical enemy stronghold, holding vital tactical intel, has been identified, and you and 99 other allied unit commanders must simultaneously decide whether to commit your forces to a swift raid. If your unit, along with no more than 59 other allied units (totaling 60 out of 100), converges on the target, the intelligence will be secured, granting a decisive strategic advantage. However, if more than 60 units attempt the raid, the operation will be hopelessly compromised, attracting overwhelming enemy resistance and resulting in a catastrophic and futile loss of assets. Alternatively, you could maintain your unit's current defensive posture, securing a modest, guaranteed gain in your sector's stability.\n\nOption A: Order your unit to join the assault on the stronghold.\nOption B: Keep your unit at its current defensive post.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 16,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_17",
+    "description": "As the enemy closes in, you and your 99 fellow commandos face a critical, simultaneous decision regarding the depleted forward armory. If 60 or fewer of you attempt to resupply there, you'll secure the vital munitions needed to turn the tide of this battle and ensure your squad's survival; however, if more than 60 converge on the armory, it will be overrun and offer nothing but a trap, resulting in catastrophic losses. Alternatively, bypassing the armory and relying on your existing, dwindling supplies guarantees a safe, if limited, fighting chance.\n\nOption A: Remain with your current provisions, securing a modest defensive posture.\nOption B: Attempt to reach the forward armory for a crucial resupply.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 17,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_18",
+    "description": "Amidst the chaos of the war, a critical supply cache has been located, offering a chance at vital provisions for your squad and 99 other scattered units. This cache has a strict capacity: if a total of 60 or fewer units, out of the 100 operating in this sector, attempt to reach it, those who went will secure enough resources to significantly bolster their position and continue the fight. However, if more than 60 converge on the cache, the location will be utterly depleted or exposed to enemy forces, leading to a perilous waste of effort and no gain for anyone who made the attempt. Your alternative is to remain secure in your current position, scavenging what you can to survive, but forfeiting the chance at major resupply, a decision you must make simultaneously with all other units, without knowing their choices.\n\nOption A: Attempt to reach the critical supply cache.\nOption B: Remain secure in your current position.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 18,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_19",
+    "description": "You and 99 other deep-cover operatives face a critical decision regarding a high-value data relay. This clandestine network can only handle simultaneous transmissions from a maximum of 60 agents; if you transmit and the total count stays at or below 60, your intel contributes to a major strategic breakthrough, but exceeding 60 compromises the entire operation, leading to immediate detection and severe losses for all involved. Conversely, electing not to transmit ensures your current secure position is maintained, albeit without impacting the war effort directly.\n\nOption A: Remain at your current secure location, foregoing the relay entirely.\nOption B: Initiate your transmission to the data relay.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 19,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_20",
+    "description": "The enemy's relentless advance has left us with one last, critical supply cache deep behind contested lines. You and 99 other allied company commanders must decide simultaneously whether to attempt to reach this vital depot, risking everything for a chance at a decisive advantage. We know the cache can effectively equip and resupply **60 or fewer** companies; if more than that attempt to converge, it will become an overcrowded deathtrap, turning a desperate opportunity into utter logistical chaos and leaving everyone vulnerable to detection and ambush. Remaining in your current position, however, guarantees a secure, albeit limited, preservation of your remaining strength.\n\nOption A: Order your company to converge on the supply cache.\nOption B: Keep your company in its current defensive position.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 20,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_21",
+    "description": "A critical enemy comms relay has been identified, offering an unparalleled strategic advantage if captured efficiently. You and 99 other allied commanders must simultaneously decide whether to commit forces to this audacious lightning strike; if 60 or fewer total brigades go, the objective is secured swiftly, yielding immense battlefield dominance, but if more commit, the objective becomes a costly trap, resulting in a devastating loss of assets for all. Opting not to participate guarantees the safety of your current sector and a stable, albeit limited, contribution to our defensive lines.\n\nOption A: Keep your brigade on current defensive duty, securing vital territory without risk.\nOption B: Lead your brigade into the lightning strike, aiming for the comms relay.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 21,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_22",
+    "description": "After days of relentless skirmishes, all 100 of your company's combat-weary soldiers, including you, face a critical, simultaneous decision regarding a vital reinforced bunker. This critical stronghold can safely accommodate no more than 60 personnel; if it's flooded by too many, its meager resources will be overwhelmed, leaving everyone inside exposed and without adequate support for the battles ahead. However, if the bunker remains uncrowded, those who secure a spot will gain critical respite and medical aid, significantly bolstering their readiness, whereas those who forgo the bunker must remain at their current, less secure position, conserving their remaining stamina and avoiding immediate peril, though without the bunker's full benefits.\n\nOption A: Attempt to secure a place within the reinforced bunker.\nOption B: Stand firm at your current, less secure position.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 22,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_23",
+    "description": "The front lines are quiet tonight, but a critical decision looms for you and 99 other scattered operatives. A crucial strategic asset has been detected, but its acquisition requires a synchronized move to a specific rendezvous point. If more than 60 total agents converge, the location will be fatally compromised and our efforts wasted; however, if 60 or fewer manage to reach it, those present will secure intelligence vital for our survival and acquire unparalleled resources. Remaining at your current, hardened position guarantees your immediate safety and a consistent, albeit limited, supply of essentials.\n\nOption A: Remain in your current, secure position and manage with your existing provisions.\nOption B: Initiate a high-stakes movement toward the strategic rendezvous point.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 23,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_24",
+    "description": "As one of 100 allied combat teams, your unit faces a critical decision regarding a rumored abandoned munitions depot. This site promises enough vital ordnance to significantly bolster the firepower of 60 teams, potentially turning the tide of the war for those who successfully secure it. However, if more than 60 of us converge, the depot's limited access points and booby traps will transform it into a chaotic, catastrophic bottleneck, yielding nothing but wasted lives and resources for all who attempt to breach it. Your only other option is to secure your current defensive sector, which offers a modest but guaranteed tactical stability. You must decide now, without knowing how many of the other 99 teams will move.\n\nOption A: Advance on the munitions depot.\nOption B: Fortify your current sector.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 24,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_25",
+    "description": "The enemy's Strategic Supply Depot represents a critical vulnerability, and you, alongside 99 other allied unit commanders, must simultaneously determine your unit's objective before dawn. Intelligence indicates that if 60 or fewer total units converge on the depot, the operation will be swiftly executed, securing vital resources and providing an overwhelming strategic advantage for our entire campaign. However, should more than 60 units attempt the same objective, the resulting logistical nightmare and overwhelming congestion will inevitably lead to a catastrophic failure, decimating forces and wasting precious time, whereas simply holding your current defensive lines would guarantee the preservation of your unit's strength and a stable, albeit unmoving, tactical position.\n\nOptions:\nOption A: Maintain your unit's current defensive posture and consolidate positions.\nOption B: Commit your unit to the high-stakes assault on the Strategic Supply Depot.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 25,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_26",
+    "description": "General, a critical intelligence cache has been pinpointed behind enemy lines, promising a decisive strategic advantage if secured. You and 99 other platoon commanders must simultaneously choose between committing your forces to a clandestine retrieval mission or reinforcing your current sector. If 60 or fewer platoons attempt the raid, the intelligence will be obtained, delivering a monumental blow to the enemy; but if more than 60 converge, the mission is compromised, leading to a futile and dangerously exposed maneuver for all participants. Opting to reinforce your sector, however, guarantees stable defenses and resource acquisition for your troops, avoiding any frontline risk.\n\nOption A: Launch your platoon on the clandestine intelligence raid.\nOption B: Keep your platoon back to reinforce your current sector.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 26,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_27",
+    "description": "General, our forces are dangerously low on munitions, and you and 99 other platoon commanders across the sector must simultaneously choose your next move. A critical forward supply depot holds enough vital resources to resupply 60 platoons effectively; any more will lead to its complete collapse and a catastrophic loss for all involved, while 60 or fewer will secure a decisive strategic advantage and guaranteed survival for those who arrive. Alternatively, choosing to fortify your current position will ensure your unit's basic, albeit limited, operational continuity. What is your command?\n\nOption A: Order your unit to fortify your current position.\nOption B: Command your unit to advance on the forward supply depot.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 27,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_28",
+    "description": "The strategic intelligence post, deep behind enemy lines, holds vital schematics that could turn the tide of this war, and a brief, clandestine window has opened to retrieve them. You and 99 other allied operatives must simultaneously decide whether to risk a raid on this target. If you push for the post, and no more than 60 total operatives converge, the schematics are ours \u2013 a monumental victory that secures our future. However, if more than 60 of us attempt the retrieval, the post will be irrevocably swarmed and compromised, yielding nothing but wasted lives; staying at your current defensive position, meanwhile, ensures your operational integrity and a reliable, albeit minor, contribution to the war effort.\n\nOption A: Push for the strategic intelligence post.\nOption B: Maintain your current defensive position.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 28,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "el_farol_bar_war_var_29",
+    "description": "A critical opportunity has arisen to seize the 'Veridian Stronghold', a strategic forward base pivotal to our war effort. You and 99 other allied commanders must simultaneously decide whether to converge on this objective, with no communication possible before the advance. The stronghold can only sustainably support 60 units; if more than 60 forces attempt to occupy it, the ensuing logistical collapse will make the entire endeavor catastrophically pointless, jeopardizing all involved, whereas a successful, uncrowded occupation promises a decisive tactical edge. If you hold back, your unit remains in a secure, but non-advancing, position, ensuring safety but missing the potential for a major breakthrough.\n\nOption A: Hold your unit in its current secure, non-advancing position.\nOption B: Commit your unit to the advance on the Veridian Stronghold.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "el_farol_bar",
+      "game_title": "El Farol Bar Problem",
+      "context": "war",
+      "variation_index": 29,
+      "rules_ref": "You and 99 other agents must simultaneously decide whether to Go to the Bar or Stay Home. The bar has a strict capacity limit. If you go to the bar and 60 or fewer total people go, you get a high reward (10 points). If you go and more than 60 people go, the bar is overcrowded and you get a low reward (0 points). If you stay home, you get a guaranteed moderate reward (5 points). Action_A represents Going to the Bar. Action_B represents Staying Home.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "go_to_bar",
+        "action_b": "stay_home"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

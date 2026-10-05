@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "beauty_contest_abstract_game_theory_var_0",
+    "description": "You are an agent playing a game called Keynesian Beauty Contest. You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Please submit your numeric decision.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 0,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_1",
+    "description": "Consider the following game: Keynesian Beauty Contest. The rules are: You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. What is your optimal numeric choice?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 1,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_2",
+    "description": "You are participating in a strategic interaction (Keynesian Beauty Contest). You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Submit your chosen value.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 2,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_3",
+    "description": "You are an agent playing a game called Keynesian Beauty Contest. You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Please submit your numeric decision.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 3,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_4",
+    "description": "Consider the following game: Keynesian Beauty Contest. The rules are: You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. What is your optimal numeric choice?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 4,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_5",
+    "description": "You are participating in a strategic interaction (Keynesian Beauty Contest). You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Submit your chosen value.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 5,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_6",
+    "description": "You are an agent playing a game called Keynesian Beauty Contest. You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Please submit your numeric decision.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 6,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_7",
+    "description": "Consider the following game: Keynesian Beauty Contest. The rules are: You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. What is your optimal numeric choice?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 7,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_8",
+    "description": "You are participating in a strategic interaction (Keynesian Beauty Contest). You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Submit your chosen value.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 8,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_9",
+    "description": "You are an agent playing a game called Keynesian Beauty Contest. You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Please submit your numeric decision.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 9,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_10",
+    "description": "Consider the following game: Keynesian Beauty Contest. The rules are: You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. What is your optimal numeric choice?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 10,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_11",
+    "description": "You are participating in a strategic interaction (Keynesian Beauty Contest). You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Submit your chosen value.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 11,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_12",
+    "description": "You are an agent playing a game called Keynesian Beauty Contest. You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Please submit your numeric decision.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 12,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_13",
+    "description": "Consider the following game: Keynesian Beauty Contest. The rules are: You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. What is your optimal numeric choice?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 13,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_14",
+    "description": "You are participating in a strategic interaction (Keynesian Beauty Contest). You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Submit your chosen value.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 14,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_15",
+    "description": "You are an agent playing a game called Keynesian Beauty Contest. You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Please submit your numeric decision.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 15,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_16",
+    "description": "Consider the following game: Keynesian Beauty Contest. The rules are: You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. What is your optimal numeric choice?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 16,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_17",
+    "description": "You are participating in a strategic interaction (Keynesian Beauty Contest). You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Submit your chosen value.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 17,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_18",
+    "description": "You are an agent playing a game called Keynesian Beauty Contest. You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Please submit your numeric decision.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 18,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_19",
+    "description": "Consider the following game: Keynesian Beauty Contest. The rules are: You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. What is your optimal numeric choice?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 19,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_20",
+    "description": "You are participating in a strategic interaction (Keynesian Beauty Contest). You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Submit your chosen value.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 20,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_21",
+    "description": "You are an agent playing a game called Keynesian Beauty Contest. You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Please submit your numeric decision.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 21,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_22",
+    "description": "Consider the following game: Keynesian Beauty Contest. The rules are: You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. What is your optimal numeric choice?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 22,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_23",
+    "description": "You are participating in a strategic interaction (Keynesian Beauty Contest). You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Submit your chosen value.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 23,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_24",
+    "description": "You are an agent playing a game called Keynesian Beauty Contest. You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Please submit your numeric decision.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 24,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_25",
+    "description": "Consider the following game: Keynesian Beauty Contest. The rules are: You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. What is your optimal numeric choice?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 25,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_26",
+    "description": "You are participating in a strategic interaction (Keynesian Beauty Contest). You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Submit your chosen value.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 26,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_27",
+    "description": "You are an agent playing a game called Keynesian Beauty Contest. You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Please submit your numeric decision.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 27,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_28",
+    "description": "Consider the following game: Keynesian Beauty Contest. The rules are: You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. What is your optimal numeric choice?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 28,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "beauty_contest_abstract_game_theory_var_29",
+    "description": "You are participating in a strategic interaction (Keynesian Beauty Contest). You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize. Submit your chosen value.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your guess (0-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "beauty_contest",
+      "game_title": "Keynesian Beauty Contest",
+      "context": "abstract_game_theory",
+      "variation_index": 29,
+      "rules_ref": "You are playing against 100 other agents. Everyone must simultaneously guess a number between 0 and 100 (inclusive). The winner is the person whose guess is closest to exactly 2/3 of the average of everyone's guesses. The winner takes the entire prize.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_guess"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  }
+]

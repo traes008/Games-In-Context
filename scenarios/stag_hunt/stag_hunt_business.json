@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "stag_hunt_business_var_0",
+    "description": "You and a key strategic partner are at a crossroads, facing a simultaneous decision on your next major market move. There's a chance to pursue a disruptive innovation that could secure both your firms a commanding new position and unprecedented growth, but it critically requires full, mutual investment of resources from both players. However, each of you also has the option to independently focus on existing, safer product lines, which will guarantee a modest but reliable revenue stream regardless of the other's choice. The core challenge is that if one firm commits entirely to the high-risk innovation while the other conservatively protects its current earnings, the ambitious venture will inevitably collapse due to insufficient backing, resulting in a complete loss for the committed firm, while the cautious partner secures their steady profit.\n\nOption A: Fully commit your firm's resources to the high-potential, shared innovation.\nOption B: Pivot your firm's resources towards expanding your established, lower-risk product lines.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 0,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_1",
+    "description": "Our firm and one key strategic partner, a total of two players, face a pivotal decision on an emerging market opportunity. We can either pursue a groundbreaking joint product launch, which requires both firms to commit substantial R&D for immense mutual growth, or we can each develop a proven, safer product extension independently. If we go for the ambitious launch alone, our investment will be entirely forfeited, while our partner would still secure their reliable, individual gains.\n\nOption A: Focus solely on our own established product lines, ensuring reliable, incremental market share.\nOption B: Fully commit to the groundbreaking joint venture, relying on our partner to match our significant investment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 1,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_2",
+    "description": "You and a crucial strategic partner stand at a crossroads regarding your joint venture's future. A groundbreaking opportunity to redefine the industry has emerged, but capitalizing on it requires both of you to commit significant resources and pivot your strategies entirely. If both of you fully embrace this bold new direction, the potential for shared, unprecedented success is enormous; however, if only one of you commits, that sole investor faces an utter financial and reputational collapse while the other secures stable, if less spectacular, returns from existing operations. Conversely, should both of you choose to maintain your current, reliable business models, you will each achieve a comfortable, predictable profit.\n\nNow, you must decide:\n\nOption A: Launch into the ambitious, high-stakes market disruption, fully committing your resources.\nOption B: Consolidate existing operations, pursuing incremental, secure growth.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 2,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_3",
+    "description": "You and your key strategic partner are at a critical juncture, needing to make a simultaneous and independent decision about your next major market initiative. There's a chance to pursue a transformative, high-growth venture that promises unprecedented returns for both of your firms, but it demands perfect, mutual synergy; **two players** must fully commit, or the entire effort will be a catastrophic waste. Conversely, a more conventional market approach guarantees a solid, individual gain without relying on your partner's specific actions.\n\nOption A: Focus your resources on a proven, reliable market niche, securing a steady and predictable profit for your firm, irrespective of your partner's strategic direction.\n\nOption B: Go all-in on the ambitious, disruptive market play, aiming for industry-leading success with your partner, but accepting the risk of total loss if they don't commit alongside you.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 3,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_4",
+    "description": "Our two companies, long-standing partners, stand at a critical juncture: pursue a groundbreaking new market requiring massive, coordinated investment, or focus on our individual, secure revenue streams. This transformative joint venture, if both of us commit fully, promises unprecedented market dominance and a windfall for both firms. However, if one company diverts its resources to this bold new initiative while the other conserves its efforts for a more traditional, safer market, the ambitious venture will utterly collapse for the committed firm, leaving it with nothing, while the conservative firm secures its predictable, moderate profits. Should both of us opt for individual conservatism, we'd both achieve solid, respectable returns, though far from the potential peak.\n\nYou now face a choice between two paths:\nOption A: Fully commit your company's resources to this ambitious, shared market play.\nOption B: Allocate your resources to secure your existing, individual market position.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 4,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_5",
+    "description": "You and your long-term strategic ally, the two leading firms in the sector, stand at a crossroads regarding a nascent, high-potential market opportunity. A bold, shared initiative could unlock a groundbreaking new revenue stream, but it demands an all-in commitment from both of your firms to succeed, pooling substantial capital and expertise into a single, highly visible venture. Alternatively, each firm could independently pursue a reliable, albeit smaller, contract acquisition strategy within your existing market, guaranteeing a solid individual return. If you commit to the joint venture while your ally opts for their individual path, your substantial investment will be entirely lost, leaving you empty-handed while they secure their guaranteed gain.\n\nOption A: Pursue your firm's guaranteed, individual contract acquisition strategy.\nOption B: Commit your firm's resources entirely to the joint, high-potential market initiative.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 5,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_6",
+    "description": "You and your long-standing business partner are at a critical juncture, facing a choice that will define your company's next decade. A massive, untapped international market promises unprecedented growth and a transformational leap for both our firms, but pursuing it successfully demands a full, simultaneous commitment from *both* of our companies to pool all resources. However, you also have the independent option to redirect your firm's resources towards a smaller, stable domestic sector, which guarantees a respectable, immediate return regardless of your partner's decision. If you commit to the grand international venture alone, without your partner's full backing, your significant investment will be entirely lost, while their individual strategy would still secure their modest, reliable gains.\n\nYou must choose your strategic direction simultaneously.\n\nOption A: Fully commit to the ambitious international market expansion.\nOption B: Focus on securing the stable domestic sector.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 6,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_7",
+    "description": "Our firm, along with one crucial strategic partner, stands at a crossroads for market expansion. This is a **two-player** decision where success in a bold new venture **requires both partners to fully commit** their significant resources and expertise. We could each pursue a conservative, proven strategy that guarantees a stable, respectable return on investment, or we could collectively target a nascent, high-growth sector with the potential for truly transformative market leadership. The challenge lies in trust: if one of us commits to the ambitious path while the other defaults to safety, the ambitious investment will be entirely wasted, leaving the cautious party to reap steady profits uncontested.\n\nOption A: Pursue the established, lower-risk market segment, ensuring a reliable, albeit modest, revenue stream regardless of your partner's choice.\nOption B: Fully commit to the high-stakes, disruptive market entry, aiming for unprecedented shared growth, knowing that success hinges entirely on your partner's reciprocal commitment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 7,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_8",
+    "description": "You and a critical strategic partner are at a crossroads, needing to commit significant resources for the next quarter. There\u2019s an opportunity to pursue a groundbreaking, high-impact market initiative that could redefine your industry, but it demands absolute mutual commitment and substantial upfront investment from both parties. Alternatively, each of the two players could focus independently on a more conventional, lower-risk client acquisition strategy, guaranteeing a modest but reliable revenue stream. The critical challenge is that attempting the ambitious initiative alone, without your partner\u2019s full buy-in and pooled resources, would lead to a catastrophic failure for your efforts, while they would still secure their safe returns.\n\nYour choices are:\n**Option A:** Fully commit your resources to the ambitious, market-redefining initiative, trusting your partner will do the same.\n**Option B:** Focus your resources on the conventional, lower-risk client acquisition strategy, ensuring your independent revenue stream.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 8,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_9",
+    "description": "Our firm, alongside one strategic alliance partner, faces a pivotal decision concerning a burgeoning market. There are two of us in this venture, and only through mutual commitment can we unlock the highest potential returns this opportunity offers. We could pursue a truly transformative market disruption that would redefine our industry, but this ambitious endeavor only succeeds if both parties dedicate their full resources. The alternative is for each of us to independently secure a more modest, yet guaranteed, gain within a smaller market segment, knowing that attempting the grand, collaborative strategy alone would yield us absolutely no benefit, while our partner would still secure their individual profit.\n\nOption A: Focus on a secure, individual market niche, guaranteeing our own returns regardless of our partner's strategic direction.\nOption B: Fully commit to a joint, high-stakes market disruption, investing significant resources with the expectation our partner will reciprocate with an equally ambitious commitment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 9,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_10",
+    "description": "Our two firms face a critical decision regarding a highly innovative market expansion; a venture that promises immense, mutually beneficial returns, but only if both my counterpart and I commit simultaneously and wholeheartedly. If I invest everything into this ambitious joint strategy and my partner chooses a safer, individual path, my entire investment will be lost, yielding nothing. Conversely, choosing a secure, established market guarantees my company a stable, respectable profit regardless of my partner's decision, even if their ambitious solo attempt at the new market fails without my collaboration.\n\nOption A: Fully commit to the ambitious joint market expansion.\nOption B: Secure a stable, established market opportunity independently.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 10,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_11",
+    "description": "You and a key strategic partner company face a pivotal decision regarding a significant market opportunity. We both recognize that a bold, collaborative play could unlock unprecedented growth and position us as industry leaders; however, such an endeavor demands full, mutual commitment. If one of us invests heavily and the other opts for a more conservative path, the ambitious project will inevitably collapse, leading to substantial losses for the investing party, while the cautious partner still secures a comfortable, albeit smaller, return from their independent efforts. Conversely, if both of our two players choose a safer, individual approach, we're guaranteed respectable, stable profits, though we'll miss out on the truly transformative potential. You must now decide:\n\nOption A: Focus on our established, low-risk product lines, ensuring a predictable revenue stream regardless of external factors.\nOption B: Commit to the ambitious joint R&D initiative, pooling substantial capital and expertise for a potentially revolutionary market breakthrough.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 11,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_12",
+    "description": "You and one other key executive are facing a pivotal strategic choice for the company's next quarter. There's an opportunity to pursue a bold, industry-transforming acquisition that promises unprecedented growth for both your divisions, but it demands absolute, synchronized commitment from both of you; if either of you diverts critical resources, the acquisition collapses entirely, leaving the committed executive with nothing. Alternatively, each of you could focus on a stable, proven growth initiative within your existing markets, guaranteeing solid, individual returns even if the other executive makes a riskier play. Your decision hinges on your trust in your partner to either match your ambition or prioritize their own guaranteed outcome.\n\nOption A: Fully commit to the ambitious, transformative acquisition.\nOption B: Focus on your proven, individual growth initiative.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 12,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_13",
+    "description": "My firm and a crucial strategic partner are at a crossroads concerning a transformative market opportunity. If both of us fully commit to a disruptive new venture, we could unlock unprecedented growth and market leadership for our respective organizations. However, this ambitious undertaking is resource-intensive, and any unilateral commitment without our partner's simultaneous dedication would lead to a catastrophic loss for us, while they would maintain their current stable position. As one of two key decision-makers, you must choose your path.\n\nOption A: Prioritize our existing, secure product portfolio, ensuring consistent, reliable revenue for our firm independent of our partner's strategic choices.\nOption B: Allocate significant capital and effort towards the joint, high-potential market disruption, knowing its success hinges entirely on our partner's identical, mutual commitment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 13,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_14",
+    "description": "Our firm and a key strategic partner company are at a pivotal juncture, facing a simultaneous decision on our next major market move. We recognize a groundbreaking opportunity: a truly transformative joint venture that promises unprecedented industry returns if we both fully commit, but it will utterly collapse with substantial losses if either of the **two players** attempts it alone. The alternative for both of us is to independently pursue safer, smaller-scale internal projects, guaranteeing a respectable but modest profit regardless of the other's choice. We must decide now, without knowing their immediate move.\n\nOption A: Propose and fully commit to the ambitious, market-redefining joint venture.\nOption B: Prioritize our established, low-risk internal diversification strategy.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 14,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_15",
+    "description": "As one of two strategic partners, our firm stands at a crossroads for our next major market move. We've identified a truly game-changing opportunity, a novel platform that could yield immense returns, but only if both our companies fully commit to its extensive development and launch. Failing to secure full partner investment while we pour in resources would mean our entire ambitious effort collapses with significant losses, whereas our partner would still secure their usual, reliable revenue stream. Conversely, pursuing a safer, independent path would guarantee both of us moderate but consistent gains, though we'd collectively miss out on a truly dominant market position.\n\nWhich path will you choose?\n\nOption A: Focus on securing your existing market share through independent, incremental product improvements.\nOption B: Fully commit to the extensive development and launch of the novel, disruptive platform.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 15,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_16",
+    "description": "Our firm and one crucial strategic partner face a singular, high-stakes decision point concerning a potential industry-redefining innovation. If both parties fully commit their significant capital and R&D to this ambitious joint venture, we could collectively capture an unprecedented market share, establishing a dominant new paradigm. Conversely, while prioritizing our established, proven product lines guarantees a secure, moderate individual revenue stream, if only one of the two players pursues the grander vision alone, their entire investment will be lost while the cautious partner retains their steady gains. We must independently make our choice, relying on our partner's willingness to pursue this shared, transformative opportunity.\n\nOption A: Full resource allocation towards the joint, pioneering venture.\nOption B: Concentrated effort on optimizing and defending our established market segments.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 16,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_17",
+    "description": "You and a critical strategic partner face a shared decision on how to approach a volatile new market. There's a chance to pursue a joint, groundbreaking venture that, if both of you fully commit, promises to establish a dominant position for both your firms, far surpassing any individual effort. However, this 'all-in' strategy demands complete mutual alignment and will utterly fail, yielding nothing for your investment, if your partner chooses a more conservative path instead. Conversely, either of you could individually secure a smaller, guaranteed segment of the existing market, ensuring a modest but dependable return.\n\nOption A: Pursue the development of a secure, albeit limited, niche product independently.\nOption B: Commit fully to the joint, high-risk, high-reward groundbreaking market launch.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 17,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_18",
+    "description": "Our division and a key strategic partner are at a critical juncture, facing a unique market opportunity. There are **two players** in this decision, and our coordination is essential for maximum gain. We could jointly pursue a groundbreaking, high-impact venture promising unprecedented returns if both commit, but it demands absolute shared resources; failing to secure mutual support means our ambitious investment yields nothing while our partner's independent choice still provides a respectable return. Conversely, both of us could independently focus on a conventional, lower-risk initiative, guaranteeing decent profit but foregoing truly transformative growth.\n\nMy choice boils down to this:\nOption A: Fully commit to the ambitious joint market redefinition.\nOption B: Focus solely on our division's reliable, independent growth initiative.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 18,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_19",
+    "description": "You and one other crucial strategic partner are at a crossroads, facing a market opportunity that could redefine your industry. There are two potential paths forward, requiring simultaneous choices from both of your firms to maximize gains. A bold, joint venture into an emerging technology promises a significant competitive advantage for both companies if you both commit fully; however, if you commit alone, your substantial investment would be completely wasted, while your partner could still secure a modest, reliable profit by choosing a safer, individual path.\n\nOption A: Independently pursue a stable, lower-growth market niche that offers immediate, guaranteed returns for your company.\nOption B: Fully commit your resources to the high-stakes, collaborative venture, trusting your partner will do the same.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 19,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_20",
+    "description": "Our two firms stand at a crucial juncture, facing a unique opportunity to either redefine our industry together or maintain our individual, established positions. You and one other firm have the chance to jointly invest in a groundbreaking, yet unproven, technology that promises unprecedented market dominance for both of us, but only if we both commit substantial resources. However, if you fully back this ambitious venture while your partner plays it safe, your project will collapse into a catastrophic loss, leaving them with their reliable, if less spectacular, profits. Conversely, if both of you opt for the conservative route, you'll each secure comfortable, albeit limited, returns.\n\nOption A: Fully commit to the high-risk, high-reward technological venture.\nOption B: Stick to your proven, conservative growth strategy.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 20,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_21",
+    "description": "You and a strategic partner division are at a critical juncture, facing a choice between two distinct investment paths for the upcoming fiscal year. Our two divisions must simultaneously declare our strategy, and our choices are deeply interdependent. Pursuing the groundbreaking 'Venture X' initiative promises a transformative market share expansion, but only if both divisions fully commit their resources. The fundamental tension lies in coordination: if our division pursues 'Venture X' alone, the immense investment will be entirely lost, while our partner, by pursuing their independent 'Streamline Y' project, would still secure a significant individual gain.\n\nConsider your decision:\n\nOption A: Direct our resources towards the independent 'Streamline Y' project, guaranteeing a solid, secure profit for our division, irrespective of the partner's choice.\nOption B: Commit our full capital and talent to the ambitious 'Venture X' initiative, striving for a monumental shared success that is only realized if our partner division also makes an identical, full commitment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 21,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_22",
+    "description": "We stand at a critical juncture with our key strategic ally, facing a unique market opening that demands a synchronized, all-in effort from both *two* of our firms. Successfully seizing this unprecedented opportunity together promises market leadership and shared prosperity far beyond what either could achieve alone. However, an alternative exists: focusing solely on our established, secure market segments ensures consistent, respectable individual profits, regardless of our ally's actions; the inherent risk is that if one of us fully commits to the grander vision while the other opts for the safer, individual play, the ambitious joint endeavor will collapse, yielding absolutely no return for the committed firm, while the cautious partner still secures their steady gains. You must decide your firm's immediate strategy:\n\nOption A: Mobilize all resources for the joint market capture, contingent on mutual commitment.\nOption B: Focus exclusively on your firm's proven, independent revenue streams.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 22,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_23",
+    "description": "You and your key strategic alliance partner are at a crossroads, facing a massive, untapped market opportunity that promises transformative growth. This \"blue ocean\" venture, however, demands substantial, synchronized investment and unwavering commitment from both of you; if only one commits, their entire investment will be wasted while the other still secures a reliable, if smaller, profit from existing operations. There are two key players in this scenario, and capturing the truly lucrative prize hinges entirely on mutual coordination and trust. You must decide your next move.\n\nOption A: Prioritize solidifying your position in existing, proven market segments, ensuring a guaranteed, stable profit stream for your firm.\nOption B: Fully commit your resources to a joint venture with your partner, aiming to dominate the nascent, high-growth market segment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 23,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_24",
+    "description": "You and your key strategic partner, a crucial two-person alliance, face a pivotal moment: a chance to collectively launch a disruptive technology that could redefine the industry. This audacious 'big play' promises extraordinary shared gains if both firms fully commit their resources, but attempting it alone without your partner's equivalent investment would be a catastrophic drain on your resources with no return, while your partner, by choosing a conservative path, would secure their own steady, reliable profits. Conversely, if both firms opt for their individual, well-established product lines, each is assured a good, predictable revenue stream, though far from the transformative potential. Your success hinges entirely on mutual trust and simultaneous commitment. You must now decide:\n\nOption A: Fully commit to the joint disruptive initiative, pooling all necessary resources and staking your future on a coordinated breakthrough.\nOption B: Focus solely on your existing, stable product portfolio, securing guaranteed incremental growth regardless of your partner's choice.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 24,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_25",
+    "description": "You and a critical strategic partner face a pivotal moment regarding market strategy. There are two distinct paths forward, each with significant implications for your firm's future growth. One path involves aggressively pursuing a transformative new market segment that promises extraordinary returns, but only if both firms dedicate all necessary resources to a fully synchronized effort. The alternative offers a dependable, albeit more modest, share of an existing, stable market without requiring your partner's full commitment.\n\nOption A: Divert your resources towards securing a guaranteed share in the stable market, ensuring a respectable return regardless of your partner's choice.\n\nOption B: Fully commit your resources to spearheading the audacious push into the new market, knowing that its success hinges entirely on your partner reciprocating with their full, unwavering commitment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 25,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_26",
+    "description": "You and your sole strategic alliance partner stand before a monumental market opportunity that promises unparalleled success if both companies fully commit to a synchronized, all-in joint venture. However, pursuing this 'white whale' alone means certain failure for your investment, even as your partner secures their own safe, moderate profits by independently focusing on smaller clients. The safer path for both of you is to each individually chase more modest, guaranteed revenue streams, securing respectable but unremarkable gains.\n\nYou must now decide:\nOption A: Fully commit to the ambitious, high-stakes joint venture.\nOption B: Focus exclusively on your own modest, guaranteed-profit client portfolio.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 26,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_27",
+    "description": "You and a crucial strategic partner are poised before a significant market opportunity, demanding a coordinated decision between the **two players** for maximum impact. A collaborative, innovative leap promises industry leadership and unprecedented returns, but only if both firms commit fully; an unreciprocated solo push would render your investment entirely wasted. Alternatively, both companies could pursue more conventional, independent growth strategies, securing stable, albeit smaller, individual gains.\n\nOption A: Pursue your proven, independent market strategy, ensuring a reliable revenue stream regardless of your partner's actions.\nOption B: Fully commit to the ambitious, collaborative venture, aiming for a transformative shared success, but acknowledging the total loss if your partner doesn't reciprocate.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 27,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_28",
+    "description": "Our firm faces a crucial, simultaneous decision with a single strategic partner, making us **two players** in this high-stakes game. We could embark on a transformative joint venture promising unprecedented market dominance for both companies, but this ambitious endeavor demands absolute mutual commitment from both firms; if either falters, the venture collapses, leading to a total loss on our investment. Alternatively, we each could independently pursue a well-understood, established market segment that guarantees a solid, reliable profit for each firm, irrespective of our partner's choice.\n\nOption A: Commit to the transformative joint venture.\nOption B: Independently pursue the established market segment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 28,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_business_var_29",
+    "description": "You and a key strategic partner face a critical joint investment decision for an upcoming market cycle, involving exactly two players whose choices are made simultaneously. We could pursue a revolutionary new product launch, which promises transformative gains for both companies, but this requires full, coordinated commitment from both of us; if one falters, the innovator gains nothing. Alternatively, we both have the option to focus on leveraging our existing, reliable product lines. This would guarantee each of us a respectable, steady profit, regardless of the other's choice.\n\nOption A: Prioritize securing a guaranteed, steady individual profit by focusing on our established, low-risk product portfolio.\nOption B: Commit fully to the ambitious, joint new product launch, aiming for a game-changing shared market dominance.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "business",
+      "variation_index": 29,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

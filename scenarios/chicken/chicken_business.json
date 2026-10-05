@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "chicken_business_var_0",
+    "description": "You and the CEO of 'Apex Innovations' find yourselves locked in a tense, two-player standoff over the future of the premium widget market. An all-out marketing blitz from both sides would crater the entire industry, leading to catastrophic losses for both companies, while a mutual, cautious approach would allow us both to secure a respectable, profitable share. The true prize, however, lies in one firm aggressively cornering the market at the expense of the other, who would be relegated to a negligible, albeit non-fatal, niche. Your executive board now awaits your decision regarding our strategic response.\n\nOption A: Scale back our current launch plans, focusing on a sustainable, smaller segment and avoiding direct confrontation.\nOption B: Unleash our full marketing might and aggressively pursue total market dominance.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 0,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_1",
+    "description": "Our company and a fierce competitor are simultaneously poised to enter a lucrative new market segment, where only two major players can truly thrive. We both face a high-stakes decision regarding our market penetration strategy; if both firms push aggressively, we risk an industry-wide collapse that would devastate both our operations. Should we both adopt a measured approach, we could each secure a substantial, stable foothold, but if one of us opts for full throttle while the other holds back, the aggressive firm would dominate, leaving the cautious one with only a marginal presence.\n\nOption A: Launch an overwhelming, full-spectrum market invasion.\nOption B: Initiate a carefully calibrated, restrained market entry.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 1,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_2",
+    "description": "Our cutting-edge AI assistant is ready for launch, but our direct competitor, Apex Innovations, is poised to release a nearly identical product simultaneously, creating a critical two-player standoff for market dominance. Both companies face a choice: either engage in an unprecedented, no-holds-barred marketing and pricing war, or pursue a more measured, co-existent market entry strategy. A full-blown clash would inevitably crater the nascent market for both of us, while a coordinated, less aggressive approach would allow both firms to achieve a respectable, sustainable foothold. However, if one firm adopts the aggressive stance while the other holds back, the aggressor stands to capture the vast majority of the new user base and critical revenue, leaving the cautious player with a mere fraction and a significant strategic setback. We must now decide our launch strategy:\n\nOption A: Implement our standard, high-quality but non-disruptive marketing campaign and pricing, focusing on sustainable growth.\nOption B: Unleash our full arsenal of aggressive promotional tactics, undercutting competitor pricing, and investing heavily to overwhelm the market.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 2,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_3",
+    "description": "We stand at a crossroads with our chief rival, Zenith Industries, concerning the incredibly lucrative R&D contract for Project Chimera. This is a two-player competition where both firms must simultaneously decide on their final, non-negotiable proposal strategy. While a cooperative bid could secure a beneficial outcome for both of us through shared development, an all-out aggressive push by one company could secure the lion's share of future revenue if the other backs down, yet a mutual all-out offensive would certainly collapse the entire project, leading to crippling losses for both.\n\n*   **Option A:** Launch an aggressive, winner-take-all bid, fully committing all available resources to outmaneuver Zenith.\n*   **Option B:** Submit a more conservative, shared-risk proposal, signaling a willingness for collaborative development.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 3,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_4",
+    "description": "Our company is locked in a high-stakes standoff with our sole major competitor over the nascent quantum computing hardware market. There are **two players** in this game, and we both possess the capability to unilaterally dominate the sector if the other falters. If both of us choose to exercise restraint, we can each secure a healthy, mutually beneficial share of this lucrative new segment; however, if both commit to an all-out, no-holds-barred strategy to corner the market, it will inevitably lead to a devastating price war that collapses the entire segment, ensuring financial ruin for both firms. The critical choice now rests on your shoulders.\n\nOption A: Maintain our current moderate expansion strategy, signaling an intent for market coexistence.\nOption B: Launch an aggressive, full-scale market capture campaign, prepared to outspend and outmaneuver our rival.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 4,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_5",
+    "description": "You are at a critical juncture in the market-share battle for the nascent 'Quantum Cloud Solutions' sector, facing your primary rival, Nexus Corp. This high-stakes standoff involves exactly two major players, both simultaneously evaluating their next strategic move. Continuing our aggressive strategy could either secure us dominant market leadership or trigger a catastrophic price war that decimates both our profit margins entirely. Conversely, a unilateral concession would mean one firm seizes an overwhelming advantage, leaving the other with a substantial, though not ruinous, loss of market potential.\n\nOption A: Push ahead with our current aggressive market capture tactics, refusing to cede any strategic ground.\nOption B: Pull back from our expansionist stance, signaling a willingness to negotiate terms for shared market stability.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 5,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_6",
+    "description": "Our firm and our principal competitor, Titan Dynamics, are the two key players poised to simultaneously introduce competing innovative solutions to a burgeoning market segment. We're both aware that this nascent space can sustain two successful ventures if we show restraint, yet if both of us launch an unbridled, all-out marketing blitz and price war, we risk mutually decimating the market's potential, leaving both companies with crippling losses. Conversely, should one firm commit to an unrestrained market capture while the other holds back, the aggressor stands to dominate the entire sector, leaving the more cautious player struggling to recover relevance. You must now decide our move:\n\nOption A: Lead with a cooperative market entry strategy.\nOption B: Unleash an aggressive, full-force market assault.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 6,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_7",
+    "description": "You and your sole competitor, 'Apex Innovations,' are simultaneously poised to launch competing next-gen products into a highly volatile market. As one of the two players in this critical moment, your decision on market entry strategy is final and irreversible. A mutual cautious approach could secure a comfortable, sustainable outcome for both firms, avoiding direct conflict. However, if both companies pursue an all-out aggressive launch, it would trigger a catastrophic price war, obliterating any potential profit for either. The real strategic tension lies in the possibility of one firm seizing complete market dominance while the other faces a significant setback, should one choose aggression and the other restraint.\n\nOption A: Unleash a full-scale, no-holds-barred market assault, aiming to capture the maximum possible market share.\nOption B: Adopt a more measured, defensive launch, prioritizing margin protection and avoiding direct confrontation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 7,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_8",
+    "description": "Our company, alongside its sole major competitor, stands at a pivotal crossroads concerning the next generation of industrial automation software. Both firms are poised to launch their flagship platforms, and a simultaneous aggressive market assault from both sides would utterly collapse the nascent sector, leaving us both financially ruined. While a mutual, measured rollout promises respectable, albeit not dominant, returns for both, the allure of achieving an insurmountable lead by going all-in and hoping our rival hesitates is immense. We must now decide our strategy for this critical launch.\n\nOption A: Adopt a measured market entry strategy, prioritizing long-term stability and avoiding direct confrontation.\nOption B: Execute an aggressive, high-stakes market penetration, aiming for immediate dominance.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 8,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_9",
+    "description": "Your firm stands at a precipice with a single, direct competitor, both ready to launch near-identical, groundbreaking products into a newly emerging market segment. This market is just large enough for two players to comfortably coexist, but its fragile nature cannot withstand a full-blown assault from both sides simultaneously. You must now decide your strategy for market entry against this other firm.\n\nOption A: Go for an immediate, aggressive market saturation play, unleashing your full marketing and sales power to dominate the segment from day one.\nOption B: Adopt a more measured, cooperative entry, aiming to establish a sustainable presence alongside your competitor without initiating a direct conflict.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 9,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_10",
+    "description": "Our company and our primary competitor, Stratos Ventures, are both poised to enter a lucrative new market segment. There are **two** of us vying for this space, and a simultaneous, aggressive push from both sides would undoubtedly trigger a brutal price war, collapsing the market value and leaving both our firms utterly depleted. Conversely, if one company capitulates and allows the other to fully capture the market, the dominant player will achieve immense financial gains, while the other will merely salvage a token presence. A more measured, coordinated approach by both parties, however, promises a robust and secure profit for everyone involved, though neither would attain full market hegemony.\n\nYou must now decide your strategy:\n\nOption A: Undertake a cautious and accommodating market entry.\nOption B: Launch an aggressive, no-holds-barred campaign.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 10,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_11",
+    "description": "You and Apex Corp are locked in a critical standoff over the launch of your flagship products, both poised to dominate a lucrative emerging market segment. While a coordinated approach could lead to a stable, profitable sharing of the market, the temptation for one company to assert total dominance is immense, knowing the other might back down. The gravest risk is that both firms proceed aggressively, sparking a ruinous price war that would collapse the entire segment for everyone involved. The strategic decision you make now will determine the future of this market.\n\nYou have two choices:\n\nOption A: Proceed with your product launch at full aggressive throttle, deploying your complete marketing budget and supply chain immediately, signaling no compromise.\nOption B: Hold back your launch by several weeks, allowing Apex Corp to establish initial market presence uncontested while you observe market reception.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 11,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_12",
+    "description": "Our corporation, Apex Innovations, stands at a critical juncture with Frontier Tech, our primary competitor, regarding the rollout of a revolutionary new smart-grid technology. Both companies simultaneously face a momentous decision on how to approach this nascent, yet incredibly lucrative, market. We each have the capacity to either commit to a collaborative, standard-setting initiative, or launch an immediate, full-spectrum market saturation campaign, knowing the other is making their choice at this exact moment. A shared, measured approach could secure both of us substantial, sustainable market share, while mutual aggressive over-commitment risks a complete industry meltdown and catastrophic losses; however, if one firm aggressively dominates while the other holds back, the aggressor stands to capture an overwhelming majority of the new revenue, leaving the more cautious player struggling for relevance.\n\nYou must now decide whether to:\n\nOption A: Champion a joint industry standard and measured rollout.\nOption B: Unleash our full competitive force into the market.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 12,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_13",
+    "description": "Your company and its sole competitor are at a critical juncture, poised to simultaneously finalize your market entry strategies for a highly coveted new product segment. Adopting a mutually restrained approach would guarantee both firms a stable, respectable position and healthy returns. However, if both decide to unleash an aggressive, no-holds-barred campaign, the resulting market battle will be so destructive that both companies will face utter ruin. The real tension lies in the fact that if one firm boldly seizes the offensive while the other holds back, the aggressor will capture nearly the entire market, relegating the more cautious player to a minor, struggling presence.\n\nYour options are:\nOption A: Launch a full-scale, aggressive market assault to dominate the segment.\nOption B: Implement a more conservative, measured market entry strategy.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 13,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_14",
+    "description": "Your firm and a formidable competitor are the only two players locked in a high-stakes bid for the exclusive patent license to a revolutionary new AI algorithm, an opportunity with immense potential to redefine our industry. However, overly aggressive tactics from both sides will completely devalue the patent, making it worthless to either of us. If you choose to assert your full market dominance and your competitor backs down, you will secure an unparalleled position, though if you concede, they will gain a significant, almost insurmountable lead.\n\nOption A: Propose a joint venture, sharing the patent rights and developing the technology collaboratively.\nOption B: Launch an immediate, all-out hostile bid, leveraging every resource to monopolize the license.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 14,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_15",
+    "description": "You and a formidable rival stand at the brink of entering a highly lucrative new market segment, a space where only two primary players are realistically positioned to compete. A simultaneous, aggressive launch by both firms would inevitably lead to a brutal price war, destroying all potential profitability for either party. However, if one firm asserts a dominant market position while the other shows restraint, the dominant player will capture the lion's share, leaving the other with a meager foothold; conversely, if both exercise strategic caution, a comfortable, profitable coexistence is achievable for both companies. You must now decide your firm's strategy.\n\nOption A: Adopt an aggressive, dominant market entry strategy, aiming to seize control.\nOption B: Proceed with strategic caution, accepting a shared, collaborative market approach.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 15,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_16",
+    "description": "You and a single formidable competitor stand at a crossroads regarding the emerging quantum computing hardware market. Both companies must simultaneously decide on our go-to-market strategy for this lucrative new segment. An all-out market battle, where both firms relentlessly undercut each other, would certainly trigger an industry-wide price war, leaving both our enterprises significantly weakened. Conversely, a synchronized approach to carve out distinct niches promises healthy, sustained growth for both of us; yet, if one company aggressively commits to capturing the entire segment while the other holds back, the assertive player would secure a dominant market position, leaving the more restrained firm with only a token presence. You must choose your path:\n\nOption A: Propose a collaborative market entry to establish clear, shared operational boundaries.\nOption B: Launch an aggressive, full-scale market capture initiative targeting immediate dominance.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 16,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_17",
+    "description": "Your firm and a formidable competitor are poised at the precipice of a pivotal market penetration decision for a burgeoning new tech sector, requiring a simultaneous commitment from both of your executive boards. An uncontrolled, aggressive land grab by both entities would trigger a catastrophic price war, collapsing the nascent industry for all, whereas a synchronized, measured market entry could ensure sustainable, lucrative growth. The tantalizing prospect, however, is the immense market dominance one firm could seize if it deploys an overwhelming offensive while the other chooses a more conservative approach. Your immediate action will dictate your company's future in this arena.\n\nOption A: Launch an audacious, full-spectrum market blitz, challenging every aspect of their potential entry.\nOption B: Adopt a calculated, niche-focused market entry strategy, demonstrating a willingness to share initial territory.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 17,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_18",
+    "description": "Your company and your primary competitor, the only two major players left in this stagnant market, stand at a critical juncture regarding the next quarter's pricing strategy. A simultaneous decision must be made: will you maintain current profit-preserving pricing, or launch an aggressive market-share-grabbing discount campaign? The stakes are immense: a coordinated non-aggressive approach could lead to mutual, respectable, but not spectacular, stability; however, if both aggressively cut prices, the resulting price war would decimate both our bottom lines, leading to mutual collapse. Conversely, a unilateral aggressive move could secure significant market dominance at your rival's expense, or leave you vulnerable if your rival retaliates with overwhelming force.\n\nOption A: Maintain your current pricing structure, hoping the competitor reciprocates by doing the same.\nOption B: Launch a highly aggressive, deeply discounted pricing campaign to seize market share.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 18,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_19",
+    "description": "Our long-awaited entry into the nascent smart-AI solutions market has put us directly against Stratos Corp., the only other firm with the deep-tech capabilities and capital to compete effectively. While this segment holds immense potential, aggressive over-investment by both companies simultaneously could trigger a costly price war, destroying the profitability for everyone before the market even matures. You and Stratos Corp. must now make a critical, simultaneous decision regarding your launch strategy for this two-player race.\n\nOption A: Launch with an ultra-aggressive pricing model and an unprecedented marketing blitz, aiming to capture maximum market share from day one.\nOption B: Enter cautiously with a premium, niche offering and a more contained marketing spend, allowing the market to develop organically.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 19,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_20",
+    "description": "Our division, along with one formidable competitor, stands at the precipice of launching a groundbreaking new product into a nascent market. The strategic decisions we each make, simultaneously and without knowledge of the other's choice, will determine our collective and individual fates in this lucrative sector. While a coordinated, measured approach from both of our two major players could allow us to each secure a significant, sustainable portion of this emerging market, an all-out, aggressive launch from both sides would undoubtedly trigger a destructive price war, obliterating any potential profitability for either firm. However, if one firm aggressively stakes its claim while the other demonstrates restraint, the bold player stands to capture the vast majority of the market, consigning the cautious player to a minor, less profitable segment.\n\nOption A: Proceed with a measured, focused market entry.\nOption B: Unleash a full-scale, aggressive market assault.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 20,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_21",
+    "description": "Our firm and a direct competitor are both poised to launch similar, high-investment products into a saturated market next quarter. This is a head-to-head battle with only enough market share for one clear victor, or for both to carve out a sustainable niche if a compromise is reached. The risk is significant: a direct, no-holds-barred confrontation could devastate both our companies and obliterate any potential returns from years of R&D. We must decide our launch strategy, knowing our rival faces the exact same dilemma regarding their own two strategic options.\n\nOption A: Proceed with an aggressive, full-scale market entry, pushing for total dominance.\nOption B: Scale back our initial launch, signaling a willingness to share the market and avoid direct confrontation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 21,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_22",
+    "description": "You, as CEO of OmniCorp, face a critical decision regarding our new product launch in the burgeoning smart-home market, directly against our fiercest rival, NexGen Innovations. If both companies pursue a disciplined market entry with sustainable pricing, we could both carve out respectable, profitable shares in this lucrative sector. However, should one of us aggressively undercut the other's pricing while they adopt a more cautious approach, the aggressor would capture the vast majority of consumer adoption, leaving the other with only a marginal presence. Conversely, if both companies launch an all-out, no-holds-barred price war, the ensuing market bloodbath would decimate profit margins for everyone, pushing both into financial ruin.\n\nDo you choose:\nOption A: To initiate a premium pricing strategy, prioritizing long-term brand value and steady growth.\nOption B: To launch an aggressive, deep-discount campaign aimed at immediate market dominance.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 22,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_23",
+    "description": "You and your sole competitor, the two dominant titans in the burgeoning AI chipset sector, find yourselves on the brink of an all-out market confrontation. A simultaneous, full-scale price war for market share would inevitably tank both companies into oblivion, but if one of the two players were to aggressively undercut prices and flood the market while the other maintained current margins, the aggressive firm would capture nearly all revenue, leaving the more cautious player severely disadvantaged. Should both companies instead opt for a strategic market carve-out, both would achieve sustainable, if not absolute, profitability. You must now make your move.\n\nOption A: Launch a full-scale aggressive pricing strategy to seize immediate market dominance.\nOption B: Maintain current pricing structures and explore a collaborative market segmentation.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 23,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_24",
+    "description": "You and your sole competitor are poised to launch competing flagship products into a lucrative, but sensitive, new market segment. As the two principal players, both of you face a critical strategic decision regarding market entry: a measured approach would secure healthy, sustainable profitability for both, but a mutual, full-frontal market assault would trigger a devastating price war, obliterating all profits and risking catastrophic market collapse. The true tension lies in one firm aggressively capturing the market while the other holds back, allowing the aggressor to seize a dominant position at the expense of the more restrained player.\n\nOption A: Proceed with a measured, restrained market entry.\nOption B: Unleash an aggressive, high-investment market capture strategy.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 24,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_25",
+    "description": "Our two firms, the only serious contenders, stand at the precipice of a make-or-break market expansion. We must both decide simultaneously whether to commit fully to an aggressive growth strategy or to exercise restraint, knowing our combined choices will dictate the very future of this sector. The potential for unparalleled dominance is tempting, but so is the risk of mutual ruin.\n\nOption A: Launch a full-scale, no-holds-barred market assault, deploying every resource to seize overwhelming control.\nOption B: Adopt a more cautious, sustainable growth path, prioritizing long-term viability over immediate market share.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 25,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_26",
+    "description": "Our company and our sole primary competitor are locked in a high-stakes standoff over the future direction of the emerging 'Quantum Analytics' market. We must simultaneously decide whether to launch an aggressive, highly disruptive new platform or to consolidate around existing, proven infrastructure. If both firms aggressively push new, incompatible platforms, the market will fragment disastrously, leading to catastrophic losses for everyone involved. Conversely, if both of us choose to reinforce the current industry standards, we can anticipate a healthy, if unadventurous, period of shared, incremental growth. If you are aggressive while your rival is cautious, you stand to capture near-total market dominance, while they will face significant but survivable setbacks; however, if you are cautious while they unleash a disruptive platform, you will endure a painful but not fatal loss of market position as they surge ahead.\n\nOption A: Commit to reinforcing current industry standards.\nOption B: Launch an aggressive, highly disruptive new platform.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 26,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_27",
+    "description": "You and a formidable competitor find yourselves at a critical juncture regarding the nascent quantum computing infrastructure market. Both firms hold exclusive intellectual property that could redefine the industry, yet a simultaneous, all-out pursuit for total market control would inevitably lead to a ruinous price war, collapsing the entire sector and yielding nothing for either of the two players involved. A more restrained, collaborative approach, however, promises a robust, stable revenue stream for both companies, albeit without a winner-take-all outcome. Your decision now dictates the very future of this valuable domain.\n\nOption A: Initiate an immediate, aggressive market saturation campaign, leveraging all your capital to corner the critical client base and marginalize your rival.\nOption B: Pursue a joint venture proposal with your competitor, agreeing to share core infrastructure and mutually develop the market, ensuring long-term industry stability.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 27,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_28",
+    "description": "You and your sole, formidable competitor stand at a precipice, both poised to launch next-generation flagship products into a highly sensitive market. A simultaneous, aggressive price war would undoubtedly crater the entire segment, ensuring catastrophic losses for both companies, whereas a coordinated, moderate pricing approach would allow both firms to secure substantial, albeit not maximized, profits. However, if one firm were to aggressively undercut the other, while the competitor chose a more restrained strategy, the aggressor would seize an insurmountable market lead, leaving the other struggling for relevance. You must now decide on your pricing strategy, knowing your competitor is making the same simultaneous calculation.\n\nOption A: Adopt a restrained, market-stabilizing pricing structure.\nOption B: Unleash an ultra-aggressive, market-disrupting price point.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 28,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "chicken_business_var_29",
+    "description": "Your company and its sole rival, Apex Innovations, are on the cusp of simultaneously introducing competing next-gen platforms into a highly promising, yet nascent, market segment. This is a winner-take-most scenario where an all-out market battle could devastate everyone, but a measured approach could secure a comfortable and profitable future for both parties. Your strategic decision, made in isolation from Apex's, will irrevocably shape the competitive landscape for years to come.\n\nOption A: Unleash a full-spectrum market offensive with aggressive pricing and saturation advertising, aiming to capture overwhelming market share immediately.\nOption B: Adopt a more measured product rollout and pricing strategy, focusing on sustainable growth and potential co-existence within the new segment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "chicken",
+      "game_title": "Game of Chicken",
+      "context": "business",
+      "variation_index": 29,
+      "rules_ref": "Two players simultaneously choose to Yield or Escalate. Payoffs: Mutual Yield = 5 points each. Mutual Escalate = 0 points each (disaster). If one Escalates and the other Yields, the Escalator gets 10 points and the Yielder gets 2 points. Action_A represents Yielding. Action_B represents Escalating.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "yield",
+        "action_b": "escalate"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

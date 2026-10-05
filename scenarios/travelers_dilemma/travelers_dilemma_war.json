@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "travelers_dilemma_war_var_0",
+    "description": "As a forward operations commander, you and a distant allied division commander, General Thorne, are independently tasked with prioritizing the allocation of precious reconnaissance drones for an upcoming joint offensive. The High Command has authorized a budget for drone deployment ranging from 2 to 100 units, and your independent decisions will determine the strategic intel yield for both of your units. If your choices perfectly align, both divisions will receive the exact number of drone units you both agreed upon, ensuring maximum operational synergy. However, should your priorities differ, both divisions will be allocated the lower number of drones chosen; yet, the commander who selected the lower figure will receive an additional +2 operational efficiency points for their perceived resourcefulness, while the commander who named the higher figure will incur a -2 penalty, signaling inefficient over-preparation. What number of drones, between 2 and 100, do you commit to prioritize for the mission?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 0,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_1",
+    "description": "Your reconnaissance teams have located a critical enemy supply depot, but its strategic worth for a joint operation must be rapidly assessed. You and a peer commander from an allied brigade must independently determine its operational value, anywhere from 2 to 100 strategic points. If both of you assign the same value, that will be the total strategic points credited to each brigade; however, if your assigned values differ, both brigades will be allocated the lower of the two, with the commander who named the lower value earning a +2 strategic point bonus, and the higher value being penalized -2 strategic points for over-estimation. The success of the forthcoming assault hinges on this assessment.\n\nWhat strategic point value will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 1,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_2",
+    "description": "A critical joint offensive demands a declaration of resources. You and a rival divisional commander must independently commit a number of specialist squads, ranging from 2 to 100. If both commanders declare the same number, you each secure that exact amount of squads for your sector. However, should your declarations differ, both divisions are allocated the *lower* of the two chosen numbers of squads; yet the commander who declared lower gains an additional +2 strategic command points for their foresight, while the higher declarer incurs a -2 deduction to their overall combat rating. What is your commitment?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 2,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_3",
+    "description": "The conflict has stalled, and two opposing field commanders, yourself and General Thorne, are now vying for control of a critical supply line. Each of you must independently declare a strategic importance rating, an integer between 2 and 100, for this supply line, which determines the resources you commit to secure it. If you both declare the same rating, you both secure exactly that number of resource units; however, if your declared ratings differ, both commanders receive resource units equal to the *lower* declared value. Furthermore, the commander who declared lower gains an additional +2 morale boost from their troops, while the higher-declaring commander suffers a -2 morale penalty for their misjudgment.\n\nNow, what strategic importance rating will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 3,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_4",
+    "description": "In the grim war council, you, General, and your rival commander Valerius must independently determine the 'requisition intensity' for your besieged fronts, selecting an integer value from 2 to 100. Should you both submit the identical intensity, both your fronts will receive resources precisely at that level. However, if your choices diverge, both fronts will be allocated supplies reflecting the *lower* of the two chosen intensities, but the commander who sought the *lower* intensity will gain a tactical +2 point advantage, while the one who pushed for the *higher* intensity will incur a painful -2 point operational setback. What requisition intensity will you submit, General?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 4,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_5",
+    "description": "General, a critical strategic resource has become available, and High Command demands an immediate, independent priority declaration from your battlegroup and your allied counterpart. You must each submit a numerical value between 2 and 100 representing your claim's urgency. Should both of you declare the same priority, your battlegroups will both receive the resources corresponding to that exact numerical claim. However, if your declarations differ, the final resource allocation will be capped at the *lower* of the two submitted numbers, with the commander who declared the lower figure gaining a +2 strategic advantage bonus, while the one who named the higher figure suffers a -2 prestige penalty. What priority claim will you issue?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 5,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_6",
+    "description": "As field commander, you and a parallel division leader must independently declare a 'Target Value' for the critical assets you'll secure today, a numerical rating between 2 and 100. If both declare the same Target Value, your joint success is recognized at that exact level. However, if your declared values differ, the overall mission\u2019s perceived success defaults to the lower of the two numbers; the commander declaring the lower value receives a +2 merit bonus for efficiency, while the one declaring the higher value incurs a -2 penalty for over-commitment. What Target Value will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 6,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_7",
+    "description": "General, two allied divisions, yours and General Thorne's, have jointly secured a critical supply depot in hostile territory. Command has tasked each of you with independently submitting a 'resource allocation claim' for your division's needs, expressed as a percentage of the depot's contents, from a minimum of 2% to a maximum of 100%. Should both divisions declare the exact same percentage, you will each be granted that precise share of the depot's contents. However, if your claims differ, both divisions will only receive the smaller of the two requested percentages; the commander who submitted the lower claim will gain an additional 2% bonus to their allocation, while the one who overshot will incur a direct 2% penalty.\n\nWhat percentage will you declare for your division's critical needs?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 7,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_8",
+    "description": "Commander, our two forward reconnaissance units, yours and a parallel one, have independently assessed the strategic value of recapturing the crucial Supply Junction Delta. We each must commit to a 'risk allocation' figure, representing the maximum resources we are willing to dedicate, ranging from a minimal '2' units to a full '100' units. Should both command elements propose the identical allocation, that exact number of units will be deployed, and both our commands will be equally credited for the operation's success. If our figures diverge, the operation will proceed with the *lower* of the two proposed allocations, crediting both commands for that level of success; additionally, the commander who proposed the lower figure gains +2 commendation points for their prudence, while the higher proposer incurs a -2 demerit for misjudgment. What is your definitive risk allocation figure, Commander?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 8,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_9",
+    "description": "You and a rival field commander are independently submitting requisitions for critical supplies, valued between 2 and 100 units, for your respective sectors. If both of your requisitions claim the exact same amount, the central command will approve that quantity for both of you. However, if your requests differ, command will only allocate the *lower* of the two requested amounts to both sectors; furthermore, the commander who submitted the lower request will be awarded an additional 2 units for their efficiency, while the commander who requested higher will incur a penalty of 2 units, signifying overestimation. What number of units will you requisition?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 9,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_10",
+    "description": "Your reconnaissance unit has identified a critical enemy supply cache. You and a rival commander, both vying for recognition in this theatre of war, have independently estimated its strategic value and are tasked with submitting a troop commitment to secure it. You must both simultaneously declare a figure between 2 and 100 battalions. If your chosen troop commitments are identical, both of your forces will secure resources equivalent to that exact number; however, if your commitments differ, both will only gain resources equal to the *lower* of the two chosen numbers, but the commander who committed fewer battalions will receive an additional +2 strategic command points, while the commander who committed more will suffer a -2 point morale penalty. Name your figure for the troop deployment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 10,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_11",
+    "description": "You and a rival commander are tasked with independently declaring a 'priority level' for an upcoming resource allocation, ranging from a minimal '2' to a maximum '100'. Should both of you commit to the same priority, your supply lines will be reinforced precisely to that declared level. However, if your declared priorities differ, both supply lines will be reinforced only to the *lower* of the two chosen levels; the commander who declared this lower, more 'conservative' priority will gain an additional 2 units of critical supplies, while the commander who declared the higher, more 'ambitious' priority will face a penalty of 2 lost units from their overall reinforcement. Considering the strategic stakes, what priority level will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 11,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_12",
+    "description": "Commander, our joint forces with General Kael are preparing for the decisive push. High Command has a limited arsenal, and they've asked both of us to independently submit our 'critical munitions demand' for the offensive, a figure between 2 and 100 units. If our demands match, we both receive exactly what we asked for; however, if our demands differ, both of our units will only be allocated the lower of the two figures submitted, with the commander who submitted the lower demand receiving an additional +2 bonus units and the commander who submitted the higher demand facing a -2 unit penalty. What is your critical munitions demand for this decisive push, Commander?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 12,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_13",
+    "description": "As a field commander, you and your allied peer, Commander Kael, face a critical decision for the coming offensive. You must independently declare your division's required logistical units, a figure ranging from 2 to 100, for the next critical supply convoy. If both commanders declare the same number, your divisions will both receive that exact amount in crucial war material. However, if your declared numbers differ, both divisions will receive war material equivalent to the lower of the two figures; the commander who declared the lower requirement will also receive an additional 2 units, while the commander who declared the higher requirement will face a deduction of 2 units from their allocation. State your division's required logistical units.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 13,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_14",
+    "description": "General, our forces have secured a critical enemy supply depot brimming with valuable assets. Supreme Command now requires you and your peer, General Markov, to independently submit your estimate for the maximum strategic worth (between 2 and 100 units) that can be reliably salvaged for your respective divisions. If both of your declared worths are identical, each division will be allocated precisely that number of units from the depot. However, if your estimates differ, both divisions will receive the strategic worth of the *lower* declared value, but the commander who submitted the lower figure will earn a 2-unit commendation bonus, while the higher claimant will face a 2-unit reduction in their operational budget. What strategic worth will you declare to Supreme Command?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 14,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_15",
+    "description": "You and a rival commander, General Thorne, are simultaneously tasked with securing critical supply caches across a contested frontier. Your superiors have mandated that the total strategic success, measured in 'logistical integrity units,' will be determined by the *lower* of your two declared commitment levels, which can range from a minimal 2 units to a maximum of 100 units. If your declared commitment matches Thorne's, both your factions earn that exact amount in integrity units. However, if your commitments differ, while both still receive the lower value in integrity units, the commander who declared the *lower* commitment gains an additional 2 point commendation bonus, while the commander who committed *higher* faces a stern 2 point demotion penalty for inefficiency. What level of strategic commitment, between 2 and 100, do you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 15,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_16",
+    "description": "General, the combined strategic reserve of fuel and armaments for our joint offensive with Commander Vargas is awaiting distribution. We must each independently declare our desired allocation, a number between 2 and 100 units. Should our declarations match, both our divisions receive that exact figure. However, if we choose different amounts, both divisions will receive the *lower* of the two declared figures, but the commander who declared the lower amount gains a crucial 2-unit tactical bonus, while the one who declared the higher amount suffers a 2-unit penalty due to resource mismanagement. Commander, what precise allocation, from 2 to 100 units, will you claim for our frontline forces?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 16,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_17",
+    "description": "General, two competing front-line commands, including your own, are being asked to independently assess the strategic importance of capturing the notorious 'Iron Citadel.' You must submit a numerical value between 2 and 100, representing your division's requested resource allocation for this critical objective. If both commands propose the same value, you will both receive that exact amount in logistical support; however, if your proposed values differ, central command will only grant both armies the lesser of the two requested allocations. Furthermore, the command that pitched the lower value will gain a +2 bonus in materiel for their perceived efficiency, while the command that named the higher figure will suffer a -2 penalty for their overzealous request. What numerical value will you submit for your division's resource request?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 17,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_18",
+    "description": "You and a rival field commander are tasked with independently submitting a report on the 'Strategic Priority Index' of your respective sectors to High Command, a value between 2 and 100. High Command, wary of overzealous reports, will base the actual level of joint tactical air support on these submissions: if both reports match, you each receive air support equivalent to that exact index. However, if your reports differ, both sectors receive support equivalent to the *lower* of the two submitted indices, but the commander who submitted the lower index gains a +2 commendation bonus, while the commander who submitted the higher index receives a -2 reprimand penalty for wasting resources. What 'Strategic Priority Index' will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 18,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_19",
+    "description": "Commander, our two legions are on the verge of capturing a vital supply cache in enemy territory. High Command has mandated a unique allocation protocol for its strategic worth; we each need to independently submit a value, representing our legion's desired share of the cache's resources, ranging from a minimal '2' units to a maximum '100' units of war materiel. If both you and the allied commander propose the identical strategic value, your legion will secure precisely that amount of materiel. However, should your assessments differ, both legions will secure materiel equal to the *lower* of the two proposed values, but the legion that named the lower value will receive an additional 2 units for their decisiveness, while the legion that named the higher value will be penalized 2 units for over-ambition. What value, between 2 and 100, will your legion formally claim?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 19,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_20",
+    "description": "You are a frontline commander, locked in a brutal stalemate with the enemy over a crucial strategic asset. Through a tense backchannel, both sides have agreed to independently declare their perceived value of this asset, to determine its ultimate distribution and resource allocation. Each commander must secretly name a numerical value between 2 and 100, representing the asset's strategic worth to their forces. If both declare the same value, the asset is split evenly, granting each of you that exact value in resources; however, if your declared values differ, the asset's true utility is limited to the *lower* of the two estimations. In this case, the commander who named the lower figure gains an additional +2 units for their superior realism, while the one who named the higher figure suffers a -2 unit penalty for overestimation. What numerical value, from 2 to 100, do you declare for the strategic asset?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 20,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_21",
+    "description": "General, intelligence reports confirm a tense standoff: both our command and the enemy are independently declaring a strategic resource allocation for a newly discovered, vital ore deposit. You must choose a numerical priority between a minimal claim of 2 units and a maximum demand of 100 units. If our priority matches theirs, both sides will secure exactly that declared amount of ore. However, if our declarations differ, both commands will only receive the ore equivalent to the *lower* of the two chosen numbers, but the command that declared the lower priority will also seize an additional +2 units of vital fuel cells, while the higher-declaring command suffers a -2 unit penalty to their logistical support. What is your strategic deployment priority?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 21,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_22",
+    "description": "High Command has tasked you and a rival frontline commander with independently submitting your estimated critical supply needs for the next offensive wave. You must each name a specific number of supply convoys, ranging from 2 to 100. If your estimates match, High Command will approve that exact number of convoys for both your fronts. However, if your estimates differ, both you and the other commander will receive the lower of the two requested convoy numbers, but the commander who asked for the lower amount will be awarded +2 commendation points for efficiency, while the commander who asked for the higher amount will incur a -2 disciplinary mark for misjudgment. What number of convoys will you request?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 22,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_23",
+    "description": "As the lead strategist overseeing the critical border offensive, you must independently declare your maximum 'operational readiness' score, a value between 2 and 100, which will dictate the intensity of our push. Your rival commander on the opposing front has the same decision: if both of you declare the identical readiness score, both factions will secure strategic gains precisely equivalent to that chosen score. However, should your declared scores differ, both sides will achieve gains only matching the *lower* of the two readiness values. Crucially, the commander who declared the lower score will receive a +2 point bonus for their tactical efficiency, while the one declaring the higher score will suffer a -2 point penalty for over-committing. What is your chosen operational readiness score?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 23,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_24",
+    "description": "The High Command has tasked you and a rival frontline commander with independently submitting your crucial resource bids for a simultaneous push, ranging from 2 to 100 tactical support units. If both of you name the same bid, you will each receive precisely that amount of vital support. However, if your bids differ, both operations will be limited to the *lower* of the two submitted figures; the commander who bid lower will earn a +2 commendation for resourcefulness, while the commander who bid higher will suffer a -2 penalty for strategic overreach. What resource bid will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 24,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_25",
+    "description": "General, we face a critical resource allocation decision for the upcoming offensive, in direct competition with Commander Kael over vital supplies. Both of us must independently declare a requisition for these supplies, selecting any whole number of units between 2 and 100. Should our requisitions match, we both secure that exact amount for our combat effectiveness; however, if our requests differ, the total allocation is capped at the *lower* chosen number, but the commander who submitted that lower value gains an additional +2 points of tactical advantage, while the one who named the higher figure suffers a -2 point penalty to their operational capacity. What is your requisition for the impending push?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 25,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_26",
+    "description": "General, a critical joint offensive with a neighboring allied regiment hinges on our resource commitment. You and their commander must independently submit a value, between 2 and 100, representing your tactical deployment points (TDPs) for the engagement. The total strategic impact of our combined forces will be bottlenecked by the lower of the two submitted TDPs; if you both commit the same number, you each receive that exact strategic impact. However, if your submitted TDPs differ, the commander declaring the lower value receives a +2 efficiency bonus, while the one declaring the higher value incurs a -2 resource waste penalty, in addition to both achieving only the lower impact. What is your proposed commitment?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 26,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_27",
+    "description": "You and Commander Valerius lead two independent platoons, both tasked with securing the critical Iron Peak. Reconnaissance has evaluated the peak's strategic worth, and you must independently submit a 'strategic valuation' for the objective, ranging from 2 to 100 points, to High Command. If you both submit the same valuation, you will each be credited with that exact amount in strategic gain. However, if your valuations differ, both platoons will receive the lower of the two values in strategic gain; but the commander who submitted the lower value will be awarded a +2 point bonus in commendations, while the commander who submitted the higher value will incur a -2 point penalty to their record. What strategic valuation will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 27,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_28",
+    "description": "You and a fellow allied commander are tasked with independently declaring a strategic resource allocation priority for the next critical push, choosing a numerical value between 2 and 100. If both commands declare the *exact same* priority, you will both secure that precise level of vital strategic advantage. Should your declared priorities differ, both commands will be allocated resources corresponding to the *lower* of the two chosen values; yet, the commander who declared the lower priority will also receive a crucial +2 point tactical bonus, while the one declaring the higher priority will suffer a -2 point operational penalty due to misaligned efforts. What resource priority do you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 28,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_war_var_29",
+    "description": "General, your corps, alongside Commander Thorne's, is preparing for the crucial 'Operation Trident'. You both need to independently declare a troop commitment level, ranging from a minimum of 2 regiments to a maximum of 100. If you both declare the same number, you will each receive supplies for exactly that many regiments; however, if your declarations differ, both corps will receive supplies for the *lower* declared number. The commander who declared the lower number will be granted an additional +2 strategic points for tactical efficiency, while the commander who declared the higher number will face a -2 point penalty for overreach. What troop commitment number will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "war",
+      "variation_index": 29,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  }
+]

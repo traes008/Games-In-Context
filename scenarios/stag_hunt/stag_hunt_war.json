@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "stag_hunt_war_var_0",
+    "description": "You and your lone comrade, the only two operatives close enough to exploit this critical moment, stand at a crossroads after intercepting enemy communications detailing a vulnerable, high-value target deep behind their lines. A synchronized, all-out assault on this objective promises a strategic victory that could cripple their entire offensive, but if only one of you commits to such a bold strike, they will be utterly sacrificed with no impact while the other safely secures local, smaller gains. The alternative is for both of you to individually consolidate positions and scavenge for vital resources in safer territory, ensuring mutual survival and modest tactical advantages, albeit foregoing the chance for a war-winning breakthrough.\n\nOption A: Push for the main objective.\nOption B: Secure local resources.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 0,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_1",
+    "description": "Our two allied units stand poised before the enemy's heavily defended sector, a crucial moment where a coordinated push could turn the tide of this entire campaign. We've identified a critical vulnerability, but exploiting it requires both commanders to commit fully to a complex, synchronized offensive; if only one unit attempts such a daring move, they will be utterly exposed and annihilated without achieving any strategic gain, while the other, playing it safe, secures their own tactical advantage. The potential for a decisive, overwhelming victory hinges entirely on mutual trust and absolute commitment from both our forces, otherwise we both settle for a modest, guaranteed foothold.\n\nOption A: Order a limited, direct assault to secure a specific, less-defended position, guaranteeing a tactical gain regardless of our ally's independent actions.\nOption B: Initiate the deep, coordinated flanking maneuver designed to utterly collapse the enemy lines, provided our allied commander commits simultaneously.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 1,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_2",
+    "description": "A critical juncture on the Western Front demands your immediate decision. You and Commander Petrov have identified a window for a decisive breakthrough against the enemy's main lines, but success requires both your corps to commit fully to a coordinated, overwhelming assault. If both armies push simultaneously, we can shatter their defenses and secure total victory; however, if one corps attacks while the other holds back to merely consolidate its own gains, the attacking force will be disastrously exposed, suffering annihilation while the cautious army remains relatively untouched. Alternatively, both commands could maintain current defensive lines, making only localized advances to secure existing territory, guaranteeing safety but ensuring no decisive strategic gains.\n\nOption A: Order your corps to launch the full-scale, coordinated assault.\nOption B: Order your corps to maintain defensive lines and make localized advances.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 2,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_3",
+    "description": "The final push for the enemy's main supply hub rests on the synchronized action of two forces: yours and our allied division. A coordinated, full-scale assault could collapse their entire defensive line, securing a pivotal and glorious victory for both of us. However, an unsupported charge by a single division would be utterly decimated, sacrificing your forces for nothing while the other commander secures their own flank. The greatest triumph demands absolute mutual commitment, yet each of us risks disaster if the other opts for a more cautious approach.\n\nOption A: Consolidate your position and secure your immediate flank, ensuring the safety of your troops regardless of how the allied division proceeds.\nOption B: Commit your entire division to a breakthrough assault, banking on your ally's simultaneous, equally aggressive offensive to overwhelm the enemy.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 3,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_4",
+    "description": "Your command has presented a critical two-pronged assault plan to you and your allied division commander, demanding simultaneous commitment to achieve a strategic breakthrough against the entrenched enemy. If both of your forces execute a full-scale offensive, we could shatter their lines and secure a decisive victory, potentially ending this grinding war. However, if you commit your entire division to the push while your partner only stages a diversionary attack, your forces will be utterly annihilated, achieving nothing, while their units would merely hold their current, secure positions. If both of you instead opt for a cautious, defensive posture, we'll secure minor tactical gains and prevent further losses, but the stalemate will continue indefinitely.\n\nOption A: Order your division to launch a full-scale assault.\nOption B: Order your division to take a cautious, defensive posture.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 4,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_5",
+    "description": "You and your allied commander, General Petrov, find your two battalions at a pivotal moment in the campaign. There is a chance to shatter the enemy's forces with a joint, full-strength assault on their central bastion, which would yield a decisive, unprecedented victory for both, but it only succeeds if both of you commit simultaneously; a lone charge would see your entire force annihilated for no gain. The alternative is to each focus on fortifying your current positions and securing local supply lines, a safer approach guaranteeing your unit's integrity and a minor tactical advantage regardless of the other's choice.\n\nOption A: Focus your battalion on solidifying current gains and securing local objectives.\nOption B: Launch a full-scale, joint assault on the enemy's main bastion.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 5,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_6",
+    "description": "General, a critical juncture has arrived on the Eastern Front. Intelligence suggests a coordinated two-pronged assault, involving your forces and one other allied division, could shatter the enemy's main defenses and secure an overwhelming victory. This grand offensive, however, demands both divisions commit fully; if one pushes deep without the other, that isolated force will be annihilated for no gain, while the more cautious division secures its own lines. Alternatively, each of you could focus on reinforcing your existing positions, guaranteeing a more modest but stable consolidation of territory.\n\nOption A: Launch a full-scale, deep penetration offensive into the enemy's core.\nOption B: Strengthen your present front lines and secure existing tactical gains.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 6,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_7",
+    "description": "Our two allied fronts stand poised, with critical intel confirming a vulnerable enemy logistical hub. A joint pincer offensive, requiring both our forces to commit fully to a deep strike, could decisively cripple their entire western campaign. However, attempting such a bold move without my allied commander's equal commitment would leave my forces critically exposed and annihilated, while their sector, having held back, remains secure. Each of us faces the same choice.\n\nOption A: Consolidate your immediate front, securing vital supply lines and guaranteeing a tactical advance in your sector.\nOption B: Launch the full-scale, deep pincer offensive as planned with your allied forces.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 7,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_8",
+    "description": "Our two companies, the only forces capable of a decisive maneuver, are poised at the enemy's flank. A coordinated deep strike on their entrenched artillery would cripple their entire front, securing a total victory for our sector, but such an assault is suicidal without both units committing everything. Alternatively, we could fortify our current position and secure our supply lines, ensuring our survival and a strategic advantage, though abandoning the chance for a swift breakthrough.\n\nOption A: Launch a full-scale offensive into the heart of their defenses, trusting the other company will join your aggressive push.\nOption B: Consolidate your position and prepare a defensive perimeter, ensuring your own unit's safety regardless of their choice.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 8,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_9",
+    "description": "Command reports confirm two critical enemy targets: a heavily fortified supply depot, which, if simultaneously assaulted by both your company and our allied unit, promises a strategic breakthrough that could turn the tide of this entire campaign. However, a singular attempt on this objective by either unit alone would be a catastrophic sacrifice, yielding only devastation. Alternatively, there's a smaller, undefended munitions cache nearby, easily secured by one company for immediate, vital resources, even if the other commits to a failed, more ambitious strike. With only two companies capable of acting, the fate of the front rests on your coordinated decision.\n\nOption A: Order your company to secure the nearby munitions cache.\nOption B: Commit your company to the synchronized assault on the fortified supply depot.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 9,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_10",
+    "description": "You and your allied squadron commander face a critical decision concerning the enemy's primary supply hub. A synchronized, all-out offensive, requiring both of your forces to fully commit, promises a decisive breakthrough that could end this siege entirely. However, if one commits to this high-stakes push while the other holds back to secure a safe, local objective, the attacking force faces decimation, achieving nothing, while the cautious one still secures its smaller gain. You must choose your squadron's approach.\n\nOption A: Launch a full, aggressive spearhead directly at the hub, expecting your ally to do the same.\nOption B: Divert your forces to secure the perimeter defenses, guaranteeing a safe, albeit limited, advance.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 10,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_11",
+    "description": "Intelligence confirms a fleeting opportunity to strike the enemy's logistical core. A coordinated, overwhelming assault by our two combined battlegroups, yours and Commander Thorne's, could decisively shatter their war effort and secure a swift victory. This requires both units to commit fully, pushing deep into hostile territory simultaneously; if either hesitates, the attacking force will be dangerously exposed and annihilated. You and Commander Thorne must now make your independent decisions, knowing the fate of our campaign rests on whether we act as one or secure our individual flanks.\n\n*   Option A: Prioritize securing our immediate sector, shoring up defenses and ensuring our lines are impenetrable, regardless of Thorne's move.\n*   Option B: Launch the full, deep-strike offensive, committing entirely to the coordinated plan with Thorne, trusting his forces will advance alongside ours.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 11,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_12",
+    "description": "Our two commands are poised at a critical juncture, General, with a narrow window of opportunity to deliver a decisive blow against the enemy's main stronghold. My intelligence confirms that if *both* our forces commit fully to a concentrated assault on their weakened eastern flank, we could secure an overwhelming, strategic victory, turning the tide of this war. However, such a full commitment leaves our own sectors dangerously exposed if either command pulls back, while a safer, more localized objective\u2014securing the entrenched mountain pass\u2014guarantees our immediate defensive integrity, albeit without the chance for a breakthrough. The allied commander is awaiting your simultaneous decision, knowing that an unpartnered deep strike would be a suicidal gambit for either of us, achieving nothing but catastrophic losses.\n\nOption A: Unleash our full might in the coordinated strategic assault.\nOption B: Redeploy to secure the mountain pass.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 12,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_13",
+    "description": "You and Commander Volkov's division hold the key to a decisive breakthrough on the enemy's primary supply line. Intelligence reports confirm that a fully coordinated assault, executed by both your forces simultaneously, could collapse their entire logistical network and win the campaign; however, this requires total commitment from both sides. If only one division commits to such a deep thrust while the other holds back, the attacking force will be utterly annihilated, though the conservative division could still secure an immediate, limited tactical objective. You must make your choice now, unaware of Volkov's final orders.\n\nOption A: Hold your current position, securing a nearby strategic hill and preserving your fighting strength.\nOption B: Initiate the full-scale, deep thrust into the enemy's supply lines, gambling on Volkov's commitment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 13,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_14",
+    "description": "A rare opportunity has arisen to decisively cripple the enemy's war effort: a full-scale, coordinated offensive against their main supply nexus. This daring maneuver requires both your elite strike force and General Anya's vanguard to commit entirely, for if one pushes forward while the other diverts to a safer, smaller target, the isolated unit will be annihilated with no strategic gain. The alternative for each of you is to secure a nearby, less vital outpost, guaranteeing your own forces a modest but secure tactical advantage regardless of your ally's choice.\n\nOption A: Launch the full-scale offensive on the supply nexus.\nOption B: Divert your forces to secure the nearby outpost.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 14,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_15",
+    "description": "You and Commander Valerius's unit are poised at a critical juncture, facing a chance to either achieve a decisive strategic objective or ensure our immediate survival. There are two paths forward against the enemy strongpoint, and both **two allied commands** must make their move simultaneously: a daring, synchronized assault could crush the enemy completely, but such an operation is immensely vulnerable if undertaken alone. Alternatively, we could focus on securing our immediate flank, a maneuver that guarantees our position but leaves the primary enemy threat intact. The fate of this entire front rests on the trust between our commands.\n\nOption A: Commit your forces to securing the vital ridge on our left flank, ensuring a secure fallback position regardless of Valerius's decision.\nOption B: Launch the full-scale pincer movement against the enemy's main strongpoint, trusting Valerius to commit his forces simultaneously for the overwhelming strike.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 15,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_16",
+    "description": "General, a vital enemy stronghold has been identified, and a synchronized, two-player assault from your division and General Anya's could shatter their war effort. This decisive offensive, however, demands total commitment from both of us; if either force pushes forward without the other, that isolated strike would be utterly annihilated, leaving only the uncommitted division intact. The alternative for both commanders is to independently secure critical local objectives, a safer path that guarantees our immediate survival and holds our current positions, but fails to deliver a game-changing victory. We must decide simultaneously on our course of action.\n\nOption A: Commit your division to the all-out coordinated offensive.\nOption B: Focus your forces on securing your current sector.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 16,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_17",
+    "description": "General, we and the allied 3rd Brigade stand poised against the enemy's heavily fortified front. Our intelligence is clear: if both our forces commit fully to a concentrated assault on their central strongpoint, we could achieve a total collapse of their lines and secure a strategic objective. However, if only one force attempts such a massive push, it would be utterly annihilated with no strategic gain, while the other, playing safe, would still secure a local, minor objective. We must decide immediately and without communication with the 3rd Brigade on our next move.\n\nOption A: Focus our efforts on securing a less ambitious, but guaranteed, local gain.\nOption B: Launch a full, concentrated assault on the enemy's central strongpoint.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 17,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_18",
+    "description": "Our intelligence confirms the enemy supply depot is critically vulnerable; a single decisive strike could cripple their entire front, but it demands a full, coordinated deep penetration assault from both our company and Captain Anya's unit. If we both commit everything, we could achieve a war-ending victory, but if either of us holds back to merely secure our current, less ambitious defensive lines, the one who pushes forward alone will be utterly annihilated while the cautious unit ensures its own survival. We are two allied forces, facing a simultaneous choice with everything at stake.\n\nOption A: Launch a full, high-risk deep penetration assault on the depot.\nOption B: Prioritize securing our immediate defensive perimeter.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 18,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_19",
+    "description": "You and your sole allied commander stand at a strategic crossroads, a fleeting opportunity presenting two paths forward against the enemy's advance. One path promises a potentially decisive, coordinated deep strike that could cripple their entire war effort, but it demands the total commitment of both your divisions; if either of you attempts this grand offensive alone, that force will be utterly annihilated with no strategic gain. The alternative is to independently secure and fortify your immediate sector, guaranteeing modest but stable territorial control, regardless of your ally's choice.\n\n**Option A:** Focus on independently securing and fortifying your immediate sector, ensuring guaranteed but limited territorial gains.\n**Option B:** Launch a full-scale, high-risk deep strike against the enemy's strategic core, gambling on your allied commander simultaneously committing their entire division to the same decisive gambit.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 19,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_20",
+    "description": "Our joint forces, two commanders, stand at a critical juncture of this grueling campaign. We have a chance to launch a synchronized, all-out offensive against the enemy's heartland \u2013 a decisive move that, if both of us commit every available resource, could shatter their lines and end this war swiftly. However, such an audacious push demands complete mutual commitment; if I commit to the breakthrough while you merely secure your flank, my spearhead will be isolated and annihilated, leaving your forces in a safer, but not decisive, position. Conversely, if both of us opt for defensive consolidation, we can maintain our current strongholds, but the conflict will surely drag on indefinitely.\n\nOption A: Commit to the synchronized, all-out offensive.\nOption B: Prioritize defensive consolidation of our current lines.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 20,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_21",
+    "description": "As two allied commanders, we face a critical, simultaneous decision regarding our next move against the enemy. Intelligence confirms a fleeting opportunity for a grand, synchronized offensive into their heartland, a move requiring both our forces to achieve a decisive, war-ending victory. Alternatively, we could each individually secure a local stronghold, a safe maneuver that would guarantee our current position but prolong the conflict. The tension is clear: if I commit to the major offensive alone, my entire vanguard will be obliterated while my ally, having played it safe, secures their own gains; conversely, if I prioritize the local objective, I ensure the safety of my own forces regardless of my ally's choice.\n\nOptions:\nA: Prioritize securing the local stronghold and consolidate our current gains.\nB: Initiate the grand, synchronized offensive into the enemy heartland.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 21,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_22",
+    "description": "General, our forces, alongside General Petrov's division, stand at a critical juncture. A bold, coordinated strike against the enemy's main supply depot promises a decisive victory that could end this prolonged conflict entirely, but it requires both of our full commitments; if either force attacks alone, it will be utterly annihilated, allowing the other force, which held back, to consolidate its position safely and achieve a guaranteed, albeit smaller, gain. Alternatively, we could each focus on securing our current positions with limited engagements, a safer maneuver that guarantees our individual survival and a minor strategic gain for both, though it leaves the enemy intact. We must decide simultaneously, without knowing Petrov's move.\n\nOption A: Commit all our battalions to the audacious full-scale offensive.\nOption B: Prioritize securing our current defensive perimeter with a limited engagement.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 22,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_23",
+    "description": "The enemy's main supply convoy is within striking distance, but its escort is formidable, leaving us with a critical dilemma. My comms officer confirms that Major Anya's flanking division is in position; a full, synchronized assault by *both* our divisions would cripple their logistics for months, potentially turning the tide of the entire campaign. Alternatively, either of us could secure a smaller, local objective \u2013 a vital comms tower or an isolated outpost \u2013 guaranteeing a tactical gain for our own unit with minimal exposure. The success of the grand offensive relies entirely on mutual commitment; if one of us advances boldly while the other opts for self-preservation, the lead unit will be annihilated without support, achieving nothing, while the other's more cautious effort would still yield its limited gains.\n\nOption A: Secure a limited, but guaranteed, tactical objective for my own unit.\nOption B: Commit my division to the grand, synchronized offensive alongside Major Anya.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 23,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_24",
+    "description": "You and one other crucial allied commander stand at a precipice, facing a fleeting opportunity to decisively shift the momentum of this grinding war. A coordinated, deep thrust behind enemy lines promises to shatter their supply chains and command structure, guaranteeing a swift end to this conflict and untold glory for both our divisions. Yet, such a high-risk offensive demands absolute commitment from both our forces; a solitary advance would mean certain annihilation for the one who pushes alone, while the other's cautious defensive posture remains intact. Conversely, should both of us opt for individual caution, we will maintain our current positions, avoiding significant losses but securing only a prolonged stalemate.\n\nOption A: Commit your full forces to the joint, deep offensive.\nOption B: Secure your current sector with defensive fortifications.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 24,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_25",
+    "description": "Our two allied divisions face a critical decision at dawn. We\u2019ve identified a strategic enemy supply nexus which, if decisively struck, could cripple their entire northern offensive, but it requires a deep, coordinated penetration from both our forces; a solo attempt against such a target would mean utter tactical annihilation for the advancing division. Alternatively, we could secure a vital defensive crossroads, guaranteeing our immediate logistical stability and securing our flank independently. General Thorne, commanding the other allied division, awaits our simultaneous order, knowing the success of the high-value target is entirely contingent on mutual commitment.\n\nOption A: Divert our division to secure the vital crossroads, solidifying our current lines.\nOption B: Commit our full force to the deep strike on the enemy supply nexus.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 25,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_26",
+    "description": "Our two combined task forces, positioned on separate fronts, face a critical decision concerning the enemy's heavily fortified logistical hub. A synchronized, all-out assault on this objective promises to cripple their entire supply chain, delivering a decisive blow that could end this conflict, but it absolutely requires both of our forces to commit fully to succeed; a single unit attempting this alone would be annihilated to no strategic gain. The alternative is for each of us to consolidate our current gains, securing a minor, but guaranteed, tactical advantage in our respective sectors.\n\nOption A: Order your task force to commit to the coordinated, full-scale assault on the enemy's logistical hub.\nOption B: Order your task force to secure your current gains and fortify your position.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 26,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_27",
+    "description": "Commander, our two allied divisions face a critical decision to either pursue a decisive, joint offensive or secure individual positions. A coordinated, full-scale assault on the enemy's heavily fortified command center promises absolute victory if both divisions commit; however, if only one attacks, it will be utterly destroyed without achieving any objective while the other secures its sector. Conversely, if both divisions focus on fortifying their respective supply lines, we guarantee our survival and limited strategic gains, but forfeit the chance to break the enemy's will.\n\nOption A: Withdraw our main force to secure our regional supply depot.\nOption B: Initiate the synchronized assault on the command center, relying on our ally's commitment.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 27,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_28",
+    "description": "Our reconnaissance confirms a fleeting opportunity to shatter the enemy's supply lines, but it demands a two-pronged simultaneous assault from both your command and the allied 7th Division. This bold maneuver promises a decisive strategic victory if executed perfectly by both, yet a unilateral push would leave your unit exposed and annihilated while the 7th safely conserves its strength. Alternatively, you could secure our present defensive positions, a safer course that ensures your unit's survival and a tactical stalemate, irrespective of the 7th's choice. The success of a decisive offensive hinges entirely on both commands committing to the push.\n\nOption A: Lead the simultaneous, high-risk assault.\nOption B: Fortify your current defensive perimeter.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 28,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_a",
+        "action_b": "action_b"
+      }
+    }
+  },
+  {
+    "id": "stag_hunt_war_var_29",
+    "description": "General, a critical junction in the campaign lies ahead. We and our allied division have identified an opportunity to execute a synchronized deep penetration maneuver that could shatter the enemy's entire front. This audacious strategy, requiring both our forces to commit fully, promises a decisive victory and control of the entire sector. However, if one of us pushes forward while the other holds back, our vanguard will be utterly annihilated for naught.\n\nYou must issue your orders now, simultaneously with the allied commander.\n\n**Option A:** Fortify our current position, shoring up our defenses and securing our current gains, guaranteeing our security regardless of the allied division's choice.\n**Option B:** Launch our portion of the synchronized deep penetration, committing all available resources to achieve the decisive victory alongside our allies.",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "action_b",
+        "display_name": "Option B",
+        "description": "Select Option B.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "stag_hunt",
+      "game_title": "Stag Hunt",
+      "context": "war",
+      "variation_index": 29,
+      "rules_ref": "Two players (potential partners, not adversaries) simultaneously choose to Hunt Stag (cooperative, high reward) or Hunt Hare (safe, individual). Hunting Stag requires both players to coordinate \u2014 it only succeeds if both commit. Payoffs: Mutual Stag = 4 points each (the best shared outcome). Mutual Hare = 3 points each. If one hunts Stag alone while the other hunts Hare, the Stag hunter gets 0 points (the attempt fails without a partner) and the Hare hunter still gets 3 points. The core tension is trust: both players benefit most from cooperating, but each risks everything if the other plays it safe. Action_A represents Hunting Stag. Action_B represents Hunting Hare.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "hunt_stag",
+        "action_b": "hunt_hare"
+      },
+      "option_to_action": {
+        "action_a": "action_b",
+        "action_b": "action_a"
+      }
+    }
+  }
+]

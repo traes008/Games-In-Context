@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "travelers_dilemma_business_var_0",
+    "description": "You and a competing sales director are independently submitting a proposed deal value for a major client contract. You must each choose a whole number between 2 and 100, representing millions of dollars. If both directors propose the exact same value, your respective departments will each secure a deal worth that many millions. However, if your proposed values differ, the contract will be awarded at the *lower* of the two values; the director who proposed that lower figure will receive an additional 2 million dollar bonus on top of their deal, while the director who proposed the higher value will see their department incur a 2 million dollar penalty from their earnings. What is your proposed deal value?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 0,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_1",
+    "description": "You and a rival division head are independently submitting your requested budget allocation for a shared resource pool, which the board has capped at a maximum of 100 units, though no request can be less than 2. If both of you submit the exact same figure, you will each be granted that precise budget. However, if your submissions differ, the board will allocate both divisions the *lower* of the two requested amounts; the division that requested this lower amount will receive an additional 2 units for demonstrating efficiency, while the division that requested the higher amount will face a 2-unit penalty for overestimation. What is your final budget request?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 1,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_2",
+    "description": "You and a colleague are independently submitting your proposed 'valuation contribution' for a critical client account's quarterly bonus pool, a figure you must choose between $2,000 and $100,000 (inclusive). If both of you name the exact same valuation, you will each be allocated that specific amount from the pool. However, if your valuations differ, the base bonus allocation for both of you will default to the lower of the two figures submitted; then, the individual who proposed the lower valuation will receive an additional $2,000 bonus, while the individual who proposed the higher valuation will incur a $2,000 deduction from their overall earnings. What valuation will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 2,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_3",
+    "description": "You are independently collaborating with a competitor on a new industry standard that will determine future project valuations. Both firms must submit a proposed 'valuation metric' between 2 and 100 units. If both companies propose the exact same metric, that figure becomes the established shared market value; however, if your proposed metrics differ, the final valuation for both firms will default to the lower of the two figures. Furthermore, the firm that proposed the lower metric will receive a +2 unit negotiation bonus, while the firm that proposed the higher metric will incur a -2 unit penalty for overestimation. What metric will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 3,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_4",
+    "description": "You and a rival company are the primary architects for a new industry standard, the 'System Efficiency Score,' which will dictate future licensing revenue. Both firms must independently propose a specific whole number score between 2 and 100. If you both propose the identical score, that figure becomes the standard, and both companies share licensing revenues tied directly to that exact value. Should your proposals differ, the lower of the two scores will be adopted as the industry benchmark, meaning both firms receive revenue based on that reduced value; however, the firm proposing the lower score gains an additional +2 million dollar 'pragmatism' bonus, while the higher proposer incurs a -2 million dollar 'overreach' penalty. What System Efficiency Score do you propose to submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 4,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_5",
+    "description": "You and a rival firm, 'Synergy Solutions,' are independently submitting a project valuation, in millions, for an exclusive contract. You must each name a figure between \\$2 million and \\$100 million. If both firms submit the exact same valuation, that figure becomes the project's worth, and you both earn it. However, if your valuations differ, the contract defaults to the *lower* of the two figures for both parties, but the firm that proposed that lower figure gets an additional \\$2 million bonus, while the firm that proposed the higher figure faces a \\$2 million penalty. What valuation, in millions, will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 5,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_6",
+    "description": "Your division, alongside another within the corporation, must independently submit a proposed project budget allocation, represented by a whole number between 2 and 100. If both divisions request the exact same figure, each will receive that precise budget amount. However, if your proposed budget differs, both divisions will initially be allocated the lower of the two requested amounts. The division that submitted the lower number will then receive a bonus of 2 additional budget points, while the division that proposed the higher number will face a penalty, deducting 2 budget points from their allocation. What budget figure will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 6,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_7",
+    "description": "You and a rival consulting firm are independently submitting bids for a lucrative new contract, where the client values cost-effectiveness above all. You must propose a fixed contract value between \\$2 million and \\$100 million. If both firms quote the exact same figure, you both secure contracts worth that full amount. However, if your quotes differ, the client will only award contracts based on the *lower* of the two proposed values; the firm that submitted the lower bid will receive an additional \\$2 million bonus for their cost-effectiveness, while the firm that quoted higher will face a \\$2 million penalty for overpricing, reducing their final payout. What is your proposed contract value?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 7,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_8",
+    "description": "Your firm is in a competitive tender against a rival for a lucrative new contract. Both of you must independently submit your proposed payout figure, a value anywhere between \\$2 million and \\$100 million. If both firms quote the exact same figure, you will each be awarded that full amount. However, if your proposed figures differ, the contract payout for both will be anchored to the lower of the two submitted values; the firm that quoted the lower figure will then receive a \\$2 million bonus on top, while the firm that quoted the higher figure will incur a \\$2 million penalty.\n\nWhat payout figure will your firm submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 8,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_9",
+    "description": "You and Alex, both seasoned project leads, are independently tasked with submitting your estimated net revenue for a new, high-stakes initiative. You must each name a figure between **2 million** and **100 million** dollars. If your estimates perfectly match, the project proceeds at that precise valuation, and you both earn that exact amount in performance-linked compensation. However, if your figures differ, the project will only be recognized at the *lower* of your two estimates, with the lead who named the lower figure receiving an additional **+2 million bonus** for their shrewd projection, while the other incurs a **-2 million penalty** for an inflated forecast. What is your definitive projected net revenue?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 9,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_10",
+    "description": "Our company is launching a crucial new cross-departmental project, and you, along with a peer manager, must independently propose a 'resource optimization index' score between 2 and 100 to guide its budget and execution. If both of you submit the exact same index, the project will be funded and resourced precisely at that level, benefiting both your departments proportionally. However, if your chosen indices differ, the project's overall resource allocation will be capped at the *lower* of the two submitted scores, with both departments receiving proportionate funding based on that lower figure. In this differential outcome, the manager who proposed the lower index receives a +2 point bonus for fiscal prudence, while the manager who proposed the higher index incurs a -2 point penalty for potential overestimation. What resource optimization index will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 10,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_11",
+    "description": "Our two competing product development divisions are each independently submitting their final projected valuation for the \"Nexus\" project's intellectual property. You, as head of the 'Horizon' division, must declare your division's valuation, a whole number between $2 million and $100 million. If both divisions declare the same valuation, that figure becomes the final shared payout for both teams; however, if your valuations differ, both divisions will receive the *lower* of the two declared figures, but the division that declared the lower valuation will receive an additional $2 million innovation bonus, while the division that declared the higher valuation will incur a $2 million penalty. What valuation will you submit for the Nexus project?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 11,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_12",
+    "description": "Your division is in a crucial internal competition with another team to set the projected 'benchmark value' for an innovative new internal project. Both teams independently submit a confidential valuation figure, which must be between 2 and 100 million dollars. If both teams propose the exact same figure, that amount becomes the project's official funding, shared equally. However, if your valuations differ, the lower of the two figures will be adopted as the base funding, with the team that proposed the lower number receiving an additional $2 million performance bonus for fiscal prudence, while the team that bid higher incurs a $2 million penalty for over-optimism.\n\nWhat is your division's proposed benchmark valuation?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 12,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_13",
+    "description": "Your division and a competing internal team are both vying for a critical R&D budget. You each must independently submit a project valuation, ranging from \\$2 million to \\$100 million. If both of your submitted valuations match, you both secure that exact amount in project funding. However, if your valuations differ, the lower of the two figures will be the final approved project budget for both divisions; but the division that proposed the lower figure will receive an additional \\$2 million strategic allocation bonus, while the division that bid higher will face a \\$2 million budget adjustment penalty. What project valuation will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 13,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_14",
+    "description": "Your company is locked in a fierce negotiation with a rival for a crucial market segment. You and their CEO must independently submit a proposed valuation for this segment, a figure between \\$2 million and \\$100 million. If both your valuations match, you each secure a deal worth that exact figure. However, if your proposals differ, the deal's final value defaults to the *lower* of the two figures submitted; the player who named the lower value also receives an additional \\$2 million bonus, while the player who named the higher value incurs a \\$2 million penalty on their payout. What valuation will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 14,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_15",
+    "description": "Your firm is vying with a primary competitor for a lucrative acquisition target, both of you needing to independently submit a sealed valuation bid today. You must choose a figure between 2 and 100 million dollars. If both firms submit the identical valuation, that exact figure becomes the agreed value of the deal for both parties. However, if your valuations differ, the acquisition will be awarded at the lower of the two submitted figures; the firm that proposed this lower figure will also secure a bonus of an additional $2 million, while the firm that named the higher figure will incur a $2 million penalty. What valuation will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 15,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_16",
+    "description": "You face a critical tender for an industry-defining contract against a single rival firm. Both of you must independently submit a project valuation, ranging anywhere from $2 million to $100 million. If both firms name the exact same figure, you will each be awarded that full amount. However, if your valuations differ, the contract is based on the lower of the two figures; the firm proposing the lower number secures that amount plus a $2 million bonus for its competitive edge, while the higher bidder receives that same lower amount but incurs a $2 million penalty for overshooting market expectations. What valuation will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 16,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_17",
+    "description": "Your company is locked in a high-stakes competition with a rival firm for a lucrative new project, with a major investment consortium setting the terms. You and your competitor must each independently submit a project valuation, a whole number between $2 million and $100 million. If both companies submit the exact same valuation, you will each receive that precise amount. However, if your submitted figures differ, both companies will be funded at the *lower* of the two valuations, with the company that proposed the lower figure also receiving an additional $2 million incentive, while the company that quoted higher incurs a $2 million penalty to their overall project budget. What valuation will your company submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 17,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_18",
+    "description": "You and a rival company, 'Vanguard Solutions,' are independently tasked with valuing a strategic intellectual property portfolio for a critical joint venture. Each firm must submit a precise valuation figure, ranging from a minimum of \\$2 million to a maximum of \\$100 million. Should both firms propose the identical valuation, that figure will be accepted as your mutual profit share; however, if your proposed figures differ, the lower valuation will be adopted for both, with the firm suggesting it receiving an additional \\$2 million bonus for accuracy, while the firm with the higher figure incurs a \\$2 million penalty for overestimation. What valuation will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 18,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_19",
+    "description": "Your firm and a key competitor are independently submitting a proposed \"benchmark valuation\" for a major industry transaction, ranging from 2 to 100 million dollars. If both firms propose the identical valuation, that exact amount becomes each firm's revenue from the deal. However, if your proposals differ, the transaction will proceed at the lower of the two submitted valuations for *both* firms, but the firm that proposed the lower valuation will secure an additional +2 million dollar incentive for its perceived market insight, while the firm with the higher valuation will incur a -2 million dollar penalty for overestimation. What is your firm's final proposed valuation?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 19,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_20",
+    "description": "You and a rival project manager are independently submitting your proposed budget valuations for a critical new initiative. Upper management requires competitive figures, ranging from a minimum of $2 million to a maximum of $100 million. If your submitted valuations align, both projects are funded at that exact amount. However, if they differ, the initiative is approved at the *lower* of the two figures, with the manager who submitted the lower valuation receiving an additional $2 million bonus, while the other manager incurs a $2 million penalty. Please submit your proposed valuation (in millions).",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 20,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_21",
+    "description": "Your consulting firm is engaged in a critical industry alliance with a rival, where both parties must independently declare their 'quality assurance commitment' \u2013 a score between 2 and 100. Should you both declare the exact same commitment score, your firm will receive that precise number of revenue units. If your declared commitments differ, both firms will operate at the level of the *lower* commitment, thus earning that lower score in revenue units; however, the firm that declared the lower score will gain a +2 point client acquisition bonus, while the firm that declared the higher score will incur a -2 point reputational penalty. What quality assurance commitment will you declare?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 21,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_22",
+    "description": "You and a rival division head are independently preparing to submit a 'project value assessment' to the board for a crucial new initiative, a figure that must be between \\$2 million and \\$100 million. If both divisions submit the exact same valuation, each of you will secure that precise amount in project funding. However, if your submitted figures differ, the initiative will be funded based on the *lower* of the two valuations for both divisions; the division that submitted the lower figure will receive an additional \\$2 million bonus, while the division that proposed the higher value will face a \\$2 million penalty deducted from their total. What project value assessment will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 22,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_23",
+    "description": "Your product team is independently submitting a proposed revenue valuation for a new patent license, ranging from $2 million to $100 million, alongside a rival division. If both teams propose the identical figure, that exact amount will be approved as the shared projected revenue. However, if your valuations differ, the company will adopt the *lower* of the two as the base shared revenue for both, but the team that proposed the lower figure receives an additional $2 million bonus, while the team that proposed the higher figure incurs a $2 million penalty. What valuation will your team propose to the committee?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 23,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_24",
+    "description": "You and a rival firm are both independently submitting a proposed contract value for a lucrative new project, which must be an integer between 2 million and 100 million dollars. If both companies propose the identical contract value, both of you will secure that exact amount in project revenue. However, if your proposed values differ, the market will only bear a baseline profit equivalent to the *lower* of the two figures. In this scenario, the firm that submitted the lower value will receive an additional +2 million dollar bonus, while the company that submitted the higher value will face a -2 million dollar penalty to their baseline profit. What figure will you submit for your contract proposal?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 24,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_25",
+    "description": "Your company is competing with a rival firm to set the market valuation for a new, shared-platform technology. Both parties must independently declare a valuation figure between $2 million and $100 million for this asset. If both you and your rival declare the exact same valuation, you will both secure contracts for that precise amount. However, if your declared valuations differ, the firm that submitted the *lower* valuation will secure the asset at their proposed figure and receive an additional $2 million strategic bonus, while the firm that submitted the *higher* valuation will also receive the *lower* declared figure as a base payment, but incur a $2 million penalty for their miscalculation. What valuation figure will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 25,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_26",
+    "description": "You and a rival firm are independently submitting your valuation for a lucrative service contract, with potential figures ranging from \\$2 million to \\$100 million. If both valuations are identical, you each secure that exact amount. However, if your figures differ, the contract's base payment is set at the lower of the two valuations; the firm that proposed the lower figure will then receive a \\$2 million bonus on top of this base, while the firm that proposed the higher figure will incur a \\$2 million penalty from this base amount. What valuation figure will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 26,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_27",
+    "description": "You and your competitor, Apex Solutions, are vying for a crucial supply contract, tasked with independently submitting a unit price proposal between \\$2 and \\$100 for a critical component. If both firms propose the exact same price, the client will award both of you contracts at that figure, and you'll each receive revenue equal to your chosen price per unit. However, should your proposals differ, the client will enforce the *lower* of the two prices for *both* contracts; the firm that named the lower price will also earn a \\$2 bonus per unit for their shrewdness, while the firm that submitted the higher price will suffer a \\$2 per unit penalty, directly reducing their revenue. With the deadline looming, what unit price will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 27,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_28",
+    "description": "Your firm and a competitor are independently submitting confidential proposals for a new government procurement initiative, each naming a projected cost figure between $2 million and $100 million. The government will ultimately fund both accepted projects based on the *lower* of the two submitted figures. However, the firm that proposed the lower cost receives an additional $2 million incentive for fiscal efficiency, while the firm with the higher cost proposal faces a $2 million budget reduction for overestimation. What project cost figure will you submit?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 28,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": false,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  },
+  {
+    "id": "travelers_dilemma_business_var_29",
+    "description": "You and a peer division head are independently preparing your budget proposals for a critical shared initiative this fiscal year, with each of you expected to submit a figure between **2 and 100 million dollars**. If your proposals match, the project receives that exact budget, and your teams are allocated that amount in operational funds. However, if your submitted figures differ, the project is greenlit for the lower proposed budget, under which both your teams will operate, but the division head who requested the lower amount will secure an additional **+2 million dollar bonus**, while the manager who proposed the higher budget incurs a **-2 million dollar penalty** on their own departmental budget. What budget figure will you propose to the board?",
+    "tools": [
+      {
+        "name": "action_a",
+        "display_name": "Option A",
+        "description": "Select Option A.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Your chosen value (2-100)"
+            }
+          },
+          "required": [
+            "number"
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "game_type": "travelers_dilemma",
+      "game_title": "Traveler's Dilemma",
+      "context": "business",
+      "variation_index": 29,
+      "rules_ref": "Two players independently choose a numeric value between 2 and 100 (inclusive). If both choose the same number, they both receive that exact amount in payoff. If they choose different numbers, both receive the lower of the two numbers, but the player who chose the lower number gets a +2 point bonus, while the player who chose the higher number gets a -2 point penalty.",
+      "option_order_swapped": true,
+      "action_labels": {
+        "action_a": "submit_value"
+      },
+      "option_to_action": {
+        "action_a": "action_a"
+      }
+    }
+  }
+]
