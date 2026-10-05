@@ -64,3 +64,11 @@ Other options are listed by `python main.py --help`.
 
 Colons in model names become underscores in output paths. Repeated evaluations
 append to the same CSV, so move previous results before starting a fresh run.
+
+## Data used in the paper
+
+The exact curated evaluation data and reported statistical outputs are in
+[`paper_data/`](paper_data/README.md). This directory separates the 21,519-record
+main analysis from the 960-record generator-prompt sensitivity study and
+documents the limited additional data used for model screening. Raw provider
+logs, unrelated exploratory runs, and superseded datasets are not included.

@@ -1,0 +1,3 @@
+game_type,test,n,statistic,dof,p,distinct_scenario_ids,repeated_evaluation_keys
+prisoners_dilemma,chi_square,480,7.392344497607656,3,0.060390068763782855,158,6
+beauty_contest,kruskal_wallis,480,5.100980792652558,3,0.16455042207554882,122,115

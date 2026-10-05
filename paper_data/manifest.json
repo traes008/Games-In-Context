@@ -1,0 +1,42 @@
+{
+  "generator_prompt_sensitivity.csv": {
+    "bytes": 230666,
+    "rows": 960,
+    "sha256": "ce30af6cf1ac1e8efb747beb39a792aceb6dc0245458df7f19dfe7bbb78c0b2a"
+  },
+  "generator_prompt_sensitivity_tests.csv": {
+    "bytes": 242,
+    "rows": 2,
+    "sha256": "6c2d57cfa82dc697a6f40d18db50480d1f109fb2f957b85a61e77ed93a95055b"
+  },
+  "llama1b_binary_evaluations.csv": {
+    "bytes": 440903,
+    "rows": 1800,
+    "sha256": "53626775f91b7cfc0d2d7b6c5083f2dc092459c41a1bacdc61744ad899a83b3d"
+  },
+  "main_evaluations.csv": {
+    "bytes": 5334305,
+    "rows": 21519,
+    "sha256": "e3a2702e16abc14350acf5b7ffd22b6be2c993f402ea7fb3c7b56281949676c4"
+  },
+  "position_bias_summary.csv": {
+    "bytes": 900,
+    "rows": 9,
+    "sha256": "f3c8de3cb6e843e92f4f2613570ca6c46174b4af810d997ae5a585a99ddf9d03"
+  },
+  "reported_metrics.csv": {
+    "bytes": 236946,
+    "rows": 3678,
+    "sha256": "41406545f3fec81cf180d0bf167a50fb9fb9c675327848d4695c1d26a05b0fb7"
+  },
+  "screening_summary.csv": {
+    "bytes": 1471,
+    "rows": 13,
+    "sha256": "86b6a7a61e0096066ed0e2a4ae407261f2bb327c6d8ff396f0c3e5d6aa9a9679"
+  },
+  "statistical_tests.csv": {
+    "bytes": 16481,
+    "rows": 109,
+    "sha256": "f9fe37f56c5bf36bdf893bcc75998157e4441729398d07aa128d1f3841fe2f60"
+  }
+}
